@@ -1,0 +1,11 @@
+framework module AmwalPayment {
+  umbrella header "AmwalPayment.h"
+  export *
+
+  module * { export * }
+}
+
+module AmwalPayment.Swift {
+  header "AmwalPayment-Swift.h"
+  requires objc
+}

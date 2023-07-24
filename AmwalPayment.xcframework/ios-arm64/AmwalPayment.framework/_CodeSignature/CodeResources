@@ -46,7 +46,7 @@
 		</data>
 		<key>Headers/AmwalPayment-Swift.h</key>
 		<data>
-		avukqffA3Ay+XdhPGhJB8MX4hxw=
+		4iQDkgY/hAZcpAUrDIviY36ViIM=
 		</data>
 		<key>Headers/AmwalPayment.h</key>
 		<data>
@@ -54,47 +54,27 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		v5tco0vsRdh3jvEbQL7cYmcDIe8=
+		d8NYtVRB3F3XowtLCBNwVEf9fA8=
 		</data>
-		<key>Modules/AmwalPayment.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
+		<key>Modules/AmwalPayment.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		TIluT9ggAxGaGOGgZeoufVeM1NA=
+		zSCA4wX5M1qVktK0hub9jA2S5l0=
 		</data>
-		<key>Modules/AmwalPayment.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
+		<key>Modules/AmwalPayment.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		kfy9mb6mfTPRm7feG7As7nRRrZE=
+		axrA0F6TgbPxz1Y2ypPLBcW2z3c=
 		</data>
-		<key>Modules/AmwalPayment.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
+		<key>Modules/AmwalPayment.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		utOz65jJ9Syqq/mlhEdGxJahBqw=
+		FUOx7ort/vp0XRzmqKnTXV9mj8w=
 		</data>
-		<key>Modules/AmwalPayment.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
+		<key>Modules/AmwalPayment.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		kfy9mb6mfTPRm7feG7As7nRRrZE=
+		axrA0F6TgbPxz1Y2ypPLBcW2z3c=
 		</data>
-		<key>Modules/AmwalPayment.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
+		<key>Modules/AmwalPayment.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		9qTcA9uMFhRunWjt5TGPKZ3CImY=
-		</data>
-		<key>Modules/AmwalPayment.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
-		<data>
-		TIluT9ggAxGaGOGgZeoufVeM1NA=
-		</data>
-		<key>Modules/AmwalPayment.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
-		<data>
-		tAzyrvYSH5Rs5EtGTjktWdDUQ60=
-		</data>
-		<key>Modules/AmwalPayment.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
-		<data>
-		AOO3B5lZWmOiVVi+rWXtzc3MxbU=
-		</data>
-		<key>Modules/AmwalPayment.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
-		<data>
-		tAzyrvYSH5Rs5EtGTjktWdDUQ60=
-		</data>
-		<key>Modules/AmwalPayment.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
-		<data>
-		szYNYhmr3ukHCL+zPy203DwqNW4=
+		TsGZJkV3+W19BX9thVaXxiGri18=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -199,7 +179,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ZV/N7tUiQw0eIMl5gTZK3QASewL215Yc//Kzp002snA=
+			NdOioHGHLyUMD4qDrcEEF80r5ot0Z389cK8ufkVRNjI=
 			</data>
 		</dict>
 		<key>Headers/AmwalPayment.h</key>
@@ -209,74 +189,39 @@
 			mH+mWUVUx1DwkaPp7eMwYCoQfAfNG0+bYMMYCqS3C3E=
 			</data>
 		</dict>
-		<key>Modules/AmwalPayment.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
+		<key>Modules/AmwalPayment.swiftmodule/arm64-apple-ios.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			aOlqXwkti6Op3EJsI21tNTnNBlKf6t7BAisv6pU9BW4=
+			/GFvTtxO+gtlIIfG6tmbMLWP/ldl1gx0Z3U67CCxVik=
 			</data>
 		</dict>
-		<key>Modules/AmwalPayment.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
+		<key>Modules/AmwalPayment.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			VFq8CxkKeGkN/JxuszeQzqm/cxwU5IN5bDPgewmgJJ4=
+			z+Za9PtBYsRBMpJWX57z0LP7YVjSKWIyNZYQEZ7bOwc=
 			</data>
 		</dict>
-		<key>Modules/AmwalPayment.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
+		<key>Modules/AmwalPayment.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			HIfs5uCInw2rXQ8GMb2ttrTAOzElNnhugV/M4NaafKo=
+			ErTIRWteZbnNczah69YsBB5NPAwujvkJYYrfEWIYgcY=
 			</data>
 		</dict>
-		<key>Modules/AmwalPayment.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
+		<key>Modules/AmwalPayment.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			VFq8CxkKeGkN/JxuszeQzqm/cxwU5IN5bDPgewmgJJ4=
+			z+Za9PtBYsRBMpJWX57z0LP7YVjSKWIyNZYQEZ7bOwc=
 			</data>
 		</dict>
-		<key>Modules/AmwalPayment.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
+		<key>Modules/AmwalPayment.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			GDwps53e9yRXwh4d/1fLSikVLi+E60Yi5Yn9Bl1OJQE=
-			</data>
-		</dict>
-		<key>Modules/AmwalPayment.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			aOlqXwkti6Op3EJsI21tNTnNBlKf6t7BAisv6pU9BW4=
-			</data>
-		</dict>
-		<key>Modules/AmwalPayment.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			gQEc8FTYPuVRsHDna/zMEPsuVHEc7UiNtGQRaRSE0mQ=
-			</data>
-		</dict>
-		<key>Modules/AmwalPayment.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			IjneWSAw8R3WfOezL2xt3m1Ee1KD0yX+XvKj2ri3AHM=
-			</data>
-		</dict>
-		<key>Modules/AmwalPayment.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			gQEc8FTYPuVRsHDna/zMEPsuVHEc7UiNtGQRaRSE0mQ=
-			</data>
-		</dict>
-		<key>Modules/AmwalPayment.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			HC8QB9W57rEKQzmWeSiF9tHa7RDjKx5Fvp/S4k133Hg=
+			4uCBbozPn/NOu+EGyUgehLvZQqDVFp8YZRmAAO9S/GU=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
