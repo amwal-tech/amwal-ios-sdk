@@ -1,0 +1,16 @@
+PODS:
+  - AmwalPayment (1.0.0)
+
+DEPENDENCIES:
+  - AmwalPayment (from `../`)
+
+EXTERNAL SOURCES:
+  AmwalPayment:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  AmwalPayment: d992bc4e18a792e8ede4c6b49ed3e13158f6663d
+
+PODFILE CHECKSUM: 1299633ec32b0971f4dc347bac585be0bccb7fe8
+
+COCOAPODS: 1.12.1
