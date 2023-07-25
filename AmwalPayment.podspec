@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
     s.name             = 'AmwalPayment'
-    s.version          = '1.0.0'
+    s.version          = '1.0.1'
     s.summary          = 'Powerful biometric checkout & conversion solutions that drive revenue, decrease abandoned carts, and increase loyalty.'
     s.homepage         = 'https://www.amwal.tech/'
     s.license          = { :type => 'MIT', :file => 'LICENSE' }
