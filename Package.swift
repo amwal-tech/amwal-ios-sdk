@@ -11,11 +11,8 @@ let package = Package(
             name: "AmwalPayment", 
             targets: ["AmwalPayment"])
     ],
-     dependencies: [
-        .package(path: "CardReader")
-     ],
     targets: [
         .binaryTarget(
-            name: "AmwalPayment", 
-            path: "AmwalPayment.xcframework")
+            name: "AmwalPayment",
+            path: "./AmwalPayment.xcframework")
     ])

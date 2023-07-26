@@ -1,4 +1,0 @@
-module CardReader {
-header "CardReader-Swift.h"
-export *
-}
