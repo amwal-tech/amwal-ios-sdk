@@ -1,0 +1,55 @@
+{
+  "" : {
+    "const-values" : "/Users/ahmedelshaer/Developer/Amwal/amwal-android-sdk/iOS/CardReader/build/CardReader.build/Release-iphoneos/CardReader.build/Objects-normal/arm64/CardReader-master.swiftconstvalues",
+    "dependencies" : "/Users/ahmedelshaer/Developer/Amwal/amwal-android-sdk/iOS/CardReader/build/CardReader.build/Release-iphoneos/CardReader.build/Objects-normal/arm64/CardReader-master.d",
+    "diagnostics" : "/Users/ahmedelshaer/Developer/Amwal/amwal-android-sdk/iOS/CardReader/build/CardReader.build/Release-iphoneos/CardReader.build/Objects-normal/arm64/CardReader-master.dia",
+    "emit-module-dependencies" : "/Users/ahmedelshaer/Developer/Amwal/amwal-android-sdk/iOS/CardReader/build/CardReader.build/Release-iphoneos/CardReader.build/Objects-normal/arm64/CardReader-master-emit-module.d",
+    "emit-module-diagnostics" : "/Users/ahmedelshaer/Developer/Amwal/amwal-android-sdk/iOS/CardReader/build/CardReader.build/Release-iphoneos/CardReader.build/Objects-normal/arm64/CardReader-master-emit-module.dia",
+    "swift-dependencies" : "/Users/ahmedelshaer/Developer/Amwal/amwal-android-sdk/iOS/CardReader/build/CardReader.build/Release-iphoneos/CardReader.build/Objects-normal/arm64/CardReader-master.swiftdeps"
+  },
+  "/Users/ahmedelshaer/Developer/Amwal/amwal-android-sdk/iOS/CardReader/build/CardReader.build/Release-iphoneos/CardReader.build/DerivedSources/resource_bundle_accessor.swift" : {
+    "index-unit-output-path" : "/CardReader.build/Release-iphoneos/CardReader.build/Objects-normal/arm64/resource_bundle_accessor.o",
+    "llvm-bc" : "/Users/ahmedelshaer/Developer/Amwal/amwal-android-sdk/iOS/CardReader/build/CardReader.build/Release-iphoneos/CardReader.build/Objects-normal/arm64/resource_bundle_accessor.bc",
+    "object" : "/Users/ahmedelshaer/Developer/Amwal/amwal-android-sdk/iOS/CardReader/build/CardReader.build/Release-iphoneos/CardReader.build/Objects-normal/arm64/resource_bundle_accessor.o"
+  },
+  "/Users/ahmedelshaer/Developer/Amwal/amwal-android-sdk/iOS/CardReader/Sources/CardReader/Extensions/Color+Extensions.swift" : {
+    "index-unit-output-path" : "/CardReader.build/Release-iphoneos/CardReader.build/Objects-normal/arm64/Color+Extensions.o",
+    "llvm-bc" : "/Users/ahmedelshaer/Developer/Amwal/amwal-android-sdk/iOS/CardReader/build/CardReader.build/Release-iphoneos/CardReader.build/Objects-normal/arm64/Color+Extensions.bc",
+    "object" : "/Users/ahmedelshaer/Developer/Amwal/amwal-android-sdk/iOS/CardReader/build/CardReader.build/Release-iphoneos/CardReader.build/Objects-normal/arm64/Color+Extensions.o"
+  },
+  "/Users/ahmedelshaer/Developer/Amwal/amwal-android-sdk/iOS/CardReader/Sources/CardReader/Extensions/UIApplication+Extensions.swift" : {
+    "index-unit-output-path" : "/CardReader.build/Release-iphoneos/CardReader.build/Objects-normal/arm64/UIApplication+Extensions.o",
+    "llvm-bc" : "/Users/ahmedelshaer/Developer/Amwal/amwal-android-sdk/iOS/CardReader/build/CardReader.build/Release-iphoneos/CardReader.build/Objects-normal/arm64/UIApplication+Extensions.bc",
+    "object" : "/Users/ahmedelshaer/Developer/Amwal/amwal-android-sdk/iOS/CardReader/build/CardReader.build/Release-iphoneos/CardReader.build/Objects-normal/arm64/UIApplication+Extensions.o"
+  },
+  "/Users/ahmedelshaer/Developer/Amwal/amwal-android-sdk/iOS/CardReader/Sources/CardReader/Models/CardDetails.swift" : {
+    "index-unit-output-path" : "/CardReader.build/Release-iphoneos/CardReader.build/Objects-normal/arm64/CardDetails.o",
+    "llvm-bc" : "/Users/ahmedelshaer/Developer/Amwal/amwal-android-sdk/iOS/CardReader/build/CardReader.build/Release-iphoneos/CardReader.build/Objects-normal/arm64/CardDetails.bc",
+    "object" : "/Users/ahmedelshaer/Developer/Amwal/amwal-android-sdk/iOS/CardReader/build/CardReader.build/Release-iphoneos/CardReader.build/Objects-normal/arm64/CardDetails.o"
+  },
+  "/Users/ahmedelshaer/Developer/Amwal/amwal-android-sdk/iOS/CardReader/Sources/CardReader/Models/ImageTextRecognizable.swift" : {
+    "index-unit-output-path" : "/CardReader.build/Release-iphoneos/CardReader.build/Objects-normal/arm64/ImageTextRecognizable.o",
+    "llvm-bc" : "/Users/ahmedelshaer/Developer/Amwal/amwal-android-sdk/iOS/CardReader/build/CardReader.build/Release-iphoneos/CardReader.build/Objects-normal/arm64/ImageTextRecognizable.bc",
+    "object" : "/Users/ahmedelshaer/Developer/Amwal/amwal-android-sdk/iOS/CardReader/build/CardReader.build/Release-iphoneos/CardReader.build/Objects-normal/arm64/ImageTextRecognizable.o"
+  },
+  "/Users/ahmedelshaer/Developer/Amwal/amwal-android-sdk/iOS/CardReader/Sources/CardReader/Views/CardForm/CardFormField.swift" : {
+    "index-unit-output-path" : "/CardReader.build/Release-iphoneos/CardReader.build/Objects-normal/arm64/CardFormField.o",
+    "llvm-bc" : "/Users/ahmedelshaer/Developer/Amwal/amwal-android-sdk/iOS/CardReader/build/CardReader.build/Release-iphoneos/CardReader.build/Objects-normal/arm64/CardFormField.bc",
+    "object" : "/Users/ahmedelshaer/Developer/Amwal/amwal-android-sdk/iOS/CardReader/build/CardReader.build/Release-iphoneos/CardReader.build/Objects-normal/arm64/CardFormField.o"
+  },
+  "/Users/ahmedelshaer/Developer/Amwal/amwal-android-sdk/iOS/CardReader/Sources/CardReader/Views/CardForm/CardFormView.swift" : {
+    "index-unit-output-path" : "/CardReader.build/Release-iphoneos/CardReader.build/Objects-normal/arm64/CardFormView.o",
+    "llvm-bc" : "/Users/ahmedelshaer/Developer/Amwal/amwal-android-sdk/iOS/CardReader/build/CardReader.build/Release-iphoneos/CardReader.build/Objects-normal/arm64/CardFormView.bc",
+    "object" : "/Users/ahmedelshaer/Developer/Amwal/amwal-android-sdk/iOS/CardReader/build/CardReader.build/Release-iphoneos/CardReader.build/Objects-normal/arm64/CardFormView.o"
+  },
+  "/Users/ahmedelshaer/Developer/Amwal/amwal-android-sdk/iOS/CardReader/Sources/CardReader/Views/CardReader/CardReaderView.swift" : {
+    "index-unit-output-path" : "/CardReader.build/Release-iphoneos/CardReader.build/Objects-normal/arm64/CardReaderView.o",
+    "llvm-bc" : "/Users/ahmedelshaer/Developer/Amwal/amwal-android-sdk/iOS/CardReader/build/CardReader.build/Release-iphoneos/CardReader.build/Objects-normal/arm64/CardReaderView.bc",
+    "object" : "/Users/ahmedelshaer/Developer/Amwal/amwal-android-sdk/iOS/CardReader/build/CardReader.build/Release-iphoneos/CardReader.build/Objects-normal/arm64/CardReaderView.o"
+  },
+  "/Users/ahmedelshaer/Developer/Amwal/amwal-android-sdk/iOS/CardReader/Sources/CardReader/Views/CreditCard/CreditCardView.swift" : {
+    "index-unit-output-path" : "/CardReader.build/Release-iphoneos/CardReader.build/Objects-normal/arm64/CreditCardView.o",
+    "llvm-bc" : "/Users/ahmedelshaer/Developer/Amwal/amwal-android-sdk/iOS/CardReader/build/CardReader.build/Release-iphoneos/CardReader.build/Objects-normal/arm64/CreditCardView.bc",
+    "object" : "/Users/ahmedelshaer/Developer/Amwal/amwal-android-sdk/iOS/CardReader/build/CardReader.build/Release-iphoneos/CardReader.build/Objects-normal/arm64/CreditCardView.o"
+  }
+}
