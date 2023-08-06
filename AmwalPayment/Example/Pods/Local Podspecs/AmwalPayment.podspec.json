@@ -1,0 +1,22 @@
+{
+  "name": "AmwalPayment",
+  "version": "0.1.0",
+  "summary": "A short description of AmwalPayment.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/knight6700/AmwalPayment",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "knight6700": "Mahmoudfares9394@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/knight6700/AmwalPayment.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "AmwalPayment/Classes/**/*"
+}
