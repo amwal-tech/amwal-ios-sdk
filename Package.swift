@@ -2,17 +2,17 @@
 import PackageDescription
 
 let package = Package(
-    name: "AmwalPayment",
+    name: "AmwalPay",
     platforms: [
         .iOS(.v11)
     ],
     products: [
         .library(
-            name: "AmwalPayment", 
-            targets: ["AmwalPayment"])
+            name: "AmwalPay", 
+            targets: ["AmwalPay"])
     ],
     targets: [
         .binaryTarget(
-            name: "AmwalPayment",
-            path: "./AmwalPayment.xcframework")
+            name: "AmwalPay",
+            path: "./AmwalPay.xcframework")
     ])
