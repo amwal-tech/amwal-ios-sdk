@@ -1,6 +1,6 @@
 # AmwalPayment iOS SDK
 
-[![CocoaPods](https://img.shields.io/cocoapods/v/0.01.svg?style=flat)](http://cocoapods.org/?q=author%3AAmwalPayment%20name%3AAmwalPayment)
+![CocoaPods](https://img.shields.io/cocoapods/v/AmwalPayment.svg?style=flat)
 ![Swift Package Manager](https://img.shields.io/badge/Swift%20Package%20Manager-compatible-brightgreen.svg)
 [![License](https://img.shields.io/cocoapods/l/AmwalPayment.svg?style=flat)](https://github.com/AmwalPayment/AmwalPayment-ios/blob/master/LICENSE)
 [![Platform](https://img.shields.io/cocoapods/p/ios.svg?)](https://github.com/AmwalPayment/AmwalPayment-ios#)
