@@ -4,7 +4,7 @@ Pod::Spec.new do |s|
   s.summary          = 'AmwalPayment SDK offers the flexibility to use pass keys for enhanced security during the payment process.'
 
   s.description      = <<-DESC
-    TODO: Add long description of the pod here.
+    AmwalPayment SDK offers the flexibility to use pass keys for enhanced security during the payment process.
   DESC
 
   s.homepage         = 'https://github.com/amwal-tech/amwal-ios-sdk'
