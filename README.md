@@ -1,5 +1,5 @@
 # AmwalPayment iOS SDK
-
+![Build Status](https://img.shields.io/travis/amwal-tech/AmwalPayment.svg?style=flat)
 ![CocoaPods](https://img.shields.io/cocoapods/v/AmwalPayment.svg?style=flat)
 ![Swift Package Manager](https://img.shields.io/badge/Swift%20Package%20Manager-compatible-brightgreen.svg)
 [![License](https://img.shields.io/cocoapods/l/AmwalPayment.svg?style=flat)](https://github.com/AmwalPayment/AmwalPayment-ios/blob/master/LICENSE)
@@ -23,6 +23,8 @@ Integrate Amwal’s prebuilt payment Sheet into the checkout of your iOS app wit
     - [CocoaPods](#cocoapods)
   - [Initialize Payment Sheet](#initialize-payment-sheet)
   - [Show Payment Sheet](#showing-payment-sheet)
+    - [SwiftUI](#swiftUI)
+    - [UIKit](#uikit)
   - [Handle Payment Result](#listen-payment-results)
   - [Tips](#tips)
 
@@ -45,39 +47,94 @@ dependencies: [
 ```
 ### CocoaPods
 ```swift
-pod 'AmwalPayment', '~> 1.0.0-alpha06'
+pod 'AmwalPayment', '~> 0.1.1'
 ```
 
 <a name="initialize-payment-sheet"></a>
 ## 2. Initialize the PaymentSheet
-This example shows how to create a payment sheet using Swift in your view controller.
+you can use in SwiftUI with `.sheet` and UIKit with  `modalPresentationStyle`.
+
+1- 
+`import AmwalPayment`
+
+2-  `initialize View`
 ```swift
-import AmwalPayment
-let merchantId: String = "Merchant Id Key"
-// Creating a payment sheet with no configuration
-let paymentSheetWithNoConfig = PaymentSheet(merchantId: merchantId)
-
-// Creating a payment sheet with configurations
-let paymentSheet = PaymentSheet(merchantId: merchantId) { builder in
-    builder.phoneNumber("1099013301")
-    builder.countryCode("+20")
-    builder.appearance {
-
-    }
-}
+        AmwalPaymentView(
+            currency: "SAR",
+            amount: 110,
+            vat: 20,
+            merchantId: "merchantId",
+            completion: {
+                isPresented = false
+            }
+        )
 ```
 <a name="showing-payment-sheet"></a>
 
 ## 3. Showing Payment Sheet
+<a name="swiftUI"></a>
+## SwiftUI
 ```swift
-@IBAction func showPaymentSheet(_ sender: UIButton) {
-    paymentSheet.show(
-        PaymentSheet.Amount(
-            total: 220.0, tax: 0.0, shipping: 0.0, discount: 0.0
-        )
-    ) { 
-      // ... implementation for success what you want
+import SwiftUI
+import AmwalPay
 
+struct ContentView: View {
+    @SwiftUI.State var isPresented: Bool = false
+    var body: some View {
+        VStack {
+            Button {
+                isPresented = true
+            } label: {
+                Label("Pay With Amwal", systemImage: "dollarsign.circle")
+                    .padding(10)
+                    .foregroundColor(.white)
+                    .background(Color.blue)
+                    .clipShape(Capsule(style: .continuous))
+            }
+        }
+        .frame(maxWidth: .infinity)
+        .padding()
+        .sheet(isPresented: $isPresented) {
+            
+            AmwalPaymentView(
+                currency: "SAR",
+                amount: 110,
+                vat: 20,
+                merchantId: "merchantId",
+                completion: {
+                isPresented = false
+            })
+        }
+    }
+}
+```
+<a name="uikit"></a>
+## UIKit
+```swift
+import UIKit
+import AmwalPay
+
+class ViewController: UIViewController {
+    override func viewDidLoad() {
+        super.viewDidLoad()
+    }
+    
+    func dismissPayment() {
+        self.dismiss(animated: true)
+    }
+    
+    func presentPaymentView() {
+        let paymentView = AmwalPaymentView(
+            currency: "SAR",
+            amount: 110,
+            vat: 20,
+            merchantId: "merchantId",
+            completion: { [weak self] in
+                self?.dismissPayment()
+
+            })
+        let viewController = UIHostingController(rootView: paymentView)
+        self.present(viewController, animated: true)
     }
 }
 ```
