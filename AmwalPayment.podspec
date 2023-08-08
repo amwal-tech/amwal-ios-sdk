@@ -1,10 +1,11 @@
 Pod::Spec.new do |s|
   s.name             = 'AmwalPayment'
   s.version          = '0.1.1'
-  s.summary          = 'AmwalPayment SDK offers the flexibility to use pass keys for enhanced security during the payment process.'
+  s.summary          = 'AmwalPayment SDK for secure payment transactions.'
 
   s.description      = <<-DESC
     AmwalPayment SDK offers the flexibility to use pass keys for enhanced security during the payment process.
+    It provides an easy-to-use interface and integration guide for secure payment transactions.
   DESC
 
   s.homepage         = 'https://github.com/amwal-tech/amwal-ios-sdk'
@@ -15,5 +16,5 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '15.0'
   s.ios.vendored_frameworks = 'AmwalPayment/Frameworks/AmwalPay.xcframework'
   s.frameworks = 'UIKit'
-  s.swift_version = '4.0'
+  s.swift_version = '5.0'
 end
