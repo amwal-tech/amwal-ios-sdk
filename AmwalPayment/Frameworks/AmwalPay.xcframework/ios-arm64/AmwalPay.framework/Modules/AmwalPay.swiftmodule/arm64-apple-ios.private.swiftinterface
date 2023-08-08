@@ -1,0 +1,16 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.8 (swiftlang-5.8.0.124.2 clang-1403.0.22.11.100)
+// swift-module-flags: -target arm64-apple-ios15.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name AmwalPay
+// swift-module-flags-ignorable: -enable-bare-slash-regex
+@_exported import AmwalPay
+import Swift
+import SwiftUI
+import _Concurrency
+import _StringProcessing
+public struct AmwalPaymentView : SwiftUI.View {
+  public init(currency: Swift.String, amount: Swift.Double, vat: Swift.Double, merchantId: Swift.String, completion: @escaping () -> Swift.Void)
+  @_Concurrency.MainActor(unsafe) public var body: some SwiftUI.View {
+    get
+  }
+  public typealias Body = @_opaqueReturnTypeOf("$s8AmwalPay0A11PaymentViewV4bodyQrvp", 0) __
+}

@@ -1,0 +1,211 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "AmwalPay",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "AmwalPayment",
+        "printedName": "AmwalPayment",
+        "declKind": "Import",
+        "moduleName": "AmwalPay",
+        "declAttributes": [
+          "ImplementationOnly"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "PaymentKit",
+        "printedName": "PaymentKit",
+        "declKind": "Import",
+        "moduleName": "AmwalPay",
+        "declAttributes": [
+          "ImplementationOnly"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "AmwalPaymentView",
+        "printedName": "AmwalPaymentView",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(currency:amount:vat:merchantId:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AmwalPaymentView",
+                "printedName": "AmwalPay.AmwalPaymentView",
+                "usr": "s:8AmwalPay0A11PaymentViewV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "() -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:8AmwalPay0A11PaymentViewV8currency6amount3vat10merchantId10completionACSS_S2dSSyyctcfc",
+            "mangledName": "$s8AmwalPay0A11PaymentViewV8currency6amount3vat10merchantId10completionACSS_S2dSSyyctcfc",
+            "moduleName": "AmwalPay",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "body",
+            "printedName": "body",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "PaymentRequestView",
+                "printedName": "AmwalPayment.PaymentRequestView",
+                "usr": "s:12AmwalPayment0B11RequestViewV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8AmwalPay0A11PaymentViewV4bodyQrvp",
+            "mangledName": "$s8AmwalPay0A11PaymentViewV4bodyQrvp",
+            "moduleName": "AmwalPay",
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PaymentRequestView",
+                    "printedName": "AmwalPayment.PaymentRequestView",
+                    "usr": "s:12AmwalPayment0B11RequestViewV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8AmwalPay0A11PaymentViewV4bodyQrvg",
+                "mangledName": "$s8AmwalPay0A11PaymentViewV4bodyQrvg",
+                "moduleName": "AmwalPay",
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:8AmwalPay0A11PaymentViewV",
+        "mangledName": "$s8AmwalPay0A11PaymentViewV",
+        "moduleName": "AmwalPay",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "View",
+            "printedName": "View",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Body",
+                "printedName": "Body",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PaymentRequestView",
+                    "printedName": "AmwalPayment.PaymentRequestView",
+                    "usr": "s:12AmwalPayment0B11RequestViewV"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7SwiftUI4ViewP",
+            "mangledName": "$s7SwiftUI4ViewP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPaymentView.swift",
+      "kind": "StringLiteral",
+      "offset": 1235,
+      "length": 5,
+      "value": "\"SAR\""
+    },
+    {
+      "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPaymentView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1250,
+      "length": 3,
+      "value": "110"
+    },
+    {
+      "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPaymentView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1260,
+      "length": 2,
+      "value": "20"
+    },
+    {
+      "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPaymentView.swift",
+      "kind": "StringLiteral",
+      "offset": 1276,
+      "length": 27,
+      "value": "\"dev-backend.sa.amwal.tech\""
+    }
+  ]
+}

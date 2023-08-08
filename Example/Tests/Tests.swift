@@ -1,5 +1,5 @@
 import XCTest
-import AmwalPayment
+import AmwalPay
 
 class Tests: XCTestCase {
     
