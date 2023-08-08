@@ -3,40 +3,31 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 56;
 	objects = {
 
 /* Begin PBXAggregateTarget section */
 		A3538925073C4A85D1314488BC54084F /* AmwalPayment */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = 7C9DE9E8F53AE2DCCD783EA3F18D98E2 /* Build configuration list for PBXAggregateTarget "AmwalPayment" */;
+			buildConfigurationList = DDBCCDFB296F9974AF9EBC60D9597AD1 /* Build configuration list for PBXAggregateTarget "AmwalPayment" */;
 			buildPhases = (
-				216EC8D3732849B6860E68CC1D008E24 /* [CP] Copy XCFrameworks */,
+				ACB14594AB3F890FB57ED4FE0646E023 /* [CP] Copy XCFrameworks */,
 			);
 			dependencies = (
 			);
 			name = AmwalPayment;
+			productName = AmwalPayment;
 		};
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
-		005F6AF1327E376503117833AE6C114C /* Pods-AmwalPayment_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FF8EB03821FCE7BEB4D06EBE823BF4D /* Pods-AmwalPayment_Example-dummy.m */; };
-		365D7792276036283267F7A53A3FC6F0 /* Pods-AmwalPayment_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6AF7B5BA65E412FD9DF90AC6FABB5F49 /* Pods-AmwalPayment_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		76F47ED20D06B4D7B1791E7560E50D1C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		98F68E2F5AF5D8452A8D1BFB19408484 /* Pods-AmwalPayment_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F96079FE514C5666001C0A56216EF1B /* Pods-AmwalPayment_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		ABE64485D3667BBEB146F08779381261 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		AF76AB1ACB55049EFBC8FEA95D1A17DA /* Pods-AmwalPayment_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D50AEBBB95B81D7C5095B65039877384 /* Pods-AmwalPayment_Tests-dummy.m */; };
+		34808C22AAF443FD72707B690A53B6CD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		838699B03E7F004E787D87A68C802BA3 /* Pods-AmwalPaymentExample-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B7A1D731EC19C4AFDD8C52741F689D5 /* Pods-AmwalPaymentExample-dummy.m */; };
+		C6695B1642BFAA76FBABCC1211B0F239 /* Pods-AmwalPaymentExample-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BA2F635C2DF63470DD8C56019998ED5C /* Pods-AmwalPaymentExample-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		EA44CB4E2EA9E907F864F0D13C1609BD /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 9827B75970B818703B00A5CB87B8A98C;
-			remoteInfo = "Pods-AmwalPayment_Example";
-		};
-		F0FAB2EE3EDB796ECAFBAF7FA2C5C28D /* PBXContainerItemProxy */ = {
+		3856232E252546F64A14B807F35C1EBF /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -46,50 +37,33 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		11FE6E0E08163DEA759C17300A0DE1E8 /* Pods-AmwalPayment_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AmwalPayment_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		1FEDE0BA9468199EFA4D346EC4284857 /* Pods-AmwalPayment_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AmwalPayment_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		22D47A7DC24D5040424E9861F9112AAF /* Pods-AmwalPayment_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AmwalPayment_Tests-Info.plist"; sourceTree = "<group>"; };
+		07943346F4FBA87A9A5894B0E6F9455A /* Pods-AmwalPaymentExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AmwalPaymentExample.release.xcconfig"; sourceTree = "<group>"; };
+		1BF808109D27ADC3D60B16AFE87C3118 /* Pods-AmwalPaymentExample-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AmwalPaymentExample-acknowledgements.plist"; sourceTree = "<group>"; };
+		1F42AACFDB89522E59C0CD2207979201 /* Pods-AmwalPaymentExample-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AmwalPaymentExample-acknowledgements.markdown"; sourceTree = "<group>"; };
 		24A64D8AFFEC6CBC23C481FE1F51652F /* AmwalPayment.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AmwalPayment.debug.xcconfig; sourceTree = "<group>"; };
-		2732B813722F05CBC2B1E5DAC1C313B2 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		2FBF02E13224D9B3F8A9AE236FE032D1 /* Pods-AmwalPayment_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AmwalPayment_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		33745B2FD4FC7D8159892612E68B3FBA /* Pods-AmwalPayment_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AmwalPayment_Example.modulemap"; sourceTree = "<group>"; };
-		3524DBCC314C37F4F8AB40E7014C0B74 /* Pods-AmwalPayment_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AmwalPayment_Tests.modulemap"; sourceTree = "<group>"; };
-		3FF8EB03821FCE7BEB4D06EBE823BF4D /* Pods-AmwalPayment_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AmwalPayment_Example-dummy.m"; sourceTree = "<group>"; };
-		4F96079FE514C5666001C0A56216EF1B /* Pods-AmwalPayment_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AmwalPayment_Example-umbrella.h"; sourceTree = "<group>"; };
-		6164732FD51EDE75885C4AFA5E824679 /* AmwalPay.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = AmwalPay.xcframework; path = AmwalPayment/Frameworks/AmwalPay.xcframework; sourceTree = "<group>"; };
-		66BFC90EEB381012D4B2CC3C79C84720 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		6AF7B5BA65E412FD9DF90AC6FABB5F49 /* Pods-AmwalPayment_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AmwalPayment_Tests-umbrella.h"; sourceTree = "<group>"; };
-		70832454FA5E33492CF66628DF9D358C /* Pods-AmwalPayment_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AmwalPayment_Example.release.xcconfig"; sourceTree = "<group>"; };
+		2732B813722F05CBC2B1E5DAC1C313B2 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		2B7A1D731EC19C4AFDD8C52741F689D5 /* Pods-AmwalPaymentExample-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AmwalPaymentExample-dummy.m"; sourceTree = "<group>"; };
+		4A11A336F6FBE807D88DAECBC5DBF680 /* Pods-AmwalPaymentExample-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AmwalPaymentExample-Info.plist"; sourceTree = "<group>"; };
+		6164732FD51EDE75885C4AFA5E824679 /* AmwalPay.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.xcframework; name = AmwalPay.xcframework; path = AmwalPayment/Frameworks/AmwalPay.xcframework; sourceTree = "<group>"; };
+		66BFC90EEB381012D4B2CC3C79C84720 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		81E55A3ADCAC63B1DA79465E0279FFCB /* AmwalPayment-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "AmwalPayment-xcframeworks.sh"; sourceTree = "<group>"; };
-		89E17E254D2BAE6EB1D3B664722789BE /* Pods-AmwalPayment_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-AmwalPayment_Example"; path = Pods_AmwalPayment_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		8D7CC3A97D64465DC52E080C86EFBCD4 /* Pods-AmwalPayment_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AmwalPayment_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		920351EACAB91C59C9AFAEFF7E16A74F /* Pods-AmwalPayment_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-AmwalPayment_Tests"; path = Pods_AmwalPayment_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		9400F1975D2262B338D474E5B8DF12A6 /* Pods-AmwalPayment_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AmwalPayment_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		978C625637A643CA68BCEEF6E47CA4C3 /* AmwalPayment.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = AmwalPayment.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9C713357EA4A3CD35EAA90247C3D6912 /* Pods-AmwalPayment_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AmwalPayment_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		B01F20CC07D55E7FF703DD18140BF67E /* Pods-AmwalPayment_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AmwalPayment_Example-Info.plist"; sourceTree = "<group>"; };
+		978C625637A643CA68BCEEF6E47CA4C3 /* AmwalPayment.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = AmwalPayment.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		988522AAB58E29AA6F1D7227D5D78BFE /* Pods_AmwalPaymentExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AmwalPaymentExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A9EA3C080485CE634A8A964E134E2C3E /* Pods-AmwalPaymentExample.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AmwalPaymentExample.modulemap"; sourceTree = "<group>"; };
+		AE754F6A6E312EBB10D1B7BA499E35A6 /* Pods-AmwalPaymentExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AmwalPaymentExample.debug.xcconfig"; sourceTree = "<group>"; };
+		BA2F635C2DF63470DD8C56019998ED5C /* Pods-AmwalPaymentExample-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AmwalPaymentExample-umbrella.h"; sourceTree = "<group>"; };
 		CC965EA270AB9C4CA2A2DDCFB3C02697 /* AmwalPayment.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AmwalPayment.release.xcconfig; sourceTree = "<group>"; };
-		D50AEBBB95B81D7C5095B65039877384 /* Pods-AmwalPayment_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AmwalPayment_Tests-dummy.m"; sourceTree = "<group>"; };
-		F1ED96EDA325A8C555752E4B37C5468F /* Pods-AmwalPayment_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AmwalPayment_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		FD6263BF5D55865A39A08C88C837EE63 /* Pods-AmwalPayment_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AmwalPayment_Example-frameworks.sh"; sourceTree = "<group>"; };
+		EF1B6DE8F3A624559C47565EC1210B67 /* Pods-AmwalPaymentExample-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AmwalPaymentExample-frameworks.sh"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		C225A59145C94AC8529799B8CA8DE94B /* Frameworks */ = {
+		A92D6F5537264C4DFDE7006159DEBE45 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				76F47ED20D06B4D7B1791E7560E50D1C /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E9A77558AF60BD0D251DB128D175515D /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				ABE64485D3667BBEB146F08779381261 /* Foundation.framework in Frameworks */,
+				34808C22AAF443FD72707B690A53B6CD /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -115,20 +89,29 @@
 			path = ../..;
 			sourceTree = "<group>";
 		};
-		3554C24DB2DEEA3093034B130848339A /* Pods-AmwalPayment_Tests */ = {
+		22D751CD294434E7AAC585CE90ED74EB /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				3524DBCC314C37F4F8AB40E7014C0B74 /* Pods-AmwalPayment_Tests.modulemap */,
-				F1ED96EDA325A8C555752E4B37C5468F /* Pods-AmwalPayment_Tests-acknowledgements.markdown */,
-				1FEDE0BA9468199EFA4D346EC4284857 /* Pods-AmwalPayment_Tests-acknowledgements.plist */,
-				D50AEBBB95B81D7C5095B65039877384 /* Pods-AmwalPayment_Tests-dummy.m */,
-				22D47A7DC24D5040424E9861F9112AAF /* Pods-AmwalPayment_Tests-Info.plist */,
-				6AF7B5BA65E412FD9DF90AC6FABB5F49 /* Pods-AmwalPayment_Tests-umbrella.h */,
-				11FE6E0E08163DEA759C17300A0DE1E8 /* Pods-AmwalPayment_Tests.debug.xcconfig */,
-				8D7CC3A97D64465DC52E080C86EFBCD4 /* Pods-AmwalPayment_Tests.release.xcconfig */,
+				4C3DEEAC1F0743458ED62ECF6D2A064A /* Pods-AmwalPaymentExample */,
 			);
-			name = "Pods-AmwalPayment_Tests";
-			path = "Target Support Files/Pods-AmwalPayment_Tests";
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		4C3DEEAC1F0743458ED62ECF6D2A064A /* Pods-AmwalPaymentExample */ = {
+			isa = PBXGroup;
+			children = (
+				A9EA3C080485CE634A8A964E134E2C3E /* Pods-AmwalPaymentExample.modulemap */,
+				1F42AACFDB89522E59C0CD2207979201 /* Pods-AmwalPaymentExample-acknowledgements.markdown */,
+				1BF808109D27ADC3D60B16AFE87C3118 /* Pods-AmwalPaymentExample-acknowledgements.plist */,
+				2B7A1D731EC19C4AFDD8C52741F689D5 /* Pods-AmwalPaymentExample-dummy.m */,
+				EF1B6DE8F3A624559C47565EC1210B67 /* Pods-AmwalPaymentExample-frameworks.sh */,
+				4A11A336F6FBE807D88DAECBC5DBF680 /* Pods-AmwalPaymentExample-Info.plist */,
+				BA2F635C2DF63470DD8C56019998ED5C /* Pods-AmwalPaymentExample-umbrella.h */,
+				AE754F6A6E312EBB10D1B7BA499E35A6 /* Pods-AmwalPaymentExample.debug.xcconfig */,
+				07943346F4FBA87A9A5894B0E6F9455A /* Pods-AmwalPaymentExample.release.xcconfig */,
+			);
+			name = "Pods-AmwalPaymentExample";
+			path = "Target Support Files/Pods-AmwalPaymentExample";
 			sourceTree = "<group>";
 		};
 		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
@@ -137,15 +120,6 @@
 				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
 			);
 			name = iOS;
-			sourceTree = "<group>";
-		};
-		626A78E4D979D69F4E9E69ECE79A0A60 /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				AC75D213187060B36842234BCFE1EDF4 /* Pods-AmwalPayment_Example */,
-				3554C24DB2DEEA3093034B130848339A /* Pods-AmwalPayment_Tests */,
-			);
-			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
 		6D3FDBAF3C66DB1979BFBDB27609CC06 /* Pod */ = {
@@ -177,21 +151,12 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		AC75D213187060B36842234BCFE1EDF4 /* Pods-AmwalPayment_Example */ = {
+		A0E79A5064031074C9039CEBAB6E64D8 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				33745B2FD4FC7D8159892612E68B3FBA /* Pods-AmwalPayment_Example.modulemap */,
-				2FBF02E13224D9B3F8A9AE236FE032D1 /* Pods-AmwalPayment_Example-acknowledgements.markdown */,
-				9C713357EA4A3CD35EAA90247C3D6912 /* Pods-AmwalPayment_Example-acknowledgements.plist */,
-				3FF8EB03821FCE7BEB4D06EBE823BF4D /* Pods-AmwalPayment_Example-dummy.m */,
-				FD6263BF5D55865A39A08C88C837EE63 /* Pods-AmwalPayment_Example-frameworks.sh */,
-				B01F20CC07D55E7FF703DD18140BF67E /* Pods-AmwalPayment_Example-Info.plist */,
-				4F96079FE514C5666001C0A56216EF1B /* Pods-AmwalPayment_Example-umbrella.h */,
-				9400F1975D2262B338D474E5B8DF12A6 /* Pods-AmwalPayment_Example.debug.xcconfig */,
-				70832454FA5E33492CF66628DF9D358C /* Pods-AmwalPayment_Example.release.xcconfig */,
+				988522AAB58E29AA6F1D7227D5D78BFE /* Pods_AmwalPaymentExample.framework */,
 			);
-			name = "Pods-AmwalPayment_Example";
-			path = "Target Support Files/Pods-AmwalPayment_Example";
+			name = Products;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
@@ -200,18 +165,9 @@
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				0663F45EF34334E3ABBAA34F9591355B /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				D1EB9CB569F61518A2A65FBFBD9AEAB8 /* Products */,
-				626A78E4D979D69F4E9E69ECE79A0A60 /* Targets Support Files */,
+				A0E79A5064031074C9039CEBAB6E64D8 /* Products */,
+				22D751CD294434E7AAC585CE90ED74EB /* Targets Support Files */,
 			);
-			sourceTree = "<group>";
-		};
-		D1EB9CB569F61518A2A65FBFBD9AEAB8 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				89E17E254D2BAE6EB1D3B664722789BE /* Pods-AmwalPayment_Example */,
-				920351EACAB91C59C9AFAEFF7E16A74F /* Pods-AmwalPayment_Tests */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
@@ -225,61 +181,34 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		9937F7F5754623697366EF8538AEF95A /* Headers */ = {
+		F4417D67C2D798129E272B56D02A0FA3 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				365D7792276036283267F7A53A3FC6F0 /* Pods-AmwalPayment_Tests-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A179F4D7689265991B770F16CE620454 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				98F68E2F5AF5D8452A8D1BFB19408484 /* Pods-AmwalPayment_Example-umbrella.h in Headers */,
+				C6695B1642BFAA76FBABCC1211B0F239 /* Pods-AmwalPaymentExample-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		0D5AFA68C316C5CC756B138D9D5109DD /* Pods-AmwalPayment_Tests */ = {
+		3F6FFDA9A0856039EFDD9D2527FF5B50 /* Pods-AmwalPaymentExample */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 527931D1C03DF8AAFFB81D01C900BEED /* Build configuration list for PBXNativeTarget "Pods-AmwalPayment_Tests" */;
+			buildConfigurationList = 97F489DF0C2B984A19AF1A72619E99C1 /* Build configuration list for PBXNativeTarget "Pods-AmwalPaymentExample" */;
 			buildPhases = (
-				9937F7F5754623697366EF8538AEF95A /* Headers */,
-				7C408F8BD697F400D3FCFB729ECB30D8 /* Sources */,
-				E9A77558AF60BD0D251DB128D175515D /* Frameworks */,
-				9ECF31A79F8A145962EBA2F4BBC407DC /* Resources */,
+				F4417D67C2D798129E272B56D02A0FA3 /* Headers */,
+				8A56FD6FA88F7868ED1B96CE24A2A894 /* Sources */,
+				A92D6F5537264C4DFDE7006159DEBE45 /* Frameworks */,
+				D098FA74D4E7C49D2F76D4436D391212 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				6EB350E30A55CB41D0DDDFB4D96E5BC1 /* PBXTargetDependency */,
+				0488AF9FD8A96AADF6FA2661BB006155 /* PBXTargetDependency */,
 			);
-			name = "Pods-AmwalPayment_Tests";
-			productName = Pods_AmwalPayment_Tests;
-			productReference = 920351EACAB91C59C9AFAEFF7E16A74F /* Pods-AmwalPayment_Tests */;
-			productType = "com.apple.product-type.framework";
-		};
-		9827B75970B818703B00A5CB87B8A98C /* Pods-AmwalPayment_Example */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 0D3F0BBEC3C60EAE4DA79CF11411E8BA /* Build configuration list for PBXNativeTarget "Pods-AmwalPayment_Example" */;
-			buildPhases = (
-				A179F4D7689265991B770F16CE620454 /* Headers */,
-				0236BF5B8D205EFDCF28DF2AC4973615 /* Sources */,
-				C225A59145C94AC8529799B8CA8DE94B /* Frameworks */,
-				D828A8185A83AAAFB4A2670AF8B04EFE /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				2CF5AFC8214533DE609F3C4FC708DCAC /* PBXTargetDependency */,
-			);
-			name = "Pods-AmwalPayment_Example";
-			productName = Pods_AmwalPayment_Example;
-			productReference = 89E17E254D2BAE6EB1D3B664722789BE /* Pods-AmwalPayment_Example */;
+			name = "Pods-AmwalPaymentExample";
+			productName = Pods_AmwalPaymentExample;
+			productReference = 988522AAB58E29AA6F1D7227D5D78BFE /* Pods_AmwalPaymentExample.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -292,7 +221,7 @@
 				LastUpgradeCheck = 1300;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
-			compatibilityVersion = "Xcode 3.2";
+			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -300,26 +229,18 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = D1EB9CB569F61518A2A65FBFBD9AEAB8 /* Products */;
+			productRefGroup = A0E79A5064031074C9039CEBAB6E64D8 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				A3538925073C4A85D1314488BC54084F /* AmwalPayment */,
-				9827B75970B818703B00A5CB87B8A98C /* Pods-AmwalPayment_Example */,
-				0D5AFA68C316C5CC756B138D9D5109DD /* Pods-AmwalPayment_Tests */,
+				3F6FFDA9A0856039EFDD9D2527FF5B50 /* Pods-AmwalPaymentExample */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		9ECF31A79F8A145962EBA2F4BBC407DC /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D828A8185A83AAAFB4A2670AF8B04EFE /* Resources */ = {
+		D098FA74D4E7C49D2F76D4436D391212 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -329,18 +250,17 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		216EC8D3732849B6860E68CC1D008E24 /* [CP] Copy XCFrameworks */ = {
+		ACB14594AB3F890FB57ED4FE0646E023 /* [CP] Copy XCFrameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/AmwalPayment/AmwalPayment-xcframeworks.sh",
-				"${PODS_ROOT}/../../AmwalPayment/Frameworks/AmwalPay.xcframework",
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/AmwalPayment/AmwalPayment-xcframeworks-input-files.xcfilelist",
 			);
 			name = "[CP] Copy XCFrameworks";
-			outputPaths = (
-				"${PODS_XCFRAMEWORKS_BUILD_DIR}/AmwalPayment/AmwalPay.framework",
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/AmwalPayment/AmwalPayment-xcframeworks-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -350,72 +270,29 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		0236BF5B8D205EFDCF28DF2AC4973615 /* Sources */ = {
+		8A56FD6FA88F7868ED1B96CE24A2A894 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				005F6AF1327E376503117833AE6C114C /* Pods-AmwalPayment_Example-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		7C408F8BD697F400D3FCFB729ECB30D8 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				AF76AB1ACB55049EFBC8FEA95D1A17DA /* Pods-AmwalPayment_Tests-dummy.m in Sources */,
+				838699B03E7F004E787D87A68C802BA3 /* Pods-AmwalPaymentExample-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		2CF5AFC8214533DE609F3C4FC708DCAC /* PBXTargetDependency */ = {
+		0488AF9FD8A96AADF6FA2661BB006155 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = AmwalPayment;
 			target = A3538925073C4A85D1314488BC54084F /* AmwalPayment */;
-			targetProxy = F0FAB2EE3EDB796ECAFBAF7FA2C5C28D /* PBXContainerItemProxy */;
-		};
-		6EB350E30A55CB41D0DDDFB4D96E5BC1 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Pods-AmwalPayment_Example";
-			target = 9827B75970B818703B00A5CB87B8A98C /* Pods-AmwalPayment_Example */;
-			targetProxy = EA44CB4E2EA9E907F864F0D13C1609BD /* PBXContainerItemProxy */;
+			targetProxy = 3856232E252546F64A14B807F35C1EBF /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		2472F3D01C263FFD04C58CB0D1B0382B /* Release */ = {
+		27096841207B668C8A0185734DE6D6B4 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CC965EA270AB9C4CA2A2DDCFB3C02697 /* AmwalPayment.release.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		637F89FF77A68741C3E51AE63F592F8A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 24A64D8AFFEC6CBC23C481FE1F51652F /* AmwalPayment.debug.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		72BF4B04C34EB9ECBBCC0D305C4B815B /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8D7CC3A97D64465DC52E080C86EFBCD4 /* Pods-AmwalPayment_Tests.release.xcconfig */;
+			baseConfigurationReference = AE754F6A6E312EBB10D1B7BA499E35A6 /* Pods-AmwalPaymentExample.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -427,12 +304,70 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-AmwalPayment_Tests/Pods-AmwalPayment_Tests-Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-AmwalPaymentExample/Pods-AmwalPaymentExample-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-AmwalPayment_Tests/Pods-AmwalPayment_Tests.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-AmwalPaymentExample/Pods-AmwalPaymentExample.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3D665CB1DB55ECF30B1C844173CC3FEE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24A64D8AFFEC6CBC23C481FE1F51652F /* AmwalPayment.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4F333BBFFCA1D4DCB872252FB50081EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 07943346F4FBA87A9A5894B0E6F9455A /* Pods-AmwalPaymentExample.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-AmwalPaymentExample/Pods-AmwalPaymentExample-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AmwalPaymentExample/Pods-AmwalPaymentExample.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -509,37 +444,21 @@
 			};
 			name = Release;
 		};
-		BDF3B54A66441C0A6CC6185539D3EB34 /* Release */ = {
+		B53C9D74EB95A5EB0879257C40405F76 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 70832454FA5E33492CF66628DF9D358C /* Pods-AmwalPayment_Example.release.xcconfig */;
+			baseConfigurationReference = CC965EA270AB9C4CA2A2DDCFB3C02697 /* AmwalPayment.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-AmwalPayment_Example/Pods-AmwalPayment_Example-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-AmwalPayment_Example/Pods-AmwalPayment_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
@@ -609,84 +528,9 @@
 			};
 			name = Debug;
 		};
-		D6C1684CBE8838D10038A4B9270E4378 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9400F1975D2262B338D474E5B8DF12A6 /* Pods-AmwalPayment_Example.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-AmwalPayment_Example/Pods-AmwalPayment_Example-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-AmwalPayment_Example/Pods-AmwalPayment_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		FB6F5D1BF9F044C972072BBD4C68BFBD /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 11FE6E0E08163DEA759C17300A0DE1E8 /* Pods-AmwalPayment_Tests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-AmwalPayment_Tests/Pods-AmwalPayment_Tests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-AmwalPayment_Tests/Pods-AmwalPayment_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0D3F0BBEC3C60EAE4DA79CF11411E8BA /* Build configuration list for PBXNativeTarget "Pods-AmwalPayment_Example" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				D6C1684CBE8838D10038A4B9270E4378 /* Debug */,
-				BDF3B54A66441C0A6CC6185539D3EB34 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -696,20 +540,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		527931D1C03DF8AAFFB81D01C900BEED /* Build configuration list for PBXNativeTarget "Pods-AmwalPayment_Tests" */ = {
+		97F489DF0C2B984A19AF1A72619E99C1 /* Build configuration list for PBXNativeTarget "Pods-AmwalPaymentExample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				FB6F5D1BF9F044C972072BBD4C68BFBD /* Debug */,
-				72BF4B04C34EB9ECBBCC0D305C4B815B /* Release */,
+				27096841207B668C8A0185734DE6D6B4 /* Debug */,
+				4F333BBFFCA1D4DCB872252FB50081EF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7C9DE9E8F53AE2DCCD783EA3F18D98E2 /* Build configuration list for PBXAggregateTarget "AmwalPayment" */ = {
+		DDBCCDFB296F9974AF9EBC60D9597AD1 /* Build configuration list for PBXAggregateTarget "AmwalPayment" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				637F89FF77A68741C3E51AE63F592F8A /* Debug */,
-				2472F3D01C263FFD04C58CB0D1B0382B /* Release */,
+				3D665CB1DB55ECF30B1C844173CC3FEE /* Debug */,
+				B53C9D74EB95A5EB0879257C40405F76 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

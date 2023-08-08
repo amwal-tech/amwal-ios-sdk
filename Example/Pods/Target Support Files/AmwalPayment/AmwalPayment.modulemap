@@ -1,6 +1,0 @@
-framework module AmwalPayment {
-  umbrella header "AmwalPayment-umbrella.h"
-
-  export *
-  module * { export * }
-}
