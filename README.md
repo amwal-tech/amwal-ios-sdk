@@ -41,12 +41,12 @@ Add the following line to your `Package.swift` file's dependencies:
 
 ```swift
 dependencies: [
-    .package(url: "https://github.com/amwal/payment-sdk-ios.git", from: "1.0.0-alpha06")
+    .package(url: "https://github.com/amwal/payment-sdk-ios.git", from: "0.1.2")
 ]
 ```
 ### CocoaPods
 ```swift
-pod 'AmwalPayment', '~> 0.1.1'
+pod 'AmwalPayment', '~> 0.1.2'
 ```
 
 <a name="initialize-payment-sheet"></a>

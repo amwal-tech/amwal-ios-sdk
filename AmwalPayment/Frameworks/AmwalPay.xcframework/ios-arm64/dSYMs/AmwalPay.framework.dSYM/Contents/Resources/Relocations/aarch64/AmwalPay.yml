@@ -1,0 +1,35 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/ahmedelshaer/Library/Developer/Xcode/DerivedData/AmwalPay-cnzultgoxjikrkevppgwjfiprjoq/Build/Intermediates.noindex/ArchiveIntermediates/AmwalPay/InstallationBuildProductsLocation/Library/Frameworks/AmwalPay.framework/AmwalPay'
+relocations:
+  - { offsetInCU: 0x34, offset: 0x645AD, size: 0x8, addend: 0x0, symName: _AmwalPayVersionString, symObjAddr: 0x0, symBinAddr: 0x5B90, symSize: 0x0 }
+  - { offsetInCU: 0x69, offset: 0x645E2, size: 0x8, addend: 0x0, symName: _AmwalPayVersionNumber, symObjAddr: 0x30, symBinAddr: 0x5BC0, symSize: 0x0 }
+  - { offsetInCU: 0x27, offset: 0x6461F, size: 0x8, addend: 0x0, symName: '_$s8AmwalPay0A11PaymentViewV8currency6amount3vat10completionACSS_S2dyyctcfC', symObjAddr: 0x0, symBinAddr: 0x4000, symSize: 0x7C }
+  - { offsetInCU: 0x4B, offset: 0x64643, size: 0x8, addend: 0x0, symName: '_$s8AmwalPay0A11PaymentViewV8currency6amount3vat10completionACSS_S2dyyctcfC', symObjAddr: 0x0, symBinAddr: 0x4000, symSize: 0x7C }
+  - { offsetInCU: 0xAA, offset: 0x646A2, size: 0x8, addend: 0x0, symName: '_$s8AmwalPay0A11PaymentViewV7builder0aC00C14RequestBuilderVvg', symObjAddr: 0xB8, symBinAddr: 0x40B8, symSize: 0x1E4 }
+  - { offsetInCU: 0xF3, offset: 0x646EB, size: 0x8, addend: 0x0, symName: '_$s8AmwalPay0A11PaymentViewV4bodyQrvg', symObjAddr: 0x29C, symBinAddr: 0x429C, symSize: 0xCC }
+  - { offsetInCU: 0x145, offset: 0x6473D, size: 0x8, addend: 0x0, symName: '_$s8AmwalPay0A11PaymentViewV7SwiftUI0D0AadEP4body4BodyQzvgTW', symObjAddr: 0x3F4, symBinAddr: 0x43F4, symSize: 0xC8 }
+  - { offsetInCU: 0x198, offset: 0x64790, size: 0x8, addend: 0x0, symName: '_$s8AmwalPay0A11PaymentViewVMa', symObjAddr: 0x7C, symBinAddr: 0x407C, symSize: 0x3C }
+  - { offsetInCU: 0x1AC, offset: 0x647A4, size: 0x8, addend: 0x0, symName: ___swift_allocate_boxed_opaque_existential_1, symObjAddr: 0x368, symBinAddr: 0x4368, symSize: 0x3C }
+  - { offsetInCU: 0x1C0, offset: 0x647B8, size: 0x8, addend: 0x0, symName: ___swift_destroy_boxed_opaque_existential_1, symObjAddr: 0x3A4, symBinAddr: 0x43A4, symSize: 0x20 }
+  - { offsetInCU: 0x1D4, offset: 0x647CC, size: 0x8, addend: 0x0, symName: '_$s8AmwalPay0A11PaymentViewV7SwiftUI0D0AA4BodyAdEP_AGWT', symObjAddr: 0x3C4, symBinAddr: 0x43C4, symSize: 0x10 }
+  - { offsetInCU: 0x1E8, offset: 0x647E0, size: 0x8, addend: 0x0, symName: '_$s8AmwalPay0A11PaymentViewVwCP', symObjAddr: 0x4BC, symBinAddr: 0x44BC, symSize: 0xCC }
+  - { offsetInCU: 0x1FC, offset: 0x647F4, size: 0x8, addend: 0x0, symName: '_$s8AmwalPay0A11PaymentViewVwxx', symObjAddr: 0x588, symBinAddr: 0x4588, symSize: 0x60 }
+  - { offsetInCU: 0x210, offset: 0x64808, size: 0x8, addend: 0x0, symName: '_$s8AmwalPay0A11PaymentViewVwcp', symObjAddr: 0x5E8, symBinAddr: 0x45E8, symSize: 0xA0 }
+  - { offsetInCU: 0x224, offset: 0x6481C, size: 0x8, addend: 0x0, symName: '_$s8AmwalPay0A11PaymentViewVwca', symObjAddr: 0x688, symBinAddr: 0x4688, symSize: 0xB8 }
+  - { offsetInCU: 0x238, offset: 0x64830, size: 0x8, addend: 0x0, symName: '_$s8AmwalPay0A11PaymentViewVwtk', symObjAddr: 0x740, symBinAddr: 0x4740, symSize: 0x80 }
+  - { offsetInCU: 0x24C, offset: 0x64844, size: 0x8, addend: 0x0, symName: '_$s8AmwalPay0A11PaymentViewVwta', symObjAddr: 0x7C0, symBinAddr: 0x47C0, symSize: 0x98 }
+  - { offsetInCU: 0x260, offset: 0x64858, size: 0x8, addend: 0x0, symName: '_$s8AmwalPay0A11PaymentViewVwet', symObjAddr: 0x858, symBinAddr: 0x4858, symSize: 0xC }
+  - { offsetInCU: 0x274, offset: 0x6486C, size: 0x8, addend: 0x0, symName: '_$s8AmwalPay0A11PaymentViewVwst', symObjAddr: 0x8E0, symBinAddr: 0x48E0, symSize: 0xC }
+  - { offsetInCU: 0x288, offset: 0x64880, size: 0x8, addend: 0x0, symName: '_$s8AmwalPay0A11PaymentViewVMr', symObjAddr: 0x960, symBinAddr: 0x4960, symSize: 0x90 }
+  - { offsetInCU: 0x29C, offset: 0x64894, size: 0x8, addend: 0x0, symName: '_$s12AmwalPayment0B11RequestViewVAC7SwiftUI0D0AAWl', symObjAddr: 0x9F4, symBinAddr: 0x49F4, symSize: 0x48 }
+  - { offsetInCU: 0x2B0, offset: 0x648A8, size: 0x8, addend: 0x0, symName: '_$s8AmwalPay0A11PaymentViewVWOc', symObjAddr: 0xA3C, symBinAddr: 0x4A3C, symSize: 0x44 }
+  - { offsetInCU: 0x2C4, offset: 0x648BC, size: 0x8, addend: 0x0, symName: '_$s8AmwalPay0A11PaymentViewVWOb', symObjAddr: 0xB1C, symBinAddr: 0x4B1C, symSize: 0x44 }
+  - { offsetInCU: 0x2D8, offset: 0x648D0, size: 0x8, addend: 0x0, symName: '_$s8AmwalPay0A11PaymentViewV7builder0aC00C14RequestBuilderVvgyycfU_TA', symObjAddr: 0xB60, symBinAddr: 0x4B60, symSize: 0x3C }
+  - { offsetInCU: 0x372, offset: 0x6496A, size: 0x8, addend: 0x0, symName: '_$s8AmwalPay0A11PaymentViewV7SwiftUI0D0AadEP05_makeD04view6inputsAD01_D7OutputsVAD11_GraphValueVyxG_AD01_D6InputsVtFZTW', symObjAddr: 0x3D4, symBinAddr: 0x43D4, symSize: 0x4 }
+  - { offsetInCU: 0x38E, offset: 0x64986, size: 0x8, addend: 0x0, symName: '_$s8AmwalPay0A11PaymentViewV7SwiftUI0D0AadEP05_makeD4List4view6inputsAD01_dH7OutputsVAD11_GraphValueVyxG_AD01_dH6InputsVtFZTW', symObjAddr: 0x3D8, symBinAddr: 0x43D8, symSize: 0x4 }
+  - { offsetInCU: 0x3AA, offset: 0x649A2, size: 0x8, addend: 0x0, symName: '_$s8AmwalPay0A11PaymentViewV7SwiftUI0D0AadEP14_viewListCount6inputsSiSgAD01_dhI6InputsV_tFZTW', symObjAddr: 0x3DC, symBinAddr: 0x43DC, symSize: 0x18 }
+  - { offsetInCU: 0x2B, offset: 0x64AED, size: 0x8, addend: 0x0, symName: '_$s8AmwalPay19ResourceBundleClass33_5D80A74D9B8991EDC512D49B8E847755LLCfD', symObjAddr: 0x0, symBinAddr: 0x4B9C, symSize: 0x10 }
+  - { offsetInCU: 0x55, offset: 0x64B17, size: 0x8, addend: 0x0, symName: '_$s8AmwalPay19ResourceBundleClass33_5D80A74D9B8991EDC512D49B8E847755LLCfD', symObjAddr: 0x0, symBinAddr: 0x4B9C, symSize: 0x10 }
+  - { offsetInCU: 0x86, offset: 0x64B48, size: 0x8, addend: 0x0, symName: '_$s8AmwalPay19ResourceBundleClass33_5D80A74D9B8991EDC512D49B8E847755LLCMa', symObjAddr: 0x10, symBinAddr: 0x4BAC, symSize: 0x20 }
+...
