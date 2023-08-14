@@ -42,7 +42,7 @@
 		</data>
 		<key>Frameworks/AmwalPayment.framework/AmwalPayment</key>
 		<data>
-		oHFcfJ4l3m/5DGR3rPWhgmIloC0=
+		rgxcJZrmJzMrxpaS9SNN100QAec=
 		</data>
 		<key>Frameworks/AmwalPayment.framework/Info.plist</key>
 		<data>
@@ -58,7 +58,7 @@
 		</data>
 		<key>Frameworks/PaymentKit.framework/PaymentKit</key>
 		<data>
-		qyfQmE/Wkj3QYS8Y+TOWTo23jgY=
+		LTtmGruNgGbGKfF7wEnSVEJ+MDg=
 		</data>
 		<key>Frameworks/PaymentKit.framework/_CodeSignature/CodeResources</key>
 		<data>
@@ -197,7 +197,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			7lk00kcoUHHaufv6qPskgw8tbTJbUa/mBvPMDO9TmXo=
+			BgC2Adk9LeqTDCjHIWzbdDucr0RpELNAExNZ38UWPnY=
 			</data>
 		</dict>
 		<key>Frameworks/AmwalPayment.framework/Info.plist</key>
@@ -225,7 +225,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			DyCIwU/D4TZeWGiVmB/GrL9y9LGCVu++WV9P1lDcVik=
+			UsEB9xbQQg3BlL+zyHrMx30xWQbMtT3c99AoSo9BF4g=
 			</data>
 		</dict>
 		<key>Frameworks/PaymentKit.framework/_CodeSignature/CodeResources</key>
