@@ -42,7 +42,7 @@
           {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(currency:amount:vat:completion:)",
+            "printedName": "init(currency:amount:vat:merchantId:completion:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -69,6 +69,12 @@
                 "usr": "s:Sd"
               },
               {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
                 "kind": "TypeFunc",
                 "name": "Function",
                 "printedName": "() -> ()",
@@ -87,8 +93,8 @@
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:8AmwalPay0A11PaymentViewV8currency6amount3vat10completionACSS_S2dyyctcfc",
-            "mangledName": "$s8AmwalPay0A11PaymentViewV8currency6amount3vat10completionACSS_S2dyyctcfc",
+            "usr": "s:8AmwalPay0A11PaymentViewV8currency6amount3vat10merchantId10completionACSS_S2dSSyyctcfc",
+            "mangledName": "$s8AmwalPay0A11PaymentViewV8currency6amount3vat10merchantId10completionACSS_S2dSSyyctcfc",
             "moduleName": "AmwalPay",
             "declAttributes": [
               "AccessControl"
@@ -168,248 +174,38 @@
             "mangledName": "$s7SwiftUI4ViewP"
           }
         ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "AmwalPay"
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "AmwalPay"
-      },
-      {
-        "kind": "Import",
-        "name": "SwiftUI",
-        "printedName": "SwiftUI",
-        "declKind": "Import",
-        "moduleName": "AmwalPay"
-      },
-      {
-        "kind": "Import",
-        "name": "DeveloperToolsSupport",
-        "printedName": "DeveloperToolsSupport",
-        "declKind": "Import",
-        "moduleName": "AmwalPay"
       }
     ],
     "json_format_version": 8
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/ahmedelshaer\/Developer\/amwal\/amwal-mobile-pay\/iOS\/AmwalPay\/AmwalPay\/AmwalPaymentView.swift",
+      "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPaymentView.swift",
       "kind": "StringLiteral",
-      "offset": 1104,
+      "offset": 1235,
       "length": 5,
       "value": "\"SAR\""
     },
     {
-      "filePath": "\/Users\/ahmedelshaer\/Developer\/amwal\/amwal-mobile-pay\/iOS\/AmwalPay\/AmwalPay\/AmwalPaymentView.swift",
+      "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPaymentView.swift",
       "kind": "IntegerLiteral",
-      "offset": 1119,
+      "offset": 1250,
       "length": 3,
       "value": "110"
     },
     {
-      "filePath": "\/Users\/ahmedelshaer\/Developer\/amwal\/amwal-mobile-pay\/iOS\/AmwalPay\/AmwalPay\/AmwalPaymentView.swift",
+      "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPaymentView.swift",
       "kind": "IntegerLiteral",
-      "offset": 1129,
+      "offset": 1260,
       "length": 2,
       "value": "20"
     },
     {
-      "filePath": "\/Users\/ahmedelshaer\/Library\/Developer\/Xcode\/DerivedData\/AmwalPay-cnzultgoxjikrkevppgwjfiprjoq\/Build\/Intermediates.noindex\/ArchiveIntermediates\/AmwalPay\/IntermediateBuildFilesPath\/AmwalPay.build\/Release-iphoneos\/AmwalPay.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPaymentView.swift",
       "kind": "StringLiteral",
-      "offset": 527,
-      "length": 12,
-      "value": "\"blackColor\""
-    },
-    {
-      "filePath": "\/Users\/ahmedelshaer\/Library\/Developer\/Xcode\/DerivedData\/AmwalPay-cnzultgoxjikrkevppgwjfiprjoq\/Build\/Intermediates.noindex\/ArchiveIntermediates\/AmwalPay\/IntermediateBuildFilesPath\/AmwalPay.build\/Release-iphoneos\/AmwalPay.build\/DerivedSources\/GeneratedAssetSymbols.swift",
-      "kind": "StringLiteral",
-      "offset": 670,
-      "length": 15,
-      "value": "\"darkGrayColor\""
-    },
-    {
-      "filePath": "\/Users\/ahmedelshaer\/Library\/Developer\/Xcode\/DerivedData\/AmwalPay-cnzultgoxjikrkevppgwjfiprjoq\/Build\/Intermediates.noindex\/ArchiveIntermediates\/AmwalPay\/IntermediateBuildFilesPath\/AmwalPay.build\/Release-iphoneos\/AmwalPay.build\/DerivedSources\/GeneratedAssetSymbols.swift",
-      "kind": "StringLiteral",
-      "offset": 810,
-      "length": 12,
-      "value": "\"greenColor\""
-    },
-    {
-      "filePath": "\/Users\/ahmedelshaer\/Library\/Developer\/Xcode\/DerivedData\/AmwalPay-cnzultgoxjikrkevppgwjfiprjoq\/Build\/Intermediates.noindex\/ArchiveIntermediates\/AmwalPay\/IntermediateBuildFilesPath\/AmwalPay.build\/Release-iphoneos\/AmwalPay.build\/DerivedSources\/GeneratedAssetSymbols.swift",
-      "kind": "StringLiteral",
-      "offset": 973,
-      "length": 25,
-      "value": "\"interactiveDisableColor\""
-    },
-    {
-      "filePath": "\/Users\/ahmedelshaer\/Library\/Developer\/Xcode\/DerivedData\/AmwalPay-cnzultgoxjikrkevppgwjfiprjoq\/Build\/Intermediates.noindex\/ArchiveIntermediates\/AmwalPay\/IntermediateBuildFilesPath\/AmwalPay.build\/Release-iphoneos\/AmwalPay.build\/DerivedSources\/GeneratedAssetSymbols.swift",
-      "kind": "StringLiteral",
-      "offset": 1147,
-      "length": 24,
-      "value": "\"interactiveEnableColor\""
-    },
-    {
-      "filePath": "\/Users\/ahmedelshaer\/Library\/Developer\/Xcode\/DerivedData\/AmwalPay-cnzultgoxjikrkevppgwjfiprjoq\/Build\/Intermediates.noindex\/ArchiveIntermediates\/AmwalPay\/IntermediateBuildFilesPath\/AmwalPay.build\/Release-iphoneos\/AmwalPay.build\/DerivedSources\/GeneratedAssetSymbols.swift",
-      "kind": "StringLiteral",
-      "offset": 1304,
-      "length": 16,
-      "value": "\"lightGrayColor\""
-    },
-    {
-      "filePath": "\/Users\/ahmedelshaer\/Library\/Developer\/Xcode\/DerivedData\/AmwalPay-cnzultgoxjikrkevppgwjfiprjoq\/Build\/Intermediates.noindex\/ArchiveIntermediates\/AmwalPay\/IntermediateBuildFilesPath\/AmwalPay.build\/Release-iphoneos\/AmwalPay.build\/DerivedSources\/GeneratedAssetSymbols.swift",
-      "kind": "StringLiteral",
-      "offset": 1455,
-      "length": 17,
-      "value": "\"mediumGrayColor\""
-    },
-    {
-      "filePath": "\/Users\/ahmedelshaer\/Library\/Developer\/Xcode\/DerivedData\/AmwalPay-cnzultgoxjikrkevppgwjfiprjoq\/Build\/Intermediates.noindex\/ArchiveIntermediates\/AmwalPay\/IntermediateBuildFilesPath\/AmwalPay.build\/Release-iphoneos\/AmwalPay.build\/DerivedSources\/GeneratedAssetSymbols.swift",
-      "kind": "StringLiteral",
-      "offset": 1603,
-      "length": 15,
-      "value": "\"redLightColor\""
-    },
-    {
-      "filePath": "\/Users\/ahmedelshaer\/Library\/Developer\/Xcode\/DerivedData\/AmwalPay-cnzultgoxjikrkevppgwjfiprjoq\/Build\/Intermediates.noindex\/ArchiveIntermediates\/AmwalPay\/IntermediateBuildFilesPath\/AmwalPay.build\/Release-iphoneos\/AmwalPay.build\/DerivedSources\/GeneratedAssetSymbols.swift",
-      "kind": "StringLiteral",
-      "offset": 1746,
-      "length": 11,
-      "value": "\"secondary\""
-    },
-    {
-      "filePath": "\/Users\/ahmedelshaer\/Library\/Developer\/Xcode\/DerivedData\/AmwalPay-cnzultgoxjikrkevppgwjfiprjoq\/Build\/Intermediates.noindex\/ArchiveIntermediates\/AmwalPay\/IntermediateBuildFilesPath\/AmwalPay.build\/Release-iphoneos\/AmwalPay.build\/DerivedSources\/GeneratedAssetSymbols.swift",
-      "kind": "StringLiteral",
-      "offset": 1884,
-      "length": 13,
-      "value": "\"shieldColor\""
-    },
-    {
-      "filePath": "\/Users\/ahmedelshaer\/Library\/Developer\/Xcode\/DerivedData\/AmwalPay-cnzultgoxjikrkevppgwjfiprjoq\/Build\/Intermediates.noindex\/ArchiveIntermediates\/AmwalPay\/IntermediateBuildFilesPath\/AmwalPay.build\/Release-iphoneos\/AmwalPay.build\/DerivedSources\/GeneratedAssetSymbols.swift",
-      "kind": "StringLiteral",
-      "offset": 2021,
-      "length": 9,
-      "value": "\"surface\""
-    },
-    {
-      "filePath": "\/Users\/ahmedelshaer\/Library\/Developer\/Xcode\/DerivedData\/AmwalPay-cnzultgoxjikrkevppgwjfiprjoq\/Build\/Intermediates.noindex\/ArchiveIntermediates\/AmwalPay\/IntermediateBuildFilesPath\/AmwalPay.build\/Release-iphoneos\/AmwalPay.build\/DerivedSources\/GeneratedAssetSymbols.swift",
-      "kind": "StringLiteral",
-      "offset": 2155,
-      "length": 12,
-      "value": "\"whiteColor\""
-    },
-    {
-      "filePath": "\/Users\/ahmedelshaer\/Library\/Developer\/Xcode\/DerivedData\/AmwalPay-cnzultgoxjikrkevppgwjfiprjoq\/Build\/Intermediates.noindex\/ArchiveIntermediates\/AmwalPay\/IntermediateBuildFilesPath\/AmwalPay.build\/Release-iphoneos\/AmwalPay.build\/DerivedSources\/GeneratedAssetSymbols.swift",
-      "kind": "StringLiteral",
-      "offset": 2390,
-      "length": 6,
-      "value": "\"MADA\""
-    },
-    {
-      "filePath": "\/Users\/ahmedelshaer\/Library\/Developer\/Xcode\/DerivedData\/AmwalPay-cnzultgoxjikrkevppgwjfiprjoq\/Build\/Intermediates.noindex\/ArchiveIntermediates\/AmwalPay\/IntermediateBuildFilesPath\/AmwalPay.build\/Release-iphoneos\/AmwalPay.build\/DerivedSources\/GeneratedAssetSymbols.swift",
-      "kind": "StringLiteral",
-      "offset": 2518,
-      "length": 8,
-      "value": "\"MASTER\""
-    },
-    {
-      "filePath": "\/Users\/ahmedelshaer\/Library\/Developer\/Xcode\/DerivedData\/AmwalPay-cnzultgoxjikrkevppgwjfiprjoq\/Build\/Intermediates.noindex\/ArchiveIntermediates\/AmwalPay\/IntermediateBuildFilesPath\/AmwalPay.build\/Release-iphoneos\/AmwalPay.build\/DerivedSources\/GeneratedAssetSymbols.swift",
-      "kind": "StringLiteral",
-      "offset": 2644,
-      "length": 6,
-      "value": "\"amex\""
-    },
-    {
-      "filePath": "\/Users\/ahmedelshaer\/Library\/Developer\/Xcode\/DerivedData\/AmwalPay-cnzultgoxjikrkevppgwjfiprjoq\/Build\/Intermediates.noindex\/ArchiveIntermediates\/AmwalPay\/IntermediateBuildFilesPath\/AmwalPay.build\/Release-iphoneos\/AmwalPay.build\/DerivedSources\/GeneratedAssetSymbols.swift",
-      "kind": "StringLiteral",
-      "offset": 2786,
-      "length": 15,
-      "value": "\"checkmarkIcon\""
-    },
-    {
-      "filePath": "\/Users\/ahmedelshaer\/Library\/Developer\/Xcode\/DerivedData\/AmwalPay-cnzultgoxjikrkevppgwjfiprjoq\/Build\/Intermediates.noindex\/ArchiveIntermediates\/AmwalPay\/IntermediateBuildFilesPath\/AmwalPay.build\/Release-iphoneos\/AmwalPay.build\/DerivedSources\/GeneratedAssetSymbols.swift",
-      "kind": "StringLiteral",
-      "offset": 2923,
-      "length": 8,
-      "value": "\"diners\""
-    },
-    {
-      "filePath": "\/Users\/ahmedelshaer\/Library\/Developer\/Xcode\/DerivedData\/AmwalPay-cnzultgoxjikrkevppgwjfiprjoq\/Build\/Intermediates.noindex\/ArchiveIntermediates\/AmwalPay\/IntermediateBuildFilesPath\/AmwalPay.build\/Release-iphoneos\/AmwalPay.build\/DerivedSources\/GeneratedAssetSymbols.swift",
-      "kind": "StringLiteral",
-      "offset": 3057,
-      "length": 10,
-      "value": "\"discover\""
-    },
-    {
-      "filePath": "\/Users\/ahmedelshaer\/Library\/Developer\/Xcode\/DerivedData\/AmwalPay-cnzultgoxjikrkevppgwjfiprjoq\/Build\/Intermediates.noindex\/ArchiveIntermediates\/AmwalPay\/IntermediateBuildFilesPath\/AmwalPay.build\/Release-iphoneos\/AmwalPay.build\/DerivedSources\/GeneratedAssetSymbols.swift",
-      "kind": "StringLiteral",
-      "offset": 3187,
-      "length": 7,
-      "value": "\"error\""
-    },
-    {
-      "filePath": "\/Users\/ahmedelshaer\/Library\/Developer\/Xcode\/DerivedData\/AmwalPay-cnzultgoxjikrkevppgwjfiprjoq\/Build\/Intermediates.noindex\/ArchiveIntermediates\/AmwalPay\/IntermediateBuildFilesPath\/AmwalPay.build\/Release-iphoneos\/AmwalPay.build\/DerivedSources\/GeneratedAssetSymbols.swift",
-      "kind": "StringLiteral",
-      "offset": 3310,
-      "length": 5,
-      "value": "\"jsb\""
-    },
-    {
-      "filePath": "\/Users\/ahmedelshaer\/Library\/Developer\/Xcode\/DerivedData\/AmwalPay-cnzultgoxjikrkevppgwjfiprjoq\/Build\/Intermediates.noindex\/ArchiveIntermediates\/AmwalPay\/IntermediateBuildFilesPath\/AmwalPay.build\/Release-iphoneos\/AmwalPay.build\/DerivedSources\/GeneratedAssetSymbols.swift",
-      "kind": "StringLiteral",
-      "offset": 3433,
-      "length": 6,
-      "value": "\"logo\""
-    },
-    {
-      "filePath": "\/Users\/ahmedelshaer\/Library\/Developer\/Xcode\/DerivedData\/AmwalPay-cnzultgoxjikrkevppgwjfiprjoq\/Build\/Intermediates.noindex\/ArchiveIntermediates\/AmwalPay\/IntermediateBuildFilesPath\/AmwalPay.build\/Release-iphoneos\/AmwalPay.build\/DerivedSources\/GeneratedAssetSymbols.swift",
-      "kind": "StringLiteral",
-      "offset": 3557,
-      "length": 6,
-      "value": "\"scan\""
-    },
-    {
-      "filePath": "\/Users\/ahmedelshaer\/Library\/Developer\/Xcode\/DerivedData\/AmwalPay-cnzultgoxjikrkevppgwjfiprjoq\/Build\/Intermediates.noindex\/ArchiveIntermediates\/AmwalPay\/IntermediateBuildFilesPath\/AmwalPay.build\/Release-iphoneos\/AmwalPay.build\/DerivedSources\/GeneratedAssetSymbols.swift",
-      "kind": "StringLiteral",
-      "offset": 3703,
-      "length": 17,
-      "value": "\"shieldCheckFill\""
-    },
-    {
-      "filePath": "\/Users\/ahmedelshaer\/Library\/Developer\/Xcode\/DerivedData\/AmwalPay-cnzultgoxjikrkevppgwjfiprjoq\/Build\/Intermediates.noindex\/ArchiveIntermediates\/AmwalPay\/IntermediateBuildFilesPath\/AmwalPay.build\/Release-iphoneos\/AmwalPay.build\/DerivedSources\/GeneratedAssetSymbols.swift",
-      "kind": "StringLiteral",
-      "offset": 3844,
-      "length": 9,
-      "value": "\"success\""
-    },
-    {
-      "filePath": "\/Users\/ahmedelshaer\/Library\/Developer\/Xcode\/DerivedData\/AmwalPay-cnzultgoxjikrkevppgwjfiprjoq\/Build\/Intermediates.noindex\/ArchiveIntermediates\/AmwalPay\/IntermediateBuildFilesPath\/AmwalPay.build\/Release-iphoneos\/AmwalPay.build\/DerivedSources\/GeneratedAssetSymbols.swift",
-      "kind": "StringLiteral",
-      "offset": 3979,
-      "length": 10,
-      "value": "\"unionpay\""
-    },
-    {
-      "filePath": "\/Users\/ahmedelshaer\/Library\/Developer\/Xcode\/DerivedData\/AmwalPay-cnzultgoxjikrkevppgwjfiprjoq\/Build\/Intermediates.noindex\/ArchiveIntermediates\/AmwalPay\/IntermediateBuildFilesPath\/AmwalPay.build\/Release-iphoneos\/AmwalPay.build\/DerivedSources\/GeneratedAssetSymbols.swift",
-      "kind": "StringLiteral",
-      "offset": 4107,
-      "length": 6,
-      "value": "\"visa\""
-    },
-    {
-      "filePath": "\/Users\/ahmedelshaer\/Library\/Developer\/Xcode\/DerivedData\/AmwalPay-cnzultgoxjikrkevppgwjfiprjoq\/Build\/Intermediates.noindex\/ArchiveIntermediates\/AmwalPay\/IntermediateBuildFilesPath\/AmwalPay.build\/Release-iphoneos\/AmwalPay.build\/DerivedSources\/GeneratedAssetSymbols.swift",
-      "kind": "StringLiteral",
-      "offset": 4245,
-      "length": 13,
-      "value": "\"genericCard\""
+      "offset": 1276,
+      "length": 27,
+      "value": "\"dev-backend.sa.amwal.tech\""
     }
   ]
 }
