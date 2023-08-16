@@ -11,6 +11,12 @@ Integrate Amwal’s prebuilt payment Sheet into the checkout of your iOS app wit
 > 📘 Associate your iOS app in our merchant dashboard
 > 
 > If you haven't done this already, please refer back to [this guide](https://docs.amwal.tech/docs/setup#workflow-with-amwal)
+# Screenshots
+<p align="center">
+  <img src="https://github.com/amwal-tech/amwal-ios-sdk/assets/10992377/f85a4aa0-f3d8-4b98-a3e1-6eb7eb55db4e" alt="Image 1" width="300"/> 
+  <img src="https://github.com/amwal-tech/amwal-ios-sdk/assets/10992377/2a6650af-df62-4721-b106-6c663af01ee4" alt="Image 2" width="300"/> 
+  <img src="https://github.com/amwal-tech/amwal-ios-sdk/assets/10992377/cf0499c2-ba11-4b21-be43-1fa37539714a" alt="Image 3" width="300"/>
+</p>
 
 # Table of Contents
 
