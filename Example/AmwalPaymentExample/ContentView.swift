@@ -30,7 +30,7 @@ struct ContentView: View {
                 currency: "SAR",
                 amount: 110,
                 vat: 20,
-                merchantId: "dev-backend.sa.amwal.tech",
+                merchantId: "sandbox-amwal-0cfdf4fc-2972-400e-9186-4d671d245280",
                 completion: {
                 isPresented = false
             })
