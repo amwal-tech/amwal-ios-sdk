@@ -6,7 +6,7 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		hmFOM/QqlGQyd0mFDJU/mJGimWE=
+		rKpuhPxuVO16crC8QLr7llBgqy0=
 		</data>
 		<key>Cairo-Black.ttf</key>
 		<data>
@@ -42,7 +42,7 @@
 		</data>
 		<key>Frameworks/AmwalPayment.framework/AmwalPayment</key>
 		<data>
-		rgxcJZrmJzMrxpaS9SNN100QAec=
+		mgHOhAvsAkg7bGu0rVFTIHVFBVQ=
 		</data>
 		<key>Frameworks/AmwalPayment.framework/Info.plist</key>
 		<data>
@@ -58,7 +58,7 @@
 		</data>
 		<key>Frameworks/PaymentKit.framework/PaymentKit</key>
 		<data>
-		LTtmGruNgGbGKfF7wEnSVEJ+MDg=
+		K0WXZqzA7qauvcl3O7sfkl9DqgU=
 		</data>
 		<key>Frameworks/PaymentKit.framework/_CodeSignature/CodeResources</key>
 		<data>
@@ -129,7 +129,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			bl44cRAeNSFUbe/YTfI5+Ge+6fES07vPOjD7Zxyuk2A=
+			Gz/XnxGfusk5LpjH207CsN1BGRcIu7qsxOGLY8RONQM=
 			</data>
 		</dict>
 		<key>Cairo-Black.ttf</key>
@@ -197,7 +197,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			BgC2Adk9LeqTDCjHIWzbdDucr0RpELNAExNZ38UWPnY=
+			2FkkDz9cdRUabENHBQvNcvrQ0n4gbtClgJzOO5XdpNM=
 			</data>
 		</dict>
 		<key>Frameworks/AmwalPayment.framework/Info.plist</key>
@@ -225,7 +225,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			UsEB9xbQQg3BlL+zyHrMx30xWQbMtT3c99AoSo9BF4g=
+			XgY8I4PRpiBdPCni5jHgDhX7lEycqlJG3XxSSnsEAw0=
 			</data>
 		</dict>
 		<key>Frameworks/PaymentKit.framework/_CodeSignature/CodeResources</key>
