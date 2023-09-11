@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'AmwalPayment'
-  s.version          = '0.1.2'
+  s.version          = '1.0.6'
   s.summary          = 'AmwalPayment SDK for secure payment transactions.'
 
   s.description      = <<-DESC
