@@ -5,8 +5,8 @@
 //  Created by MahmoudFares on 25/05/2023.
 //
 
-import SwiftUI
 import AmwalPay
+import SwiftUI
 
 struct ContentView: View {
     @SwiftUI.State var isPresented: Bool = false
@@ -15,25 +15,27 @@ struct ContentView: View {
             Button {
                 isPresented = true
             } label: {
-                Label("Pay With Amwal", systemImage: "dollarsign.circle")
-                    .padding(10)
-                    .foregroundColor(.white)
-                    .background(Color.blue)
-                    .clipShape(Capsule(style: .continuous))
+                HStack {
+                    Image(systemName: "dollarsign.circle")
+                    Text("Pay With Amwal")
+                }
+                .padding(10)
+                .foregroundColor(.white)
+                .background(Color.blue)
+                .clipShape(Capsule(style: .continuous))
             }
         }
         .frame(maxWidth: .infinity)
         .padding()
         .sheet(isPresented: $isPresented) {
-            
             AmwalPaymentView(
                 currency: "SAR",
                 amount: 110,
                 vat: 20,
                 merchantId: "sandbox-amwal-0cfdf4fc-2972-400e-9186-4d671d245280",
-                completion: {
-                isPresented = false
-            })
+                completion: { _ in
+                    isPresented = false
+                })
         }
     }
 }

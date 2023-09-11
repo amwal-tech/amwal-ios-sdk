@@ -1,16 +1,422 @@
 // swift-interface-format-version: 1.0
 // swift-compiler-version: Apple Swift version 5.8 (swiftlang-5.8.0.124.2 clang-1403.0.22.11.100)
-// swift-module-flags: -target arm64-apple-ios15.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name AmwalPay
+// swift-module-flags: -target arm64-apple-ios13.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name AmwalPay
 // swift-module-flags-ignorable: -enable-bare-slash-regex
 @_exported import AmwalPay
+import AuthenticationServices
+import Combine
+import Foundation
+import PassKit
 import Swift
 import SwiftUI
+import UIKit
+import Vision
+import VisionKit
+import WebKit
+import _AuthenticationServices_SwiftUI
 import _Concurrency
+import _PassKit_SwiftUI
 import _StringProcessing
+public enum HorizonColor : Swift.String {
+  case blackColor
+  case darkGrayColor
+  case lightGrayColor
+  case mediumGrayColor
+  case interactiveEnableColor
+  case interactiveDisableColor
+  case whiteColor
+  case redLightColor
+  case surface
+  case secondary
+  case greenColor
+  case shieldColor
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+extension SwiftUI.Color {
+  public static func horizon(_ color: AmwalPay.HorizonColor) -> SwiftUI.Color
+}
+public struct CardFormView : SwiftUI.View {
+  public var completion: ((AmwalPay.CardDetails) -> Swift.Void)
+  public init(colors: [SwiftUI.Color] = [.green, .blue, .black], completion: @escaping ((AmwalPay.CardDetails) -> Swift.Void))
+  @_Concurrency.MainActor(unsafe) public var body: some SwiftUI.View {
+    get
+  }
+  public typealias Body = @_opaqueReturnTypeOf("$s8AmwalPay12CardFormViewV4bodyQrvp", 0) __
+}
+public struct Unwrap<Value, Content, FallbackContent> : SwiftUI.View where Content : SwiftUI.View, FallbackContent : SwiftUI.View {
+  public init(_ value: Value?, @SwiftUI.ViewBuilder content: @escaping (Value) -> Content, @SwiftUI.ViewBuilder fallbackContent: @escaping () -> FallbackContent)
+  @_Concurrency.MainActor(unsafe) public var body: some SwiftUI.View {
+    get
+  }
+  public typealias Body = @_opaqueReturnTypeOf("$s8AmwalPay6UnwrapV4bodyQrvp", 0) __<Value, Content, FallbackContent>
+}
+extension AmwalPay.Unwrap where FallbackContent == Swift.Never {
+  public init(_ value: Value?, @SwiftUI.ViewBuilder content: @escaping (Value) -> Content)
+}
+public struct PaymentRequest {
+  public var merchantId: Swift.String
+  public var currency: Swift.String
+  public var amount: Swift.Double
+  public var vat: Swift.Double
+  public var completion: (_ transactionId: Swift.String) -> Swift.Void
+  public var total: Swift.Double {
+    get
+  }
+  public init(merchantId: Swift.String, currency: Swift.String, amount: Swift.Double, vat: Swift.Double, completion: @escaping (_ transactionId: Swift.String) -> Swift.Void)
+}
+public protocol PaymentBuilder {
+  func setMerchantId(_ merchantId: Swift.String) -> Self
+  func setAmount(_ amount: Swift.Double) -> Self
+  func setVat(_ vat: Swift.Double) -> Self
+  func setCurrency(_ currency: Swift.String) -> Self
+  func setCompletion(_ completion: @escaping (_ transactionId: Swift.String) -> Swift.Void) -> Self
+  func build() -> AmwalPay.PaymentRequest
+}
+public struct PaymentRequestBuilder : AmwalPay.PaymentBuilder {
+  public init()
+  public func setMerchantId(_ merchandId: Swift.String) -> AmwalPay.PaymentRequestBuilder
+  public func setAmount(_ amount: Swift.Double) -> AmwalPay.PaymentRequestBuilder
+  public func setVat(_ vat: Swift.Double) -> AmwalPay.PaymentRequestBuilder
+  public func setCurrency(_ currency: Swift.String) -> AmwalPay.PaymentRequestBuilder
+  public func setCompletion(_ completion: @escaping (_ transactionId: Swift.String) -> Swift.Void) -> AmwalPay.PaymentRequestBuilder
+  public func build() -> AmwalPay.PaymentRequest
+}
+public struct CreditCardView : SwiftUI.View {
+  public init(backgroundColors: [SwiftUI.Color] = [.red, .orange], textColor: SwiftUI.Color = .white, cardNumber: SwiftUI.Binding<Swift.String>, cardExpiryDate: SwiftUI.Binding<Swift.String>, cardName: SwiftUI.Binding<Swift.String>)
+  @_Concurrency.MainActor(unsafe) public var body: some SwiftUI.View {
+    get
+  }
+  public typealias Body = @_opaqueReturnTypeOf("$s8AmwalPay14CreditCardViewV4bodyQrvp", 0) __
+}
+public protocol ViewModel : AmwalPay.CancelableStore, Combine.ObservableObject where Self.ObjectWillChangePublisher.Output == () {
+  associatedtype State
+  associatedtype Input
+  var state: Self.State { get set }
+  func trigger(_ input: Self.Input)
+}
+extension AmwalPay.ViewModel {
+  public func toAnyViewModel() -> AmwalPay.AnyViewModel<Self.State, Self.Input>
+}
+extension AmwalPay.AnyViewModel : Swift.Identifiable where State : Swift.Identifiable {
+  final public var id: State.ID {
+    get
+  }
+  public typealias ID = State.ID
+}
+@dynamicMemberLookup final public class AnyViewModel<State, Input> : AmwalPay.ViewModel {
+  final public var objectWillChange: Combine.AnyPublisher<Swift.Void, Swift.Never> {
+    get
+  }
+  final public var state: State {
+    get
+    set
+  }
+  final public func trigger(_ input: Input)
+  final public subscript<Value>(dynamicMember keyPath: Swift.KeyPath<State, Value>) -> Value {
+    get
+  }
+  public init<V>(_ viewModel: V) where State == V.State, Input == V.Input, V : AmwalPay.ViewModel
+  public typealias ObjectWillChangePublisher = Combine.AnyPublisher<Swift.Void, Swift.Never>
+  @objc deinit
+}
+extension UIKit.UIColor {
+  public static var darkGrayColor: UIKit.UIColor {
+    get
+  }
+  public static var grayColor: UIKit.UIColor {
+    get
+  }
+  public static var darkerGrayColor: UIKit.UIColor {
+    get
+  }
+}
+extension SwiftUI.Color {
+  public static var isDarkInterfaceStyle: Swift.Bool {
+    get
+  }
+  public static var primaryColor: SwiftUI.Color {
+    get
+  }
+  public static var backgroundColor: SwiftUI.Color {
+    get
+  }
+  public static var textFieldColor: SwiftUI.Color {
+    get
+  }
+  public static var textFieldTextColor: SwiftUI.Color {
+    get
+  }
+  public static var buttonColor: SwiftUI.Color {
+    get
+  }
+}
+public struct OtpView : SwiftUI.View {
+  @_Concurrency.MainActor(unsafe) public var body: some SwiftUI.View {
+    get
+  }
+  public typealias Body = @_opaqueReturnTypeOf("$s8AmwalPay7OtpViewV4bodyQrvp", 0) __
+}
+public struct CardReaderView : SwiftUI.UIViewControllerRepresentable {
+  public init(completionHandler: @escaping (AmwalPay.CardDetails?) -> Swift.Void)
+  public typealias UIViewControllerType = VisionKit.VNDocumentCameraViewController
+  @_Concurrency.MainActor(unsafe) public func makeUIViewController(context: SwiftUI.UIViewControllerRepresentableContext<AmwalPay.CardReaderView>) -> VisionKit.VNDocumentCameraViewController
+  @_Concurrency.MainActor(unsafe) public func updateUIViewController(_ uiViewController: VisionKit.VNDocumentCameraViewController, context: SwiftUI.UIViewControllerRepresentableContext<AmwalPay.CardReaderView>)
+  @_Concurrency.MainActor(unsafe) public func makeCoordinator() -> AmwalPay.CardReaderView.Coordinator
+  @objc @_hasMissingDesignatedInitializers final public class Coordinator : ObjectiveC.NSObject, VisionKit.VNDocumentCameraViewControllerDelegate, AmwalPay.ImageTextRecognizable {
+    @objc final public func documentCameraViewController(_ controller: VisionKit.VNDocumentCameraViewController, didFinishWith scan: VisionKit.VNDocumentCameraScan)
+    @objc final public func documentCameraViewControllerDidCancel(_ controller: VisionKit.VNDocumentCameraViewController)
+    @objc final public func documentCameraViewController(_ controller: VisionKit.VNDocumentCameraViewController, didFailWithError error: any Swift.Error)
+    @objc deinit
+  }
+  public typealias Body = Swift.Never
+}
+extension SwiftUI.Font.TextStyle {
+  public var size: CoreFoundation.CGFloat {
+    get
+  }
+}
 public struct AmwalPaymentView : SwiftUI.View {
-  public init(currency: Swift.String, amount: Swift.Double, vat: Swift.Double, merchantId: Swift.String, completion: @escaping () -> Swift.Void)
+  public init(currency: Swift.String, amount: Swift.Double, vat: Swift.Double, merchantId: Swift.String, completion: @escaping (_ transactionId: Swift.String) -> Swift.Void)
   @_Concurrency.MainActor(unsafe) public var body: some SwiftUI.View {
     get
   }
   public typealias Body = @_opaqueReturnTypeOf("$s8AmwalPay0A11PaymentViewV4bodyQrvp", 0) __
 }
+@_Concurrency.MainActor(unsafe) public struct PaymentRequestView : SwiftUI.View {
+  @_Concurrency.MainActor(unsafe) public var body: some SwiftUI.View {
+    get
+  }
+  public typealias Body = @_opaqueReturnTypeOf("$s8AmwalPay18PaymentRequestViewV4bodyQrvp", 0) __
+}
+public protocol ImageTextRecognizable : VisionKit.VNDocumentCameraViewControllerDelegate {
+}
+extension AmwalPay.ImageTextRecognizable {
+  public func validateImage(image: UIKit.UIImage?, completion: @escaping (AmwalPay.CardDetails?) -> Swift.Void)
+  public func parseResults(for recognizedText: [Swift.String]) -> AmwalPay.CardDetails
+}
+public struct CardDetails : Swift.Hashable, Swift.Identifiable {
+  public var number: Swift.String?
+  public var name: Swift.String?
+  public var expiryDate: Swift.String?
+  public var cvcNumber: Swift.String?
+  public var type: AmwalPay.CardType
+  public var industry: AmwalPay.CardIndustry
+  public init(numberWithDelimiters: Swift.String? = nil, name: Swift.String? = nil, expiryDate: Swift.String? = nil, cvcNumber: Swift.String? = nil)
+  public var id: Swift.Int {
+    get
+  }
+  public func hash(into hasher: inout Swift.Hasher)
+  public static func == (a: AmwalPay.CardDetails, b: AmwalPay.CardDetails) -> Swift.Bool
+  public typealias ID = Swift.Int
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public enum CardType : Swift.String, Swift.CaseIterable, Swift.Identifiable {
+  case masterCard
+  case visa
+  case amex
+  case discover
+  case dinersClubOrCarteBlanche
+  case unknown
+  public init(number: Swift.String?)
+  public var id: Swift.Int {
+    get
+  }
+  public var image: SwiftUI.Image? {
+    get
+  }
+  public init?(rawValue: Swift.String)
+  public typealias AllCases = [AmwalPay.CardType]
+  public typealias ID = Swift.Int
+  public typealias RawValue = Swift.String
+  public static var allCases: [AmwalPay.CardType] {
+    get
+  }
+  public var rawValue: Swift.String {
+    get
+  }
+}
+public enum CardIndustry : Swift.String, Swift.CaseIterable, Swift.Identifiable {
+  case industry
+  case airlines
+  case airlinesFinancialAndFuture
+  case travelAndEntertainment
+  case bankingAndFinancial
+  case merchandisingAndBanking
+  case petroleum
+  case healthcareAndTelecom
+  case national
+  case unknown
+  public init(firstDigit: Swift.String.Element?)
+  public var id: Swift.Int {
+    get
+  }
+  public init?(rawValue: Swift.String)
+  public typealias AllCases = [AmwalPay.CardIndustry]
+  public typealias ID = Swift.Int
+  public typealias RawValue = Swift.String
+  public static var allCases: [AmwalPay.CardIndustry] {
+    get
+  }
+  public var rawValue: Swift.String {
+    get
+  }
+}
+extension SwiftUI.View {
+  public func cornerRadius(_ radius: CoreFoundation.CGFloat, corners: UIKit.UIRectCorner) -> some SwiftUI.View
+  
+}
+public struct RoundedCorner : SwiftUI.Shape {
+  public func path(in rect: CoreFoundation.CGRect) -> SwiftUI.Path
+  public typealias AnimatableData = SwiftUI.EmptyAnimatableData
+  public typealias Body = SwiftUI._ShapeView<AmwalPay.RoundedCorner, SwiftUI.ForegroundStyle>
+}
+public struct CardFormField : SwiftUI.View {
+  @_Concurrency.MainActor(unsafe) public var body: some SwiftUI.View {
+    get
+  }
+  public typealias Body = @_opaqueReturnTypeOf("$s8AmwalPay13CardFormFieldV4bodyQrvp", 0) __
+}
+public struct EntryPoint {
+  public init()
+  public func start(paymentRequestBuilder: any AmwalPay.PaymentBuilder) -> AmwalPay.PaymentRequestView
+}
+public protocol Localizable {
+  static func tr(_ bundle: Foundation.Bundle, _ key: Swift.String, _ args: any Swift.CVarArg...) -> Swift.String
+}
+extension AmwalPay.Localizable {
+  public static func tr(_ bundle: Foundation.Bundle, _ key: Swift.String, _ args: any Swift.CVarArg...) -> Swift.String
+}
+@_hasMissingDesignatedInitializers final public class BundleToken {
+  public static let bundle: Foundation.Bundle
+  @objc deinit
+}
+public enum CardTextField {
+  case cardNumber
+  case cvv
+  case cardHolder
+  case dateExpiration
+  public static func == (a: AmwalPay.CardTextField, b: AmwalPay.CardTextField) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public struct PhoneNumberCountry : Swift.Codable, Swift.Hashable {
+  public let name: Swift.String, flag: Swift.String, code: Swift.String, dialCode: Swift.String
+  public let id: Foundation.UUID
+  public var country: Swift.String {
+    get
+  }
+  public func hash(into hasher: inout Swift.Hasher)
+  public static func == (a: AmwalPay.PhoneNumberCountry, b: AmwalPay.PhoneNumberCountry) -> Swift.Bool
+  public func encode(to encoder: any Swift.Encoder) throws
+  public var hashValue: Swift.Int {
+    get
+  }
+  public init(from decoder: any Swift.Decoder) throws
+}
+extension CoreFoundation.CGFloat {
+  public static var quarter: CoreFoundation.CGFloat
+  public static var half: CoreFoundation.CGFloat
+  public static var threeQuarters: CoreFoundation.CGFloat
+}
+public enum CairoFonts : Swift.String, Swift.CaseIterable {
+  case regular
+  case bold
+  case semiBold
+  case meduim
+  case light
+  case black
+  case extraLight
+  case extraBold
+  public init?(rawValue: Swift.String)
+  public typealias AllCases = [AmwalPay.CairoFonts]
+  public typealias RawValue = Swift.String
+  public static var allCases: [AmwalPay.CairoFonts] {
+    get
+  }
+  public var rawValue: Swift.String {
+    get
+  }
+}
+public enum HorizonSpacing {
+  case xxxl
+  case xxl
+  case xl
+  case xsl
+  case p40
+  case l
+  case m
+  case mm
+  case s
+  case xxxxs
+  case xxxs
+  case xxs
+  case xs
+  case xss
+  case xsss
+  case xssss
+  case sx
+  public static func == (a: AmwalPay.HorizonSpacing, b: AmwalPay.HorizonSpacing) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+extension CoreFoundation.CGFloat {
+  public static func horizonSpacing(_ spacing: AmwalPay.HorizonSpacing) -> CoreFoundation.CGFloat
+}
+extension Swift.Double {
+  public static func horizonSpacing(_ spacing: AmwalPay.HorizonSpacing) -> Swift.Double
+}
+public protocol CancelableStore : AnyObject {
+  var cancelables: Swift.Set<Combine.AnyCancellable> { get set }
+}
+extension AmwalPay.CancelableStore {
+  public var cancelables: Swift.Set<Combine.AnyCancellable> {
+    get
+    set
+  }
+}
+public struct TextFieldModifier : SwiftUI.ViewModifier {
+  public init(color: SwiftUI.Color, isFocused: Swift.Bool)
+  @_Concurrency.MainActor(unsafe) public func body(content: AmwalPay.TextFieldModifier.Content) -> some SwiftUI.View
+  
+  public typealias Body = @_opaqueReturnTypeOf("$s8AmwalPay17TextFieldModifierV4body7contentQr7SwiftUI05_ViewE8_ContentVyACG_tF", 0) __
+}
+public struct PrimaryButtonView : SwiftUI.View {
+  public init(title: Swift.String, disabled: Swift.Bool, backgroundColor: SwiftUI.Color = .horizon(.interactiveEnableColor), focusColor: SwiftUI.Color = .horizon(.interactiveEnableColor).opacity(0.5), titleColor: SwiftUI.Color = .horizon(.whiteColor), action: @escaping () -> Swift.Void)
+  @_Concurrency.MainActor(unsafe) public var body: some SwiftUI.View {
+    get
+  }
+  public typealias Body = @_opaqueReturnTypeOf("$s8AmwalPay17PrimaryButtonViewV4bodyQrvp", 0) __
+}
+public struct TestPrimaryButton : SwiftUI.View {
+  public init(title: Swift.String, disabled: SwiftUI.Binding<Swift.Bool>, backgroundColor: SwiftUI.Color = .horizon(.interactiveEnableColor), focusColor: SwiftUI.Color = .horizon(.interactiveEnableColor).opacity(0.5), titleColor: SwiftUI.Color = .horizon(.whiteColor), action: @escaping () -> Swift.Void)
+  @_Concurrency.MainActor(unsafe) public var body: some SwiftUI.View {
+    get
+  }
+  public typealias Body = @_opaqueReturnTypeOf("$s8AmwalPay17TestPrimaryButtonV4bodyQrvp", 0) __
+}
+extension AmwalPay.HorizonColor : Swift.Equatable {}
+extension AmwalPay.HorizonColor : Swift.Hashable {}
+extension AmwalPay.HorizonColor : Swift.RawRepresentable {}
+extension AmwalPay.CardType : Swift.Equatable {}
+extension AmwalPay.CardType : Swift.Hashable {}
+extension AmwalPay.CardType : Swift.RawRepresentable {}
+extension AmwalPay.CardIndustry : Swift.Equatable {}
+extension AmwalPay.CardIndustry : Swift.Hashable {}
+extension AmwalPay.CardIndustry : Swift.RawRepresentable {}
+extension AmwalPay.CardTextField : Swift.Equatable {}
+extension AmwalPay.CardTextField : Swift.Hashable {}
+extension AmwalPay.CairoFonts : Swift.Equatable {}
+extension AmwalPay.CairoFonts : Swift.Hashable {}
+extension AmwalPay.CairoFonts : Swift.RawRepresentable {}
+extension AmwalPay.HorizonSpacing : Swift.Equatable {}
+extension AmwalPay.HorizonSpacing : Swift.Hashable {}
