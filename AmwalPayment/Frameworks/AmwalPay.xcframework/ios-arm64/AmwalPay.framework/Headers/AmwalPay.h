@@ -6,7 +6,6 @@
 //
 
 #import <Foundation/Foundation.h>
-#import <AmwalPay/PaymentKit.h>
 
 //! Project version number for AmwalPay.
 FOUNDATION_EXPORT double AmwalPayVersionNumber;

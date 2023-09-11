@@ -5,6 +5,7 @@
 	<key>com.apple.developer.associated-domains</key>
 	<array>
 		<string>webcredentials:dev-pay.sa.amwal.tech</string>
+		<string>webcredentials:pay.sa.amwal.tech</string>
 	</array>
 </dict>
 </plist>
