@@ -54,6 +54,21 @@ dependencies: [
 ```swift
 pod 'AmwalPayment', '~> 1.0.6'
 ```
+## ⚠️ Important : Add AmwalPay in your associated domains
+- In Xcode > Choose your **target**
+- Head to **Signing & Capabilities**
+- Press **+ Capability**
+- Search and choose **Associated Domains**
+- In the newly added Associated Domains section add
+  `webcredentials:pay.sa.amwal.tech`
+  
+## ⚠️ Important : Add your Bundle Identifier and iOS App Id Prefix to Merchant dashboard
+- Head to your [Merchant dashboard settings](https://merchant.sa.amwal.tech/settings)
+- Choose **IOS SETTINGS** tab
+- Select your **Store**
+- Add your iOS App Id Prefix aka Your team Id
+- Add your iOS Bundle Id
+- Click **Save** and you should see "iOS Settings Updated" message ✅
 
 <a name="initialize-payment-sheet"></a>
 ## 2. Initialize the PaymentSheet
