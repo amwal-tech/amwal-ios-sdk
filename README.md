@@ -35,13 +35,13 @@ Integrate Amwal’s prebuilt payment Sheet into the checkout of your iOS app wit
 AmwalPayment SDK offers the flexibility to use pass keys for enhanced security during the payment process. Pass keys provide an additional layer of protection by replacing traditional OTPs (One-Time Passwords) and ensuring a secure payment experience. Here's how you can generate and integrate pass keys into the Payment Sheet
 
 ## Install SDK
-<a name="swift-package-manager-spm"></a>
-### Swift Package Manager (SPM)
-Add the following line to your `Package.swift` file's dependencies:
 
+### Swift Package Manager (SPM)
+
+Add the following line to your `Package.swift` file's dependencies:
 ```swift
 dependencies: [
-    .package(url: "https://github.com/amwal/payment-sdk-ios.git", from: "0.1.2")
+    .package(url: "https://github.com/amwal/payment-sdk-ios.git", from: "1.0.6")
 ]
 ```
 ### CocoaPods
