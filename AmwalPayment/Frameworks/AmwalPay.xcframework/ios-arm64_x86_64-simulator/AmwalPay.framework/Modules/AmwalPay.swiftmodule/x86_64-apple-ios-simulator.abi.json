@@ -4292,37 +4292,37 @@
               {
                 "kind": "TypeNominal",
                 "name": "ModifiedContent",
-                "printedName": "SwiftUI.ModifiedContent<SwiftUI.GeometryReader<SwiftUI.ModifiedContent<SwiftUI.HStack<SwiftUI.ZStack<SwiftUI.TupleView<(SwiftUI.HStack<SwiftUI.ForEach<Swift.Range<Swift.Int>, Swift.Int, SwiftUI.ZStack<SwiftUI.TupleView<(SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.Rectangle, SwiftUI._FrameLayout>, SwiftUI._EnvironmentKeyWritingModifier<SwiftUI.Color?>>, SwiftUI._OverlayModifier<SwiftUI._ShapeView<SwiftUI._StrokedShape<SwiftUI.RoundedRectangle>, SwiftUI.Color>>>, SwiftUI.Text)>>>>, SwiftUI.ModifiedContent<SwiftUI.SubscriptionView<Combine.AnyPublisher<Swift.Bool, Swift.Never>, some SwiftUI.View>, SwiftUI._AppearanceActionModifier>)>>>, SwiftUI._FrameLayout>>, SwiftUI._FixedSizeLayout>",
+                "printedName": "SwiftUI.ModifiedContent<SwiftUI.GeometryReader<SwiftUI.ModifiedContent<SwiftUI.HStack<SwiftUI.ZStack<SwiftUI.TupleView<(SwiftUI.HStack<SwiftUI.ForEach<Swift.Range<Swift.Int>, Swift.Int, SwiftUI.ZStack<SwiftUI.TupleView<(SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.Rectangle, SwiftUI._FrameLayout>, SwiftUI._EnvironmentKeyWritingModifier<SwiftUI.Color?>>, SwiftUI._OverlayModifier<SwiftUI._ShapeView<SwiftUI._StrokedShape<SwiftUI.RoundedRectangle>, SwiftUI.Color>>>, SwiftUI.Text)>>>>, SwiftUI.ModifiedContent<SwiftUI.SubscriptionView<Combine.AnyPublisher<Swift.Bool, Swift.Never>, SwiftUI.ModifiedContent<some SwiftUI.View, SwiftUI._EnvironmentKeyWritingModifier<Swift.String?>>>, SwiftUI._AppearanceActionModifier>)>>>, SwiftUI._FrameLayout>>, SwiftUI._FixedSizeLayout>",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "GeometryReader",
-                    "printedName": "SwiftUI.GeometryReader<SwiftUI.ModifiedContent<SwiftUI.HStack<SwiftUI.ZStack<SwiftUI.TupleView<(SwiftUI.HStack<SwiftUI.ForEach<Swift.Range<Swift.Int>, Swift.Int, SwiftUI.ZStack<SwiftUI.TupleView<(SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.Rectangle, SwiftUI._FrameLayout>, SwiftUI._EnvironmentKeyWritingModifier<SwiftUI.Color?>>, SwiftUI._OverlayModifier<SwiftUI._ShapeView<SwiftUI._StrokedShape<SwiftUI.RoundedRectangle>, SwiftUI.Color>>>, SwiftUI.Text)>>>>, SwiftUI.ModifiedContent<SwiftUI.SubscriptionView<Combine.AnyPublisher<Swift.Bool, Swift.Never>, some SwiftUI.View>, SwiftUI._AppearanceActionModifier>)>>>, SwiftUI._FrameLayout>>",
+                    "printedName": "SwiftUI.GeometryReader<SwiftUI.ModifiedContent<SwiftUI.HStack<SwiftUI.ZStack<SwiftUI.TupleView<(SwiftUI.HStack<SwiftUI.ForEach<Swift.Range<Swift.Int>, Swift.Int, SwiftUI.ZStack<SwiftUI.TupleView<(SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.Rectangle, SwiftUI._FrameLayout>, SwiftUI._EnvironmentKeyWritingModifier<SwiftUI.Color?>>, SwiftUI._OverlayModifier<SwiftUI._ShapeView<SwiftUI._StrokedShape<SwiftUI.RoundedRectangle>, SwiftUI.Color>>>, SwiftUI.Text)>>>>, SwiftUI.ModifiedContent<SwiftUI.SubscriptionView<Combine.AnyPublisher<Swift.Bool, Swift.Never>, SwiftUI.ModifiedContent<some SwiftUI.View, SwiftUI._EnvironmentKeyWritingModifier<Swift.String?>>>, SwiftUI._AppearanceActionModifier>)>>>, SwiftUI._FrameLayout>>",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "ModifiedContent",
-                        "printedName": "SwiftUI.ModifiedContent<SwiftUI.HStack<SwiftUI.ZStack<SwiftUI.TupleView<(SwiftUI.HStack<SwiftUI.ForEach<Swift.Range<Swift.Int>, Swift.Int, SwiftUI.ZStack<SwiftUI.TupleView<(SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.Rectangle, SwiftUI._FrameLayout>, SwiftUI._EnvironmentKeyWritingModifier<SwiftUI.Color?>>, SwiftUI._OverlayModifier<SwiftUI._ShapeView<SwiftUI._StrokedShape<SwiftUI.RoundedRectangle>, SwiftUI.Color>>>, SwiftUI.Text)>>>>, SwiftUI.ModifiedContent<SwiftUI.SubscriptionView<Combine.AnyPublisher<Swift.Bool, Swift.Never>, some SwiftUI.View>, SwiftUI._AppearanceActionModifier>)>>>, SwiftUI._FrameLayout>",
+                        "printedName": "SwiftUI.ModifiedContent<SwiftUI.HStack<SwiftUI.ZStack<SwiftUI.TupleView<(SwiftUI.HStack<SwiftUI.ForEach<Swift.Range<Swift.Int>, Swift.Int, SwiftUI.ZStack<SwiftUI.TupleView<(SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.Rectangle, SwiftUI._FrameLayout>, SwiftUI._EnvironmentKeyWritingModifier<SwiftUI.Color?>>, SwiftUI._OverlayModifier<SwiftUI._ShapeView<SwiftUI._StrokedShape<SwiftUI.RoundedRectangle>, SwiftUI.Color>>>, SwiftUI.Text)>>>>, SwiftUI.ModifiedContent<SwiftUI.SubscriptionView<Combine.AnyPublisher<Swift.Bool, Swift.Never>, SwiftUI.ModifiedContent<some SwiftUI.View, SwiftUI._EnvironmentKeyWritingModifier<Swift.String?>>>, SwiftUI._AppearanceActionModifier>)>>>, SwiftUI._FrameLayout>",
                         "children": [
                           {
                             "kind": "TypeNominal",
                             "name": "HStack",
-                            "printedName": "SwiftUI.HStack<SwiftUI.ZStack<SwiftUI.TupleView<(SwiftUI.HStack<SwiftUI.ForEach<Swift.Range<Swift.Int>, Swift.Int, SwiftUI.ZStack<SwiftUI.TupleView<(SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.Rectangle, SwiftUI._FrameLayout>, SwiftUI._EnvironmentKeyWritingModifier<SwiftUI.Color?>>, SwiftUI._OverlayModifier<SwiftUI._ShapeView<SwiftUI._StrokedShape<SwiftUI.RoundedRectangle>, SwiftUI.Color>>>, SwiftUI.Text)>>>>, SwiftUI.ModifiedContent<SwiftUI.SubscriptionView<Combine.AnyPublisher<Swift.Bool, Swift.Never>, some SwiftUI.View>, SwiftUI._AppearanceActionModifier>)>>>",
+                            "printedName": "SwiftUI.HStack<SwiftUI.ZStack<SwiftUI.TupleView<(SwiftUI.HStack<SwiftUI.ForEach<Swift.Range<Swift.Int>, Swift.Int, SwiftUI.ZStack<SwiftUI.TupleView<(SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.Rectangle, SwiftUI._FrameLayout>, SwiftUI._EnvironmentKeyWritingModifier<SwiftUI.Color?>>, SwiftUI._OverlayModifier<SwiftUI._ShapeView<SwiftUI._StrokedShape<SwiftUI.RoundedRectangle>, SwiftUI.Color>>>, SwiftUI.Text)>>>>, SwiftUI.ModifiedContent<SwiftUI.SubscriptionView<Combine.AnyPublisher<Swift.Bool, Swift.Never>, SwiftUI.ModifiedContent<some SwiftUI.View, SwiftUI._EnvironmentKeyWritingModifier<Swift.String?>>>, SwiftUI._AppearanceActionModifier>)>>>",
                             "children": [
                               {
                                 "kind": "TypeNominal",
                                 "name": "ZStack",
-                                "printedName": "SwiftUI.ZStack<SwiftUI.TupleView<(SwiftUI.HStack<SwiftUI.ForEach<Swift.Range<Swift.Int>, Swift.Int, SwiftUI.ZStack<SwiftUI.TupleView<(SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.Rectangle, SwiftUI._FrameLayout>, SwiftUI._EnvironmentKeyWritingModifier<SwiftUI.Color?>>, SwiftUI._OverlayModifier<SwiftUI._ShapeView<SwiftUI._StrokedShape<SwiftUI.RoundedRectangle>, SwiftUI.Color>>>, SwiftUI.Text)>>>>, SwiftUI.ModifiedContent<SwiftUI.SubscriptionView<Combine.AnyPublisher<Swift.Bool, Swift.Never>, some SwiftUI.View>, SwiftUI._AppearanceActionModifier>)>>",
+                                "printedName": "SwiftUI.ZStack<SwiftUI.TupleView<(SwiftUI.HStack<SwiftUI.ForEach<Swift.Range<Swift.Int>, Swift.Int, SwiftUI.ZStack<SwiftUI.TupleView<(SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.Rectangle, SwiftUI._FrameLayout>, SwiftUI._EnvironmentKeyWritingModifier<SwiftUI.Color?>>, SwiftUI._OverlayModifier<SwiftUI._ShapeView<SwiftUI._StrokedShape<SwiftUI.RoundedRectangle>, SwiftUI.Color>>>, SwiftUI.Text)>>>>, SwiftUI.ModifiedContent<SwiftUI.SubscriptionView<Combine.AnyPublisher<Swift.Bool, Swift.Never>, SwiftUI.ModifiedContent<some SwiftUI.View, SwiftUI._EnvironmentKeyWritingModifier<Swift.String?>>>, SwiftUI._AppearanceActionModifier>)>>",
                                 "children": [
                                   {
                                     "kind": "TypeNominal",
                                     "name": "TupleView",
-                                    "printedName": "SwiftUI.TupleView<(SwiftUI.HStack<SwiftUI.ForEach<Swift.Range<Swift.Int>, Swift.Int, SwiftUI.ZStack<SwiftUI.TupleView<(SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.Rectangle, SwiftUI._FrameLayout>, SwiftUI._EnvironmentKeyWritingModifier<SwiftUI.Color?>>, SwiftUI._OverlayModifier<SwiftUI._ShapeView<SwiftUI._StrokedShape<SwiftUI.RoundedRectangle>, SwiftUI.Color>>>, SwiftUI.Text)>>>>, SwiftUI.ModifiedContent<SwiftUI.SubscriptionView<Combine.AnyPublisher<Swift.Bool, Swift.Never>, some SwiftUI.View>, SwiftUI._AppearanceActionModifier>)>",
+                                    "printedName": "SwiftUI.TupleView<(SwiftUI.HStack<SwiftUI.ForEach<Swift.Range<Swift.Int>, Swift.Int, SwiftUI.ZStack<SwiftUI.TupleView<(SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.Rectangle, SwiftUI._FrameLayout>, SwiftUI._EnvironmentKeyWritingModifier<SwiftUI.Color?>>, SwiftUI._OverlayModifier<SwiftUI._ShapeView<SwiftUI._StrokedShape<SwiftUI.RoundedRectangle>, SwiftUI.Color>>>, SwiftUI.Text)>>>>, SwiftUI.ModifiedContent<SwiftUI.SubscriptionView<Combine.AnyPublisher<Swift.Bool, Swift.Never>, SwiftUI.ModifiedContent<some SwiftUI.View, SwiftUI._EnvironmentKeyWritingModifier<Swift.String?>>>, SwiftUI._AppearanceActionModifier>)>",
                                     "children": [
                                       {
                                         "kind": "TypeNominal",
                                         "name": "Tuple",
-                                        "printedName": "(SwiftUI.HStack<SwiftUI.ForEach<Swift.Range<Swift.Int>, Swift.Int, SwiftUI.ZStack<SwiftUI.TupleView<(SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.Rectangle, SwiftUI._FrameLayout>, SwiftUI._EnvironmentKeyWritingModifier<SwiftUI.Color?>>, SwiftUI._OverlayModifier<SwiftUI._ShapeView<SwiftUI._StrokedShape<SwiftUI.RoundedRectangle>, SwiftUI.Color>>>, SwiftUI.Text)>>>>, SwiftUI.ModifiedContent<SwiftUI.SubscriptionView<Combine.AnyPublisher<Swift.Bool, Swift.Never>, some SwiftUI.View>, SwiftUI._AppearanceActionModifier>)",
+                                        "printedName": "(SwiftUI.HStack<SwiftUI.ForEach<Swift.Range<Swift.Int>, Swift.Int, SwiftUI.ZStack<SwiftUI.TupleView<(SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.Rectangle, SwiftUI._FrameLayout>, SwiftUI._EnvironmentKeyWritingModifier<SwiftUI.Color?>>, SwiftUI._OverlayModifier<SwiftUI._ShapeView<SwiftUI._StrokedShape<SwiftUI.RoundedRectangle>, SwiftUI.Color>>>, SwiftUI.Text)>>>>, SwiftUI.ModifiedContent<SwiftUI.SubscriptionView<Combine.AnyPublisher<Swift.Bool, Swift.Never>, SwiftUI.ModifiedContent<some SwiftUI.View, SwiftUI._EnvironmentKeyWritingModifier<Swift.String?>>>, SwiftUI._AppearanceActionModifier>)",
                                         "children": [
                                           {
                                             "kind": "TypeNominal",
@@ -4486,12 +4486,12 @@
                                           {
                                             "kind": "TypeNominal",
                                             "name": "ModifiedContent",
-                                            "printedName": "SwiftUI.ModifiedContent<SwiftUI.SubscriptionView<Combine.AnyPublisher<Swift.Bool, Swift.Never>, some SwiftUI.View>, SwiftUI._AppearanceActionModifier>",
+                                            "printedName": "SwiftUI.ModifiedContent<SwiftUI.SubscriptionView<Combine.AnyPublisher<Swift.Bool, Swift.Never>, SwiftUI.ModifiedContent<some SwiftUI.View, SwiftUI._EnvironmentKeyWritingModifier<Swift.String?>>>, SwiftUI._AppearanceActionModifier>",
                                             "children": [
                                               {
                                                 "kind": "TypeNominal",
                                                 "name": "SubscriptionView",
-                                                "printedName": "SwiftUI.SubscriptionView<Combine.AnyPublisher<Swift.Bool, Swift.Never>, some SwiftUI.View>",
+                                                "printedName": "SwiftUI.SubscriptionView<Combine.AnyPublisher<Swift.Bool, Swift.Never>, SwiftUI.ModifiedContent<some SwiftUI.View, SwiftUI._EnvironmentKeyWritingModifier<Swift.String?>>>",
                                                 "children": [
                                                   {
                                                     "kind": "TypeNominal",
@@ -4515,16 +4515,46 @@
                                                   },
                                                   {
                                                     "kind": "TypeNominal",
-                                                    "name": "OpaqueTypeArchetype",
-                                                    "printedName": "some SwiftUI.View",
+                                                    "name": "ModifiedContent",
+                                                    "printedName": "SwiftUI.ModifiedContent<some SwiftUI.View, SwiftUI._EnvironmentKeyWritingModifier<Swift.String?>>",
                                                     "children": [
                                                       {
                                                         "kind": "TypeNominal",
-                                                        "name": "View",
-                                                        "printedName": "SwiftUI.View",
-                                                        "usr": "s:7SwiftUI4ViewP"
+                                                        "name": "OpaqueTypeArchetype",
+                                                        "printedName": "some SwiftUI.View",
+                                                        "children": [
+                                                          {
+                                                            "kind": "TypeNominal",
+                                                            "name": "View",
+                                                            "printedName": "SwiftUI.View",
+                                                            "usr": "s:7SwiftUI4ViewP"
+                                                          }
+                                                        ]
+                                                      },
+                                                      {
+                                                        "kind": "TypeNominal",
+                                                        "name": "_EnvironmentKeyWritingModifier",
+                                                        "printedName": "SwiftUI._EnvironmentKeyWritingModifier<Swift.String?>",
+                                                        "children": [
+                                                          {
+                                                            "kind": "TypeNominal",
+                                                            "name": "Optional",
+                                                            "printedName": "Swift.String?",
+                                                            "children": [
+                                                              {
+                                                                "kind": "TypeNominal",
+                                                                "name": "String",
+                                                                "printedName": "Swift.String",
+                                                                "usr": "s:SS"
+                                                              }
+                                                            ],
+                                                            "usr": "s:Sq"
+                                                          }
+                                                        ],
+                                                        "usr": "s:7SwiftUI30_EnvironmentKeyWritingModifierV"
                                                       }
-                                                    ]
+                                                    ],
+                                                    "usr": "s:7SwiftUI15ModifiedContentV"
                                                   }
                                                 ],
                                                 "usr": "s:7SwiftUI16SubscriptionViewV"
@@ -4589,37 +4619,37 @@
                   {
                     "kind": "TypeNominal",
                     "name": "ModifiedContent",
-                    "printedName": "SwiftUI.ModifiedContent<SwiftUI.GeometryReader<SwiftUI.ModifiedContent<SwiftUI.HStack<SwiftUI.ZStack<SwiftUI.TupleView<(SwiftUI.HStack<SwiftUI.ForEach<Swift.Range<Swift.Int>, Swift.Int, SwiftUI.ZStack<SwiftUI.TupleView<(SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.Rectangle, SwiftUI._FrameLayout>, SwiftUI._EnvironmentKeyWritingModifier<SwiftUI.Color?>>, SwiftUI._OverlayModifier<SwiftUI._ShapeView<SwiftUI._StrokedShape<SwiftUI.RoundedRectangle>, SwiftUI.Color>>>, SwiftUI.Text)>>>>, SwiftUI.ModifiedContent<SwiftUI.SubscriptionView<Combine.AnyPublisher<Swift.Bool, Swift.Never>, some SwiftUI.View>, SwiftUI._AppearanceActionModifier>)>>>, SwiftUI._FrameLayout>>, SwiftUI._FixedSizeLayout>",
+                    "printedName": "SwiftUI.ModifiedContent<SwiftUI.GeometryReader<SwiftUI.ModifiedContent<SwiftUI.HStack<SwiftUI.ZStack<SwiftUI.TupleView<(SwiftUI.HStack<SwiftUI.ForEach<Swift.Range<Swift.Int>, Swift.Int, SwiftUI.ZStack<SwiftUI.TupleView<(SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.Rectangle, SwiftUI._FrameLayout>, SwiftUI._EnvironmentKeyWritingModifier<SwiftUI.Color?>>, SwiftUI._OverlayModifier<SwiftUI._ShapeView<SwiftUI._StrokedShape<SwiftUI.RoundedRectangle>, SwiftUI.Color>>>, SwiftUI.Text)>>>>, SwiftUI.ModifiedContent<SwiftUI.SubscriptionView<Combine.AnyPublisher<Swift.Bool, Swift.Never>, SwiftUI.ModifiedContent<some SwiftUI.View, SwiftUI._EnvironmentKeyWritingModifier<Swift.String?>>>, SwiftUI._AppearanceActionModifier>)>>>, SwiftUI._FrameLayout>>, SwiftUI._FixedSizeLayout>",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "GeometryReader",
-                        "printedName": "SwiftUI.GeometryReader<SwiftUI.ModifiedContent<SwiftUI.HStack<SwiftUI.ZStack<SwiftUI.TupleView<(SwiftUI.HStack<SwiftUI.ForEach<Swift.Range<Swift.Int>, Swift.Int, SwiftUI.ZStack<SwiftUI.TupleView<(SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.Rectangle, SwiftUI._FrameLayout>, SwiftUI._EnvironmentKeyWritingModifier<SwiftUI.Color?>>, SwiftUI._OverlayModifier<SwiftUI._ShapeView<SwiftUI._StrokedShape<SwiftUI.RoundedRectangle>, SwiftUI.Color>>>, SwiftUI.Text)>>>>, SwiftUI.ModifiedContent<SwiftUI.SubscriptionView<Combine.AnyPublisher<Swift.Bool, Swift.Never>, some SwiftUI.View>, SwiftUI._AppearanceActionModifier>)>>>, SwiftUI._FrameLayout>>",
+                        "printedName": "SwiftUI.GeometryReader<SwiftUI.ModifiedContent<SwiftUI.HStack<SwiftUI.ZStack<SwiftUI.TupleView<(SwiftUI.HStack<SwiftUI.ForEach<Swift.Range<Swift.Int>, Swift.Int, SwiftUI.ZStack<SwiftUI.TupleView<(SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.Rectangle, SwiftUI._FrameLayout>, SwiftUI._EnvironmentKeyWritingModifier<SwiftUI.Color?>>, SwiftUI._OverlayModifier<SwiftUI._ShapeView<SwiftUI._StrokedShape<SwiftUI.RoundedRectangle>, SwiftUI.Color>>>, SwiftUI.Text)>>>>, SwiftUI.ModifiedContent<SwiftUI.SubscriptionView<Combine.AnyPublisher<Swift.Bool, Swift.Never>, SwiftUI.ModifiedContent<some SwiftUI.View, SwiftUI._EnvironmentKeyWritingModifier<Swift.String?>>>, SwiftUI._AppearanceActionModifier>)>>>, SwiftUI._FrameLayout>>",
                         "children": [
                           {
                             "kind": "TypeNominal",
                             "name": "ModifiedContent",
-                            "printedName": "SwiftUI.ModifiedContent<SwiftUI.HStack<SwiftUI.ZStack<SwiftUI.TupleView<(SwiftUI.HStack<SwiftUI.ForEach<Swift.Range<Swift.Int>, Swift.Int, SwiftUI.ZStack<SwiftUI.TupleView<(SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.Rectangle, SwiftUI._FrameLayout>, SwiftUI._EnvironmentKeyWritingModifier<SwiftUI.Color?>>, SwiftUI._OverlayModifier<SwiftUI._ShapeView<SwiftUI._StrokedShape<SwiftUI.RoundedRectangle>, SwiftUI.Color>>>, SwiftUI.Text)>>>>, SwiftUI.ModifiedContent<SwiftUI.SubscriptionView<Combine.AnyPublisher<Swift.Bool, Swift.Never>, some SwiftUI.View>, SwiftUI._AppearanceActionModifier>)>>>, SwiftUI._FrameLayout>",
+                            "printedName": "SwiftUI.ModifiedContent<SwiftUI.HStack<SwiftUI.ZStack<SwiftUI.TupleView<(SwiftUI.HStack<SwiftUI.ForEach<Swift.Range<Swift.Int>, Swift.Int, SwiftUI.ZStack<SwiftUI.TupleView<(SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.Rectangle, SwiftUI._FrameLayout>, SwiftUI._EnvironmentKeyWritingModifier<SwiftUI.Color?>>, SwiftUI._OverlayModifier<SwiftUI._ShapeView<SwiftUI._StrokedShape<SwiftUI.RoundedRectangle>, SwiftUI.Color>>>, SwiftUI.Text)>>>>, SwiftUI.ModifiedContent<SwiftUI.SubscriptionView<Combine.AnyPublisher<Swift.Bool, Swift.Never>, SwiftUI.ModifiedContent<some SwiftUI.View, SwiftUI._EnvironmentKeyWritingModifier<Swift.String?>>>, SwiftUI._AppearanceActionModifier>)>>>, SwiftUI._FrameLayout>",
                             "children": [
                               {
                                 "kind": "TypeNominal",
                                 "name": "HStack",
-                                "printedName": "SwiftUI.HStack<SwiftUI.ZStack<SwiftUI.TupleView<(SwiftUI.HStack<SwiftUI.ForEach<Swift.Range<Swift.Int>, Swift.Int, SwiftUI.ZStack<SwiftUI.TupleView<(SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.Rectangle, SwiftUI._FrameLayout>, SwiftUI._EnvironmentKeyWritingModifier<SwiftUI.Color?>>, SwiftUI._OverlayModifier<SwiftUI._ShapeView<SwiftUI._StrokedShape<SwiftUI.RoundedRectangle>, SwiftUI.Color>>>, SwiftUI.Text)>>>>, SwiftUI.ModifiedContent<SwiftUI.SubscriptionView<Combine.AnyPublisher<Swift.Bool, Swift.Never>, some SwiftUI.View>, SwiftUI._AppearanceActionModifier>)>>>",
+                                "printedName": "SwiftUI.HStack<SwiftUI.ZStack<SwiftUI.TupleView<(SwiftUI.HStack<SwiftUI.ForEach<Swift.Range<Swift.Int>, Swift.Int, SwiftUI.ZStack<SwiftUI.TupleView<(SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.Rectangle, SwiftUI._FrameLayout>, SwiftUI._EnvironmentKeyWritingModifier<SwiftUI.Color?>>, SwiftUI._OverlayModifier<SwiftUI._ShapeView<SwiftUI._StrokedShape<SwiftUI.RoundedRectangle>, SwiftUI.Color>>>, SwiftUI.Text)>>>>, SwiftUI.ModifiedContent<SwiftUI.SubscriptionView<Combine.AnyPublisher<Swift.Bool, Swift.Never>, SwiftUI.ModifiedContent<some SwiftUI.View, SwiftUI._EnvironmentKeyWritingModifier<Swift.String?>>>, SwiftUI._AppearanceActionModifier>)>>>",
                                 "children": [
                                   {
                                     "kind": "TypeNominal",
                                     "name": "ZStack",
-                                    "printedName": "SwiftUI.ZStack<SwiftUI.TupleView<(SwiftUI.HStack<SwiftUI.ForEach<Swift.Range<Swift.Int>, Swift.Int, SwiftUI.ZStack<SwiftUI.TupleView<(SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.Rectangle, SwiftUI._FrameLayout>, SwiftUI._EnvironmentKeyWritingModifier<SwiftUI.Color?>>, SwiftUI._OverlayModifier<SwiftUI._ShapeView<SwiftUI._StrokedShape<SwiftUI.RoundedRectangle>, SwiftUI.Color>>>, SwiftUI.Text)>>>>, SwiftUI.ModifiedContent<SwiftUI.SubscriptionView<Combine.AnyPublisher<Swift.Bool, Swift.Never>, some SwiftUI.View>, SwiftUI._AppearanceActionModifier>)>>",
+                                    "printedName": "SwiftUI.ZStack<SwiftUI.TupleView<(SwiftUI.HStack<SwiftUI.ForEach<Swift.Range<Swift.Int>, Swift.Int, SwiftUI.ZStack<SwiftUI.TupleView<(SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.Rectangle, SwiftUI._FrameLayout>, SwiftUI._EnvironmentKeyWritingModifier<SwiftUI.Color?>>, SwiftUI._OverlayModifier<SwiftUI._ShapeView<SwiftUI._StrokedShape<SwiftUI.RoundedRectangle>, SwiftUI.Color>>>, SwiftUI.Text)>>>>, SwiftUI.ModifiedContent<SwiftUI.SubscriptionView<Combine.AnyPublisher<Swift.Bool, Swift.Never>, SwiftUI.ModifiedContent<some SwiftUI.View, SwiftUI._EnvironmentKeyWritingModifier<Swift.String?>>>, SwiftUI._AppearanceActionModifier>)>>",
                                     "children": [
                                       {
                                         "kind": "TypeNominal",
                                         "name": "TupleView",
-                                        "printedName": "SwiftUI.TupleView<(SwiftUI.HStack<SwiftUI.ForEach<Swift.Range<Swift.Int>, Swift.Int, SwiftUI.ZStack<SwiftUI.TupleView<(SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.Rectangle, SwiftUI._FrameLayout>, SwiftUI._EnvironmentKeyWritingModifier<SwiftUI.Color?>>, SwiftUI._OverlayModifier<SwiftUI._ShapeView<SwiftUI._StrokedShape<SwiftUI.RoundedRectangle>, SwiftUI.Color>>>, SwiftUI.Text)>>>>, SwiftUI.ModifiedContent<SwiftUI.SubscriptionView<Combine.AnyPublisher<Swift.Bool, Swift.Never>, some SwiftUI.View>, SwiftUI._AppearanceActionModifier>)>",
+                                        "printedName": "SwiftUI.TupleView<(SwiftUI.HStack<SwiftUI.ForEach<Swift.Range<Swift.Int>, Swift.Int, SwiftUI.ZStack<SwiftUI.TupleView<(SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.Rectangle, SwiftUI._FrameLayout>, SwiftUI._EnvironmentKeyWritingModifier<SwiftUI.Color?>>, SwiftUI._OverlayModifier<SwiftUI._ShapeView<SwiftUI._StrokedShape<SwiftUI.RoundedRectangle>, SwiftUI.Color>>>, SwiftUI.Text)>>>>, SwiftUI.ModifiedContent<SwiftUI.SubscriptionView<Combine.AnyPublisher<Swift.Bool, Swift.Never>, SwiftUI.ModifiedContent<some SwiftUI.View, SwiftUI._EnvironmentKeyWritingModifier<Swift.String?>>>, SwiftUI._AppearanceActionModifier>)>",
                                         "children": [
                                           {
                                             "kind": "TypeNominal",
                                             "name": "Tuple",
-                                            "printedName": "(SwiftUI.HStack<SwiftUI.ForEach<Swift.Range<Swift.Int>, Swift.Int, SwiftUI.ZStack<SwiftUI.TupleView<(SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.Rectangle, SwiftUI._FrameLayout>, SwiftUI._EnvironmentKeyWritingModifier<SwiftUI.Color?>>, SwiftUI._OverlayModifier<SwiftUI._ShapeView<SwiftUI._StrokedShape<SwiftUI.RoundedRectangle>, SwiftUI.Color>>>, SwiftUI.Text)>>>>, SwiftUI.ModifiedContent<SwiftUI.SubscriptionView<Combine.AnyPublisher<Swift.Bool, Swift.Never>, some SwiftUI.View>, SwiftUI._AppearanceActionModifier>)",
+                                            "printedName": "(SwiftUI.HStack<SwiftUI.ForEach<Swift.Range<Swift.Int>, Swift.Int, SwiftUI.ZStack<SwiftUI.TupleView<(SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.Rectangle, SwiftUI._FrameLayout>, SwiftUI._EnvironmentKeyWritingModifier<SwiftUI.Color?>>, SwiftUI._OverlayModifier<SwiftUI._ShapeView<SwiftUI._StrokedShape<SwiftUI.RoundedRectangle>, SwiftUI.Color>>>, SwiftUI.Text)>>>>, SwiftUI.ModifiedContent<SwiftUI.SubscriptionView<Combine.AnyPublisher<Swift.Bool, Swift.Never>, SwiftUI.ModifiedContent<some SwiftUI.View, SwiftUI._EnvironmentKeyWritingModifier<Swift.String?>>>, SwiftUI._AppearanceActionModifier>)",
                                             "children": [
                                               {
                                                 "kind": "TypeNominal",
@@ -4783,12 +4813,12 @@
                                               {
                                                 "kind": "TypeNominal",
                                                 "name": "ModifiedContent",
-                                                "printedName": "SwiftUI.ModifiedContent<SwiftUI.SubscriptionView<Combine.AnyPublisher<Swift.Bool, Swift.Never>, some SwiftUI.View>, SwiftUI._AppearanceActionModifier>",
+                                                "printedName": "SwiftUI.ModifiedContent<SwiftUI.SubscriptionView<Combine.AnyPublisher<Swift.Bool, Swift.Never>, SwiftUI.ModifiedContent<some SwiftUI.View, SwiftUI._EnvironmentKeyWritingModifier<Swift.String?>>>, SwiftUI._AppearanceActionModifier>",
                                                 "children": [
                                                   {
                                                     "kind": "TypeNominal",
                                                     "name": "SubscriptionView",
-                                                    "printedName": "SwiftUI.SubscriptionView<Combine.AnyPublisher<Swift.Bool, Swift.Never>, some SwiftUI.View>",
+                                                    "printedName": "SwiftUI.SubscriptionView<Combine.AnyPublisher<Swift.Bool, Swift.Never>, SwiftUI.ModifiedContent<some SwiftUI.View, SwiftUI._EnvironmentKeyWritingModifier<Swift.String?>>>",
                                                     "children": [
                                                       {
                                                         "kind": "TypeNominal",
@@ -4812,16 +4842,46 @@
                                                       },
                                                       {
                                                         "kind": "TypeNominal",
-                                                        "name": "OpaqueTypeArchetype",
-                                                        "printedName": "some SwiftUI.View",
+                                                        "name": "ModifiedContent",
+                                                        "printedName": "SwiftUI.ModifiedContent<some SwiftUI.View, SwiftUI._EnvironmentKeyWritingModifier<Swift.String?>>",
                                                         "children": [
                                                           {
                                                             "kind": "TypeNominal",
-                                                            "name": "View",
-                                                            "printedName": "SwiftUI.View",
-                                                            "usr": "s:7SwiftUI4ViewP"
+                                                            "name": "OpaqueTypeArchetype",
+                                                            "printedName": "some SwiftUI.View",
+                                                            "children": [
+                                                              {
+                                                                "kind": "TypeNominal",
+                                                                "name": "View",
+                                                                "printedName": "SwiftUI.View",
+                                                                "usr": "s:7SwiftUI4ViewP"
+                                                              }
+                                                            ]
+                                                          },
+                                                          {
+                                                            "kind": "TypeNominal",
+                                                            "name": "_EnvironmentKeyWritingModifier",
+                                                            "printedName": "SwiftUI._EnvironmentKeyWritingModifier<Swift.String?>",
+                                                            "children": [
+                                                              {
+                                                                "kind": "TypeNominal",
+                                                                "name": "Optional",
+                                                                "printedName": "Swift.String?",
+                                                                "children": [
+                                                                  {
+                                                                    "kind": "TypeNominal",
+                                                                    "name": "String",
+                                                                    "printedName": "Swift.String",
+                                                                    "usr": "s:SS"
+                                                                  }
+                                                                ],
+                                                                "usr": "s:Sq"
+                                                              }
+                                                            ],
+                                                            "usr": "s:7SwiftUI30_EnvironmentKeyWritingModifierV"
                                                           }
-                                                        ]
+                                                        ],
+                                                        "usr": "s:7SwiftUI15ModifiedContentV"
                                                       }
                                                     ],
                                                     "usr": "s:7SwiftUI16SubscriptionViewV"
@@ -4898,37 +4958,37 @@
                   {
                     "kind": "TypeNominal",
                     "name": "ModifiedContent",
-                    "printedName": "SwiftUI.ModifiedContent<SwiftUI.GeometryReader<SwiftUI.ModifiedContent<SwiftUI.HStack<SwiftUI.ZStack<SwiftUI.TupleView<(SwiftUI.HStack<SwiftUI.ForEach<Swift.Range<Swift.Int>, Swift.Int, SwiftUI.ZStack<SwiftUI.TupleView<(SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.Rectangle, SwiftUI._FrameLayout>, SwiftUI._EnvironmentKeyWritingModifier<SwiftUI.Color?>>, SwiftUI._OverlayModifier<SwiftUI._ShapeView<SwiftUI._StrokedShape<SwiftUI.RoundedRectangle>, SwiftUI.Color>>>, SwiftUI.Text)>>>>, SwiftUI.ModifiedContent<SwiftUI.SubscriptionView<Combine.AnyPublisher<Swift.Bool, Swift.Never>, some SwiftUI.View>, SwiftUI._AppearanceActionModifier>)>>>, SwiftUI._FrameLayout>>, SwiftUI._FixedSizeLayout>",
+                    "printedName": "SwiftUI.ModifiedContent<SwiftUI.GeometryReader<SwiftUI.ModifiedContent<SwiftUI.HStack<SwiftUI.ZStack<SwiftUI.TupleView<(SwiftUI.HStack<SwiftUI.ForEach<Swift.Range<Swift.Int>, Swift.Int, SwiftUI.ZStack<SwiftUI.TupleView<(SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.Rectangle, SwiftUI._FrameLayout>, SwiftUI._EnvironmentKeyWritingModifier<SwiftUI.Color?>>, SwiftUI._OverlayModifier<SwiftUI._ShapeView<SwiftUI._StrokedShape<SwiftUI.RoundedRectangle>, SwiftUI.Color>>>, SwiftUI.Text)>>>>, SwiftUI.ModifiedContent<SwiftUI.SubscriptionView<Combine.AnyPublisher<Swift.Bool, Swift.Never>, SwiftUI.ModifiedContent<some SwiftUI.View, SwiftUI._EnvironmentKeyWritingModifier<Swift.String?>>>, SwiftUI._AppearanceActionModifier>)>>>, SwiftUI._FrameLayout>>, SwiftUI._FixedSizeLayout>",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "GeometryReader",
-                        "printedName": "SwiftUI.GeometryReader<SwiftUI.ModifiedContent<SwiftUI.HStack<SwiftUI.ZStack<SwiftUI.TupleView<(SwiftUI.HStack<SwiftUI.ForEach<Swift.Range<Swift.Int>, Swift.Int, SwiftUI.ZStack<SwiftUI.TupleView<(SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.Rectangle, SwiftUI._FrameLayout>, SwiftUI._EnvironmentKeyWritingModifier<SwiftUI.Color?>>, SwiftUI._OverlayModifier<SwiftUI._ShapeView<SwiftUI._StrokedShape<SwiftUI.RoundedRectangle>, SwiftUI.Color>>>, SwiftUI.Text)>>>>, SwiftUI.ModifiedContent<SwiftUI.SubscriptionView<Combine.AnyPublisher<Swift.Bool, Swift.Never>, some SwiftUI.View>, SwiftUI._AppearanceActionModifier>)>>>, SwiftUI._FrameLayout>>",
+                        "printedName": "SwiftUI.GeometryReader<SwiftUI.ModifiedContent<SwiftUI.HStack<SwiftUI.ZStack<SwiftUI.TupleView<(SwiftUI.HStack<SwiftUI.ForEach<Swift.Range<Swift.Int>, Swift.Int, SwiftUI.ZStack<SwiftUI.TupleView<(SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.Rectangle, SwiftUI._FrameLayout>, SwiftUI._EnvironmentKeyWritingModifier<SwiftUI.Color?>>, SwiftUI._OverlayModifier<SwiftUI._ShapeView<SwiftUI._StrokedShape<SwiftUI.RoundedRectangle>, SwiftUI.Color>>>, SwiftUI.Text)>>>>, SwiftUI.ModifiedContent<SwiftUI.SubscriptionView<Combine.AnyPublisher<Swift.Bool, Swift.Never>, SwiftUI.ModifiedContent<some SwiftUI.View, SwiftUI._EnvironmentKeyWritingModifier<Swift.String?>>>, SwiftUI._AppearanceActionModifier>)>>>, SwiftUI._FrameLayout>>",
                         "children": [
                           {
                             "kind": "TypeNominal",
                             "name": "ModifiedContent",
-                            "printedName": "SwiftUI.ModifiedContent<SwiftUI.HStack<SwiftUI.ZStack<SwiftUI.TupleView<(SwiftUI.HStack<SwiftUI.ForEach<Swift.Range<Swift.Int>, Swift.Int, SwiftUI.ZStack<SwiftUI.TupleView<(SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.Rectangle, SwiftUI._FrameLayout>, SwiftUI._EnvironmentKeyWritingModifier<SwiftUI.Color?>>, SwiftUI._OverlayModifier<SwiftUI._ShapeView<SwiftUI._StrokedShape<SwiftUI.RoundedRectangle>, SwiftUI.Color>>>, SwiftUI.Text)>>>>, SwiftUI.ModifiedContent<SwiftUI.SubscriptionView<Combine.AnyPublisher<Swift.Bool, Swift.Never>, some SwiftUI.View>, SwiftUI._AppearanceActionModifier>)>>>, SwiftUI._FrameLayout>",
+                            "printedName": "SwiftUI.ModifiedContent<SwiftUI.HStack<SwiftUI.ZStack<SwiftUI.TupleView<(SwiftUI.HStack<SwiftUI.ForEach<Swift.Range<Swift.Int>, Swift.Int, SwiftUI.ZStack<SwiftUI.TupleView<(SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.Rectangle, SwiftUI._FrameLayout>, SwiftUI._EnvironmentKeyWritingModifier<SwiftUI.Color?>>, SwiftUI._OverlayModifier<SwiftUI._ShapeView<SwiftUI._StrokedShape<SwiftUI.RoundedRectangle>, SwiftUI.Color>>>, SwiftUI.Text)>>>>, SwiftUI.ModifiedContent<SwiftUI.SubscriptionView<Combine.AnyPublisher<Swift.Bool, Swift.Never>, SwiftUI.ModifiedContent<some SwiftUI.View, SwiftUI._EnvironmentKeyWritingModifier<Swift.String?>>>, SwiftUI._AppearanceActionModifier>)>>>, SwiftUI._FrameLayout>",
                             "children": [
                               {
                                 "kind": "TypeNominal",
                                 "name": "HStack",
-                                "printedName": "SwiftUI.HStack<SwiftUI.ZStack<SwiftUI.TupleView<(SwiftUI.HStack<SwiftUI.ForEach<Swift.Range<Swift.Int>, Swift.Int, SwiftUI.ZStack<SwiftUI.TupleView<(SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.Rectangle, SwiftUI._FrameLayout>, SwiftUI._EnvironmentKeyWritingModifier<SwiftUI.Color?>>, SwiftUI._OverlayModifier<SwiftUI._ShapeView<SwiftUI._StrokedShape<SwiftUI.RoundedRectangle>, SwiftUI.Color>>>, SwiftUI.Text)>>>>, SwiftUI.ModifiedContent<SwiftUI.SubscriptionView<Combine.AnyPublisher<Swift.Bool, Swift.Never>, some SwiftUI.View>, SwiftUI._AppearanceActionModifier>)>>>",
+                                "printedName": "SwiftUI.HStack<SwiftUI.ZStack<SwiftUI.TupleView<(SwiftUI.HStack<SwiftUI.ForEach<Swift.Range<Swift.Int>, Swift.Int, SwiftUI.ZStack<SwiftUI.TupleView<(SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.Rectangle, SwiftUI._FrameLayout>, SwiftUI._EnvironmentKeyWritingModifier<SwiftUI.Color?>>, SwiftUI._OverlayModifier<SwiftUI._ShapeView<SwiftUI._StrokedShape<SwiftUI.RoundedRectangle>, SwiftUI.Color>>>, SwiftUI.Text)>>>>, SwiftUI.ModifiedContent<SwiftUI.SubscriptionView<Combine.AnyPublisher<Swift.Bool, Swift.Never>, SwiftUI.ModifiedContent<some SwiftUI.View, SwiftUI._EnvironmentKeyWritingModifier<Swift.String?>>>, SwiftUI._AppearanceActionModifier>)>>>",
                                 "children": [
                                   {
                                     "kind": "TypeNominal",
                                     "name": "ZStack",
-                                    "printedName": "SwiftUI.ZStack<SwiftUI.TupleView<(SwiftUI.HStack<SwiftUI.ForEach<Swift.Range<Swift.Int>, Swift.Int, SwiftUI.ZStack<SwiftUI.TupleView<(SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.Rectangle, SwiftUI._FrameLayout>, SwiftUI._EnvironmentKeyWritingModifier<SwiftUI.Color?>>, SwiftUI._OverlayModifier<SwiftUI._ShapeView<SwiftUI._StrokedShape<SwiftUI.RoundedRectangle>, SwiftUI.Color>>>, SwiftUI.Text)>>>>, SwiftUI.ModifiedContent<SwiftUI.SubscriptionView<Combine.AnyPublisher<Swift.Bool, Swift.Never>, some SwiftUI.View>, SwiftUI._AppearanceActionModifier>)>>",
+                                    "printedName": "SwiftUI.ZStack<SwiftUI.TupleView<(SwiftUI.HStack<SwiftUI.ForEach<Swift.Range<Swift.Int>, Swift.Int, SwiftUI.ZStack<SwiftUI.TupleView<(SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.Rectangle, SwiftUI._FrameLayout>, SwiftUI._EnvironmentKeyWritingModifier<SwiftUI.Color?>>, SwiftUI._OverlayModifier<SwiftUI._ShapeView<SwiftUI._StrokedShape<SwiftUI.RoundedRectangle>, SwiftUI.Color>>>, SwiftUI.Text)>>>>, SwiftUI.ModifiedContent<SwiftUI.SubscriptionView<Combine.AnyPublisher<Swift.Bool, Swift.Never>, SwiftUI.ModifiedContent<some SwiftUI.View, SwiftUI._EnvironmentKeyWritingModifier<Swift.String?>>>, SwiftUI._AppearanceActionModifier>)>>",
                                     "children": [
                                       {
                                         "kind": "TypeNominal",
                                         "name": "TupleView",
-                                        "printedName": "SwiftUI.TupleView<(SwiftUI.HStack<SwiftUI.ForEach<Swift.Range<Swift.Int>, Swift.Int, SwiftUI.ZStack<SwiftUI.TupleView<(SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.Rectangle, SwiftUI._FrameLayout>, SwiftUI._EnvironmentKeyWritingModifier<SwiftUI.Color?>>, SwiftUI._OverlayModifier<SwiftUI._ShapeView<SwiftUI._StrokedShape<SwiftUI.RoundedRectangle>, SwiftUI.Color>>>, SwiftUI.Text)>>>>, SwiftUI.ModifiedContent<SwiftUI.SubscriptionView<Combine.AnyPublisher<Swift.Bool, Swift.Never>, some SwiftUI.View>, SwiftUI._AppearanceActionModifier>)>",
+                                        "printedName": "SwiftUI.TupleView<(SwiftUI.HStack<SwiftUI.ForEach<Swift.Range<Swift.Int>, Swift.Int, SwiftUI.ZStack<SwiftUI.TupleView<(SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.Rectangle, SwiftUI._FrameLayout>, SwiftUI._EnvironmentKeyWritingModifier<SwiftUI.Color?>>, SwiftUI._OverlayModifier<SwiftUI._ShapeView<SwiftUI._StrokedShape<SwiftUI.RoundedRectangle>, SwiftUI.Color>>>, SwiftUI.Text)>>>>, SwiftUI.ModifiedContent<SwiftUI.SubscriptionView<Combine.AnyPublisher<Swift.Bool, Swift.Never>, SwiftUI.ModifiedContent<some SwiftUI.View, SwiftUI._EnvironmentKeyWritingModifier<Swift.String?>>>, SwiftUI._AppearanceActionModifier>)>",
                                         "children": [
                                           {
                                             "kind": "TypeNominal",
                                             "name": "Tuple",
-                                            "printedName": "(SwiftUI.HStack<SwiftUI.ForEach<Swift.Range<Swift.Int>, Swift.Int, SwiftUI.ZStack<SwiftUI.TupleView<(SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.Rectangle, SwiftUI._FrameLayout>, SwiftUI._EnvironmentKeyWritingModifier<SwiftUI.Color?>>, SwiftUI._OverlayModifier<SwiftUI._ShapeView<SwiftUI._StrokedShape<SwiftUI.RoundedRectangle>, SwiftUI.Color>>>, SwiftUI.Text)>>>>, SwiftUI.ModifiedContent<SwiftUI.SubscriptionView<Combine.AnyPublisher<Swift.Bool, Swift.Never>, some SwiftUI.View>, SwiftUI._AppearanceActionModifier>)",
+                                            "printedName": "(SwiftUI.HStack<SwiftUI.ForEach<Swift.Range<Swift.Int>, Swift.Int, SwiftUI.ZStack<SwiftUI.TupleView<(SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.Rectangle, SwiftUI._FrameLayout>, SwiftUI._EnvironmentKeyWritingModifier<SwiftUI.Color?>>, SwiftUI._OverlayModifier<SwiftUI._ShapeView<SwiftUI._StrokedShape<SwiftUI.RoundedRectangle>, SwiftUI.Color>>>, SwiftUI.Text)>>>>, SwiftUI.ModifiedContent<SwiftUI.SubscriptionView<Combine.AnyPublisher<Swift.Bool, Swift.Never>, SwiftUI.ModifiedContent<some SwiftUI.View, SwiftUI._EnvironmentKeyWritingModifier<Swift.String?>>>, SwiftUI._AppearanceActionModifier>)",
                                             "children": [
                                               {
                                                 "kind": "TypeNominal",
@@ -5092,12 +5152,12 @@
                                               {
                                                 "kind": "TypeNominal",
                                                 "name": "ModifiedContent",
-                                                "printedName": "SwiftUI.ModifiedContent<SwiftUI.SubscriptionView<Combine.AnyPublisher<Swift.Bool, Swift.Never>, some SwiftUI.View>, SwiftUI._AppearanceActionModifier>",
+                                                "printedName": "SwiftUI.ModifiedContent<SwiftUI.SubscriptionView<Combine.AnyPublisher<Swift.Bool, Swift.Never>, SwiftUI.ModifiedContent<some SwiftUI.View, SwiftUI._EnvironmentKeyWritingModifier<Swift.String?>>>, SwiftUI._AppearanceActionModifier>",
                                                 "children": [
                                                   {
                                                     "kind": "TypeNominal",
                                                     "name": "SubscriptionView",
-                                                    "printedName": "SwiftUI.SubscriptionView<Combine.AnyPublisher<Swift.Bool, Swift.Never>, some SwiftUI.View>",
+                                                    "printedName": "SwiftUI.SubscriptionView<Combine.AnyPublisher<Swift.Bool, Swift.Never>, SwiftUI.ModifiedContent<some SwiftUI.View, SwiftUI._EnvironmentKeyWritingModifier<Swift.String?>>>",
                                                     "children": [
                                                       {
                                                         "kind": "TypeNominal",
@@ -5121,16 +5181,46 @@
                                                       },
                                                       {
                                                         "kind": "TypeNominal",
-                                                        "name": "OpaqueTypeArchetype",
-                                                        "printedName": "some SwiftUI.View",
+                                                        "name": "ModifiedContent",
+                                                        "printedName": "SwiftUI.ModifiedContent<some SwiftUI.View, SwiftUI._EnvironmentKeyWritingModifier<Swift.String?>>",
                                                         "children": [
                                                           {
                                                             "kind": "TypeNominal",
-                                                            "name": "View",
-                                                            "printedName": "SwiftUI.View",
-                                                            "usr": "s:7SwiftUI4ViewP"
+                                                            "name": "OpaqueTypeArchetype",
+                                                            "printedName": "some SwiftUI.View",
+                                                            "children": [
+                                                              {
+                                                                "kind": "TypeNominal",
+                                                                "name": "View",
+                                                                "printedName": "SwiftUI.View",
+                                                                "usr": "s:7SwiftUI4ViewP"
+                                                              }
+                                                            ]
+                                                          },
+                                                          {
+                                                            "kind": "TypeNominal",
+                                                            "name": "_EnvironmentKeyWritingModifier",
+                                                            "printedName": "SwiftUI._EnvironmentKeyWritingModifier<Swift.String?>",
+                                                            "children": [
+                                                              {
+                                                                "kind": "TypeNominal",
+                                                                "name": "Optional",
+                                                                "printedName": "Swift.String?",
+                                                                "children": [
+                                                                  {
+                                                                    "kind": "TypeNominal",
+                                                                    "name": "String",
+                                                                    "printedName": "Swift.String",
+                                                                    "usr": "s:SS"
+                                                                  }
+                                                                ],
+                                                                "usr": "s:Sq"
+                                                              }
+                                                            ],
+                                                            "usr": "s:7SwiftUI30_EnvironmentKeyWritingModifierV"
                                                           }
-                                                        ]
+                                                        ],
+                                                        "usr": "s:7SwiftUI15ModifiedContentV"
                                                       }
                                                     ],
                                                     "usr": "s:7SwiftUI16SubscriptionViewV"
@@ -10792,8 +10882,8 @@
       },
       {
         "kind": "Import",
-        "name": "PaymentKit",
-        "printedName": "PaymentKit",
+        "name": "KMPNativeCoroutinesCombine",
+        "printedName": "KMPNativeCoroutinesCombine",
         "declKind": "Import",
         "moduleName": "AmwalPay",
         "declAttributes": [
@@ -10802,8 +10892,8 @@
       },
       {
         "kind": "Import",
-        "name": "KMPNativeCoroutinesCombine",
-        "printedName": "KMPNativeCoroutinesCombine",
+        "name": "PaymentKit",
+        "printedName": "PaymentKit",
         "declKind": "Import",
         "moduleName": "AmwalPay",
         "declAttributes": [
@@ -11093,13 +11183,6 @@
       },
       {
         "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "AmwalPay"
-      },
-      {
-        "kind": "Import",
         "name": "Combine",
         "printedName": "Combine",
         "declKind": "Import",
@@ -11107,8 +11190,15 @@
       },
       {
         "kind": "Import",
-        "name": "PaymentKit",
-        "printedName": "PaymentKit",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AmwalPay"
+      },
+      {
+        "kind": "Import",
+        "name": "KMPNativeCoroutinesCombine",
+        "printedName": "KMPNativeCoroutinesCombine",
         "declKind": "Import",
         "moduleName": "AmwalPay",
         "declAttributes": [
@@ -11117,8 +11207,8 @@
       },
       {
         "kind": "Import",
-        "name": "KMPNativeCoroutinesCombine",
-        "printedName": "KMPNativeCoroutinesCombine",
+        "name": "PaymentKit",
+        "printedName": "PaymentKit",
         "declKind": "Import",
         "moduleName": "AmwalPay",
         "declAttributes": [
@@ -17603,63 +17693,63 @@
     {
       "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/CustomViews\/OTP\/OTPView.swift",
       "kind": "StringLiteral",
-      "offset": 3021,
+      "offset": 3076,
       "length": 23,
       "value": "\"Is keyboard visible? \""
     },
     {
       "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/CustomViews\/OTP\/OTPView.swift",
       "kind": "FloatLiteral",
-      "offset": 3289,
+      "offset": 3344,
       "length": 3,
       "value": "0.5"
     },
     {
       "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/CustomViews\/OTP\/OTPView.swift",
       "kind": "BooleanLiteral",
-      "offset": 3580,
+      "offset": 3635,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/CustomViews\/OTP\/OTPView.swift",
       "kind": "BooleanLiteral",
-      "offset": 3597,
+      "offset": 3652,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/CustomViews\/OTP\/OTPView.swift",
       "kind": "StringLiteral",
-      "offset": 3765,
+      "offset": 3820,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/CustomViews\/OTP\/OTPView.swift",
       "kind": "BooleanLiteral",
-      "offset": 4314,
+      "offset": 4369,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/CustomViews\/OTP\/OTPView.swift",
       "kind": "StringLiteral",
-      "offset": 4567,
+      "offset": 4622,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/CustomViews\/OTP\/OTPView.swift",
       "kind": "BooleanLiteral",
-      "offset": 5040,
+      "offset": 5095,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/CustomViews\/OTP\/OTPView.swift",
       "kind": "BooleanLiteral",
-      "offset": 5202,
+      "offset": 5257,
       "length": 5,
       "value": "false"
     },
@@ -17680,14 +17770,14 @@
     {
       "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/Passkeys\/PasskeysViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 2427,
+      "offset": 2344,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/Passkeys\/PasskeysViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 2683,
+      "offset": 2600,
       "length": 5,
       "value": "false"
     },
@@ -17701,7 +17791,7 @@
     {
       "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/Passkeys\/PasskeysViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 2851,
+      "offset": 2768,
       "length": 21,
       "value": "\"AmwalPay.PasskeysViewModelFake\""
     },
@@ -19220,56 +19310,105 @@
     {
       "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/CustomViews\/PhoneNumber\/PhoneNumberTextFieldView.swift",
       "kind": "IntegerLiteral",
-      "offset": 3749,
+      "offset": 3817,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/CustomViews\/PhoneNumber\/PhoneNumberTextFieldView.swift",
       "kind": "IntegerLiteral",
-      "offset": 4461,
+      "offset": 4529,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/CustomViews\/PhoneNumber\/PhoneNumberTextFieldView.swift",
       "kind": "IntegerLiteral",
-      "offset": 4591,
+      "offset": 4659,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/CustomViews\/PhoneNumber\/PhoneNumberTextFieldView.swift",
       "kind": "IntegerLiteral",
-      "offset": 5307,
+      "offset": 5375,
       "length": 1,
       "value": "0"
+    },
+    {
+      "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/CustomViews\/PhoneNumber\/PhoneNumberTextFieldView.swift",
+      "kind": "StringLiteral",
+      "offset": 5855,
+      "length": 9,
+      "value": "\"\\+\\d+\""
+    },
+    {
+      "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/CustomViews\/PhoneNumber\/PhoneNumberTextFieldView.swift",
+      "kind": "StringLiteral",
+      "offset": 6192,
+      "length": 48,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/CustomViews\/PhoneNumber\/PhoneNumberTextFieldView.swift",
+      "kind": "StringLiteral",
+      "offset": 6216,
+      "length": 3,
+      "value": "\" \""
+    },
+    {
+      "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/CustomViews\/PhoneNumber\/PhoneNumberTextFieldView.swift",
+      "kind": "StringLiteral",
+      "offset": 6220,
+      "length": 1,
+      "value": "\" \""
+    },
+    {
+      "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/CustomViews\/PhoneNumber\/PhoneNumberTextFieldView.swift",
+      "kind": "StringLiteral",
+      "offset": 6239,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/CustomViews\/PhoneNumber\/PhoneNumberTextFieldView.swift",
+      "kind": "StringLiteral",
+      "offset": 6347,
+      "length": 17,
+      "value": "\"Error: \""
+    },
+    {
+      "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/CustomViews\/PhoneNumber\/PhoneNumberTextFieldView.swift",
+      "kind": "StringLiteral",
+      "offset": 6363,
+      "length": 2,
+      "value": "\"\""
     },
     {
       "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/CustomViews\/PhoneNumber\/PhoneNumberTextFieldView.swift",
       "kind": "BooleanLiteral",
-      "offset": 6011,
+      "offset": 6758,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/CustomViews\/PhoneNumber\/PhoneNumberTextFieldView.swift",
       "kind": "IntegerLiteral",
-      "offset": 6056,
+      "offset": 6803,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/CustomViews\/PhoneNumber\/PhoneNumberTextFieldView.swift",
       "kind": "StringLiteral",
-      "offset": 6368,
+      "offset": 7115,
       "length": 4,
       "value": "\"ar\""
     },
     {
       "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/CustomViews\/PhoneNumber\/PhoneNumberTextFieldView.swift",
       "kind": "StringLiteral",
-      "offset": 7135,
+      "offset": 7882,
       "length": 11,
       "value": "\"AmwalPay.Coordinator\""
     },
@@ -19766,91 +19905,91 @@
     {
       "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/Container\/PaymentRequestViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 1132,
+      "offset": 1144,
       "length": 23,
       "value": "\"backend.sa.amwal.tech\""
     },
     {
       "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/Container\/PaymentRequestViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 1349,
+      "offset": 1369,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/Container\/PaymentRequestViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 1379,
+      "offset": 1399,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/Container\/PaymentRequestViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 2607,
+      "offset": 2633,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/Container\/PaymentRequestViewModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 3389,
+      "offset": 3355,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/Container\/PaymentRequestViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 4346,
+      "offset": 4296,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/Container\/PaymentRequestViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 4866,
+      "offset": 4858,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/Container\/PaymentRequestViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 5364,
+      "offset": 5348,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/Container\/PaymentRequestViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 5671,
+      "offset": 5654,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/Container\/PaymentRequestViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 5744,
+      "offset": 5727,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/Container\/PaymentRequestViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 135,
+      "offset": 134,
       "length": 27,
       "value": "\"AmwalPay.PaymentRequestViewModelBase\""
     },
     {
       "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/Container\/PaymentRequestViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 9641,
+      "offset": 9828,
       "length": 19,
       "value": "\"Name Not provider\""
     },
     {
       "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/Container\/PaymentRequestViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 13026,
+      "offset": 13370,
       "length": 19,
       "value": "\"Name Not provider\""
     },
@@ -19885,7 +20024,7 @@
     {
       "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/OTPVerfication\/OTPVerficationViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 2693,
+      "offset": 2805,
       "length": 5,
       "value": "false"
     },
@@ -19942,111 +20081,111 @@
       "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/Passkeys\/PasskeysManager.swift",
       "kind": "BooleanLiteral",
       "offset": 4936,
-      "length": 5,
-      "value": "false"
+      "length": 4,
+      "value": "true"
     },
     {
       "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/Passkeys\/PasskeysManager.swift",
       "kind": "StringLiteral",
-      "offset": 5224,
+      "offset": 5223,
       "length": 3,
       "value": "\"-\""
     },
     {
       "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/Passkeys\/PasskeysManager.swift",
       "kind": "StringLiteral",
-      "offset": 5235,
+      "offset": 5234,
       "length": 3,
       "value": "\"+\""
     },
     {
       "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/Passkeys\/PasskeysManager.swift",
       "kind": "StringLiteral",
-      "offset": 5272,
+      "offset": 5271,
       "length": 3,
       "value": "\"_\""
     },
     {
       "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/Passkeys\/PasskeysManager.swift",
       "kind": "StringLiteral",
-      "offset": 5283,
+      "offset": 5282,
       "length": 3,
       "value": "\"\/\""
     },
     {
       "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/Passkeys\/PasskeysManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 5310,
+      "offset": 5309,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/Passkeys\/PasskeysManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 5315,
+      "offset": 5314,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/Passkeys\/PasskeysManager.swift",
       "kind": "StringLiteral",
-      "offset": 5357,
+      "offset": 5356,
       "length": 3,
       "value": "\"=\""
     },
     {
       "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/Passkeys\/PasskeysManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 5369,
+      "offset": 5368,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/Passkeys\/PasskeysManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 5388,
+      "offset": 5387,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/Passkeys\/PasskeysManager.swift",
       "kind": "StringLiteral",
-      "offset": 5562,
+      "offset": 5561,
       "length": 3,
       "value": "\"+\""
     },
     {
       "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/Passkeys\/PasskeysManager.swift",
       "kind": "StringLiteral",
-      "offset": 5573,
+      "offset": 5572,
       "length": 3,
       "value": "\"-\""
     },
     {
       "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/Passkeys\/PasskeysManager.swift",
       "kind": "StringLiteral",
-      "offset": 5603,
+      "offset": 5602,
       "length": 3,
       "value": "\"\/\""
     },
     {
       "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/Passkeys\/PasskeysManager.swift",
       "kind": "StringLiteral",
-      "offset": 5614,
+      "offset": 5613,
       "length": 3,
       "value": "\"_\""
     },
     {
       "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/Passkeys\/PasskeysManager.swift",
       "kind": "StringLiteral",
-      "offset": 5644,
+      "offset": 5643,
       "length": 3,
       "value": "\"=\""
     },
     {
       "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/Passkeys\/PasskeysManager.swift",
       "kind": "StringLiteral",
-      "offset": 5655,
+      "offset": 5654,
       "length": 2,
       "value": "\"\""
     },

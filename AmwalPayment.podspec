@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'AmwalPayment'
-  s.version          = '1.0.6'
+  s.version          = '1.0.7'
   s.summary          = 'AmwalPayment SDK for secure payment transactions.'
 
   s.description      = <<-DESC
@@ -13,7 +13,7 @@ Pod::Spec.new do |s|
   s.author           = { 'AmwalPayment' => 'faris@amwal.tech' }
   s.source           = { :git => 'https://github.com/amwal-tech/amwal-ios-sdk.git', :tag => s.version.to_s }
   s.social_media_url = 'https://www.linkedin.com/company/amwal-tech/'
-  s.ios.deployment_target = '15.0'
+  s.ios.deployment_target = '13.0'
   s.ios.vendored_frameworks = 'AmwalPayment/Frameworks/AmwalPay.xcframework'
   s.frameworks = 'UIKit'
   s.swift_version = '5.0'
