@@ -78,7 +78,7 @@ you can use in SwiftUI with `.sheet` and UIKit with  `modalPresentationStyle`.
             amount: 110,
             vat: 20,
             merchantId: "merchantId",
-            completion: {
+            completion: { transactionId in
                 isPresented = false
             }
         )
@@ -115,7 +115,7 @@ struct ContentView: View {
                 amount: 110,
                 vat: 20,
                 merchantId: "merchantId",
-                completion: {
+                completion: { transactionId in
                 isPresented = false
             })
         }
