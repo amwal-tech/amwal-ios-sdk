@@ -17,6 +17,7 @@
 		1E7EAB762A1F82230050AA52 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1E7EAB752A1F82230050AA52 /* Preview Assets.xcassets */; };
 		1E9D5CE92AA9CCFE0080E114 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E9D5CE82AA9CCFE0080E114 /* LaunchScreen.storyboard */; };
 		1E9D5CEB2AA9CDF80080E114 /* 1024x1024bb.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E9D5CEA2AA9CDF80080E114 /* 1024x1024bb.png */; };
+		1EC817AF2AC96C3900707F67 /* PayWithAmwal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EC817AE2AC96C3900707F67 /* PayWithAmwal.swift */; };
 		93193A85A035F6676366C872 /* Pods_AmwalPaymentExample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AAC37C576A9799CD68C5373 /* Pods_AmwalPaymentExample.framework */; };
 /* End PBXBuildFile section */
 
@@ -59,6 +60,7 @@
 		1E9D5CE82AA9CCFE0080E114 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1E9D5CEA2AA9CDF80080E114 /* 1024x1024bb.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 1024x1024bb.png; path = Assets.xcassets/Logo.imageset/1024x1024bb.png; sourceTree = "<group>"; };
 		1EA8C91D2A5D9681001E19E4 /* AmwalPaymentExample.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = AmwalPaymentExample.entitlements; sourceTree = "<group>"; };
+		1EC817AE2AC96C3900707F67 /* PayWithAmwal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PayWithAmwal.swift; sourceTree = "<group>"; };
 		1EF538B52A2627E300840CD3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		2EA33E9E9D9AA3BE24A8DC0B /* Pods-AmwalPaymentExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AmwalPaymentExample.debug.xcconfig"; path = "Target Support Files/Pods-AmwalPaymentExample/Pods-AmwalPaymentExample.debug.xcconfig"; sourceTree = "<group>"; };
 		D7CE8463E58693D432C6C148 /* Pods-AmwalPaymentExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AmwalPaymentExample.release.xcconfig"; path = "Target Support Files/Pods-AmwalPaymentExample/Pods-AmwalPaymentExample.release.xcconfig"; sourceTree = "<group>"; };
@@ -127,6 +129,7 @@
 				1E7EAB702A1F82220050AA52 /* ContentView.swift */,
 				1E7EAB722A1F82230050AA52 /* Assets.xcassets */,
 				1E7EAB742A1F82230050AA52 /* Preview Content */,
+				1EC817AE2AC96C3900707F67 /* PayWithAmwal.swift */,
 			);
 			path = AmwalPaymentExample;
 			sourceTree = "<group>";
@@ -153,7 +156,6 @@
 				2EA33E9E9D9AA3BE24A8DC0B /* Pods-AmwalPaymentExample.debug.xcconfig */,
 				D7CE8463E58693D432C6C148 /* Pods-AmwalPaymentExample.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -275,7 +277,8 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\n";
+			shellScript = "
+";
 		};
 		9401CE25C5C2B576BCA290C2 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -336,6 +339,7 @@
 				1E7EAB712A1F82220050AA52 /* ContentView.swift in Sources */,
 				1E7EAB6F2A1F82220050AA52 /* AmwalPaymentExampleApp.swift in Sources */,
 				1E2DD1862AA0953F003A839A /* SceneDelegate.swift in Sources */,
+				1EC817AF2AC96C3900707F67 /* PayWithAmwal.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
