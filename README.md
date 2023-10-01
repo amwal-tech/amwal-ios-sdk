@@ -126,6 +126,7 @@ struct ContentView: View {
 ## UIKit
 ```swift
 import UIKit
+import SwiftUI
 import AmwalPay
 
 class ViewController: UIViewController {
