@@ -126,6 +126,7 @@ struct ContentView: View {
 ## UIKit
 ```swift
 import UIKit
+import SwiftUI
 import AmwalPay
 
 class ViewController: UIViewController {
@@ -143,7 +144,7 @@ class ViewController: UIViewController {
             amount: 110,
             vat: 20,
             merchantId: "merchantId",
-            completion: { [weak self] in
+            completion: { [weak self] transactionId in
                 self?.dismissPayment()
 
             })

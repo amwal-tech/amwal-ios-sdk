@@ -18,7 +18,10 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
             let contentView = ContentView()
             
             let window = UIWindow(windowScene: windowScene)
-            window.rootViewController = UIHostingController(rootView: contentView)
+            let swiftUIView =  UIHostingController(rootView: contentView)
+            let uiKitView = ViewController()
+            window.rootViewController = uiKitView
+           
             self.window = window
             window.makeKeyAndVisible()
         }
