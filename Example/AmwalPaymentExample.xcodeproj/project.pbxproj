@@ -197,6 +197,8 @@
 			dependencies = (
 			);
 			name = AmwalPaymentExample;
+			packageProductDependencies = (
+			);
 			productName = AmwalPaymentExample;
 			productReference = 1E7EAB6B2A1F82220050AA52 /* AmwalPaymentExample.app */;
 			productType = "com.apple.product-type.application";
@@ -229,6 +231,8 @@
 				Base,
 			);
 			mainGroup = 1E7EAB622A1F82220050AA52;
+			packageReferences = (
+			);
 			productRefGroup = 1E7EAB6C2A1F82220050AA52 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";

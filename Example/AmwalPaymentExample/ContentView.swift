@@ -12,24 +12,15 @@ struct ContentView: View {
     @SwiftUI.State var isPresented: Bool = false
     var body: some View {
         VStack {
-            Button {
+            AmwalPayButton {
                 isPresented = true
-            } label: {
-                HStack {
-                    Image(systemName: "dollarsign.circle")
-                    Text("Pay With Amwal")
-                }
-                .padding(10)
-                .foregroundColor(.white)
-                .background(Color.blue)
-                .clipShape(Capsule(style: .continuous))
             }
         }
         .frame(maxWidth: .infinity)
         .padding()
         .sheet(isPresented: $isPresented) {
             AmwalPaymentView(
-                currency: "SAR",
+                currency: .SAR,
                 amount: 110,
                 vat: 20,
                 merchantId: "sandbox-amwal-0cfdf4fc-2972-400e-9186-4d671d245280",
