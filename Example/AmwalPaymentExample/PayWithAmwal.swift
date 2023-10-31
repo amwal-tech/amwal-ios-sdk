@@ -10,23 +10,17 @@ import SwiftUI
 import UIKit
 
 class ViewController: UIViewController {
-    lazy var payButton: UIButton = {
-        let button = UIButton(type: .custom)
-        button.titleLabel?.font = UIFont.systemFont(ofSize: 24)
-        button.titleLabel?.textColor = .white
-        button.setTitle("Pay With Amwal", for: .normal)
-        button.addTarget(self, action: #selector(buttonTapped), for: .touchUpInside)
-        button.setImage(UIImage(systemName: "dollarsign.circle.fill"), for: .normal)
-        button.tintColor = .white
-        let spacing: CGFloat = 10 // You can change this value to your desired spacing
-        button.imageEdgeInsets = UIEdgeInsets(top: 0, left: 2, bottom: 0, right: spacing)
-        button.titleEdgeInsets = UIEdgeInsets(top: 0, left: 0, bottom: 0, right: 2)
-        return button
+    lazy var payButton: UIView = {
+        let button = AmwalPayButton { [weak self] in
+            self?.buttonTapped()
+        }
+        let ButtonView = UIHostingController(rootView: button)
+        return ButtonView.view
     }()
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        view.backgroundColor = .white
+        view.backgroundColor = UIColor(resource: .custom)
         setupConstrains()
     }
 
@@ -46,18 +40,15 @@ class ViewController: UIViewController {
             payButton.widthAnchor.constraint(equalToConstant: 200), // Set your desired width here
             payButton.heightAnchor.constraint(equalToConstant: 60), // Set your desired height here
         ])
-
-        payButton.backgroundColor = .systemBlue
-        payButton.layer.cornerRadius = 20
     }
 
-    @objc func buttonTapped() {
+     func buttonTapped() {
         // Handle button tap
         let paymentView = AmwalPaymentView(
-            currency: "SAR",
+            currency: .SAR,
             amount: 110,
             vat: 20,
-            merchantId: "merchantId",
+            merchantId: "sandbox-amwal-0cfdf4fc-2972-400e-9186-4d671d245280",
             completion: { [weak self] _ in
                 self?.dismiss(animated: true)
 
