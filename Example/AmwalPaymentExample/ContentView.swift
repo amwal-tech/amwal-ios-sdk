@@ -9,9 +9,11 @@ import AmwalPay
 import SwiftUI
 
 struct ContentView: View {
-    @SwiftUI.State var isPresented: Bool = false
+    @State var isPresented: Bool = false
+    @State var transactionId: String = ""
     var body: some View {
         VStack {
+            Text("TransactionId: \(transactionId)")
             AmwalPayButton {
                 isPresented = true
             }
@@ -24,9 +26,11 @@ struct ContentView: View {
                 amount: 110,
                 vat: 20,
                 merchantId: "sandbox-amwal-0cfdf4fc-2972-400e-9186-4d671d245280",
-                completion: { _ in
+                completion: { transactionId in
+                    self.transactionId = transactionId
                     isPresented = false
-                })
+                }
+            )
         }
     }
 }

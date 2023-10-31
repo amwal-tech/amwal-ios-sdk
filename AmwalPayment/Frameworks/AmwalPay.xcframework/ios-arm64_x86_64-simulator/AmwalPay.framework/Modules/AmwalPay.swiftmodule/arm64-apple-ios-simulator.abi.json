@@ -29026,21 +29026,21 @@
     {
       "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/PaymentRequest\/PaymentRequestViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 2305,
+      "offset": 2280,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/PaymentRequest\/PaymentRequestViewModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 3101,
+      "offset": 3076,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/PaymentRequest\/PaymentRequestViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 4168,
+      "offset": 4143,
       "length": 5,
       "value": "false"
     },
@@ -30517,7 +30517,7 @@
     {
       "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/CustomViews\/Alert\/SuccessScreen\/SuccessScreenViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 1689,
+      "offset": 1741,
       "length": 5,
       "value": "false"
     },
