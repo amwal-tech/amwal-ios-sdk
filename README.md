@@ -86,8 +86,9 @@ you can use in SwiftUI with `.sheet` and UIKit with  `modalPresentationStyle`.
 <a name="showing-payment-sheet"></a>
 
 ## 3. Showing Payment Sheet
+- you can use our button direct to show payment sheet or use a sheet view  
 <a name="swiftUI"></a>
-## SwiftUI
+## SwiftUI Sheet
 ```swift
 import SwiftUI
 import AmwalPay
@@ -122,8 +123,89 @@ struct ContentView: View {
     }
 }
 ```
+## SwiftUI AmwalPayButton
+```swift
+import AmwalPay
+import SwiftUI
+enum PayResult: String {
+    case success
+    case failure
+}
+
+struct ContentView: View {
+    @State var isPresented: Bool = false
+    @State var amount: String = "110"
+    @State var vat: String = "20"
+    @State var merchantId: String = "sandbox-amwal-3db24246-8d09-4f78-a3eb-0d4b8b03bd4b"
+    @State var transactionID: String = ""
+    @State var result: PayResult?
+    var body: some View {
+        VStack {
+            Text("Enter your values to test")
+                .font(.largeTitle)
+            HStack(alignment: .center) {
+                VStack(alignment: .leading, spacing: 20) {
+                    Text("Amount:")
+                    Text("Vat:")
+                }
+                VStack(spacing: 5) {
+                    TextField("Amount", text: $amount)
+                        .keyboardType(.numberPad)
+                        .textFieldStyle(.roundedBorder)
+                    TextField("Vat", text: $vat)
+                        .keyboardType(.numberPad)
+                        .textFieldStyle(.roundedBorder)
+                }
+            }
+            .padding([.top, .horizontal])
+            VStack(alignment: .leading) {
+                Text("MerchantID")
+                TextField("MerchantID", text: $merchantId)
+                    .keyboardType(.default)
+                    .textFieldStyle(.roundedBorder)
+            }
+            .padding([.bottom, .horizontal])
+            Text("TransactionID: \(transactionID)")
+                .frame(maxWidth: .infinity, alignment: .leading)
+                .padding()
+            HStack {
+                Image(systemName: "circle.fill")
+                    .foregroundColor(
+                        result == .success
+                            ? .green
+                            : result == nil
+                            ? .gray
+                            : .red
+                    )
+                Text(result?.rawValue ?? "none")
+            }
+            .padding()
+            .frame(maxWidth: .infinity, alignment: .leading)
+            Spacer()
+            AmwalPayButton(
+                currency: .SAR,
+                amount: Double(amount) ?? 110,
+                vat: Double(vat) ?? 20,
+                merchantId: merchantId
+            ) { status in
+                switch status {
+                case let .success(transactionId):
+                    self.transactionID = transactionId
+                    result = .success
+                case let .fail(error):
+                    result = .failure
+                    print(error)
+                }
+            }
+        }
+        .padding(.bottom)
+    }
+}
+
+```
+
 <a name="uikit"></a>
-## UIKit
+## UIKit Sheet
 ```swift
 import UIKit
 import SwiftUI
@@ -153,10 +235,61 @@ class ViewController: UIViewController {
     }
 }
 ```
+## UIKIT AmwalPayButton
+```swift
+import AmwalPay
+import SwiftUI
+import UIKit
+
+class ViewController: UIViewController {
+    lazy var payButton: UIView = {
+        let button =  AmwalPayButton(
+            currency: .SAR,
+            amount:  110,
+            vat:  20,
+            merchantId: "sandbox-amwal-3db24246-8d09-4f78-a3eb-0d4b8b03bd4b"
+        ) { status in
+            switch status {
+            case let .success(transactionId):
+                debugPrint(transactionId)
+            case let .fail(error):
+                debugPrint(error)
+            }
+        }
+        let ButtonView = UIHostingController(rootView: button)
+        return ButtonView.view
+    }()
+
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        view.backgroundColor = UIColor(resource: .custom)
+        setupConstrains()
+    }
+
+    private func setupConstrains() {
+        let stackView = UIStackView(arrangedSubviews: [payButton])
+        stackView.axis = .horizontal
+        stackView.alignment = .center
+        stackView.spacing = 10
+        stackView.translatesAutoresizingMaskIntoConstraints = false
+
+        view.addSubview(stackView)
+
+        // Set constraints
+        NSLayoutConstraint.activate([
+            stackView.leadingAnchor.constraint(equalTo: view.leadingAnchor, constant: 10),
+            stackView.trailingAnchor.constraint(equalTo: view.trailingAnchor, constant: -10),
+            stackView.bottomAnchor.constraint(equalTo: view.safeAreaLayoutGuide.bottomAnchor, constant: -10),
+            payButton.heightAnchor.constraint(equalToConstant: 60),
+        ])
+
+    }
+}
+```
 <a name="listen-payment-results"></a>
 
 ## 4. Listen for results
-we are handled all errors closure for success only
+we are return status success with transaction id and fail with error
 ## Tips
 🚧 Securely store your keys
 
