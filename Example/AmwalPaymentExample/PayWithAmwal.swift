@@ -11,8 +11,18 @@ import UIKit
 
 class ViewController: UIViewController {
     lazy var payButton: UIView = {
-        let button = AmwalPayButton { [weak self] in
-            self?.buttonTapped()
+        let button =  AmwalPayButton(
+            currency: .SAR,
+            amount:  110,
+            vat:  20,
+            merchantId: "sandbox-amwal-3db24246-8d09-4f78-a3eb-0d4b8b03bd4b"
+        ) { status in
+            switch status {
+            case let .success(transactionId):
+                debugPrint(transactionId)
+            case let .fail(error):
+                debugPrint(error)
+            }
         }
         let ButtonView = UIHostingController(rootView: button)
         return ButtonView.view
@@ -35,11 +45,12 @@ class ViewController: UIViewController {
 
         // Set constraints
         NSLayoutConstraint.activate([
-            stackView.centerXAnchor.constraint(equalTo: view.centerXAnchor),
-            stackView.centerYAnchor.constraint(equalTo: view.centerYAnchor),
-            payButton.widthAnchor.constraint(equalToConstant: 200), // Set your desired width here
-            payButton.heightAnchor.constraint(equalToConstant: 60), // Set your desired height here
+            stackView.leadingAnchor.constraint(equalTo: view.leadingAnchor, constant: 10),
+            stackView.trailingAnchor.constraint(equalTo: view.trailingAnchor, constant: -10),
+            stackView.bottomAnchor.constraint(equalTo: view.safeAreaLayoutGuide.bottomAnchor, constant: -10),
+            payButton.heightAnchor.constraint(equalToConstant: 60),
         ])
+
     }
 
      func buttonTapped() {
@@ -48,7 +59,7 @@ class ViewController: UIViewController {
             currency: .SAR,
             amount: 110,
             vat: 20,
-            merchantId: "sandbox-amwal-0cfdf4fc-2972-400e-9186-4d671d245280",
+            merchantId: "sandbox-amwal-3db24246-8d09-4f78-a3eb-0d4b8b03bd4b",
             completion: { [weak self] _ in
                 self?.dismiss(animated: true)
 

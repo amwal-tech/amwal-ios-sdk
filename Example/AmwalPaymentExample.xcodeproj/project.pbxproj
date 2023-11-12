@@ -17,6 +17,7 @@
 		1E7EAB762A1F82230050AA52 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1E7EAB752A1F82230050AA52 /* Preview Assets.xcassets */; };
 		1E9D5CE92AA9CCFE0080E114 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E9D5CE82AA9CCFE0080E114 /* LaunchScreen.storyboard */; };
 		1E9D5CEB2AA9CDF80080E114 /* 1024x1024bb.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E9D5CEA2AA9CDF80080E114 /* 1024x1024bb.png */; };
+		1EB2D4952B00F8EF00940DD6 /* netfox in Frameworks */ = {isa = PBXBuildFile; productRef = 1EB2D4942B00F8EF00940DD6 /* netfox */; };
 		1EC817AF2AC96C3900707F67 /* PayWithAmwal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EC817AE2AC96C3900707F67 /* PayWithAmwal.swift */; };
 		93193A85A035F6676366C872 /* Pods_AmwalPaymentExample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AAC37C576A9799CD68C5373 /* Pods_AmwalPaymentExample.framework */; };
 /* End PBXBuildFile section */
@@ -78,6 +79,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1EB2D4952B00F8EF00940DD6 /* netfox in Frameworks */,
 				93193A85A035F6676366C872 /* Pods_AmwalPaymentExample.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -198,6 +200,7 @@
 			);
 			name = AmwalPaymentExample;
 			packageProductDependencies = (
+				1EB2D4942B00F8EF00940DD6 /* netfox */,
 			);
 			productName = AmwalPaymentExample;
 			productReference = 1E7EAB6B2A1F82220050AA52 /* AmwalPaymentExample.app */;
@@ -232,6 +235,7 @@
 			);
 			mainGroup = 1E7EAB622A1F82220050AA52;
 			packageReferences = (
+				1EB2D4932B00F8EF00940DD6 /* XCRemoteSwiftPackageReference "netfox" */,
 			);
 			productRefGroup = 1E7EAB6C2A1F82220050AA52 /* Products */;
 			projectDirPath = "";
@@ -631,6 +635,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		1EB2D4932B00F8EF00940DD6 /* XCRemoteSwiftPackageReference "netfox" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/kasketis/netfox";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.21.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		1EB2D4942B00F8EF00940DD6 /* netfox */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1EB2D4932B00F8EF00940DD6 /* XCRemoteSwiftPackageReference "netfox" */;
+			productName = netfox;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 1E7EAB632A1F82220050AA52 /* Project object */;
 }
