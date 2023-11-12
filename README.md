@@ -74,7 +74,7 @@ you can use in SwiftUI with `.sheet` and UIKit with  `modalPresentationStyle`.
 2-  `initialize View`
 ```swift
         AmwalPaymentView(
-            currency: "SAR",
+            currency: .SAR,
             amount: 110,
             vat: 20,
             merchantId: "merchantId",
@@ -112,7 +112,7 @@ struct ContentView: View {
         .sheet(isPresented: $isPresented) {
             
             AmwalPaymentView(
-                currency: "SAR",
+                currency: .SAR,
                 amount: 110,
                 vat: 20,
                 merchantId: "merchantId",
@@ -222,7 +222,7 @@ class ViewController: UIViewController {
     
     func presentPaymentView() {
         let paymentView = AmwalPaymentView(
-            currency: "SAR",
+            currency: .SAR,
             amount: 110,
             vat: 20,
             merchantId: "merchantId",
