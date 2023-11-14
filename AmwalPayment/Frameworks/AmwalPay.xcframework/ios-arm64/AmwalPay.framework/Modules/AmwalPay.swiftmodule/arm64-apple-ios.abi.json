@@ -25295,21 +25295,21 @@
     {
       "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/PhoneNumber\/PhoneNumberValidationViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 4928,
+      "offset": 4923,
       "length": 37,
       "value": "\"No credentials available for login.\""
     },
     {
       "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/PhoneNumber\/PhoneNumberValidationViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 5010,
+      "offset": 5005,
       "length": 73,
       "value": "\"No credentials available for login \n please continue with Phone-number\""
     },
     {
       "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/PhoneNumber\/PhoneNumberValidationViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 5282,
+      "offset": 5277,
       "length": 4,
       "value": "true"
     },
@@ -28557,16 +28557,16 @@
     {
       "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/SharedModels\/Requests\/SignInPasskeysRequest.swift",
       "kind": "StringLiteral",
-      "offset": 574,
-      "length": 11,
-      "value": "\"card_type\""
+      "offset": 599,
+      "length": 16,
+      "value": "\"transaction_id\""
     },
     {
       "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/SharedModels\/Requests\/SignInPasskeysRequest.swift",
       "kind": "StringLiteral",
-      "offset": 574,
-      "length": 11,
-      "value": "\"card_type\""
+      "offset": 599,
+      "length": 16,
+      "value": "\"transaction_id\""
     },
     {
       "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/PaymentRequest\/PaymentRequestViewModelFake.swift",
@@ -28774,84 +28774,84 @@
     {
       "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/OTPVerfication\/OTPVerficationViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 2847,
+      "offset": 2852,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/OTPVerfication\/OTPVerficationViewModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 3326,
+      "offset": 3331,
       "length": 10,
       "value": "3000000000"
     },
     {
       "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/OTPVerfication\/OTPVerficationViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 3582,
+      "offset": 3587,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/OTPVerfication\/OTPVerficationViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 3833,
+      "offset": 3838,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/OTPVerfication\/OTPVerficationViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 4296,
+      "offset": 4301,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/OTPVerfication\/OTPVerficationViewModel.swift",
       "kind": "Dictionary",
-      "offset": 4430,
+      "offset": 4435,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/OTPVerfication\/OTPVerficationViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 5036,
+      "offset": 5041,
       "length": 12,
       "value": "\"public-key\""
     },
     {
       "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/OTPVerfication\/OTPVerficationViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 5164,
+      "offset": 5169,
       "length": 5,
       "value": "\"iOS\""
     },
     {
       "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/OTPVerfication\/OTPVerficationViewModel.swift",
       "kind": "Array",
-      "offset": 5211,
+      "offset": 5216,
       "length": 12,
       "value": "[\"internal\"]"
     },
     {
       "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/OTPVerfication\/OTPVerficationViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 5506,
+      "offset": 5511,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/OTPVerfication\/OTPVerficationViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 5966,
+      "offset": 5971,
       "length": 23,
       "value": "\"Passkeys not correct \""
     },
     {
       "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/OTPVerfication\/OTPVerficationViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 6158,
+      "offset": 6163,
       "length": 5,
       "value": "false"
     },
@@ -28865,21 +28865,21 @@
     {
       "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/OTPVerfication\/OTPVerficationViewModel.swift",
       "kind": "Array",
-      "offset": 6646,
+      "offset": 6651,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/OTPVerfication\/OTPVerficationViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 6759,
+      "offset": 6764,
       "length": 17,
       "value": "\"Error: \""
     },
     {
       "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/OTPVerfication\/OTPVerficationViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 6775,
+      "offset": 6780,
       "length": 2,
       "value": "\"\""
     },
@@ -30856,34 +30856,6 @@
       "offset": 5276,
       "length": 39,
       "value": "\"init(coder:) has not been implemented\""
-    },
-    {
-      "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/Network\/AppEnvironment.swift",
-      "kind": "StringLiteral",
-      "offset": 133,
-      "length": 9,
-      "value": "\"sandbox\""
-    },
-    {
-      "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/Network\/AppEnvironment.swift",
-      "kind": "BooleanLiteral",
-      "offset": 147,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/Network\/AppEnvironment.swift",
-      "kind": "StringLiteral",
-      "offset": 167,
-      "length": 9,
-      "value": "\"SANDBOX\""
-    },
-    {
-      "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/Network\/AppEnvironment.swift",
-      "kind": "StringLiteral",
-      "offset": 191,
-      "length": 12,
-      "value": "\"PRODUCTION\""
     },
     {
       "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/CustomViews\/OTP\/Core\/OTPView.swift",
