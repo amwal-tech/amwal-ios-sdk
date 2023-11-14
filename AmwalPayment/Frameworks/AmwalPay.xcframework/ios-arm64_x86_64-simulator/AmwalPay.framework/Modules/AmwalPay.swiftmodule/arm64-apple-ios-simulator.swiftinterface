@@ -86,7 +86,7 @@ extension Swift.Encodable {
   }
 }
 public struct AmwalPayButton : SwiftUI.View {
-  public init(action: @escaping () -> Swift.Void)
+  public init(currency: AmwalPay.Currency, amount: Swift.Double, vat: Swift.Double, merchantId: Swift.String, completion: @escaping (_ status: AmwalPay.PaymentResult) -> Swift.Void)
   @_Concurrency.MainActor(unsafe) public var body: some SwiftUI.View {
     get
   }
@@ -141,18 +141,18 @@ public struct PaymentRequest {
   }
   public var amount: Swift.Double
   public var vat: Swift.Double
-  public var completion: (_ transactionId: Swift.String) -> Swift.Void
+  public var completion: (_ transactionId: AmwalPay.PaymentResult) -> Swift.Void
   public var total: Swift.Double {
     get
   }
-  public init(merchantId: Swift.String, currencyCode: AmwalPay.Currency, amount: Swift.Double, vat: Swift.Double, completion: @escaping (_ transactionId: Swift.String) -> Swift.Void)
+  public init(merchantId: Swift.String, currencyCode: AmwalPay.Currency, amount: Swift.Double, vat: Swift.Double, completion: @escaping (_ transactionId: AmwalPay.PaymentResult) -> Swift.Void)
 }
 public protocol PaymentBuilder {
   func setMerchantId(_ merchantId: Swift.String) -> Self
   func setAmount(_ amount: Swift.Double) -> Self
   func setVat(_ vat: Swift.Double) -> Self
   func setCurrency(_ currency: AmwalPay.Currency) -> Self
-  func setCompletion(_ completion: @escaping (_ transactionId: Swift.String) -> Swift.Void) -> Self
+  func setCompletion(_ completion: @escaping (_ transactionId: AmwalPay.PaymentResult) -> Swift.Void) -> Self
   func build() -> AmwalPay.PaymentRequest
 }
 public struct PaymentRequestBuilder : AmwalPay.PaymentBuilder {
@@ -161,7 +161,7 @@ public struct PaymentRequestBuilder : AmwalPay.PaymentBuilder {
   public func setAmount(_ amount: Swift.Double) -> AmwalPay.PaymentRequestBuilder
   public func setVat(_ vat: Swift.Double) -> AmwalPay.PaymentRequestBuilder
   public func setCurrency(_ currency: AmwalPay.Currency) -> AmwalPay.PaymentRequestBuilder
-  public func setCompletion(_ completion: @escaping (_ transactionId: Swift.String) -> Swift.Void) -> AmwalPay.PaymentRequestBuilder
+  public func setCompletion(_ completion: @escaping (_ transactionId: AmwalPay.PaymentResult) -> Swift.Void) -> AmwalPay.PaymentRequestBuilder
   public func build() -> AmwalPay.PaymentRequest
 }
 public struct CreditCardView : SwiftUI.View {
@@ -280,8 +280,13 @@ public protocol DependencyKey : AmwalPay.TestDependencyKey {
   @_Concurrency.MainActor(unsafe) @objc override dynamic public func willMove(toSuperview newSuperview: UIKit.UIView?)
   @objc deinit
 }
+public enum PaymentResult : Swift.Equatable {
+  case success(transactionId: Swift.String)
+  case fail(error: Swift.String)
+  public static func == (a: AmwalPay.PaymentResult, b: AmwalPay.PaymentResult) -> Swift.Bool
+}
 public struct AmwalPaymentView : SwiftUI.View {
-  public init(currency: AmwalPay.Currency, amount: Swift.Double, vat: Swift.Double, merchantId: Swift.String, completion: @escaping (_ transactionId: Swift.String) -> Swift.Void)
+  public init(currency: AmwalPay.Currency, amount: Swift.Double, vat: Swift.Double, merchantId: Swift.String, completion: @escaping (_ status: AmwalPay.PaymentResult) -> Swift.Void)
   @_Concurrency.MainActor(unsafe) public var body: some SwiftUI.View {
     get
   }
