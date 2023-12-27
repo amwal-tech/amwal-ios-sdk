@@ -11,6 +11,8 @@
 		1E17A8032A88E8DC00C9BB82 /* SnapshotHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E17A8022A88E8DC00C9BB82 /* SnapshotHelper.swift */; };
 		1E2DD1842AA0952F003A839A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E2DD1832AA0952F003A839A /* AppDelegate.swift */; };
 		1E2DD1862AA0953F003A839A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E2DD1852AA0953F003A839A /* SceneDelegate.swift */; };
+		1E687C292B0D27DD007BFFC2 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E687C272B0D27DD007BFFC2 /* WebViewController.swift */; };
+		1E687C2A2B0D27DD007BFFC2 /* WebViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1E687C282B0D27DD007BFFC2 /* WebViewController.xib */; };
 		1E7EAB6F2A1F82220050AA52 /* AmwalPaymentExampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E7EAB6E2A1F82220050AA52 /* AmwalPaymentExampleApp.swift */; };
 		1E7EAB712A1F82220050AA52 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E7EAB702A1F82220050AA52 /* ContentView.swift */; };
 		1E7EAB732A1F82230050AA52 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1E7EAB722A1F82230050AA52 /* Assets.xcassets */; };
@@ -53,6 +55,8 @@
 		1E2DD1832AA0952F003A839A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1E2DD1852AA0953F003A839A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		1E2ED41A2A447B4200E7376E /* applePay.entitlements */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.entitlements; path = applePay.entitlements; sourceTree = "<group>"; };
+		1E687C272B0D27DD007BFFC2 /* WebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
+		1E687C282B0D27DD007BFFC2 /* WebViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WebViewController.xib; sourceTree = "<group>"; };
 		1E7EAB6B2A1F82220050AA52 /* AmwalPaymentExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AmwalPaymentExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1E7EAB6E2A1F82220050AA52 /* AmwalPaymentExampleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmwalPaymentExampleApp.swift; sourceTree = "<group>"; };
 		1E7EAB702A1F82220050AA52 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -120,6 +124,8 @@
 		1E7EAB6D2A1F82220050AA52 /* AmwalPaymentExample */ = {
 			isa = PBXGroup;
 			children = (
+				1E687C272B0D27DD007BFFC2 /* WebViewController.swift */,
+				1E687C282B0D27DD007BFFC2 /* WebViewController.xib */,
 				1E2DD1852AA0953F003A839A /* SceneDelegate.swift */,
 				1E2DD1832AA0952F003A839A /* AppDelegate.swift */,
 				1EA8C91D2A5D9681001E19E4 /* AmwalPaymentExample.entitlements */,
@@ -262,6 +268,7 @@
 				1E9D5CEB2AA9CDF80080E114 /* 1024x1024bb.png in Resources */,
 				1E7EAB762A1F82230050AA52 /* Preview Assets.xcassets in Resources */,
 				1E7EAB732A1F82230050AA52 /* Assets.xcassets in Resources */,
+				1E687C2A2B0D27DD007BFFC2 /* WebViewController.xib in Resources */,
 				1E9D5CE92AA9CCFE0080E114 /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -344,6 +351,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1E2DD1842AA0952F003A839A /* AppDelegate.swift in Sources */,
+				1E687C292B0D27DD007BFFC2 /* WebViewController.swift in Sources */,
 				1E7EAB712A1F82220050AA52 /* ContentView.swift in Sources */,
 				1E7EAB6F2A1F82220050AA52 /* AmwalPaymentExampleApp.swift in Sources */,
 				1E2DD1862AA0953F003A839A /* SceneDelegate.swift in Sources */,
@@ -533,7 +541,7 @@
 				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = location_permission_pop_up_message;
 				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = location_permission_pop_up_message;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIRequiresFullScreen = YES;
 				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleLightContent;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
@@ -580,7 +588,7 @@
 				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = location_permission_pop_up_message;
 				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = location_permission_pop_up_message;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIRequiresFullScreen = YES;
 				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleLightContent;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
