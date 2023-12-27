@@ -4629,6 +4629,23 @@
         "name": "Combine",
         "printedName": "Combine",
         "declKind": "Import",
+        "moduleName": "AmwalPay",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AmwalPay"
+      },
+      {
+        "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
+        "declKind": "Import",
         "moduleName": "AmwalPay"
       },
       {
@@ -8223,42 +8240,42 @@
               {
                 "kind": "TypeNominal",
                 "name": "ModifiedContent",
-                "printedName": "SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.VStack<SwiftUI.TupleView<(SwiftUI._ConditionalContent<SwiftUI._ConditionalContent<SwiftUI._ConditionalContent<AmwalPay.Unwrap<AmwalPay.AnyViewModel<AmwalPay.PhoneNumberValidationView.ViewState, AmwalPay.PhoneNumberValidationView.ViewInput>, AmwalPay.PhoneNumberValidationView, Swift.Never>, AmwalPay.Unwrap<AmwalPay.AnyViewModel<AmwalPay.OTPVerificationView.ViewState, AmwalPay.OTPVerificationView.ViewInput>, AmwalPay.OTPVerificationView, Swift.Never>>, SwiftUI._ConditionalContent<AmwalPay.Unwrap<AmwalPay.AnyViewModel<AmwalPay.PaymentInputsView.ViewState, AmwalPay.PaymentInputsView.ViewInput>, AmwalPay.PaymentInputsView, Swift.Never>, AmwalPay.Unwrap<AmwalPay.AnyViewModel<AmwalPay.SuccessScreenView.ViewState, AmwalPay.SuccessScreenView.ViewInput>, AmwalPay.SuccessScreenView, Swift.Never>>>, SwiftUI._ConditionalContent<SwiftUI._ConditionalContent<AmwalPay.Unwrap<AmwalPay.AnyViewModel<AmwalPay.SavedCardsView.ViewState, AmwalPay.SavedCardsView.ViewInput>, AmwalPay.SavedCardsView, Swift.Never>, AmwalPay.Unwrap<AmwalPay.AnyViewModel<AmwalPay.PasskeysView.ViewState, AmwalPay.PasskeysView.ViewInput>, AmwalPay.PasskeysView, Swift.Never>>, SwiftUI.VStack<SwiftUI.TupleView<(SwiftUI.Spacer, AmwalPay.LoadingThreeBalls, SwiftUI.Spacer)>>>>, AmwalPay.FooterView)>>, AmwalPay.LanguageLayoutDirectionModifier>, AmwalPay.ShowLoaderModifier>, AmwalPay.ShowErrorModifier>, SwiftUI._PaddingLayout>, SwiftUI._AppearanceActionModifier>",
+                "printedName": "SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.VStack<SwiftUI.TupleView<(SwiftUI._ConditionalContent<SwiftUI._ConditionalContent<SwiftUI._ConditionalContent<AmwalPay.Unwrap<AmwalPay.AnyViewModel<AmwalPay.PhoneNumberValidationView.ViewState, AmwalPay.PhoneNumberValidationView.ViewInput>, AmwalPay.PhoneNumberValidationView, Swift.Never>, AmwalPay.Unwrap<AmwalPay.AnyViewModel<AmwalPay.OTPVerificationView.ViewState, AmwalPay.OTPVerificationView.ViewInput>, AmwalPay.OTPVerificationView, Swift.Never>>, SwiftUI._ConditionalContent<AmwalPay.Unwrap<AmwalPay.AnyViewModel<AmwalPay.PaymentInputsView.ViewState, AmwalPay.PaymentInputsView.ViewInput>, AmwalPay.PaymentInputsView, Swift.Never>, AmwalPay.Unwrap<AmwalPay.AnyViewModel<AmwalPay.SuccessScreenView.ViewState, AmwalPay.SuccessScreenView.ViewInput>, AmwalPay.SuccessScreenView, Swift.Never>>>, SwiftUI._ConditionalContent<SwiftUI._ConditionalContent<AmwalPay.Unwrap<AmwalPay.AnyViewModel<AmwalPay.SavedCardsView.ViewState, AmwalPay.SavedCardsView.ViewInput>, AmwalPay.SavedCardsView, Swift.Never>, AmwalPay.Unwrap<AmwalPay.AnyViewModel<AmwalPay.PasskeysView.ViewState, AmwalPay.PasskeysView.ViewInput>, AmwalPay.PasskeysView, Swift.Never>>, SwiftUI.VStack<SwiftUI.TupleView<(SwiftUI.Spacer, AmwalPay.LoadingThreeBalls, SwiftUI.Spacer)>>>>, SwiftUI.Spacer, AmwalPay.FooterView)>>, AmwalPay.LanguageLayoutDirectionModifier>, AmwalPay.ShowLoaderModifier>, AmwalPay.ShowErrorModifier>, SwiftUI._PaddingLayout>, SwiftUI._AppearanceActionModifier>",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "ModifiedContent",
-                    "printedName": "SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.VStack<SwiftUI.TupleView<(SwiftUI._ConditionalContent<SwiftUI._ConditionalContent<SwiftUI._ConditionalContent<AmwalPay.Unwrap<AmwalPay.AnyViewModel<AmwalPay.PhoneNumberValidationView.ViewState, AmwalPay.PhoneNumberValidationView.ViewInput>, AmwalPay.PhoneNumberValidationView, Swift.Never>, AmwalPay.Unwrap<AmwalPay.AnyViewModel<AmwalPay.OTPVerificationView.ViewState, AmwalPay.OTPVerificationView.ViewInput>, AmwalPay.OTPVerificationView, Swift.Never>>, SwiftUI._ConditionalContent<AmwalPay.Unwrap<AmwalPay.AnyViewModel<AmwalPay.PaymentInputsView.ViewState, AmwalPay.PaymentInputsView.ViewInput>, AmwalPay.PaymentInputsView, Swift.Never>, AmwalPay.Unwrap<AmwalPay.AnyViewModel<AmwalPay.SuccessScreenView.ViewState, AmwalPay.SuccessScreenView.ViewInput>, AmwalPay.SuccessScreenView, Swift.Never>>>, SwiftUI._ConditionalContent<SwiftUI._ConditionalContent<AmwalPay.Unwrap<AmwalPay.AnyViewModel<AmwalPay.SavedCardsView.ViewState, AmwalPay.SavedCardsView.ViewInput>, AmwalPay.SavedCardsView, Swift.Never>, AmwalPay.Unwrap<AmwalPay.AnyViewModel<AmwalPay.PasskeysView.ViewState, AmwalPay.PasskeysView.ViewInput>, AmwalPay.PasskeysView, Swift.Never>>, SwiftUI.VStack<SwiftUI.TupleView<(SwiftUI.Spacer, AmwalPay.LoadingThreeBalls, SwiftUI.Spacer)>>>>, AmwalPay.FooterView)>>, AmwalPay.LanguageLayoutDirectionModifier>, AmwalPay.ShowLoaderModifier>, AmwalPay.ShowErrorModifier>, SwiftUI._PaddingLayout>",
+                    "printedName": "SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.VStack<SwiftUI.TupleView<(SwiftUI._ConditionalContent<SwiftUI._ConditionalContent<SwiftUI._ConditionalContent<AmwalPay.Unwrap<AmwalPay.AnyViewModel<AmwalPay.PhoneNumberValidationView.ViewState, AmwalPay.PhoneNumberValidationView.ViewInput>, AmwalPay.PhoneNumberValidationView, Swift.Never>, AmwalPay.Unwrap<AmwalPay.AnyViewModel<AmwalPay.OTPVerificationView.ViewState, AmwalPay.OTPVerificationView.ViewInput>, AmwalPay.OTPVerificationView, Swift.Never>>, SwiftUI._ConditionalContent<AmwalPay.Unwrap<AmwalPay.AnyViewModel<AmwalPay.PaymentInputsView.ViewState, AmwalPay.PaymentInputsView.ViewInput>, AmwalPay.PaymentInputsView, Swift.Never>, AmwalPay.Unwrap<AmwalPay.AnyViewModel<AmwalPay.SuccessScreenView.ViewState, AmwalPay.SuccessScreenView.ViewInput>, AmwalPay.SuccessScreenView, Swift.Never>>>, SwiftUI._ConditionalContent<SwiftUI._ConditionalContent<AmwalPay.Unwrap<AmwalPay.AnyViewModel<AmwalPay.SavedCardsView.ViewState, AmwalPay.SavedCardsView.ViewInput>, AmwalPay.SavedCardsView, Swift.Never>, AmwalPay.Unwrap<AmwalPay.AnyViewModel<AmwalPay.PasskeysView.ViewState, AmwalPay.PasskeysView.ViewInput>, AmwalPay.PasskeysView, Swift.Never>>, SwiftUI.VStack<SwiftUI.TupleView<(SwiftUI.Spacer, AmwalPay.LoadingThreeBalls, SwiftUI.Spacer)>>>>, SwiftUI.Spacer, AmwalPay.FooterView)>>, AmwalPay.LanguageLayoutDirectionModifier>, AmwalPay.ShowLoaderModifier>, AmwalPay.ShowErrorModifier>, SwiftUI._PaddingLayout>",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "ModifiedContent",
-                        "printedName": "SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.VStack<SwiftUI.TupleView<(SwiftUI._ConditionalContent<SwiftUI._ConditionalContent<SwiftUI._ConditionalContent<AmwalPay.Unwrap<AmwalPay.AnyViewModel<AmwalPay.PhoneNumberValidationView.ViewState, AmwalPay.PhoneNumberValidationView.ViewInput>, AmwalPay.PhoneNumberValidationView, Swift.Never>, AmwalPay.Unwrap<AmwalPay.AnyViewModel<AmwalPay.OTPVerificationView.ViewState, AmwalPay.OTPVerificationView.ViewInput>, AmwalPay.OTPVerificationView, Swift.Never>>, SwiftUI._ConditionalContent<AmwalPay.Unwrap<AmwalPay.AnyViewModel<AmwalPay.PaymentInputsView.ViewState, AmwalPay.PaymentInputsView.ViewInput>, AmwalPay.PaymentInputsView, Swift.Never>, AmwalPay.Unwrap<AmwalPay.AnyViewModel<AmwalPay.SuccessScreenView.ViewState, AmwalPay.SuccessScreenView.ViewInput>, AmwalPay.SuccessScreenView, Swift.Never>>>, SwiftUI._ConditionalContent<SwiftUI._ConditionalContent<AmwalPay.Unwrap<AmwalPay.AnyViewModel<AmwalPay.SavedCardsView.ViewState, AmwalPay.SavedCardsView.ViewInput>, AmwalPay.SavedCardsView, Swift.Never>, AmwalPay.Unwrap<AmwalPay.AnyViewModel<AmwalPay.PasskeysView.ViewState, AmwalPay.PasskeysView.ViewInput>, AmwalPay.PasskeysView, Swift.Never>>, SwiftUI.VStack<SwiftUI.TupleView<(SwiftUI.Spacer, AmwalPay.LoadingThreeBalls, SwiftUI.Spacer)>>>>, AmwalPay.FooterView)>>, AmwalPay.LanguageLayoutDirectionModifier>, AmwalPay.ShowLoaderModifier>, AmwalPay.ShowErrorModifier>",
+                        "printedName": "SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.VStack<SwiftUI.TupleView<(SwiftUI._ConditionalContent<SwiftUI._ConditionalContent<SwiftUI._ConditionalContent<AmwalPay.Unwrap<AmwalPay.AnyViewModel<AmwalPay.PhoneNumberValidationView.ViewState, AmwalPay.PhoneNumberValidationView.ViewInput>, AmwalPay.PhoneNumberValidationView, Swift.Never>, AmwalPay.Unwrap<AmwalPay.AnyViewModel<AmwalPay.OTPVerificationView.ViewState, AmwalPay.OTPVerificationView.ViewInput>, AmwalPay.OTPVerificationView, Swift.Never>>, SwiftUI._ConditionalContent<AmwalPay.Unwrap<AmwalPay.AnyViewModel<AmwalPay.PaymentInputsView.ViewState, AmwalPay.PaymentInputsView.ViewInput>, AmwalPay.PaymentInputsView, Swift.Never>, AmwalPay.Unwrap<AmwalPay.AnyViewModel<AmwalPay.SuccessScreenView.ViewState, AmwalPay.SuccessScreenView.ViewInput>, AmwalPay.SuccessScreenView, Swift.Never>>>, SwiftUI._ConditionalContent<SwiftUI._ConditionalContent<AmwalPay.Unwrap<AmwalPay.AnyViewModel<AmwalPay.SavedCardsView.ViewState, AmwalPay.SavedCardsView.ViewInput>, AmwalPay.SavedCardsView, Swift.Never>, AmwalPay.Unwrap<AmwalPay.AnyViewModel<AmwalPay.PasskeysView.ViewState, AmwalPay.PasskeysView.ViewInput>, AmwalPay.PasskeysView, Swift.Never>>, SwiftUI.VStack<SwiftUI.TupleView<(SwiftUI.Spacer, AmwalPay.LoadingThreeBalls, SwiftUI.Spacer)>>>>, SwiftUI.Spacer, AmwalPay.FooterView)>>, AmwalPay.LanguageLayoutDirectionModifier>, AmwalPay.ShowLoaderModifier>, AmwalPay.ShowErrorModifier>",
                         "children": [
                           {
                             "kind": "TypeNominal",
                             "name": "ModifiedContent",
-                            "printedName": "SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.VStack<SwiftUI.TupleView<(SwiftUI._ConditionalContent<SwiftUI._ConditionalContent<SwiftUI._ConditionalContent<AmwalPay.Unwrap<AmwalPay.AnyViewModel<AmwalPay.PhoneNumberValidationView.ViewState, AmwalPay.PhoneNumberValidationView.ViewInput>, AmwalPay.PhoneNumberValidationView, Swift.Never>, AmwalPay.Unwrap<AmwalPay.AnyViewModel<AmwalPay.OTPVerificationView.ViewState, AmwalPay.OTPVerificationView.ViewInput>, AmwalPay.OTPVerificationView, Swift.Never>>, SwiftUI._ConditionalContent<AmwalPay.Unwrap<AmwalPay.AnyViewModel<AmwalPay.PaymentInputsView.ViewState, AmwalPay.PaymentInputsView.ViewInput>, AmwalPay.PaymentInputsView, Swift.Never>, AmwalPay.Unwrap<AmwalPay.AnyViewModel<AmwalPay.SuccessScreenView.ViewState, AmwalPay.SuccessScreenView.ViewInput>, AmwalPay.SuccessScreenView, Swift.Never>>>, SwiftUI._ConditionalContent<SwiftUI._ConditionalContent<AmwalPay.Unwrap<AmwalPay.AnyViewModel<AmwalPay.SavedCardsView.ViewState, AmwalPay.SavedCardsView.ViewInput>, AmwalPay.SavedCardsView, Swift.Never>, AmwalPay.Unwrap<AmwalPay.AnyViewModel<AmwalPay.PasskeysView.ViewState, AmwalPay.PasskeysView.ViewInput>, AmwalPay.PasskeysView, Swift.Never>>, SwiftUI.VStack<SwiftUI.TupleView<(SwiftUI.Spacer, AmwalPay.LoadingThreeBalls, SwiftUI.Spacer)>>>>, AmwalPay.FooterView)>>, AmwalPay.LanguageLayoutDirectionModifier>, AmwalPay.ShowLoaderModifier>",
+                            "printedName": "SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.VStack<SwiftUI.TupleView<(SwiftUI._ConditionalContent<SwiftUI._ConditionalContent<SwiftUI._ConditionalContent<AmwalPay.Unwrap<AmwalPay.AnyViewModel<AmwalPay.PhoneNumberValidationView.ViewState, AmwalPay.PhoneNumberValidationView.ViewInput>, AmwalPay.PhoneNumberValidationView, Swift.Never>, AmwalPay.Unwrap<AmwalPay.AnyViewModel<AmwalPay.OTPVerificationView.ViewState, AmwalPay.OTPVerificationView.ViewInput>, AmwalPay.OTPVerificationView, Swift.Never>>, SwiftUI._ConditionalContent<AmwalPay.Unwrap<AmwalPay.AnyViewModel<AmwalPay.PaymentInputsView.ViewState, AmwalPay.PaymentInputsView.ViewInput>, AmwalPay.PaymentInputsView, Swift.Never>, AmwalPay.Unwrap<AmwalPay.AnyViewModel<AmwalPay.SuccessScreenView.ViewState, AmwalPay.SuccessScreenView.ViewInput>, AmwalPay.SuccessScreenView, Swift.Never>>>, SwiftUI._ConditionalContent<SwiftUI._ConditionalContent<AmwalPay.Unwrap<AmwalPay.AnyViewModel<AmwalPay.SavedCardsView.ViewState, AmwalPay.SavedCardsView.ViewInput>, AmwalPay.SavedCardsView, Swift.Never>, AmwalPay.Unwrap<AmwalPay.AnyViewModel<AmwalPay.PasskeysView.ViewState, AmwalPay.PasskeysView.ViewInput>, AmwalPay.PasskeysView, Swift.Never>>, SwiftUI.VStack<SwiftUI.TupleView<(SwiftUI.Spacer, AmwalPay.LoadingThreeBalls, SwiftUI.Spacer)>>>>, SwiftUI.Spacer, AmwalPay.FooterView)>>, AmwalPay.LanguageLayoutDirectionModifier>, AmwalPay.ShowLoaderModifier>",
                             "children": [
                               {
                                 "kind": "TypeNominal",
                                 "name": "ModifiedContent",
-                                "printedName": "SwiftUI.ModifiedContent<SwiftUI.VStack<SwiftUI.TupleView<(SwiftUI._ConditionalContent<SwiftUI._ConditionalContent<SwiftUI._ConditionalContent<AmwalPay.Unwrap<AmwalPay.AnyViewModel<AmwalPay.PhoneNumberValidationView.ViewState, AmwalPay.PhoneNumberValidationView.ViewInput>, AmwalPay.PhoneNumberValidationView, Swift.Never>, AmwalPay.Unwrap<AmwalPay.AnyViewModel<AmwalPay.OTPVerificationView.ViewState, AmwalPay.OTPVerificationView.ViewInput>, AmwalPay.OTPVerificationView, Swift.Never>>, SwiftUI._ConditionalContent<AmwalPay.Unwrap<AmwalPay.AnyViewModel<AmwalPay.PaymentInputsView.ViewState, AmwalPay.PaymentInputsView.ViewInput>, AmwalPay.PaymentInputsView, Swift.Never>, AmwalPay.Unwrap<AmwalPay.AnyViewModel<AmwalPay.SuccessScreenView.ViewState, AmwalPay.SuccessScreenView.ViewInput>, AmwalPay.SuccessScreenView, Swift.Never>>>, SwiftUI._ConditionalContent<SwiftUI._ConditionalContent<AmwalPay.Unwrap<AmwalPay.AnyViewModel<AmwalPay.SavedCardsView.ViewState, AmwalPay.SavedCardsView.ViewInput>, AmwalPay.SavedCardsView, Swift.Never>, AmwalPay.Unwrap<AmwalPay.AnyViewModel<AmwalPay.PasskeysView.ViewState, AmwalPay.PasskeysView.ViewInput>, AmwalPay.PasskeysView, Swift.Never>>, SwiftUI.VStack<SwiftUI.TupleView<(SwiftUI.Spacer, AmwalPay.LoadingThreeBalls, SwiftUI.Spacer)>>>>, AmwalPay.FooterView)>>, AmwalPay.LanguageLayoutDirectionModifier>",
+                                "printedName": "SwiftUI.ModifiedContent<SwiftUI.VStack<SwiftUI.TupleView<(SwiftUI._ConditionalContent<SwiftUI._ConditionalContent<SwiftUI._ConditionalContent<AmwalPay.Unwrap<AmwalPay.AnyViewModel<AmwalPay.PhoneNumberValidationView.ViewState, AmwalPay.PhoneNumberValidationView.ViewInput>, AmwalPay.PhoneNumberValidationView, Swift.Never>, AmwalPay.Unwrap<AmwalPay.AnyViewModel<AmwalPay.OTPVerificationView.ViewState, AmwalPay.OTPVerificationView.ViewInput>, AmwalPay.OTPVerificationView, Swift.Never>>, SwiftUI._ConditionalContent<AmwalPay.Unwrap<AmwalPay.AnyViewModel<AmwalPay.PaymentInputsView.ViewState, AmwalPay.PaymentInputsView.ViewInput>, AmwalPay.PaymentInputsView, Swift.Never>, AmwalPay.Unwrap<AmwalPay.AnyViewModel<AmwalPay.SuccessScreenView.ViewState, AmwalPay.SuccessScreenView.ViewInput>, AmwalPay.SuccessScreenView, Swift.Never>>>, SwiftUI._ConditionalContent<SwiftUI._ConditionalContent<AmwalPay.Unwrap<AmwalPay.AnyViewModel<AmwalPay.SavedCardsView.ViewState, AmwalPay.SavedCardsView.ViewInput>, AmwalPay.SavedCardsView, Swift.Never>, AmwalPay.Unwrap<AmwalPay.AnyViewModel<AmwalPay.PasskeysView.ViewState, AmwalPay.PasskeysView.ViewInput>, AmwalPay.PasskeysView, Swift.Never>>, SwiftUI.VStack<SwiftUI.TupleView<(SwiftUI.Spacer, AmwalPay.LoadingThreeBalls, SwiftUI.Spacer)>>>>, SwiftUI.Spacer, AmwalPay.FooterView)>>, AmwalPay.LanguageLayoutDirectionModifier>",
                                 "children": [
                                   {
                                     "kind": "TypeNominal",
                                     "name": "VStack",
-                                    "printedName": "SwiftUI.VStack<SwiftUI.TupleView<(SwiftUI._ConditionalContent<SwiftUI._ConditionalContent<SwiftUI._ConditionalContent<AmwalPay.Unwrap<AmwalPay.AnyViewModel<AmwalPay.PhoneNumberValidationView.ViewState, AmwalPay.PhoneNumberValidationView.ViewInput>, AmwalPay.PhoneNumberValidationView, Swift.Never>, AmwalPay.Unwrap<AmwalPay.AnyViewModel<AmwalPay.OTPVerificationView.ViewState, AmwalPay.OTPVerificationView.ViewInput>, AmwalPay.OTPVerificationView, Swift.Never>>, SwiftUI._ConditionalContent<AmwalPay.Unwrap<AmwalPay.AnyViewModel<AmwalPay.PaymentInputsView.ViewState, AmwalPay.PaymentInputsView.ViewInput>, AmwalPay.PaymentInputsView, Swift.Never>, AmwalPay.Unwrap<AmwalPay.AnyViewModel<AmwalPay.SuccessScreenView.ViewState, AmwalPay.SuccessScreenView.ViewInput>, AmwalPay.SuccessScreenView, Swift.Never>>>, SwiftUI._ConditionalContent<SwiftUI._ConditionalContent<AmwalPay.Unwrap<AmwalPay.AnyViewModel<AmwalPay.SavedCardsView.ViewState, AmwalPay.SavedCardsView.ViewInput>, AmwalPay.SavedCardsView, Swift.Never>, AmwalPay.Unwrap<AmwalPay.AnyViewModel<AmwalPay.PasskeysView.ViewState, AmwalPay.PasskeysView.ViewInput>, AmwalPay.PasskeysView, Swift.Never>>, SwiftUI.VStack<SwiftUI.TupleView<(SwiftUI.Spacer, AmwalPay.LoadingThreeBalls, SwiftUI.Spacer)>>>>, AmwalPay.FooterView)>>",
+                                    "printedName": "SwiftUI.VStack<SwiftUI.TupleView<(SwiftUI._ConditionalContent<SwiftUI._ConditionalContent<SwiftUI._ConditionalContent<AmwalPay.Unwrap<AmwalPay.AnyViewModel<AmwalPay.PhoneNumberValidationView.ViewState, AmwalPay.PhoneNumberValidationView.ViewInput>, AmwalPay.PhoneNumberValidationView, Swift.Never>, AmwalPay.Unwrap<AmwalPay.AnyViewModel<AmwalPay.OTPVerificationView.ViewState, AmwalPay.OTPVerificationView.ViewInput>, AmwalPay.OTPVerificationView, Swift.Never>>, SwiftUI._ConditionalContent<AmwalPay.Unwrap<AmwalPay.AnyViewModel<AmwalPay.PaymentInputsView.ViewState, AmwalPay.PaymentInputsView.ViewInput>, AmwalPay.PaymentInputsView, Swift.Never>, AmwalPay.Unwrap<AmwalPay.AnyViewModel<AmwalPay.SuccessScreenView.ViewState, AmwalPay.SuccessScreenView.ViewInput>, AmwalPay.SuccessScreenView, Swift.Never>>>, SwiftUI._ConditionalContent<SwiftUI._ConditionalContent<AmwalPay.Unwrap<AmwalPay.AnyViewModel<AmwalPay.SavedCardsView.ViewState, AmwalPay.SavedCardsView.ViewInput>, AmwalPay.SavedCardsView, Swift.Never>, AmwalPay.Unwrap<AmwalPay.AnyViewModel<AmwalPay.PasskeysView.ViewState, AmwalPay.PasskeysView.ViewInput>, AmwalPay.PasskeysView, Swift.Never>>, SwiftUI.VStack<SwiftUI.TupleView<(SwiftUI.Spacer, AmwalPay.LoadingThreeBalls, SwiftUI.Spacer)>>>>, SwiftUI.Spacer, AmwalPay.FooterView)>>",
                                     "children": [
                                       {
                                         "kind": "TypeNominal",
                                         "name": "TupleView",
-                                        "printedName": "SwiftUI.TupleView<(SwiftUI._ConditionalContent<SwiftUI._ConditionalContent<SwiftUI._ConditionalContent<AmwalPay.Unwrap<AmwalPay.AnyViewModel<AmwalPay.PhoneNumberValidationView.ViewState, AmwalPay.PhoneNumberValidationView.ViewInput>, AmwalPay.PhoneNumberValidationView, Swift.Never>, AmwalPay.Unwrap<AmwalPay.AnyViewModel<AmwalPay.OTPVerificationView.ViewState, AmwalPay.OTPVerificationView.ViewInput>, AmwalPay.OTPVerificationView, Swift.Never>>, SwiftUI._ConditionalContent<AmwalPay.Unwrap<AmwalPay.AnyViewModel<AmwalPay.PaymentInputsView.ViewState, AmwalPay.PaymentInputsView.ViewInput>, AmwalPay.PaymentInputsView, Swift.Never>, AmwalPay.Unwrap<AmwalPay.AnyViewModel<AmwalPay.SuccessScreenView.ViewState, AmwalPay.SuccessScreenView.ViewInput>, AmwalPay.SuccessScreenView, Swift.Never>>>, SwiftUI._ConditionalContent<SwiftUI._ConditionalContent<AmwalPay.Unwrap<AmwalPay.AnyViewModel<AmwalPay.SavedCardsView.ViewState, AmwalPay.SavedCardsView.ViewInput>, AmwalPay.SavedCardsView, Swift.Never>, AmwalPay.Unwrap<AmwalPay.AnyViewModel<AmwalPay.PasskeysView.ViewState, AmwalPay.PasskeysView.ViewInput>, AmwalPay.PasskeysView, Swift.Never>>, SwiftUI.VStack<SwiftUI.TupleView<(SwiftUI.Spacer, AmwalPay.LoadingThreeBalls, SwiftUI.Spacer)>>>>, AmwalPay.FooterView)>",
+                                        "printedName": "SwiftUI.TupleView<(SwiftUI._ConditionalContent<SwiftUI._ConditionalContent<SwiftUI._ConditionalContent<AmwalPay.Unwrap<AmwalPay.AnyViewModel<AmwalPay.PhoneNumberValidationView.ViewState, AmwalPay.PhoneNumberValidationView.ViewInput>, AmwalPay.PhoneNumberValidationView, Swift.Never>, AmwalPay.Unwrap<AmwalPay.AnyViewModel<AmwalPay.OTPVerificationView.ViewState, AmwalPay.OTPVerificationView.ViewInput>, AmwalPay.OTPVerificationView, Swift.Never>>, SwiftUI._ConditionalContent<AmwalPay.Unwrap<AmwalPay.AnyViewModel<AmwalPay.PaymentInputsView.ViewState, AmwalPay.PaymentInputsView.ViewInput>, AmwalPay.PaymentInputsView, Swift.Never>, AmwalPay.Unwrap<AmwalPay.AnyViewModel<AmwalPay.SuccessScreenView.ViewState, AmwalPay.SuccessScreenView.ViewInput>, AmwalPay.SuccessScreenView, Swift.Never>>>, SwiftUI._ConditionalContent<SwiftUI._ConditionalContent<AmwalPay.Unwrap<AmwalPay.AnyViewModel<AmwalPay.SavedCardsView.ViewState, AmwalPay.SavedCardsView.ViewInput>, AmwalPay.SavedCardsView, Swift.Never>, AmwalPay.Unwrap<AmwalPay.AnyViewModel<AmwalPay.PasskeysView.ViewState, AmwalPay.PasskeysView.ViewInput>, AmwalPay.PasskeysView, Swift.Never>>, SwiftUI.VStack<SwiftUI.TupleView<(SwiftUI.Spacer, AmwalPay.LoadingThreeBalls, SwiftUI.Spacer)>>>>, SwiftUI.Spacer, AmwalPay.FooterView)>",
                                         "children": [
                                           {
                                             "kind": "TypeNominal",
                                             "name": "Tuple",
-                                            "printedName": "(SwiftUI._ConditionalContent<SwiftUI._ConditionalContent<SwiftUI._ConditionalContent<AmwalPay.Unwrap<AmwalPay.AnyViewModel<AmwalPay.PhoneNumberValidationView.ViewState, AmwalPay.PhoneNumberValidationView.ViewInput>, AmwalPay.PhoneNumberValidationView, Swift.Never>, AmwalPay.Unwrap<AmwalPay.AnyViewModel<AmwalPay.OTPVerificationView.ViewState, AmwalPay.OTPVerificationView.ViewInput>, AmwalPay.OTPVerificationView, Swift.Never>>, SwiftUI._ConditionalContent<AmwalPay.Unwrap<AmwalPay.AnyViewModel<AmwalPay.PaymentInputsView.ViewState, AmwalPay.PaymentInputsView.ViewInput>, AmwalPay.PaymentInputsView, Swift.Never>, AmwalPay.Unwrap<AmwalPay.AnyViewModel<AmwalPay.SuccessScreenView.ViewState, AmwalPay.SuccessScreenView.ViewInput>, AmwalPay.SuccessScreenView, Swift.Never>>>, SwiftUI._ConditionalContent<SwiftUI._ConditionalContent<AmwalPay.Unwrap<AmwalPay.AnyViewModel<AmwalPay.SavedCardsView.ViewState, AmwalPay.SavedCardsView.ViewInput>, AmwalPay.SavedCardsView, Swift.Never>, AmwalPay.Unwrap<AmwalPay.AnyViewModel<AmwalPay.PasskeysView.ViewState, AmwalPay.PasskeysView.ViewInput>, AmwalPay.PasskeysView, Swift.Never>>, SwiftUI.VStack<SwiftUI.TupleView<(SwiftUI.Spacer, AmwalPay.LoadingThreeBalls, SwiftUI.Spacer)>>>>, AmwalPay.FooterView)",
+                                            "printedName": "(SwiftUI._ConditionalContent<SwiftUI._ConditionalContent<SwiftUI._ConditionalContent<AmwalPay.Unwrap<AmwalPay.AnyViewModel<AmwalPay.PhoneNumberValidationView.ViewState, AmwalPay.PhoneNumberValidationView.ViewInput>, AmwalPay.PhoneNumberValidationView, Swift.Never>, AmwalPay.Unwrap<AmwalPay.AnyViewModel<AmwalPay.OTPVerificationView.ViewState, AmwalPay.OTPVerificationView.ViewInput>, AmwalPay.OTPVerificationView, Swift.Never>>, SwiftUI._ConditionalContent<AmwalPay.Unwrap<AmwalPay.AnyViewModel<AmwalPay.PaymentInputsView.ViewState, AmwalPay.PaymentInputsView.ViewInput>, AmwalPay.PaymentInputsView, Swift.Never>, AmwalPay.Unwrap<AmwalPay.AnyViewModel<AmwalPay.SuccessScreenView.ViewState, AmwalPay.SuccessScreenView.ViewInput>, AmwalPay.SuccessScreenView, Swift.Never>>>, SwiftUI._ConditionalContent<SwiftUI._ConditionalContent<AmwalPay.Unwrap<AmwalPay.AnyViewModel<AmwalPay.SavedCardsView.ViewState, AmwalPay.SavedCardsView.ViewInput>, AmwalPay.SavedCardsView, Swift.Never>, AmwalPay.Unwrap<AmwalPay.AnyViewModel<AmwalPay.PasskeysView.ViewState, AmwalPay.PasskeysView.ViewInput>, AmwalPay.PasskeysView, Swift.Never>>, SwiftUI.VStack<SwiftUI.TupleView<(SwiftUI.Spacer, AmwalPay.LoadingThreeBalls, SwiftUI.Spacer)>>>>, SwiftUI.Spacer, AmwalPay.FooterView)",
                                             "children": [
                                               {
                                                 "kind": "TypeNominal",
@@ -8591,6 +8608,12 @@
                                               },
                                               {
                                                 "kind": "TypeNominal",
+                                                "name": "Spacer",
+                                                "printedName": "SwiftUI.Spacer",
+                                                "usr": "s:7SwiftUI6SpacerV"
+                                              },
+                                              {
+                                                "kind": "TypeNominal",
                                                 "name": "FooterView",
                                                 "printedName": "AmwalPay.FooterView",
                                                 "usr": "s:8AmwalPay10FooterViewV"
@@ -8666,42 +8689,42 @@
                   {
                     "kind": "TypeNominal",
                     "name": "ModifiedContent",
-                    "printedName": "SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.VStack<SwiftUI.TupleView<(SwiftUI._ConditionalContent<SwiftUI._ConditionalContent<SwiftUI._ConditionalContent<AmwalPay.Unwrap<AmwalPay.AnyViewModel<AmwalPay.PhoneNumberValidationView.ViewState, AmwalPay.PhoneNumberValidationView.ViewInput>, AmwalPay.PhoneNumberValidationView, Swift.Never>, AmwalPay.Unwrap<AmwalPay.AnyViewModel<AmwalPay.OTPVerificationView.ViewState, AmwalPay.OTPVerificationView.ViewInput>, AmwalPay.OTPVerificationView, Swift.Never>>, SwiftUI._ConditionalContent<AmwalPay.Unwrap<AmwalPay.AnyViewModel<AmwalPay.PaymentInputsView.ViewState, AmwalPay.PaymentInputsView.ViewInput>, AmwalPay.PaymentInputsView, Swift.Never>, AmwalPay.Unwrap<AmwalPay.AnyViewModel<AmwalPay.SuccessScreenView.ViewState, AmwalPay.SuccessScreenView.ViewInput>, AmwalPay.SuccessScreenView, Swift.Never>>>, SwiftUI._ConditionalContent<SwiftUI._ConditionalContent<AmwalPay.Unwrap<AmwalPay.AnyViewModel<AmwalPay.SavedCardsView.ViewState, AmwalPay.SavedCardsView.ViewInput>, AmwalPay.SavedCardsView, Swift.Never>, AmwalPay.Unwrap<AmwalPay.AnyViewModel<AmwalPay.PasskeysView.ViewState, AmwalPay.PasskeysView.ViewInput>, AmwalPay.PasskeysView, Swift.Never>>, SwiftUI.VStack<SwiftUI.TupleView<(SwiftUI.Spacer, AmwalPay.LoadingThreeBalls, SwiftUI.Spacer)>>>>, AmwalPay.FooterView)>>, AmwalPay.LanguageLayoutDirectionModifier>, AmwalPay.ShowLoaderModifier>, AmwalPay.ShowErrorModifier>, SwiftUI._PaddingLayout>, SwiftUI._AppearanceActionModifier>",
+                    "printedName": "SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.VStack<SwiftUI.TupleView<(SwiftUI._ConditionalContent<SwiftUI._ConditionalContent<SwiftUI._ConditionalContent<AmwalPay.Unwrap<AmwalPay.AnyViewModel<AmwalPay.PhoneNumberValidationView.ViewState, AmwalPay.PhoneNumberValidationView.ViewInput>, AmwalPay.PhoneNumberValidationView, Swift.Never>, AmwalPay.Unwrap<AmwalPay.AnyViewModel<AmwalPay.OTPVerificationView.ViewState, AmwalPay.OTPVerificationView.ViewInput>, AmwalPay.OTPVerificationView, Swift.Never>>, SwiftUI._ConditionalContent<AmwalPay.Unwrap<AmwalPay.AnyViewModel<AmwalPay.PaymentInputsView.ViewState, AmwalPay.PaymentInputsView.ViewInput>, AmwalPay.PaymentInputsView, Swift.Never>, AmwalPay.Unwrap<AmwalPay.AnyViewModel<AmwalPay.SuccessScreenView.ViewState, AmwalPay.SuccessScreenView.ViewInput>, AmwalPay.SuccessScreenView, Swift.Never>>>, SwiftUI._ConditionalContent<SwiftUI._ConditionalContent<AmwalPay.Unwrap<AmwalPay.AnyViewModel<AmwalPay.SavedCardsView.ViewState, AmwalPay.SavedCardsView.ViewInput>, AmwalPay.SavedCardsView, Swift.Never>, AmwalPay.Unwrap<AmwalPay.AnyViewModel<AmwalPay.PasskeysView.ViewState, AmwalPay.PasskeysView.ViewInput>, AmwalPay.PasskeysView, Swift.Never>>, SwiftUI.VStack<SwiftUI.TupleView<(SwiftUI.Spacer, AmwalPay.LoadingThreeBalls, SwiftUI.Spacer)>>>>, SwiftUI.Spacer, AmwalPay.FooterView)>>, AmwalPay.LanguageLayoutDirectionModifier>, AmwalPay.ShowLoaderModifier>, AmwalPay.ShowErrorModifier>, SwiftUI._PaddingLayout>, SwiftUI._AppearanceActionModifier>",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "ModifiedContent",
-                        "printedName": "SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.VStack<SwiftUI.TupleView<(SwiftUI._ConditionalContent<SwiftUI._ConditionalContent<SwiftUI._ConditionalContent<AmwalPay.Unwrap<AmwalPay.AnyViewModel<AmwalPay.PhoneNumberValidationView.ViewState, AmwalPay.PhoneNumberValidationView.ViewInput>, AmwalPay.PhoneNumberValidationView, Swift.Never>, AmwalPay.Unwrap<AmwalPay.AnyViewModel<AmwalPay.OTPVerificationView.ViewState, AmwalPay.OTPVerificationView.ViewInput>, AmwalPay.OTPVerificationView, Swift.Never>>, SwiftUI._ConditionalContent<AmwalPay.Unwrap<AmwalPay.AnyViewModel<AmwalPay.PaymentInputsView.ViewState, AmwalPay.PaymentInputsView.ViewInput>, AmwalPay.PaymentInputsView, Swift.Never>, AmwalPay.Unwrap<AmwalPay.AnyViewModel<AmwalPay.SuccessScreenView.ViewState, AmwalPay.SuccessScreenView.ViewInput>, AmwalPay.SuccessScreenView, Swift.Never>>>, SwiftUI._ConditionalContent<SwiftUI._ConditionalContent<AmwalPay.Unwrap<AmwalPay.AnyViewModel<AmwalPay.SavedCardsView.ViewState, AmwalPay.SavedCardsView.ViewInput>, AmwalPay.SavedCardsView, Swift.Never>, AmwalPay.Unwrap<AmwalPay.AnyViewModel<AmwalPay.PasskeysView.ViewState, AmwalPay.PasskeysView.ViewInput>, AmwalPay.PasskeysView, Swift.Never>>, SwiftUI.VStack<SwiftUI.TupleView<(SwiftUI.Spacer, AmwalPay.LoadingThreeBalls, SwiftUI.Spacer)>>>>, AmwalPay.FooterView)>>, AmwalPay.LanguageLayoutDirectionModifier>, AmwalPay.ShowLoaderModifier>, AmwalPay.ShowErrorModifier>, SwiftUI._PaddingLayout>",
+                        "printedName": "SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.VStack<SwiftUI.TupleView<(SwiftUI._ConditionalContent<SwiftUI._ConditionalContent<SwiftUI._ConditionalContent<AmwalPay.Unwrap<AmwalPay.AnyViewModel<AmwalPay.PhoneNumberValidationView.ViewState, AmwalPay.PhoneNumberValidationView.ViewInput>, AmwalPay.PhoneNumberValidationView, Swift.Never>, AmwalPay.Unwrap<AmwalPay.AnyViewModel<AmwalPay.OTPVerificationView.ViewState, AmwalPay.OTPVerificationView.ViewInput>, AmwalPay.OTPVerificationView, Swift.Never>>, SwiftUI._ConditionalContent<AmwalPay.Unwrap<AmwalPay.AnyViewModel<AmwalPay.PaymentInputsView.ViewState, AmwalPay.PaymentInputsView.ViewInput>, AmwalPay.PaymentInputsView, Swift.Never>, AmwalPay.Unwrap<AmwalPay.AnyViewModel<AmwalPay.SuccessScreenView.ViewState, AmwalPay.SuccessScreenView.ViewInput>, AmwalPay.SuccessScreenView, Swift.Never>>>, SwiftUI._ConditionalContent<SwiftUI._ConditionalContent<AmwalPay.Unwrap<AmwalPay.AnyViewModel<AmwalPay.SavedCardsView.ViewState, AmwalPay.SavedCardsView.ViewInput>, AmwalPay.SavedCardsView, Swift.Never>, AmwalPay.Unwrap<AmwalPay.AnyViewModel<AmwalPay.PasskeysView.ViewState, AmwalPay.PasskeysView.ViewInput>, AmwalPay.PasskeysView, Swift.Never>>, SwiftUI.VStack<SwiftUI.TupleView<(SwiftUI.Spacer, AmwalPay.LoadingThreeBalls, SwiftUI.Spacer)>>>>, SwiftUI.Spacer, AmwalPay.FooterView)>>, AmwalPay.LanguageLayoutDirectionModifier>, AmwalPay.ShowLoaderModifier>, AmwalPay.ShowErrorModifier>, SwiftUI._PaddingLayout>",
                         "children": [
                           {
                             "kind": "TypeNominal",
                             "name": "ModifiedContent",
-                            "printedName": "SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.VStack<SwiftUI.TupleView<(SwiftUI._ConditionalContent<SwiftUI._ConditionalContent<SwiftUI._ConditionalContent<AmwalPay.Unwrap<AmwalPay.AnyViewModel<AmwalPay.PhoneNumberValidationView.ViewState, AmwalPay.PhoneNumberValidationView.ViewInput>, AmwalPay.PhoneNumberValidationView, Swift.Never>, AmwalPay.Unwrap<AmwalPay.AnyViewModel<AmwalPay.OTPVerificationView.ViewState, AmwalPay.OTPVerificationView.ViewInput>, AmwalPay.OTPVerificationView, Swift.Never>>, SwiftUI._ConditionalContent<AmwalPay.Unwrap<AmwalPay.AnyViewModel<AmwalPay.PaymentInputsView.ViewState, AmwalPay.PaymentInputsView.ViewInput>, AmwalPay.PaymentInputsView, Swift.Never>, AmwalPay.Unwrap<AmwalPay.AnyViewModel<AmwalPay.SuccessScreenView.ViewState, AmwalPay.SuccessScreenView.ViewInput>, AmwalPay.SuccessScreenView, Swift.Never>>>, SwiftUI._ConditionalContent<SwiftUI._ConditionalContent<AmwalPay.Unwrap<AmwalPay.AnyViewModel<AmwalPay.SavedCardsView.ViewState, AmwalPay.SavedCardsView.ViewInput>, AmwalPay.SavedCardsView, Swift.Never>, AmwalPay.Unwrap<AmwalPay.AnyViewModel<AmwalPay.PasskeysView.ViewState, AmwalPay.PasskeysView.ViewInput>, AmwalPay.PasskeysView, Swift.Never>>, SwiftUI.VStack<SwiftUI.TupleView<(SwiftUI.Spacer, AmwalPay.LoadingThreeBalls, SwiftUI.Spacer)>>>>, AmwalPay.FooterView)>>, AmwalPay.LanguageLayoutDirectionModifier>, AmwalPay.ShowLoaderModifier>, AmwalPay.ShowErrorModifier>",
+                            "printedName": "SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.VStack<SwiftUI.TupleView<(SwiftUI._ConditionalContent<SwiftUI._ConditionalContent<SwiftUI._ConditionalContent<AmwalPay.Unwrap<AmwalPay.AnyViewModel<AmwalPay.PhoneNumberValidationView.ViewState, AmwalPay.PhoneNumberValidationView.ViewInput>, AmwalPay.PhoneNumberValidationView, Swift.Never>, AmwalPay.Unwrap<AmwalPay.AnyViewModel<AmwalPay.OTPVerificationView.ViewState, AmwalPay.OTPVerificationView.ViewInput>, AmwalPay.OTPVerificationView, Swift.Never>>, SwiftUI._ConditionalContent<AmwalPay.Unwrap<AmwalPay.AnyViewModel<AmwalPay.PaymentInputsView.ViewState, AmwalPay.PaymentInputsView.ViewInput>, AmwalPay.PaymentInputsView, Swift.Never>, AmwalPay.Unwrap<AmwalPay.AnyViewModel<AmwalPay.SuccessScreenView.ViewState, AmwalPay.SuccessScreenView.ViewInput>, AmwalPay.SuccessScreenView, Swift.Never>>>, SwiftUI._ConditionalContent<SwiftUI._ConditionalContent<AmwalPay.Unwrap<AmwalPay.AnyViewModel<AmwalPay.SavedCardsView.ViewState, AmwalPay.SavedCardsView.ViewInput>, AmwalPay.SavedCardsView, Swift.Never>, AmwalPay.Unwrap<AmwalPay.AnyViewModel<AmwalPay.PasskeysView.ViewState, AmwalPay.PasskeysView.ViewInput>, AmwalPay.PasskeysView, Swift.Never>>, SwiftUI.VStack<SwiftUI.TupleView<(SwiftUI.Spacer, AmwalPay.LoadingThreeBalls, SwiftUI.Spacer)>>>>, SwiftUI.Spacer, AmwalPay.FooterView)>>, AmwalPay.LanguageLayoutDirectionModifier>, AmwalPay.ShowLoaderModifier>, AmwalPay.ShowErrorModifier>",
                             "children": [
                               {
                                 "kind": "TypeNominal",
                                 "name": "ModifiedContent",
-                                "printedName": "SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.VStack<SwiftUI.TupleView<(SwiftUI._ConditionalContent<SwiftUI._ConditionalContent<SwiftUI._ConditionalContent<AmwalPay.Unwrap<AmwalPay.AnyViewModel<AmwalPay.PhoneNumberValidationView.ViewState, AmwalPay.PhoneNumberValidationView.ViewInput>, AmwalPay.PhoneNumberValidationView, Swift.Never>, AmwalPay.Unwrap<AmwalPay.AnyViewModel<AmwalPay.OTPVerificationView.ViewState, AmwalPay.OTPVerificationView.ViewInput>, AmwalPay.OTPVerificationView, Swift.Never>>, SwiftUI._ConditionalContent<AmwalPay.Unwrap<AmwalPay.AnyViewModel<AmwalPay.PaymentInputsView.ViewState, AmwalPay.PaymentInputsView.ViewInput>, AmwalPay.PaymentInputsView, Swift.Never>, AmwalPay.Unwrap<AmwalPay.AnyViewModel<AmwalPay.SuccessScreenView.ViewState, AmwalPay.SuccessScreenView.ViewInput>, AmwalPay.SuccessScreenView, Swift.Never>>>, SwiftUI._ConditionalContent<SwiftUI._ConditionalContent<AmwalPay.Unwrap<AmwalPay.AnyViewModel<AmwalPay.SavedCardsView.ViewState, AmwalPay.SavedCardsView.ViewInput>, AmwalPay.SavedCardsView, Swift.Never>, AmwalPay.Unwrap<AmwalPay.AnyViewModel<AmwalPay.PasskeysView.ViewState, AmwalPay.PasskeysView.ViewInput>, AmwalPay.PasskeysView, Swift.Never>>, SwiftUI.VStack<SwiftUI.TupleView<(SwiftUI.Spacer, AmwalPay.LoadingThreeBalls, SwiftUI.Spacer)>>>>, AmwalPay.FooterView)>>, AmwalPay.LanguageLayoutDirectionModifier>, AmwalPay.ShowLoaderModifier>",
+                                "printedName": "SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.VStack<SwiftUI.TupleView<(SwiftUI._ConditionalContent<SwiftUI._ConditionalContent<SwiftUI._ConditionalContent<AmwalPay.Unwrap<AmwalPay.AnyViewModel<AmwalPay.PhoneNumberValidationView.ViewState, AmwalPay.PhoneNumberValidationView.ViewInput>, AmwalPay.PhoneNumberValidationView, Swift.Never>, AmwalPay.Unwrap<AmwalPay.AnyViewModel<AmwalPay.OTPVerificationView.ViewState, AmwalPay.OTPVerificationView.ViewInput>, AmwalPay.OTPVerificationView, Swift.Never>>, SwiftUI._ConditionalContent<AmwalPay.Unwrap<AmwalPay.AnyViewModel<AmwalPay.PaymentInputsView.ViewState, AmwalPay.PaymentInputsView.ViewInput>, AmwalPay.PaymentInputsView, Swift.Never>, AmwalPay.Unwrap<AmwalPay.AnyViewModel<AmwalPay.SuccessScreenView.ViewState, AmwalPay.SuccessScreenView.ViewInput>, AmwalPay.SuccessScreenView, Swift.Never>>>, SwiftUI._ConditionalContent<SwiftUI._ConditionalContent<AmwalPay.Unwrap<AmwalPay.AnyViewModel<AmwalPay.SavedCardsView.ViewState, AmwalPay.SavedCardsView.ViewInput>, AmwalPay.SavedCardsView, Swift.Never>, AmwalPay.Unwrap<AmwalPay.AnyViewModel<AmwalPay.PasskeysView.ViewState, AmwalPay.PasskeysView.ViewInput>, AmwalPay.PasskeysView, Swift.Never>>, SwiftUI.VStack<SwiftUI.TupleView<(SwiftUI.Spacer, AmwalPay.LoadingThreeBalls, SwiftUI.Spacer)>>>>, SwiftUI.Spacer, AmwalPay.FooterView)>>, AmwalPay.LanguageLayoutDirectionModifier>, AmwalPay.ShowLoaderModifier>",
                                 "children": [
                                   {
                                     "kind": "TypeNominal",
                                     "name": "ModifiedContent",
-                                    "printedName": "SwiftUI.ModifiedContent<SwiftUI.VStack<SwiftUI.TupleView<(SwiftUI._ConditionalContent<SwiftUI._ConditionalContent<SwiftUI._ConditionalContent<AmwalPay.Unwrap<AmwalPay.AnyViewModel<AmwalPay.PhoneNumberValidationView.ViewState, AmwalPay.PhoneNumberValidationView.ViewInput>, AmwalPay.PhoneNumberValidationView, Swift.Never>, AmwalPay.Unwrap<AmwalPay.AnyViewModel<AmwalPay.OTPVerificationView.ViewState, AmwalPay.OTPVerificationView.ViewInput>, AmwalPay.OTPVerificationView, Swift.Never>>, SwiftUI._ConditionalContent<AmwalPay.Unwrap<AmwalPay.AnyViewModel<AmwalPay.PaymentInputsView.ViewState, AmwalPay.PaymentInputsView.ViewInput>, AmwalPay.PaymentInputsView, Swift.Never>, AmwalPay.Unwrap<AmwalPay.AnyViewModel<AmwalPay.SuccessScreenView.ViewState, AmwalPay.SuccessScreenView.ViewInput>, AmwalPay.SuccessScreenView, Swift.Never>>>, SwiftUI._ConditionalContent<SwiftUI._ConditionalContent<AmwalPay.Unwrap<AmwalPay.AnyViewModel<AmwalPay.SavedCardsView.ViewState, AmwalPay.SavedCardsView.ViewInput>, AmwalPay.SavedCardsView, Swift.Never>, AmwalPay.Unwrap<AmwalPay.AnyViewModel<AmwalPay.PasskeysView.ViewState, AmwalPay.PasskeysView.ViewInput>, AmwalPay.PasskeysView, Swift.Never>>, SwiftUI.VStack<SwiftUI.TupleView<(SwiftUI.Spacer, AmwalPay.LoadingThreeBalls, SwiftUI.Spacer)>>>>, AmwalPay.FooterView)>>, AmwalPay.LanguageLayoutDirectionModifier>",
+                                    "printedName": "SwiftUI.ModifiedContent<SwiftUI.VStack<SwiftUI.TupleView<(SwiftUI._ConditionalContent<SwiftUI._ConditionalContent<SwiftUI._ConditionalContent<AmwalPay.Unwrap<AmwalPay.AnyViewModel<AmwalPay.PhoneNumberValidationView.ViewState, AmwalPay.PhoneNumberValidationView.ViewInput>, AmwalPay.PhoneNumberValidationView, Swift.Never>, AmwalPay.Unwrap<AmwalPay.AnyViewModel<AmwalPay.OTPVerificationView.ViewState, AmwalPay.OTPVerificationView.ViewInput>, AmwalPay.OTPVerificationView, Swift.Never>>, SwiftUI._ConditionalContent<AmwalPay.Unwrap<AmwalPay.AnyViewModel<AmwalPay.PaymentInputsView.ViewState, AmwalPay.PaymentInputsView.ViewInput>, AmwalPay.PaymentInputsView, Swift.Never>, AmwalPay.Unwrap<AmwalPay.AnyViewModel<AmwalPay.SuccessScreenView.ViewState, AmwalPay.SuccessScreenView.ViewInput>, AmwalPay.SuccessScreenView, Swift.Never>>>, SwiftUI._ConditionalContent<SwiftUI._ConditionalContent<AmwalPay.Unwrap<AmwalPay.AnyViewModel<AmwalPay.SavedCardsView.ViewState, AmwalPay.SavedCardsView.ViewInput>, AmwalPay.SavedCardsView, Swift.Never>, AmwalPay.Unwrap<AmwalPay.AnyViewModel<AmwalPay.PasskeysView.ViewState, AmwalPay.PasskeysView.ViewInput>, AmwalPay.PasskeysView, Swift.Never>>, SwiftUI.VStack<SwiftUI.TupleView<(SwiftUI.Spacer, AmwalPay.LoadingThreeBalls, SwiftUI.Spacer)>>>>, SwiftUI.Spacer, AmwalPay.FooterView)>>, AmwalPay.LanguageLayoutDirectionModifier>",
                                     "children": [
                                       {
                                         "kind": "TypeNominal",
                                         "name": "VStack",
-                                        "printedName": "SwiftUI.VStack<SwiftUI.TupleView<(SwiftUI._ConditionalContent<SwiftUI._ConditionalContent<SwiftUI._ConditionalContent<AmwalPay.Unwrap<AmwalPay.AnyViewModel<AmwalPay.PhoneNumberValidationView.ViewState, AmwalPay.PhoneNumberValidationView.ViewInput>, AmwalPay.PhoneNumberValidationView, Swift.Never>, AmwalPay.Unwrap<AmwalPay.AnyViewModel<AmwalPay.OTPVerificationView.ViewState, AmwalPay.OTPVerificationView.ViewInput>, AmwalPay.OTPVerificationView, Swift.Never>>, SwiftUI._ConditionalContent<AmwalPay.Unwrap<AmwalPay.AnyViewModel<AmwalPay.PaymentInputsView.ViewState, AmwalPay.PaymentInputsView.ViewInput>, AmwalPay.PaymentInputsView, Swift.Never>, AmwalPay.Unwrap<AmwalPay.AnyViewModel<AmwalPay.SuccessScreenView.ViewState, AmwalPay.SuccessScreenView.ViewInput>, AmwalPay.SuccessScreenView, Swift.Never>>>, SwiftUI._ConditionalContent<SwiftUI._ConditionalContent<AmwalPay.Unwrap<AmwalPay.AnyViewModel<AmwalPay.SavedCardsView.ViewState, AmwalPay.SavedCardsView.ViewInput>, AmwalPay.SavedCardsView, Swift.Never>, AmwalPay.Unwrap<AmwalPay.AnyViewModel<AmwalPay.PasskeysView.ViewState, AmwalPay.PasskeysView.ViewInput>, AmwalPay.PasskeysView, Swift.Never>>, SwiftUI.VStack<SwiftUI.TupleView<(SwiftUI.Spacer, AmwalPay.LoadingThreeBalls, SwiftUI.Spacer)>>>>, AmwalPay.FooterView)>>",
+                                        "printedName": "SwiftUI.VStack<SwiftUI.TupleView<(SwiftUI._ConditionalContent<SwiftUI._ConditionalContent<SwiftUI._ConditionalContent<AmwalPay.Unwrap<AmwalPay.AnyViewModel<AmwalPay.PhoneNumberValidationView.ViewState, AmwalPay.PhoneNumberValidationView.ViewInput>, AmwalPay.PhoneNumberValidationView, Swift.Never>, AmwalPay.Unwrap<AmwalPay.AnyViewModel<AmwalPay.OTPVerificationView.ViewState, AmwalPay.OTPVerificationView.ViewInput>, AmwalPay.OTPVerificationView, Swift.Never>>, SwiftUI._ConditionalContent<AmwalPay.Unwrap<AmwalPay.AnyViewModel<AmwalPay.PaymentInputsView.ViewState, AmwalPay.PaymentInputsView.ViewInput>, AmwalPay.PaymentInputsView, Swift.Never>, AmwalPay.Unwrap<AmwalPay.AnyViewModel<AmwalPay.SuccessScreenView.ViewState, AmwalPay.SuccessScreenView.ViewInput>, AmwalPay.SuccessScreenView, Swift.Never>>>, SwiftUI._ConditionalContent<SwiftUI._ConditionalContent<AmwalPay.Unwrap<AmwalPay.AnyViewModel<AmwalPay.SavedCardsView.ViewState, AmwalPay.SavedCardsView.ViewInput>, AmwalPay.SavedCardsView, Swift.Never>, AmwalPay.Unwrap<AmwalPay.AnyViewModel<AmwalPay.PasskeysView.ViewState, AmwalPay.PasskeysView.ViewInput>, AmwalPay.PasskeysView, Swift.Never>>, SwiftUI.VStack<SwiftUI.TupleView<(SwiftUI.Spacer, AmwalPay.LoadingThreeBalls, SwiftUI.Spacer)>>>>, SwiftUI.Spacer, AmwalPay.FooterView)>>",
                                         "children": [
                                           {
                                             "kind": "TypeNominal",
                                             "name": "TupleView",
-                                            "printedName": "SwiftUI.TupleView<(SwiftUI._ConditionalContent<SwiftUI._ConditionalContent<SwiftUI._ConditionalContent<AmwalPay.Unwrap<AmwalPay.AnyViewModel<AmwalPay.PhoneNumberValidationView.ViewState, AmwalPay.PhoneNumberValidationView.ViewInput>, AmwalPay.PhoneNumberValidationView, Swift.Never>, AmwalPay.Unwrap<AmwalPay.AnyViewModel<AmwalPay.OTPVerificationView.ViewState, AmwalPay.OTPVerificationView.ViewInput>, AmwalPay.OTPVerificationView, Swift.Never>>, SwiftUI._ConditionalContent<AmwalPay.Unwrap<AmwalPay.AnyViewModel<AmwalPay.PaymentInputsView.ViewState, AmwalPay.PaymentInputsView.ViewInput>, AmwalPay.PaymentInputsView, Swift.Never>, AmwalPay.Unwrap<AmwalPay.AnyViewModel<AmwalPay.SuccessScreenView.ViewState, AmwalPay.SuccessScreenView.ViewInput>, AmwalPay.SuccessScreenView, Swift.Never>>>, SwiftUI._ConditionalContent<SwiftUI._ConditionalContent<AmwalPay.Unwrap<AmwalPay.AnyViewModel<AmwalPay.SavedCardsView.ViewState, AmwalPay.SavedCardsView.ViewInput>, AmwalPay.SavedCardsView, Swift.Never>, AmwalPay.Unwrap<AmwalPay.AnyViewModel<AmwalPay.PasskeysView.ViewState, AmwalPay.PasskeysView.ViewInput>, AmwalPay.PasskeysView, Swift.Never>>, SwiftUI.VStack<SwiftUI.TupleView<(SwiftUI.Spacer, AmwalPay.LoadingThreeBalls, SwiftUI.Spacer)>>>>, AmwalPay.FooterView)>",
+                                            "printedName": "SwiftUI.TupleView<(SwiftUI._ConditionalContent<SwiftUI._ConditionalContent<SwiftUI._ConditionalContent<AmwalPay.Unwrap<AmwalPay.AnyViewModel<AmwalPay.PhoneNumberValidationView.ViewState, AmwalPay.PhoneNumberValidationView.ViewInput>, AmwalPay.PhoneNumberValidationView, Swift.Never>, AmwalPay.Unwrap<AmwalPay.AnyViewModel<AmwalPay.OTPVerificationView.ViewState, AmwalPay.OTPVerificationView.ViewInput>, AmwalPay.OTPVerificationView, Swift.Never>>, SwiftUI._ConditionalContent<AmwalPay.Unwrap<AmwalPay.AnyViewModel<AmwalPay.PaymentInputsView.ViewState, AmwalPay.PaymentInputsView.ViewInput>, AmwalPay.PaymentInputsView, Swift.Never>, AmwalPay.Unwrap<AmwalPay.AnyViewModel<AmwalPay.SuccessScreenView.ViewState, AmwalPay.SuccessScreenView.ViewInput>, AmwalPay.SuccessScreenView, Swift.Never>>>, SwiftUI._ConditionalContent<SwiftUI._ConditionalContent<AmwalPay.Unwrap<AmwalPay.AnyViewModel<AmwalPay.SavedCardsView.ViewState, AmwalPay.SavedCardsView.ViewInput>, AmwalPay.SavedCardsView, Swift.Never>, AmwalPay.Unwrap<AmwalPay.AnyViewModel<AmwalPay.PasskeysView.ViewState, AmwalPay.PasskeysView.ViewInput>, AmwalPay.PasskeysView, Swift.Never>>, SwiftUI.VStack<SwiftUI.TupleView<(SwiftUI.Spacer, AmwalPay.LoadingThreeBalls, SwiftUI.Spacer)>>>>, SwiftUI.Spacer, AmwalPay.FooterView)>",
                                             "children": [
                                               {
                                                 "kind": "TypeNominal",
                                                 "name": "Tuple",
-                                                "printedName": "(SwiftUI._ConditionalContent<SwiftUI._ConditionalContent<SwiftUI._ConditionalContent<AmwalPay.Unwrap<AmwalPay.AnyViewModel<AmwalPay.PhoneNumberValidationView.ViewState, AmwalPay.PhoneNumberValidationView.ViewInput>, AmwalPay.PhoneNumberValidationView, Swift.Never>, AmwalPay.Unwrap<AmwalPay.AnyViewModel<AmwalPay.OTPVerificationView.ViewState, AmwalPay.OTPVerificationView.ViewInput>, AmwalPay.OTPVerificationView, Swift.Never>>, SwiftUI._ConditionalContent<AmwalPay.Unwrap<AmwalPay.AnyViewModel<AmwalPay.PaymentInputsView.ViewState, AmwalPay.PaymentInputsView.ViewInput>, AmwalPay.PaymentInputsView, Swift.Never>, AmwalPay.Unwrap<AmwalPay.AnyViewModel<AmwalPay.SuccessScreenView.ViewState, AmwalPay.SuccessScreenView.ViewInput>, AmwalPay.SuccessScreenView, Swift.Never>>>, SwiftUI._ConditionalContent<SwiftUI._ConditionalContent<AmwalPay.Unwrap<AmwalPay.AnyViewModel<AmwalPay.SavedCardsView.ViewState, AmwalPay.SavedCardsView.ViewInput>, AmwalPay.SavedCardsView, Swift.Never>, AmwalPay.Unwrap<AmwalPay.AnyViewModel<AmwalPay.PasskeysView.ViewState, AmwalPay.PasskeysView.ViewInput>, AmwalPay.PasskeysView, Swift.Never>>, SwiftUI.VStack<SwiftUI.TupleView<(SwiftUI.Spacer, AmwalPay.LoadingThreeBalls, SwiftUI.Spacer)>>>>, AmwalPay.FooterView)",
+                                                "printedName": "(SwiftUI._ConditionalContent<SwiftUI._ConditionalContent<SwiftUI._ConditionalContent<AmwalPay.Unwrap<AmwalPay.AnyViewModel<AmwalPay.PhoneNumberValidationView.ViewState, AmwalPay.PhoneNumberValidationView.ViewInput>, AmwalPay.PhoneNumberValidationView, Swift.Never>, AmwalPay.Unwrap<AmwalPay.AnyViewModel<AmwalPay.OTPVerificationView.ViewState, AmwalPay.OTPVerificationView.ViewInput>, AmwalPay.OTPVerificationView, Swift.Never>>, SwiftUI._ConditionalContent<AmwalPay.Unwrap<AmwalPay.AnyViewModel<AmwalPay.PaymentInputsView.ViewState, AmwalPay.PaymentInputsView.ViewInput>, AmwalPay.PaymentInputsView, Swift.Never>, AmwalPay.Unwrap<AmwalPay.AnyViewModel<AmwalPay.SuccessScreenView.ViewState, AmwalPay.SuccessScreenView.ViewInput>, AmwalPay.SuccessScreenView, Swift.Never>>>, SwiftUI._ConditionalContent<SwiftUI._ConditionalContent<AmwalPay.Unwrap<AmwalPay.AnyViewModel<AmwalPay.SavedCardsView.ViewState, AmwalPay.SavedCardsView.ViewInput>, AmwalPay.SavedCardsView, Swift.Never>, AmwalPay.Unwrap<AmwalPay.AnyViewModel<AmwalPay.PasskeysView.ViewState, AmwalPay.PasskeysView.ViewInput>, AmwalPay.PasskeysView, Swift.Never>>, SwiftUI.VStack<SwiftUI.TupleView<(SwiftUI.Spacer, AmwalPay.LoadingThreeBalls, SwiftUI.Spacer)>>>>, SwiftUI.Spacer, AmwalPay.FooterView)",
                                                 "children": [
                                                   {
                                                     "kind": "TypeNominal",
@@ -9031,6 +9054,12 @@
                                                       }
                                                     ],
                                                     "usr": "s:7SwiftUI19_ConditionalContentV"
+                                                  },
+                                                  {
+                                                    "kind": "TypeNominal",
+                                                    "name": "Spacer",
+                                                    "printedName": "SwiftUI.Spacer",
+                                                    "usr": "s:7SwiftUI6SpacerV"
                                                   },
                                                   {
                                                     "kind": "TypeNominal",
@@ -9123,42 +9152,42 @@
                   {
                     "kind": "TypeNominal",
                     "name": "ModifiedContent",
-                    "printedName": "SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.VStack<SwiftUI.TupleView<(SwiftUI._ConditionalContent<SwiftUI._ConditionalContent<SwiftUI._ConditionalContent<AmwalPay.Unwrap<AmwalPay.AnyViewModel<AmwalPay.PhoneNumberValidationView.ViewState, AmwalPay.PhoneNumberValidationView.ViewInput>, AmwalPay.PhoneNumberValidationView, Swift.Never>, AmwalPay.Unwrap<AmwalPay.AnyViewModel<AmwalPay.OTPVerificationView.ViewState, AmwalPay.OTPVerificationView.ViewInput>, AmwalPay.OTPVerificationView, Swift.Never>>, SwiftUI._ConditionalContent<AmwalPay.Unwrap<AmwalPay.AnyViewModel<AmwalPay.PaymentInputsView.ViewState, AmwalPay.PaymentInputsView.ViewInput>, AmwalPay.PaymentInputsView, Swift.Never>, AmwalPay.Unwrap<AmwalPay.AnyViewModel<AmwalPay.SuccessScreenView.ViewState, AmwalPay.SuccessScreenView.ViewInput>, AmwalPay.SuccessScreenView, Swift.Never>>>, SwiftUI._ConditionalContent<SwiftUI._ConditionalContent<AmwalPay.Unwrap<AmwalPay.AnyViewModel<AmwalPay.SavedCardsView.ViewState, AmwalPay.SavedCardsView.ViewInput>, AmwalPay.SavedCardsView, Swift.Never>, AmwalPay.Unwrap<AmwalPay.AnyViewModel<AmwalPay.PasskeysView.ViewState, AmwalPay.PasskeysView.ViewInput>, AmwalPay.PasskeysView, Swift.Never>>, SwiftUI.VStack<SwiftUI.TupleView<(SwiftUI.Spacer, AmwalPay.LoadingThreeBalls, SwiftUI.Spacer)>>>>, AmwalPay.FooterView)>>, AmwalPay.LanguageLayoutDirectionModifier>, AmwalPay.ShowLoaderModifier>, AmwalPay.ShowErrorModifier>, SwiftUI._PaddingLayout>, SwiftUI._AppearanceActionModifier>",
+                    "printedName": "SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.VStack<SwiftUI.TupleView<(SwiftUI._ConditionalContent<SwiftUI._ConditionalContent<SwiftUI._ConditionalContent<AmwalPay.Unwrap<AmwalPay.AnyViewModel<AmwalPay.PhoneNumberValidationView.ViewState, AmwalPay.PhoneNumberValidationView.ViewInput>, AmwalPay.PhoneNumberValidationView, Swift.Never>, AmwalPay.Unwrap<AmwalPay.AnyViewModel<AmwalPay.OTPVerificationView.ViewState, AmwalPay.OTPVerificationView.ViewInput>, AmwalPay.OTPVerificationView, Swift.Never>>, SwiftUI._ConditionalContent<AmwalPay.Unwrap<AmwalPay.AnyViewModel<AmwalPay.PaymentInputsView.ViewState, AmwalPay.PaymentInputsView.ViewInput>, AmwalPay.PaymentInputsView, Swift.Never>, AmwalPay.Unwrap<AmwalPay.AnyViewModel<AmwalPay.SuccessScreenView.ViewState, AmwalPay.SuccessScreenView.ViewInput>, AmwalPay.SuccessScreenView, Swift.Never>>>, SwiftUI._ConditionalContent<SwiftUI._ConditionalContent<AmwalPay.Unwrap<AmwalPay.AnyViewModel<AmwalPay.SavedCardsView.ViewState, AmwalPay.SavedCardsView.ViewInput>, AmwalPay.SavedCardsView, Swift.Never>, AmwalPay.Unwrap<AmwalPay.AnyViewModel<AmwalPay.PasskeysView.ViewState, AmwalPay.PasskeysView.ViewInput>, AmwalPay.PasskeysView, Swift.Never>>, SwiftUI.VStack<SwiftUI.TupleView<(SwiftUI.Spacer, AmwalPay.LoadingThreeBalls, SwiftUI.Spacer)>>>>, SwiftUI.Spacer, AmwalPay.FooterView)>>, AmwalPay.LanguageLayoutDirectionModifier>, AmwalPay.ShowLoaderModifier>, AmwalPay.ShowErrorModifier>, SwiftUI._PaddingLayout>, SwiftUI._AppearanceActionModifier>",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "ModifiedContent",
-                        "printedName": "SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.VStack<SwiftUI.TupleView<(SwiftUI._ConditionalContent<SwiftUI._ConditionalContent<SwiftUI._ConditionalContent<AmwalPay.Unwrap<AmwalPay.AnyViewModel<AmwalPay.PhoneNumberValidationView.ViewState, AmwalPay.PhoneNumberValidationView.ViewInput>, AmwalPay.PhoneNumberValidationView, Swift.Never>, AmwalPay.Unwrap<AmwalPay.AnyViewModel<AmwalPay.OTPVerificationView.ViewState, AmwalPay.OTPVerificationView.ViewInput>, AmwalPay.OTPVerificationView, Swift.Never>>, SwiftUI._ConditionalContent<AmwalPay.Unwrap<AmwalPay.AnyViewModel<AmwalPay.PaymentInputsView.ViewState, AmwalPay.PaymentInputsView.ViewInput>, AmwalPay.PaymentInputsView, Swift.Never>, AmwalPay.Unwrap<AmwalPay.AnyViewModel<AmwalPay.SuccessScreenView.ViewState, AmwalPay.SuccessScreenView.ViewInput>, AmwalPay.SuccessScreenView, Swift.Never>>>, SwiftUI._ConditionalContent<SwiftUI._ConditionalContent<AmwalPay.Unwrap<AmwalPay.AnyViewModel<AmwalPay.SavedCardsView.ViewState, AmwalPay.SavedCardsView.ViewInput>, AmwalPay.SavedCardsView, Swift.Never>, AmwalPay.Unwrap<AmwalPay.AnyViewModel<AmwalPay.PasskeysView.ViewState, AmwalPay.PasskeysView.ViewInput>, AmwalPay.PasskeysView, Swift.Never>>, SwiftUI.VStack<SwiftUI.TupleView<(SwiftUI.Spacer, AmwalPay.LoadingThreeBalls, SwiftUI.Spacer)>>>>, AmwalPay.FooterView)>>, AmwalPay.LanguageLayoutDirectionModifier>, AmwalPay.ShowLoaderModifier>, AmwalPay.ShowErrorModifier>, SwiftUI._PaddingLayout>",
+                        "printedName": "SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.VStack<SwiftUI.TupleView<(SwiftUI._ConditionalContent<SwiftUI._ConditionalContent<SwiftUI._ConditionalContent<AmwalPay.Unwrap<AmwalPay.AnyViewModel<AmwalPay.PhoneNumberValidationView.ViewState, AmwalPay.PhoneNumberValidationView.ViewInput>, AmwalPay.PhoneNumberValidationView, Swift.Never>, AmwalPay.Unwrap<AmwalPay.AnyViewModel<AmwalPay.OTPVerificationView.ViewState, AmwalPay.OTPVerificationView.ViewInput>, AmwalPay.OTPVerificationView, Swift.Never>>, SwiftUI._ConditionalContent<AmwalPay.Unwrap<AmwalPay.AnyViewModel<AmwalPay.PaymentInputsView.ViewState, AmwalPay.PaymentInputsView.ViewInput>, AmwalPay.PaymentInputsView, Swift.Never>, AmwalPay.Unwrap<AmwalPay.AnyViewModel<AmwalPay.SuccessScreenView.ViewState, AmwalPay.SuccessScreenView.ViewInput>, AmwalPay.SuccessScreenView, Swift.Never>>>, SwiftUI._ConditionalContent<SwiftUI._ConditionalContent<AmwalPay.Unwrap<AmwalPay.AnyViewModel<AmwalPay.SavedCardsView.ViewState, AmwalPay.SavedCardsView.ViewInput>, AmwalPay.SavedCardsView, Swift.Never>, AmwalPay.Unwrap<AmwalPay.AnyViewModel<AmwalPay.PasskeysView.ViewState, AmwalPay.PasskeysView.ViewInput>, AmwalPay.PasskeysView, Swift.Never>>, SwiftUI.VStack<SwiftUI.TupleView<(SwiftUI.Spacer, AmwalPay.LoadingThreeBalls, SwiftUI.Spacer)>>>>, SwiftUI.Spacer, AmwalPay.FooterView)>>, AmwalPay.LanguageLayoutDirectionModifier>, AmwalPay.ShowLoaderModifier>, AmwalPay.ShowErrorModifier>, SwiftUI._PaddingLayout>",
                         "children": [
                           {
                             "kind": "TypeNominal",
                             "name": "ModifiedContent",
-                            "printedName": "SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.VStack<SwiftUI.TupleView<(SwiftUI._ConditionalContent<SwiftUI._ConditionalContent<SwiftUI._ConditionalContent<AmwalPay.Unwrap<AmwalPay.AnyViewModel<AmwalPay.PhoneNumberValidationView.ViewState, AmwalPay.PhoneNumberValidationView.ViewInput>, AmwalPay.PhoneNumberValidationView, Swift.Never>, AmwalPay.Unwrap<AmwalPay.AnyViewModel<AmwalPay.OTPVerificationView.ViewState, AmwalPay.OTPVerificationView.ViewInput>, AmwalPay.OTPVerificationView, Swift.Never>>, SwiftUI._ConditionalContent<AmwalPay.Unwrap<AmwalPay.AnyViewModel<AmwalPay.PaymentInputsView.ViewState, AmwalPay.PaymentInputsView.ViewInput>, AmwalPay.PaymentInputsView, Swift.Never>, AmwalPay.Unwrap<AmwalPay.AnyViewModel<AmwalPay.SuccessScreenView.ViewState, AmwalPay.SuccessScreenView.ViewInput>, AmwalPay.SuccessScreenView, Swift.Never>>>, SwiftUI._ConditionalContent<SwiftUI._ConditionalContent<AmwalPay.Unwrap<AmwalPay.AnyViewModel<AmwalPay.SavedCardsView.ViewState, AmwalPay.SavedCardsView.ViewInput>, AmwalPay.SavedCardsView, Swift.Never>, AmwalPay.Unwrap<AmwalPay.AnyViewModel<AmwalPay.PasskeysView.ViewState, AmwalPay.PasskeysView.ViewInput>, AmwalPay.PasskeysView, Swift.Never>>, SwiftUI.VStack<SwiftUI.TupleView<(SwiftUI.Spacer, AmwalPay.LoadingThreeBalls, SwiftUI.Spacer)>>>>, AmwalPay.FooterView)>>, AmwalPay.LanguageLayoutDirectionModifier>, AmwalPay.ShowLoaderModifier>, AmwalPay.ShowErrorModifier>",
+                            "printedName": "SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.VStack<SwiftUI.TupleView<(SwiftUI._ConditionalContent<SwiftUI._ConditionalContent<SwiftUI._ConditionalContent<AmwalPay.Unwrap<AmwalPay.AnyViewModel<AmwalPay.PhoneNumberValidationView.ViewState, AmwalPay.PhoneNumberValidationView.ViewInput>, AmwalPay.PhoneNumberValidationView, Swift.Never>, AmwalPay.Unwrap<AmwalPay.AnyViewModel<AmwalPay.OTPVerificationView.ViewState, AmwalPay.OTPVerificationView.ViewInput>, AmwalPay.OTPVerificationView, Swift.Never>>, SwiftUI._ConditionalContent<AmwalPay.Unwrap<AmwalPay.AnyViewModel<AmwalPay.PaymentInputsView.ViewState, AmwalPay.PaymentInputsView.ViewInput>, AmwalPay.PaymentInputsView, Swift.Never>, AmwalPay.Unwrap<AmwalPay.AnyViewModel<AmwalPay.SuccessScreenView.ViewState, AmwalPay.SuccessScreenView.ViewInput>, AmwalPay.SuccessScreenView, Swift.Never>>>, SwiftUI._ConditionalContent<SwiftUI._ConditionalContent<AmwalPay.Unwrap<AmwalPay.AnyViewModel<AmwalPay.SavedCardsView.ViewState, AmwalPay.SavedCardsView.ViewInput>, AmwalPay.SavedCardsView, Swift.Never>, AmwalPay.Unwrap<AmwalPay.AnyViewModel<AmwalPay.PasskeysView.ViewState, AmwalPay.PasskeysView.ViewInput>, AmwalPay.PasskeysView, Swift.Never>>, SwiftUI.VStack<SwiftUI.TupleView<(SwiftUI.Spacer, AmwalPay.LoadingThreeBalls, SwiftUI.Spacer)>>>>, SwiftUI.Spacer, AmwalPay.FooterView)>>, AmwalPay.LanguageLayoutDirectionModifier>, AmwalPay.ShowLoaderModifier>, AmwalPay.ShowErrorModifier>",
                             "children": [
                               {
                                 "kind": "TypeNominal",
                                 "name": "ModifiedContent",
-                                "printedName": "SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.VStack<SwiftUI.TupleView<(SwiftUI._ConditionalContent<SwiftUI._ConditionalContent<SwiftUI._ConditionalContent<AmwalPay.Unwrap<AmwalPay.AnyViewModel<AmwalPay.PhoneNumberValidationView.ViewState, AmwalPay.PhoneNumberValidationView.ViewInput>, AmwalPay.PhoneNumberValidationView, Swift.Never>, AmwalPay.Unwrap<AmwalPay.AnyViewModel<AmwalPay.OTPVerificationView.ViewState, AmwalPay.OTPVerificationView.ViewInput>, AmwalPay.OTPVerificationView, Swift.Never>>, SwiftUI._ConditionalContent<AmwalPay.Unwrap<AmwalPay.AnyViewModel<AmwalPay.PaymentInputsView.ViewState, AmwalPay.PaymentInputsView.ViewInput>, AmwalPay.PaymentInputsView, Swift.Never>, AmwalPay.Unwrap<AmwalPay.AnyViewModel<AmwalPay.SuccessScreenView.ViewState, AmwalPay.SuccessScreenView.ViewInput>, AmwalPay.SuccessScreenView, Swift.Never>>>, SwiftUI._ConditionalContent<SwiftUI._ConditionalContent<AmwalPay.Unwrap<AmwalPay.AnyViewModel<AmwalPay.SavedCardsView.ViewState, AmwalPay.SavedCardsView.ViewInput>, AmwalPay.SavedCardsView, Swift.Never>, AmwalPay.Unwrap<AmwalPay.AnyViewModel<AmwalPay.PasskeysView.ViewState, AmwalPay.PasskeysView.ViewInput>, AmwalPay.PasskeysView, Swift.Never>>, SwiftUI.VStack<SwiftUI.TupleView<(SwiftUI.Spacer, AmwalPay.LoadingThreeBalls, SwiftUI.Spacer)>>>>, AmwalPay.FooterView)>>, AmwalPay.LanguageLayoutDirectionModifier>, AmwalPay.ShowLoaderModifier>",
+                                "printedName": "SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.VStack<SwiftUI.TupleView<(SwiftUI._ConditionalContent<SwiftUI._ConditionalContent<SwiftUI._ConditionalContent<AmwalPay.Unwrap<AmwalPay.AnyViewModel<AmwalPay.PhoneNumberValidationView.ViewState, AmwalPay.PhoneNumberValidationView.ViewInput>, AmwalPay.PhoneNumberValidationView, Swift.Never>, AmwalPay.Unwrap<AmwalPay.AnyViewModel<AmwalPay.OTPVerificationView.ViewState, AmwalPay.OTPVerificationView.ViewInput>, AmwalPay.OTPVerificationView, Swift.Never>>, SwiftUI._ConditionalContent<AmwalPay.Unwrap<AmwalPay.AnyViewModel<AmwalPay.PaymentInputsView.ViewState, AmwalPay.PaymentInputsView.ViewInput>, AmwalPay.PaymentInputsView, Swift.Never>, AmwalPay.Unwrap<AmwalPay.AnyViewModel<AmwalPay.SuccessScreenView.ViewState, AmwalPay.SuccessScreenView.ViewInput>, AmwalPay.SuccessScreenView, Swift.Never>>>, SwiftUI._ConditionalContent<SwiftUI._ConditionalContent<AmwalPay.Unwrap<AmwalPay.AnyViewModel<AmwalPay.SavedCardsView.ViewState, AmwalPay.SavedCardsView.ViewInput>, AmwalPay.SavedCardsView, Swift.Never>, AmwalPay.Unwrap<AmwalPay.AnyViewModel<AmwalPay.PasskeysView.ViewState, AmwalPay.PasskeysView.ViewInput>, AmwalPay.PasskeysView, Swift.Never>>, SwiftUI.VStack<SwiftUI.TupleView<(SwiftUI.Spacer, AmwalPay.LoadingThreeBalls, SwiftUI.Spacer)>>>>, SwiftUI.Spacer, AmwalPay.FooterView)>>, AmwalPay.LanguageLayoutDirectionModifier>, AmwalPay.ShowLoaderModifier>",
                                 "children": [
                                   {
                                     "kind": "TypeNominal",
                                     "name": "ModifiedContent",
-                                    "printedName": "SwiftUI.ModifiedContent<SwiftUI.VStack<SwiftUI.TupleView<(SwiftUI._ConditionalContent<SwiftUI._ConditionalContent<SwiftUI._ConditionalContent<AmwalPay.Unwrap<AmwalPay.AnyViewModel<AmwalPay.PhoneNumberValidationView.ViewState, AmwalPay.PhoneNumberValidationView.ViewInput>, AmwalPay.PhoneNumberValidationView, Swift.Never>, AmwalPay.Unwrap<AmwalPay.AnyViewModel<AmwalPay.OTPVerificationView.ViewState, AmwalPay.OTPVerificationView.ViewInput>, AmwalPay.OTPVerificationView, Swift.Never>>, SwiftUI._ConditionalContent<AmwalPay.Unwrap<AmwalPay.AnyViewModel<AmwalPay.PaymentInputsView.ViewState, AmwalPay.PaymentInputsView.ViewInput>, AmwalPay.PaymentInputsView, Swift.Never>, AmwalPay.Unwrap<AmwalPay.AnyViewModel<AmwalPay.SuccessScreenView.ViewState, AmwalPay.SuccessScreenView.ViewInput>, AmwalPay.SuccessScreenView, Swift.Never>>>, SwiftUI._ConditionalContent<SwiftUI._ConditionalContent<AmwalPay.Unwrap<AmwalPay.AnyViewModel<AmwalPay.SavedCardsView.ViewState, AmwalPay.SavedCardsView.ViewInput>, AmwalPay.SavedCardsView, Swift.Never>, AmwalPay.Unwrap<AmwalPay.AnyViewModel<AmwalPay.PasskeysView.ViewState, AmwalPay.PasskeysView.ViewInput>, AmwalPay.PasskeysView, Swift.Never>>, SwiftUI.VStack<SwiftUI.TupleView<(SwiftUI.Spacer, AmwalPay.LoadingThreeBalls, SwiftUI.Spacer)>>>>, AmwalPay.FooterView)>>, AmwalPay.LanguageLayoutDirectionModifier>",
+                                    "printedName": "SwiftUI.ModifiedContent<SwiftUI.VStack<SwiftUI.TupleView<(SwiftUI._ConditionalContent<SwiftUI._ConditionalContent<SwiftUI._ConditionalContent<AmwalPay.Unwrap<AmwalPay.AnyViewModel<AmwalPay.PhoneNumberValidationView.ViewState, AmwalPay.PhoneNumberValidationView.ViewInput>, AmwalPay.PhoneNumberValidationView, Swift.Never>, AmwalPay.Unwrap<AmwalPay.AnyViewModel<AmwalPay.OTPVerificationView.ViewState, AmwalPay.OTPVerificationView.ViewInput>, AmwalPay.OTPVerificationView, Swift.Never>>, SwiftUI._ConditionalContent<AmwalPay.Unwrap<AmwalPay.AnyViewModel<AmwalPay.PaymentInputsView.ViewState, AmwalPay.PaymentInputsView.ViewInput>, AmwalPay.PaymentInputsView, Swift.Never>, AmwalPay.Unwrap<AmwalPay.AnyViewModel<AmwalPay.SuccessScreenView.ViewState, AmwalPay.SuccessScreenView.ViewInput>, AmwalPay.SuccessScreenView, Swift.Never>>>, SwiftUI._ConditionalContent<SwiftUI._ConditionalContent<AmwalPay.Unwrap<AmwalPay.AnyViewModel<AmwalPay.SavedCardsView.ViewState, AmwalPay.SavedCardsView.ViewInput>, AmwalPay.SavedCardsView, Swift.Never>, AmwalPay.Unwrap<AmwalPay.AnyViewModel<AmwalPay.PasskeysView.ViewState, AmwalPay.PasskeysView.ViewInput>, AmwalPay.PasskeysView, Swift.Never>>, SwiftUI.VStack<SwiftUI.TupleView<(SwiftUI.Spacer, AmwalPay.LoadingThreeBalls, SwiftUI.Spacer)>>>>, SwiftUI.Spacer, AmwalPay.FooterView)>>, AmwalPay.LanguageLayoutDirectionModifier>",
                                     "children": [
                                       {
                                         "kind": "TypeNominal",
                                         "name": "VStack",
-                                        "printedName": "SwiftUI.VStack<SwiftUI.TupleView<(SwiftUI._ConditionalContent<SwiftUI._ConditionalContent<SwiftUI._ConditionalContent<AmwalPay.Unwrap<AmwalPay.AnyViewModel<AmwalPay.PhoneNumberValidationView.ViewState, AmwalPay.PhoneNumberValidationView.ViewInput>, AmwalPay.PhoneNumberValidationView, Swift.Never>, AmwalPay.Unwrap<AmwalPay.AnyViewModel<AmwalPay.OTPVerificationView.ViewState, AmwalPay.OTPVerificationView.ViewInput>, AmwalPay.OTPVerificationView, Swift.Never>>, SwiftUI._ConditionalContent<AmwalPay.Unwrap<AmwalPay.AnyViewModel<AmwalPay.PaymentInputsView.ViewState, AmwalPay.PaymentInputsView.ViewInput>, AmwalPay.PaymentInputsView, Swift.Never>, AmwalPay.Unwrap<AmwalPay.AnyViewModel<AmwalPay.SuccessScreenView.ViewState, AmwalPay.SuccessScreenView.ViewInput>, AmwalPay.SuccessScreenView, Swift.Never>>>, SwiftUI._ConditionalContent<SwiftUI._ConditionalContent<AmwalPay.Unwrap<AmwalPay.AnyViewModel<AmwalPay.SavedCardsView.ViewState, AmwalPay.SavedCardsView.ViewInput>, AmwalPay.SavedCardsView, Swift.Never>, AmwalPay.Unwrap<AmwalPay.AnyViewModel<AmwalPay.PasskeysView.ViewState, AmwalPay.PasskeysView.ViewInput>, AmwalPay.PasskeysView, Swift.Never>>, SwiftUI.VStack<SwiftUI.TupleView<(SwiftUI.Spacer, AmwalPay.LoadingThreeBalls, SwiftUI.Spacer)>>>>, AmwalPay.FooterView)>>",
+                                        "printedName": "SwiftUI.VStack<SwiftUI.TupleView<(SwiftUI._ConditionalContent<SwiftUI._ConditionalContent<SwiftUI._ConditionalContent<AmwalPay.Unwrap<AmwalPay.AnyViewModel<AmwalPay.PhoneNumberValidationView.ViewState, AmwalPay.PhoneNumberValidationView.ViewInput>, AmwalPay.PhoneNumberValidationView, Swift.Never>, AmwalPay.Unwrap<AmwalPay.AnyViewModel<AmwalPay.OTPVerificationView.ViewState, AmwalPay.OTPVerificationView.ViewInput>, AmwalPay.OTPVerificationView, Swift.Never>>, SwiftUI._ConditionalContent<AmwalPay.Unwrap<AmwalPay.AnyViewModel<AmwalPay.PaymentInputsView.ViewState, AmwalPay.PaymentInputsView.ViewInput>, AmwalPay.PaymentInputsView, Swift.Never>, AmwalPay.Unwrap<AmwalPay.AnyViewModel<AmwalPay.SuccessScreenView.ViewState, AmwalPay.SuccessScreenView.ViewInput>, AmwalPay.SuccessScreenView, Swift.Never>>>, SwiftUI._ConditionalContent<SwiftUI._ConditionalContent<AmwalPay.Unwrap<AmwalPay.AnyViewModel<AmwalPay.SavedCardsView.ViewState, AmwalPay.SavedCardsView.ViewInput>, AmwalPay.SavedCardsView, Swift.Never>, AmwalPay.Unwrap<AmwalPay.AnyViewModel<AmwalPay.PasskeysView.ViewState, AmwalPay.PasskeysView.ViewInput>, AmwalPay.PasskeysView, Swift.Never>>, SwiftUI.VStack<SwiftUI.TupleView<(SwiftUI.Spacer, AmwalPay.LoadingThreeBalls, SwiftUI.Spacer)>>>>, SwiftUI.Spacer, AmwalPay.FooterView)>>",
                                         "children": [
                                           {
                                             "kind": "TypeNominal",
                                             "name": "TupleView",
-                                            "printedName": "SwiftUI.TupleView<(SwiftUI._ConditionalContent<SwiftUI._ConditionalContent<SwiftUI._ConditionalContent<AmwalPay.Unwrap<AmwalPay.AnyViewModel<AmwalPay.PhoneNumberValidationView.ViewState, AmwalPay.PhoneNumberValidationView.ViewInput>, AmwalPay.PhoneNumberValidationView, Swift.Never>, AmwalPay.Unwrap<AmwalPay.AnyViewModel<AmwalPay.OTPVerificationView.ViewState, AmwalPay.OTPVerificationView.ViewInput>, AmwalPay.OTPVerificationView, Swift.Never>>, SwiftUI._ConditionalContent<AmwalPay.Unwrap<AmwalPay.AnyViewModel<AmwalPay.PaymentInputsView.ViewState, AmwalPay.PaymentInputsView.ViewInput>, AmwalPay.PaymentInputsView, Swift.Never>, AmwalPay.Unwrap<AmwalPay.AnyViewModel<AmwalPay.SuccessScreenView.ViewState, AmwalPay.SuccessScreenView.ViewInput>, AmwalPay.SuccessScreenView, Swift.Never>>>, SwiftUI._ConditionalContent<SwiftUI._ConditionalContent<AmwalPay.Unwrap<AmwalPay.AnyViewModel<AmwalPay.SavedCardsView.ViewState, AmwalPay.SavedCardsView.ViewInput>, AmwalPay.SavedCardsView, Swift.Never>, AmwalPay.Unwrap<AmwalPay.AnyViewModel<AmwalPay.PasskeysView.ViewState, AmwalPay.PasskeysView.ViewInput>, AmwalPay.PasskeysView, Swift.Never>>, SwiftUI.VStack<SwiftUI.TupleView<(SwiftUI.Spacer, AmwalPay.LoadingThreeBalls, SwiftUI.Spacer)>>>>, AmwalPay.FooterView)>",
+                                            "printedName": "SwiftUI.TupleView<(SwiftUI._ConditionalContent<SwiftUI._ConditionalContent<SwiftUI._ConditionalContent<AmwalPay.Unwrap<AmwalPay.AnyViewModel<AmwalPay.PhoneNumberValidationView.ViewState, AmwalPay.PhoneNumberValidationView.ViewInput>, AmwalPay.PhoneNumberValidationView, Swift.Never>, AmwalPay.Unwrap<AmwalPay.AnyViewModel<AmwalPay.OTPVerificationView.ViewState, AmwalPay.OTPVerificationView.ViewInput>, AmwalPay.OTPVerificationView, Swift.Never>>, SwiftUI._ConditionalContent<AmwalPay.Unwrap<AmwalPay.AnyViewModel<AmwalPay.PaymentInputsView.ViewState, AmwalPay.PaymentInputsView.ViewInput>, AmwalPay.PaymentInputsView, Swift.Never>, AmwalPay.Unwrap<AmwalPay.AnyViewModel<AmwalPay.SuccessScreenView.ViewState, AmwalPay.SuccessScreenView.ViewInput>, AmwalPay.SuccessScreenView, Swift.Never>>>, SwiftUI._ConditionalContent<SwiftUI._ConditionalContent<AmwalPay.Unwrap<AmwalPay.AnyViewModel<AmwalPay.SavedCardsView.ViewState, AmwalPay.SavedCardsView.ViewInput>, AmwalPay.SavedCardsView, Swift.Never>, AmwalPay.Unwrap<AmwalPay.AnyViewModel<AmwalPay.PasskeysView.ViewState, AmwalPay.PasskeysView.ViewInput>, AmwalPay.PasskeysView, Swift.Never>>, SwiftUI.VStack<SwiftUI.TupleView<(SwiftUI.Spacer, AmwalPay.LoadingThreeBalls, SwiftUI.Spacer)>>>>, SwiftUI.Spacer, AmwalPay.FooterView)>",
                                             "children": [
                                               {
                                                 "kind": "TypeNominal",
                                                 "name": "Tuple",
-                                                "printedName": "(SwiftUI._ConditionalContent<SwiftUI._ConditionalContent<SwiftUI._ConditionalContent<AmwalPay.Unwrap<AmwalPay.AnyViewModel<AmwalPay.PhoneNumberValidationView.ViewState, AmwalPay.PhoneNumberValidationView.ViewInput>, AmwalPay.PhoneNumberValidationView, Swift.Never>, AmwalPay.Unwrap<AmwalPay.AnyViewModel<AmwalPay.OTPVerificationView.ViewState, AmwalPay.OTPVerificationView.ViewInput>, AmwalPay.OTPVerificationView, Swift.Never>>, SwiftUI._ConditionalContent<AmwalPay.Unwrap<AmwalPay.AnyViewModel<AmwalPay.PaymentInputsView.ViewState, AmwalPay.PaymentInputsView.ViewInput>, AmwalPay.PaymentInputsView, Swift.Never>, AmwalPay.Unwrap<AmwalPay.AnyViewModel<AmwalPay.SuccessScreenView.ViewState, AmwalPay.SuccessScreenView.ViewInput>, AmwalPay.SuccessScreenView, Swift.Never>>>, SwiftUI._ConditionalContent<SwiftUI._ConditionalContent<AmwalPay.Unwrap<AmwalPay.AnyViewModel<AmwalPay.SavedCardsView.ViewState, AmwalPay.SavedCardsView.ViewInput>, AmwalPay.SavedCardsView, Swift.Never>, AmwalPay.Unwrap<AmwalPay.AnyViewModel<AmwalPay.PasskeysView.ViewState, AmwalPay.PasskeysView.ViewInput>, AmwalPay.PasskeysView, Swift.Never>>, SwiftUI.VStack<SwiftUI.TupleView<(SwiftUI.Spacer, AmwalPay.LoadingThreeBalls, SwiftUI.Spacer)>>>>, AmwalPay.FooterView)",
+                                                "printedName": "(SwiftUI._ConditionalContent<SwiftUI._ConditionalContent<SwiftUI._ConditionalContent<AmwalPay.Unwrap<AmwalPay.AnyViewModel<AmwalPay.PhoneNumberValidationView.ViewState, AmwalPay.PhoneNumberValidationView.ViewInput>, AmwalPay.PhoneNumberValidationView, Swift.Never>, AmwalPay.Unwrap<AmwalPay.AnyViewModel<AmwalPay.OTPVerificationView.ViewState, AmwalPay.OTPVerificationView.ViewInput>, AmwalPay.OTPVerificationView, Swift.Never>>, SwiftUI._ConditionalContent<AmwalPay.Unwrap<AmwalPay.AnyViewModel<AmwalPay.PaymentInputsView.ViewState, AmwalPay.PaymentInputsView.ViewInput>, AmwalPay.PaymentInputsView, Swift.Never>, AmwalPay.Unwrap<AmwalPay.AnyViewModel<AmwalPay.SuccessScreenView.ViewState, AmwalPay.SuccessScreenView.ViewInput>, AmwalPay.SuccessScreenView, Swift.Never>>>, SwiftUI._ConditionalContent<SwiftUI._ConditionalContent<AmwalPay.Unwrap<AmwalPay.AnyViewModel<AmwalPay.SavedCardsView.ViewState, AmwalPay.SavedCardsView.ViewInput>, AmwalPay.SavedCardsView, Swift.Never>, AmwalPay.Unwrap<AmwalPay.AnyViewModel<AmwalPay.PasskeysView.ViewState, AmwalPay.PasskeysView.ViewInput>, AmwalPay.PasskeysView, Swift.Never>>, SwiftUI.VStack<SwiftUI.TupleView<(SwiftUI.Spacer, AmwalPay.LoadingThreeBalls, SwiftUI.Spacer)>>>>, SwiftUI.Spacer, AmwalPay.FooterView)",
                                                 "children": [
                                                   {
                                                     "kind": "TypeNominal",
@@ -9491,6 +9520,12 @@
                                                   },
                                                   {
                                                     "kind": "TypeNominal",
+                                                    "name": "Spacer",
+                                                    "printedName": "SwiftUI.Spacer",
+                                                    "usr": "s:7SwiftUI6SpacerV"
+                                                  },
+                                                  {
+                                                    "kind": "TypeNominal",
                                                     "name": "FooterView",
                                                     "printedName": "AmwalPay.FooterView",
                                                     "usr": "s:8AmwalPay10FooterViewV"
@@ -9565,6 +9600,13 @@
         "declAttributes": [
           "RawDocComment"
         ]
+      },
+      {
+        "kind": "Import",
+        "name": "PassKit",
+        "printedName": "PassKit",
+        "declKind": "Import",
+        "moduleName": "AmwalPay"
       },
       {
         "kind": "Import",
@@ -9713,15 +9755,15 @@
       },
       {
         "kind": "Import",
-        "name": "SwiftUI",
-        "printedName": "SwiftUI",
+        "name": "PassKit",
+        "printedName": "PassKit",
         "declKind": "Import",
         "moduleName": "AmwalPay"
       },
       {
         "kind": "Import",
-        "name": "PassKit",
-        "printedName": "PassKit",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
         "declKind": "Import",
         "moduleName": "AmwalPay"
       },
@@ -22971,70 +23013,49 @@
     {
       "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/CustomViews\/AmwalPayButton\/AmwalPayButton.swift",
       "kind": "BooleanLiteral",
-      "offset": 2365,
+      "offset": 2286,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/CustomViews\/AmwalPayButton\/AmwalPayButton.swift",
       "kind": "IntegerLiteral",
-      "offset": 2693,
+      "offset": 2527,
       "length": 3,
       "value": "110"
     },
     {
       "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/CustomViews\/AmwalPayButton\/AmwalPayButton.swift",
       "kind": "IntegerLiteral",
-      "offset": 2727,
-      "length": 2,
-      "value": "20"
-    },
-    {
-      "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/CustomViews\/AmwalPayButton\/AmwalPayButton.swift",
-      "kind": "BooleanLiteral",
-      "offset": 2916,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/CustomViews\/AmwalPayButton\/AmwalPayButton.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3183,
-      "length": 3,
-      "value": "110"
-    },
-    {
-      "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/CustomViews\/AmwalPayButton\/AmwalPayButton.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3205,
+      "offset": 2549,
       "length": 2,
       "value": "20"
     },
     {
       "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/CustomViews\/AmwalPayButton\/AmwalPayButton.swift",
       "kind": "StringLiteral",
-      "offset": 3233,
+      "offset": 2577,
       "length": 52,
       "value": "\"sandbox-amwal-c5fb8bf7-e622-41f7-a6f8-46b558b53f69\""
     },
     {
       "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/CustomViews\/AmwalPayButton\/AmwalPayButton.swift",
       "kind": "IntegerLiteral",
-      "offset": 3416,
+      "offset": 2760,
       "length": 3,
       "value": "110"
     },
     {
       "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/CustomViews\/AmwalPayButton\/AmwalPayButton.swift",
       "kind": "IntegerLiteral",
-      "offset": 3438,
+      "offset": 2782,
       "length": 2,
       "value": "20"
     },
     {
       "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/CustomViews\/AmwalPayButton\/AmwalPayButton.swift",
       "kind": "StringLiteral",
-      "offset": 3466,
+      "offset": 2810,
       "length": 52,
       "value": "\"sandbox-amwal-c5fb8bf7-e622-41f7-a6f8-46b558b53f69\""
     },
@@ -23062,91 +23083,105 @@
     {
       "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/Helper\/Apple\/ApplePayManager.swift",
       "kind": "StringLiteral",
-      "offset": 550,
+      "offset": 626,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/Helper\/Apple\/ApplePayManager.swift",
       "kind": "StringLiteral",
-      "offset": 578,
+      "offset": 654,
       "length": 33,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/Helper\/Apple\/ApplePayManager.swift",
       "kind": "StringLiteral",
-      "offset": 610,
+      "offset": 686,
       "length": 1,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/Helper\/Apple\/ApplePayManager.swift",
       "kind": "StringLiteral",
-      "offset": 1931,
+      "offset": 1348,
       "length": 19,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/Helper\/Apple\/ApplePayManager.swift",
       "kind": "StringLiteral",
-      "offset": 1949,
+      "offset": 1366,
       "length": 17,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/Helper\/Apple\/ApplePayManager.swift",
       "kind": "StringLiteral",
-      "offset": 2094,
+      "offset": 1511,
       "length": 16,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/Helper\/Apple\/ApplePayManager.swift",
       "kind": "StringLiteral",
-      "offset": 2109,
+      "offset": 1526,
       "length": 17,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/Helper\/Apple\/ApplePayManager.swift",
       "kind": "StringLiteral",
-      "offset": 2258,
+      "offset": 1675,
       "length": 10,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/Helper\/Apple\/ApplePayManager.swift",
       "kind": "StringLiteral",
-      "offset": 2267,
+      "offset": 1684,
       "length": 17,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/Helper\/Apple\/ApplePayManager.swift",
       "kind": "StringLiteral",
-      "offset": 2689,
+      "offset": 1960,
       "length": 23,
       "value": "\"merchant.amwal.sa.pay\""
     },
     {
       "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/Helper\/Apple\/ApplePayManager.swift",
       "kind": "StringLiteral",
-      "offset": 2861,
+      "offset": 2132,
       "length": 4,
       "value": "\"SA\""
     },
     {
       "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/Helper\/Apple\/ApplePayManager.swift",
+      "kind": "StringLiteral",
+      "offset": 75,
+      "length": 14,
+      "value": "\"AmwalPay.PaymentHandler\""
+    },
+    {
+      "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/Helper\/Apple\/ApplePayManager.swift",
       "kind": "Array",
-      "offset": 4765,
+      "offset": 4036,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/Helper\/Apple\/ApplePayManager.swift",
       "kind": "Array",
-      "offset": 4850,
+      "offset": 4297,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/Helper\/Apple\/ApplePayManager.swift",
+      "kind": "Array",
+      "offset": 4428,
       "length": 2,
       "value": "[]"
     },
@@ -24096,6 +24131,41 @@
       "value": "\"2556\""
     },
     {
+      "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/CustomViews\/Buttons\/ApplyPay\/ApplePayViewModel.swift",
+      "kind": "StringLiteral",
+      "offset": 882,
+      "length": 3,
+      "value": "\"0\""
+    },
+    {
+      "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/CustomViews\/Buttons\/ApplyPay\/ApplePayViewModel.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1259,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/CustomViews\/Buttons\/ApplyPay\/ApplePayViewModel.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1546,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/CustomViews\/Buttons\/ApplyPay\/ApplePayViewModel.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1672,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/CustomViews\/Buttons\/ApplyPay\/ApplePayViewModel.swift",
+      "kind": "StringLiteral",
+      "offset": 251,
+      "length": 21,
+      "value": "\"AmwalPay.ApplePayViewModelBase\""
+    },
+    {
       "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/CustomViews\/PhoneNumber\/PhoneNumberTextFieldView.swift",
       "kind": "BooleanLiteral",
       "offset": 135,
@@ -24672,126 +24742,126 @@
     {
       "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/SharedModels\/Responses\/TransactionsDTO.swift",
       "kind": "StringLiteral",
-      "offset": 757,
+      "offset": 771,
       "length": 5,
       "value": "\"123\""
     },
     {
       "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/SharedModels\/Responses\/TransactionsDTO.swift",
       "kind": "StringLiteral",
-      "offset": 790,
+      "offset": 804,
       "length": 6,
       "value": "\"1234\""
     },
     {
       "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/SharedModels\/Responses\/TransactionsDTO.swift",
       "kind": "StringLiteral",
-      "offset": 824,
+      "offset": 838,
       "length": 6,
       "value": "\"Visa\""
     },
     {
       "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/SharedModels\/Responses\/TransactionsDTO.swift",
       "kind": "StringLiteral",
-      "offset": 888,
+      "offset": 902,
       "length": 6,
       "value": "\"swsw\""
     },
     {
       "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/SharedModels\/Responses\/TransactionsDTO.swift",
       "kind": "StringLiteral",
-      "offset": 914,
+      "offset": 928,
       "length": 8,
       "value": "\"342334\""
     },
     {
       "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/SharedModels\/Responses\/TransactionsDTO.swift",
       "kind": "StringLiteral",
-      "offset": 938,
+      "offset": 952,
       "length": 7,
       "value": "\"32323\""
     },
     {
       "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/SharedModels\/Responses\/TransactionsDTO.swift",
       "kind": "StringLiteral",
-      "offset": 1033,
+      "offset": 1047,
       "length": 5,
       "value": "\"123\""
     },
     {
       "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/SharedModels\/Responses\/TransactionsDTO.swift",
       "kind": "StringLiteral",
-      "offset": 1103,
+      "offset": 1117,
       "length": 6,
       "value": "\"swsw\""
     },
     {
       "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/SharedModels\/Responses\/TransactionsDTO.swift",
       "kind": "StringLiteral",
-      "offset": 1140,
+      "offset": 1154,
       "length": 4,
       "value": "\"SA\""
     },
     {
       "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/SharedModels\/Responses\/TransactionsDTO.swift",
       "kind": "StringLiteral",
-      "offset": 1167,
+      "offset": 1181,
       "length": 10,
       "value": "\"sws2-9ij\""
     },
     {
       "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/SharedModels\/Responses\/TransactionsDTO.swift",
       "kind": "StringLiteral",
-      "offset": 1197,
+      "offset": 1211,
       "length": 4,
       "value": "\"23\""
     },
     {
       "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/SharedModels\/Responses\/TransactionsDTO.swift",
       "kind": "StringLiteral",
-      "offset": 1218,
+      "offset": 1232,
       "length": 4,
       "value": "\"23\""
     },
     {
       "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/SharedModels\/Responses\/TransactionsDTO.swift",
       "kind": "StringLiteral",
-      "offset": 1245,
+      "offset": 1259,
       "length": 6,
       "value": "\"2233\""
     },
     {
       "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/SharedModels\/Responses\/TransactionsDTO.swift",
       "kind": "StringLiteral",
-      "offset": 1267,
+      "offset": 1281,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/SharedModels\/Responses\/TransactionsDTO.swift",
       "kind": "IntegerLiteral",
-      "offset": 1304,
+      "offset": 1318,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/SharedModels\/Responses\/TransactionsDTO.swift",
       "kind": "IntegerLiteral",
-      "offset": 1310,
+      "offset": 1324,
       "length": 1,
       "value": "9"
     },
     {
       "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/SharedModels\/Responses\/TransactionsDTO.swift",
       "kind": "StringLiteral",
-      "offset": 1349,
+      "offset": 1363,
       "length": 8,
       "value": "\"232332\""
     },
     {
       "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/SharedModels\/Responses\/TransactionsDTO.swift",
       "kind": "StringLiteral",
-      "offset": 1365,
+      "offset": 1379,
       "length": 6,
       "value": "\"swx2\""
     },
@@ -24960,20 +25030,20 @@
       "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/CustomViews\/Alert\/SuccessScreen\/successCleint\/SuccessClient.swift",
       "kind": "StringLiteral",
       "offset": 2297,
-      "length": 38,
+      "length": 58,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/CustomViews\/Alert\/SuccessScreen\/successCleint\/SuccessClient.swift",
       "kind": "StringLiteral",
-      "offset": 2316,
+      "offset": 2326,
       "length": 1,
       "value": "\" \""
     },
     {
       "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/CustomViews\/Alert\/SuccessScreen\/successCleint\/SuccessClient.swift",
       "kind": "StringLiteral",
-      "offset": 2334,
+      "offset": 2354,
       "length": 1,
       "value": "\"\""
     },
@@ -25217,99 +25287,113 @@
     },
     {
       "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/PhoneNumber\/PhoneNumberValidationViewModel.swift",
+      "kind": "Array",
+      "offset": 855,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/PhoneNumber\/PhoneNumberValidationViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 1262,
+      "offset": 1284,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/PhoneNumber\/PhoneNumberValidationViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 1569,
+      "offset": 1625,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/PhoneNumber\/PhoneNumberValidationViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 1640,
+      "offset": 1715,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/PhoneNumber\/PhoneNumberValidationViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 2123,
+      "offset": 1947,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/PhoneNumber\/PhoneNumberValidationViewModel.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2471,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/PhoneNumber\/PhoneNumberValidationViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 2554,
+      "offset": 2902,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/PhoneNumber\/PhoneNumberValidationViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 2755,
+      "offset": 3103,
       "length": 11,
       "value": "\"countries\""
     },
     {
       "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/PhoneNumber\/PhoneNumberValidationViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 2799,
+      "offset": 3147,
       "length": 6,
       "value": "\"json\""
     },
     {
       "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/PhoneNumber\/PhoneNumberValidationViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 3464,
+      "offset": 3812,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/PhoneNumber\/PhoneNumberValidationViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 3616,
+      "offset": 3964,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/PhoneNumber\/PhoneNumberValidationViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 4455,
+      "offset": 4803,
       "length": 12,
       "value": "\"public-key\""
     },
     {
       "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/PhoneNumber\/PhoneNumberValidationViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 4575,
+      "offset": 4923,
       "length": 10,
       "value": "\"platform\""
     },
     {
       "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/PhoneNumber\/PhoneNumberValidationViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 4923,
+      "offset": 5336,
       "length": 37,
       "value": "\"No credentials available for login.\""
     },
     {
       "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/PhoneNumber\/PhoneNumberValidationViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 5005,
+      "offset": 5418,
       "length": 73,
       "value": "\"No credentials available for login \n please continue with Phone-number\""
     },
     {
       "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/PhoneNumber\/PhoneNumberValidationViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 5277,
+      "offset": 5782,
       "length": 4,
       "value": "true"
     },
@@ -25322,15 +25406,22 @@
     },
     {
       "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/PaymentRequest\/PaymentRequestViewModelImp.swift",
+      "kind": "StringLiteral",
+      "offset": 656,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/PaymentRequest\/PaymentRequestViewModelImp.swift",
       "kind": "BooleanLiteral",
-      "offset": 3419,
+      "offset": 3497,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/PaymentRequest\/PaymentRequestViewModelImp.swift",
       "kind": "StringLiteral",
-      "offset": 5266,
+      "offset": 5344,
       "length": 2,
       "value": "\"\""
     },
@@ -26309,218 +26400,463 @@
     },
     {
       "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/Helper\/Apple\/ApplePaymentClient.swift",
-      "kind": "IntegerLiteral",
-      "offset": 557,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/Helper\/Apple\/ApplePaymentClient.swift",
-      "kind": "IntegerLiteral",
-      "offset": 576,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/Helper\/Apple\/ApplePaymentClient.swift",
-      "kind": "IntegerLiteral",
-      "offset": 596,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/Helper\/Apple\/ApplePaymentClient.swift",
-      "kind": "IntegerLiteral",
-      "offset": 617,
-      "length": 1,
-      "value": "3"
-    },
-    {
-      "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/Helper\/Apple\/ApplePaymentClient.swift",
-      "kind": "IntegerLiteral",
-      "offset": 636,
-      "length": 1,
-      "value": "4"
-    },
-    {
-      "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/Helper\/Apple\/ApplePaymentClient.swift",
-      "kind": "IntegerLiteral",
-      "offset": 656,
-      "length": 1,
-      "value": "5"
-    },
-    {
-      "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/Helper\/Apple\/ApplePaymentClient.swift",
       "kind": "StringLiteral",
-      "offset": 742,
-      "length": 9,
-      "value": "\"unknown\""
-    },
-    {
-      "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/Helper\/Apple\/ApplePaymentClient.swift",
-      "kind": "StringLiteral",
-      "offset": 785,
+      "offset": 250,
       "length": 7,
-      "value": "\"debit\""
+      "value": "\"final\""
     },
     {
       "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/Helper\/Apple\/ApplePaymentClient.swift",
       "kind": "StringLiteral",
-      "offset": 827,
-      "length": 8,
-      "value": "\"credit\""
+      "offset": 350,
+      "length": 4,
+      "value": "\"SA\""
     },
     {
       "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/Helper\/Apple\/ApplePaymentClient.swift",
       "kind": "StringLiteral",
-      "offset": 871,
-      "length": 9,
-      "value": "\"prepaid\""
+      "offset": 386,
+      "length": 5,
+      "value": "\"SAR\""
+    },
+    {
+      "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/Helper\/Apple\/ApplePaymentClient.swift",
+      "kind": "Array",
+      "offset": 430,
+      "length": 50,
+      "value": "[\"visa\", \"mada\", \"masterCard\", \"amex\", \"discover\"]"
+    },
+    {
+      "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/Helper\/Apple\/ApplePaymentClient.swift",
+      "kind": "Array",
+      "offset": 522,
+      "length": 15,
+      "value": "[\"supports3DS\"]"
+    },
+    {
+      "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/Helper\/Apple\/ApplePaymentClient.swift",
+      "kind": "Array",
+      "offset": 818,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/Helper\/Apple\/ApplePaymentClient.swift",
+      "kind": "BooleanLiteral",
+      "offset": 979,
+      "length": 4,
+      "value": "true"
     },
     {
       "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/Helper\/Apple\/ApplePaymentClient.swift",
       "kind": "StringLiteral",
-      "offset": 914,
-      "length": 7,
-      "value": "\"store\""
+      "offset": 1072,
+      "length": 15,
+      "value": "\"Test@test.com\""
     },
     {
       "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/Helper\/Apple\/ApplePaymentClient.swift",
       "kind": "StringLiteral",
-      "offset": 956,
-      "length": 8,
-      "value": "\"eMoney\""
-    },
-    {
-      "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/Helper\/Apple\/ApplePaymentClient.swift",
-      "kind": "IntegerLiteral",
-      "offset": 557,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/Helper\/Apple\/ApplePaymentClient.swift",
-      "kind": "IntegerLiteral",
-      "offset": 576,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/Helper\/Apple\/ApplePaymentClient.swift",
-      "kind": "IntegerLiteral",
-      "offset": 596,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/Helper\/Apple\/ApplePaymentClient.swift",
-      "kind": "IntegerLiteral",
-      "offset": 617,
-      "length": 1,
-      "value": "3"
-    },
-    {
-      "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/Helper\/Apple\/ApplePaymentClient.swift",
-      "kind": "IntegerLiteral",
-      "offset": 636,
-      "length": 1,
-      "value": "4"
-    },
-    {
-      "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/Helper\/Apple\/ApplePaymentClient.swift",
-      "kind": "IntegerLiteral",
-      "offset": 656,
-      "length": 1,
-      "value": "5"
-    },
-    {
-      "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/Helper\/Apple\/ApplePaymentClient.swift",
-      "kind": "IntegerLiteral",
-      "offset": 557,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/Helper\/Apple\/ApplePaymentClient.swift",
-      "kind": "IntegerLiteral",
-      "offset": 576,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/Helper\/Apple\/ApplePaymentClient.swift",
-      "kind": "IntegerLiteral",
-      "offset": 596,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/Helper\/Apple\/ApplePaymentClient.swift",
-      "kind": "IntegerLiteral",
-      "offset": 617,
-      "length": 1,
-      "value": "3"
-    },
-    {
-      "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/Helper\/Apple\/ApplePaymentClient.swift",
-      "kind": "IntegerLiteral",
-      "offset": 636,
-      "length": 1,
-      "value": "4"
-    },
-    {
-      "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/Helper\/Apple\/ApplePaymentClient.swift",
-      "kind": "IntegerLiteral",
-      "offset": 656,
-      "length": 1,
-      "value": "5"
-    },
-    {
-      "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/Helper\/Apple\/ApplePaymentClient.swift",
-      "kind": "StringLiteral",
-      "offset": 1502,
-      "length": 40,
+      "offset": 2838,
+      "length": 46,
       "value": "\"transactions\/\""
     },
     {
       "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/Helper\/Apple\/ApplePaymentClient.swift",
       "kind": "StringLiteral",
-      "offset": 1532,
+      "offset": 2868,
+      "length": 1,
+      "value": "\"\/start_applepay\""
+    },
+    {
+      "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/Helper\/Apple\/ApplePaymentClient.swift",
+      "kind": "StringLiteral",
+      "offset": 3371,
+      "length": 74,
+      "value": "\"https:\/\/dev-backend.sa.amwal.tech\/transactions\/\""
+    },
+    {
+      "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/Helper\/Apple\/ApplePaymentClient.swift",
+      "kind": "StringLiteral",
+      "offset": 3435,
       "length": 1,
       "value": "\"\/applepay\""
     },
     {
       "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/Helper\/Apple\/ApplePaymentClient.swift",
       "kind": "StringLiteral",
-      "offset": 1795,
-      "length": 114,
-      "value": "\"https:\/\/sa.myfatoorah.com\/En\/SAU\/PayInvoice\/Checkout?invoiceKey=0508992172285413868-5da1e89e&paymentGatewayId=36\""
+      "offset": 3540,
+      "length": 8,
+      "value": "\"header\""
+    },
+    {
+      "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/Helper\/Apple\/ApplePaymentClient.swift",
+      "kind": "StringLiteral",
+      "offset": 3638,
+      "length": 6,
+      "value": "\"data\""
+    },
+    {
+      "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/Helper\/Apple\/ApplePaymentClient.swift",
+      "kind": "StringLiteral",
+      "offset": 3677,
+      "length": 6,
+      "value": "\"data\""
+    },
+    {
+      "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/Helper\/Apple\/ApplePaymentClient.swift",
+      "kind": "StringLiteral",
+      "offset": 3689,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/Helper\/Apple\/ApplePaymentClient.swift",
+      "kind": "StringLiteral",
+      "offset": 3709,
+      "length": 8,
+      "value": "\"header\""
+    },
+    {
+      "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/Helper\/Apple\/ApplePaymentClient.swift",
+      "kind": "StringLiteral",
+      "offset": 3741,
+      "length": 20,
+      "value": "\"ephemeralPublicKey\""
+    },
+    {
+      "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/Helper\/Apple\/ApplePaymentClient.swift",
+      "kind": "StringLiteral",
+      "offset": 3771,
+      "length": 20,
+      "value": "\"ephemeralPublicKey\""
+    },
+    {
+      "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/Helper\/Apple\/ApplePaymentClient.swift",
+      "kind": "StringLiteral",
+      "offset": 3814,
+      "length": 15,
+      "value": "\"publicKeyHash\""
+    },
+    {
+      "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/Helper\/Apple\/ApplePaymentClient.swift",
+      "kind": "StringLiteral",
+      "offset": 3839,
+      "length": 15,
+      "value": "\"publicKeyHash\""
+    },
+    {
+      "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/Helper\/Apple\/ApplePaymentClient.swift",
+      "kind": "StringLiteral",
+      "offset": 3877,
+      "length": 15,
+      "value": "\"transactionId\""
+    },
+    {
+      "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/Helper\/Apple\/ApplePaymentClient.swift",
+      "kind": "StringLiteral",
+      "offset": 3902,
+      "length": 15,
+      "value": "\"transactionId\""
+    },
+    {
+      "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/Helper\/Apple\/ApplePaymentClient.swift",
+      "kind": "StringLiteral",
+      "offset": 3955,
+      "length": 11,
+      "value": "\"signature\""
+    },
+    {
+      "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/Helper\/Apple\/ApplePaymentClient.swift",
+      "kind": "StringLiteral",
+      "offset": 3998,
+      "length": 11,
+      "value": "\"signature\""
+    },
+    {
+      "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/Helper\/Apple\/ApplePaymentClient.swift",
+      "kind": "StringLiteral",
+      "offset": 4014,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/Helper\/Apple\/ApplePaymentClient.swift",
+      "kind": "StringLiteral",
+      "offset": 4034,
+      "length": 9,
+      "value": "\"version\""
+    },
+    {
+      "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/Helper\/Apple\/ApplePaymentClient.swift",
+      "kind": "StringLiteral",
+      "offset": 4075,
+      "length": 9,
+      "value": "\"version\""
+    },
+    {
+      "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/Helper\/Apple\/ApplePaymentClient.swift",
+      "kind": "StringLiteral",
+      "offset": 4089,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/Helper\/Apple\/ApplePaymentClient.swift",
+      "kind": "StringLiteral",
+      "offset": 4175,
+      "length": 7,
+      "value": "\"email\""
+    },
+    {
+      "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/Helper\/Apple\/ApplePaymentClient.swift",
+      "kind": "StringLiteral",
+      "offset": 4204,
+      "length": 15,
+      "value": "\"test@test.com\""
+    },
+    {
+      "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/Helper\/Apple\/ApplePaymentClient.swift",
+      "kind": "StringLiteral",
+      "offset": 4233,
+      "length": 20,
+      "value": "\"createRegistration\""
+    },
+    {
+      "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/Helper\/Apple\/ApplePaymentClient.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4255,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/Helper\/Apple\/ApplePaymentClient.swift",
+      "kind": "StringLiteral",
+      "offset": 4273,
+      "length": 7,
+      "value": "\"token\""
+    },
+    {
+      "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/Helper\/Apple\/ApplePaymentClient.swift",
+      "kind": "StringLiteral",
+      "offset": 4304,
+      "length": 23,
+      "value": "\"transactionIdentifier\""
+    },
+    {
+      "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/Helper\/Apple\/ApplePaymentClient.swift",
+      "kind": "StringLiteral",
+      "offset": 4371,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/Helper\/Apple\/ApplePaymentClient.swift",
+      "kind": "StringLiteral",
+      "offset": 4395,
+      "length": 13,
+      "value": "\"paymentData\""
+    },
+    {
+      "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/Helper\/Apple\/ApplePaymentClient.swift",
+      "kind": "StringLiteral",
+      "offset": 4443,
+      "length": 15,
+      "value": "\"paymentMethod\""
+    },
+    {
+      "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/Helper\/Apple\/ApplePaymentClient.swift",
+      "kind": "StringLiteral",
+      "offset": 4486,
+      "length": 13,
+      "value": "\"displayName\""
+    },
+    {
+      "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/Helper\/Apple\/ApplePaymentClient.swift",
+      "kind": "StringLiteral",
+      "offset": 4548,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/Helper\/Apple\/ApplePaymentClient.swift",
+      "kind": "StringLiteral",
+      "offset": 4576,
+      "length": 9,
+      "value": "\"network\""
+    },
+    {
+      "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/Helper\/Apple\/ApplePaymentClient.swift",
+      "kind": "StringLiteral",
+      "offset": 4630,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/Helper\/Apple\/ApplePaymentClient.swift",
+      "kind": "StringLiteral",
+      "offset": 4658,
+      "length": 6,
+      "value": "\"type\""
+    },
+    {
+      "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/Helper\/Apple\/ApplePaymentClient.swift",
+      "kind": "StringLiteral",
+      "offset": 4706,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/Helper\/Apple\/ApplePaymentClient.swift",
+      "kind": "Array",
+      "offset": 4916,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/Helper\/Apple\/ApplePaymentClient.swift",
+      "kind": "StringLiteral",
+      "offset": 4967,
+      "length": 8,
+      "value": "\"Accept\""
+    },
+    {
+      "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/Helper\/Apple\/ApplePaymentClient.swift",
+      "kind": "StringLiteral",
+      "offset": 4977,
+      "length": 18,
+      "value": "\"application\/json\""
+    },
+    {
+      "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/Helper\/Apple\/ApplePaymentClient.swift",
+      "kind": "StringLiteral",
+      "offset": 5013,
+      "length": 14,
+      "value": "\"Content-Type\""
+    },
+    {
+      "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/Helper\/Apple\/ApplePaymentClient.swift",
+      "kind": "StringLiteral",
+      "offset": 5029,
+      "length": 18,
+      "value": "\"application\/json\""
+    },
+    {
+      "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/Helper\/Apple\/ApplePaymentClient.swift",
+      "kind": "StringLiteral",
+      "offset": 5065,
+      "length": 11,
+      "value": "\"x-api-key\""
+    },
+    {
+      "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/Helper\/Apple\/ApplePaymentClient.swift",
+      "kind": "StringLiteral",
+      "offset": 5078,
+      "length": 38,
+      "value": "\"a4bd2976-fac7-4ba2-8a21-8325a1116728\""
+    },
+    {
+      "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/Helper\/Apple\/ApplePaymentClient.swift",
+      "kind": "StringLiteral",
+      "offset": 5134,
+      "length": 7,
+      "value": "\"amwal\""
+    },
+    {
+      "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/Helper\/Apple\/ApplePaymentClient.swift",
+      "kind": "StringLiteral",
+      "offset": 5297,
+      "length": 6,
+      "value": "\"POST\""
+    },
+    {
+      "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/Helper\/Apple\/ApplePaymentClient.swift",
+      "kind": "StringLiteral",
+      "offset": 5333,
+      "length": 18,
+      "value": "\"application\/json\""
+    },
+    {
+      "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/Helper\/Apple\/ApplePaymentClient.swift",
+      "kind": "StringLiteral",
+      "offset": 5373,
+      "length": 14,
+      "value": "\"Content-Type\""
+    },
+    {
+      "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/Helper\/Apple\/ApplePaymentClient.swift",
+      "kind": "StringLiteral",
+      "offset": 5418,
+      "length": 38,
+      "value": "\"a4bd2976-fac7-4ba2-8a21-8325a1116728\""
+    },
+    {
+      "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/Helper\/Apple\/ApplePaymentClient.swift",
+      "kind": "StringLiteral",
+      "offset": 5478,
+      "length": 11,
+      "value": "\"x-api-key\""
+    },
+    {
+      "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/Helper\/Apple\/ApplePaymentClient.swift",
+      "kind": "StringLiteral",
+      "offset": 5520,
+      "length": 18,
+      "value": "\"application\/json\""
+    },
+    {
+      "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/Helper\/Apple\/ApplePaymentClient.swift",
+      "kind": "StringLiteral",
+      "offset": 5560,
+      "length": 8,
+      "value": "\"Accept\""
+    },
+    {
+      "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/Helper\/Apple\/ApplePaymentClient.swift",
+      "kind": "StringLiteral",
+      "offset": 5661,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/Helper\/Apple\/ApplePaymentClient.swift",
+      "kind": "StringLiteral",
+      "offset": 5685,
+      "length": 7,
+      "value": "\"amwal\""
+    },
+    {
+      "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/Helper\/Apple\/ApplePaymentClient.swift",
+      "kind": "StringLiteral",
+      "offset": 6470,
+      "length": 2,
+      "value": "\"\""
     },
     {
       "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/SharedModels\/Responses\/PaymentResponseDTO.swift",
       "kind": "StringLiteral",
-      "offset": 1273,
+      "offset": 1320,
       "length": 6,
       "value": "\"Card\""
     },
     {
       "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/SharedModels\/Responses\/PaymentResponseDTO.swift",
       "kind": "StringLiteral",
-      "offset": 1300,
+      "offset": 1347,
       "length": 11,
       "value": "\"Apple Pay\""
     },
     {
       "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/SharedModels\/Responses\/PaymentResponseDTO.swift",
       "kind": "StringLiteral",
-      "offset": 1273,
+      "offset": 1320,
       "length": 6,
       "value": "\"Card\""
     },
     {
       "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/SharedModels\/Responses\/PaymentResponseDTO.swift",
       "kind": "StringLiteral",
-      "offset": 1300,
+      "offset": 1347,
       "length": 11,
       "value": "\"Apple Pay\""
     },
@@ -26616,30 +26952,37 @@
       "value": "[\"GOOD THRU\", \"GOOD\", \"THRU\", \"Gold\", \"GOLD\", \"Standard\", \"STANDARD\", \"Platinum\", \"PLATINUM\", \"WORLD ELITE\", \"WORLD\", \"ELITE\", \"World Elite\", \"World\", \"Elite\"]"
     },
     {
-      "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/CustomViews\/Buttons\/ApplePayButton.swift",
+      "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/CustomViews\/Buttons\/ApplyPay\/ApplePayButton.swift",
+      "kind": "BooleanLiteral",
+      "offset": 228,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/CustomViews\/Buttons\/ApplyPay\/ApplePayButton.swift",
       "kind": "IntegerLiteral",
-      "offset": 182,
+      "offset": 678,
       "length": 3,
       "value": "100"
     },
     {
-      "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/CustomViews\/Buttons\/ApplePayButton.swift",
+      "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/CustomViews\/Buttons\/ApplyPay\/ApplePayButton.swift",
       "kind": "IntegerLiteral",
-      "offset": 197,
+      "offset": 693,
       "length": 3,
       "value": "400"
     },
     {
-      "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/CustomViews\/Buttons\/ApplePayButton.swift",
+      "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/CustomViews\/Buttons\/ApplyPay\/ApplePayButton.swift",
       "kind": "IntegerLiteral",
-      "offset": 229,
+      "offset": 721,
       "length": 2,
       "value": "45"
     },
     {
-      "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/CustomViews\/Buttons\/ApplePayButton.swift",
+      "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/CustomViews\/Buttons\/ApplyPay\/ApplePayButton.swift",
       "kind": "StringLiteral",
-      "offset": 903,
+      "offset": 1529,
       "length": 11,
       "value": "\"AmwalPay.Coordinator\""
     },
@@ -27083,6 +27426,13 @@
       "offset": 543,
       "length": 37,
       "value": "\"otp_verfication_resend_button_title\""
+    },
+    {
+      "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/Assets\/Localization\/OTPVerficationStrings.swift",
+      "kind": "StringLiteral",
+      "offset": 661,
+      "length": 35,
+      "value": "\"otp_verifcation_skip_button_title\""
     },
     {
       "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/CustomViews\/WebView.swift",
@@ -27766,84 +28116,84 @@
     {
       "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/PhoneNumber\/PhoneNumberValidationView.swift",
       "kind": "BooleanLiteral",
-      "offset": 1099,
+      "offset": 1098,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/PhoneNumber\/PhoneNumberValidationView.swift",
       "kind": "BooleanLiteral",
-      "offset": 1244,
+      "offset": 1243,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/PhoneNumber\/PhoneNumberValidationView.swift",
       "kind": "BooleanLiteral",
-      "offset": 1282,
+      "offset": 1281,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/PhoneNumber\/PhoneNumberValidationView.swift",
       "kind": "BooleanLiteral",
-      "offset": 2520,
+      "offset": 2410,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/PhoneNumber\/PhoneNumberValidationView.swift",
       "kind": "StringLiteral",
-      "offset": 2960,
+      "offset": 2850,
       "length": 52,
       "value": "\"sandbox-amwal-fe05fe64-2121-4f7c-9714-a948bf78e340\""
     },
     {
       "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/PhoneNumber\/PhoneNumberValidationView.swift",
       "kind": "IntegerLiteral",
-      "offset": 3058,
+      "offset": 2948,
       "length": 3,
       "value": "100"
     },
     {
       "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/PhoneNumber\/PhoneNumberValidationView.swift",
       "kind": "IntegerLiteral",
-      "offset": 3076,
+      "offset": 2966,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/PhoneNumber\/PhoneNumberValidationView.swift",
       "kind": "StringLiteral",
-      "offset": 3279,
+      "offset": 3169,
       "length": 6,
       "value": "\"2234\""
     },
     {
       "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/PhoneNumber\/PhoneNumberValidationView.swift",
       "kind": "StringLiteral",
-      "offset": 3382,
+      "offset": 3272,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/PhoneNumber\/PhoneNumberValidationView.swift",
       "kind": "StringLiteral",
-      "offset": 3392,
+      "offset": 3282,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/PhoneNumber\/PhoneNumberValidationView.swift",
       "kind": "StringLiteral",
-      "offset": 3573,
+      "offset": 3463,
       "length": 7,
       "value": "\"Light\""
     },
     {
       "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/PhoneNumber\/PhoneNumberValidationView.swift",
       "kind": "StringLiteral",
-      "offset": 3670,
+      "offset": 3560,
       "length": 6,
       "value": "\"Dark\""
     },
@@ -28571,35 +28921,35 @@
     {
       "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/PaymentRequest\/PaymentRequestViewModelFake.swift",
       "kind": "StringLiteral",
-      "offset": 2325,
+      "offset": 2407,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/PaymentRequest\/PaymentRequestViewModelFake.swift",
       "kind": "StringLiteral",
-      "offset": 2335,
+      "offset": 2417,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/PaymentRequest\/PaymentRequestViewModelFake.swift",
       "kind": "BooleanLiteral",
-      "offset": 2867,
+      "offset": 2949,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/PaymentRequest\/PaymentRequestViewModelFake.swift",
       "kind": "StringLiteral",
-      "offset": 4708,
+      "offset": 4790,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/PaymentRequest\/PaymentRequestViewModelFake.swift",
       "kind": "StringLiteral",
-      "offset": 5756,
+      "offset": 5920,
       "length": 19,
       "value": "\"Name Not provider\""
     },
@@ -28752,106 +29102,113 @@
     },
     {
       "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/OTPVerfication\/OTPVerficationViewModel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1475,
+      "length": 2,
+      "value": "60"
+    },
+    {
+      "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/OTPVerfication\/OTPVerficationViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 1699,
+      "offset": 1728,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/OTPVerfication\/OTPVerficationViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 2101,
+      "offset": 2130,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/OTPVerfication\/OTPVerficationViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 2287,
+      "offset": 2316,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/OTPVerfication\/OTPVerficationViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 2852,
+      "offset": 2881,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/OTPVerfication\/OTPVerficationViewModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 3331,
+      "offset": 3360,
       "length": 10,
       "value": "3000000000"
     },
     {
       "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/OTPVerfication\/OTPVerficationViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 3587,
+      "offset": 3616,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/OTPVerfication\/OTPVerficationViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 3838,
+      "offset": 3867,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/OTPVerfication\/OTPVerficationViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 4301,
+      "offset": 4330,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/OTPVerfication\/OTPVerficationViewModel.swift",
       "kind": "Dictionary",
-      "offset": 4435,
+      "offset": 4464,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/OTPVerfication\/OTPVerficationViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 5041,
+      "offset": 5070,
       "length": 12,
       "value": "\"public-key\""
     },
     {
       "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/OTPVerfication\/OTPVerficationViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 5169,
-      "length": 5,
-      "value": "\"iOS\""
+      "offset": 5198,
+      "length": 10,
+      "value": "\"platform\""
     },
     {
       "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/OTPVerfication\/OTPVerficationViewModel.swift",
       "kind": "Array",
-      "offset": 5216,
+      "offset": 5250,
       "length": 12,
       "value": "[\"internal\"]"
     },
     {
       "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/OTPVerfication\/OTPVerficationViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 5511,
+      "offset": 5545,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/OTPVerfication\/OTPVerficationViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 5971,
+      "offset": 6005,
       "length": 23,
       "value": "\"Passkeys not correct \""
     },
     {
       "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/OTPVerfication\/OTPVerficationViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 6163,
+      "offset": 6197,
       "length": 5,
       "value": "false"
     },
@@ -28865,21 +29222,21 @@
     {
       "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/OTPVerfication\/OTPVerficationViewModel.swift",
       "kind": "Array",
-      "offset": 6651,
+      "offset": 6685,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/OTPVerfication\/OTPVerficationViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 6764,
+      "offset": 6798,
       "length": 17,
       "value": "\"Error: \""
     },
     {
       "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/OTPVerfication\/OTPVerficationViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 6780,
+      "offset": 6814,
       "length": 2,
       "value": "\"\""
     },
@@ -29327,63 +29684,63 @@
     {
       "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/Payment\/PaymentView.swift",
       "kind": "BooleanLiteral",
-      "offset": 2011,
+      "offset": 1965,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/Payment\/PaymentView.swift",
       "kind": "BooleanLiteral",
-      "offset": 2047,
+      "offset": 2001,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/Payment\/PaymentView.swift",
       "kind": "BooleanLiteral",
-      "offset": 2123,
+      "offset": 2077,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/Payment\/PaymentView.swift",
       "kind": "BooleanLiteral",
-      "offset": 2372,
+      "offset": 2326,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/Payment\/PaymentView.swift",
       "kind": "BooleanLiteral",
-      "offset": 2445,
+      "offset": 2399,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/Payment\/PaymentView.swift",
       "kind": "FloatLiteral",
-      "offset": 3255,
+      "offset": 3149,
       "length": 4,
       "value": "0.50"
     },
     {
       "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/Payment\/PaymentView.swift",
       "kind": "IntegerLiteral",
-      "offset": 3320,
+      "offset": 3201,
       "length": 2,
       "value": "20"
     },
     {
       "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/Payment\/PaymentView.swift",
       "kind": "StringLiteral",
-      "offset": 3516,
+      "offset": 3433,
       "length": 12,
       "value": "\"--- OR ---\""
     },
     {
       "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/Payment\/PaymentView.swift",
       "kind": "StringLiteral",
-      "offset": 4294,
+      "offset": 4211,
       "length": 5,
       "value": "\"Pay\""
     },
@@ -29439,28 +29796,35 @@
     {
       "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/Payment\/PaymentView.swift",
       "kind": "StringLiteral",
-      "offset": 7366,
+      "offset": 6772,
+      "length": 22,
+      "value": "\"merchantBusinessName\""
+    },
+    {
+      "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/Payment\/PaymentView.swift",
+      "kind": "StringLiteral",
+      "offset": 7420,
       "length": 21,
       "value": "\"4786-0303-7779-0489\""
     },
     {
       "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/Payment\/PaymentView.swift",
       "kind": "BooleanLiteral",
-      "offset": 7398,
+      "offset": 7452,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/Payment\/PaymentView.swift",
       "kind": "StringLiteral",
-      "offset": 7423,
+      "offset": 7477,
       "length": 13,
       "value": "\"Card Number\""
     },
     {
       "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/Payment\/PaymentView.swift",
       "kind": "BooleanLiteral",
-      "offset": 7505,
+      "offset": 7559,
       "length": 4,
       "value": "true"
     },
@@ -29852,21 +30216,21 @@
     {
       "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/CustomViews\/OTP\/ResendButton.swift",
       "kind": "IntegerLiteral",
-      "offset": 831,
+      "offset": 839,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/CustomViews\/OTP\/ResendButton.swift",
       "kind": "BooleanLiteral",
-      "offset": 1047,
+      "offset": 1016,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/CustomViews\/OTP\/ResendButton.swift",
       "kind": "StringLiteral",
-      "offset": 1119,
+      "offset": 1088,
       "length": 9,
       "value": "\"Disable\""
     },
@@ -30202,21 +30566,42 @@
     {
       "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/CustomViews\/Alert\/SuccessScreen\/SuccessScreenViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 1033,
+      "offset": 969,
+      "length": 3,
+      "value": "\"0\""
+    },
+    {
+      "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/CustomViews\/Alert\/SuccessScreen\/SuccessScreenViewModel.swift",
+      "kind": "StringLiteral",
+      "offset": 1040,
       "length": 9,
       "value": "\"*******\""
     },
     {
       "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/CustomViews\/Alert\/SuccessScreen\/SuccessScreenViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 1724,
+      "offset": 1156,
+      "length": 3,
+      "value": "\"0\""
+    },
+    {
+      "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/CustomViews\/Alert\/SuccessScreen\/SuccessScreenViewModel.swift",
+      "kind": "StringLiteral",
+      "offset": 1217,
+      "length": 3,
+      "value": "\"0\""
+    },
+    {
+      "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/CustomViews\/Alert\/SuccessScreen\/SuccessScreenViewModel.swift",
+      "kind": "StringLiteral",
+      "offset": 1741,
       "length": 7,
       "value": "\"Error\""
     },
     {
       "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/CustomViews\/Alert\/SuccessScreen\/SuccessScreenViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 1924,
+      "offset": 1941,
       "length": 5,
       "value": "false"
     },
@@ -30237,21 +30622,21 @@
     {
       "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/SavedCards\/SavedCardsViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 2446,
+      "offset": 2772,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/SavedCards\/SavedCardsViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 2848,
+      "offset": 3174,
       "length": 4,
       "value": "\"SA\""
     },
     {
       "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/SavedCards\/SavedCardsViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 3262,
+      "offset": 3588,
       "length": 5,
       "value": "false"
     },
@@ -30398,126 +30783,196 @@
     {
       "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/SavedCards\/SavedCardsView.swift",
       "kind": "BooleanLiteral",
-      "offset": 627,
+      "offset": 836,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/SavedCards\/SavedCardsView.swift",
       "kind": "BooleanLiteral",
-      "offset": 807,
+      "offset": 904,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/SavedCards\/SavedCardsView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1084,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/SavedCards\/SavedCardsView.swift",
       "kind": "BooleanLiteral",
-      "offset": 903,
+      "offset": 1180,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/SavedCards\/SavedCardsView.swift",
       "kind": "BooleanLiteral",
-      "offset": 950,
+      "offset": 1227,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/SavedCards\/SavedCardsView.swift",
       "kind": "FloatLiteral",
-      "offset": 1710,
+      "offset": 2069,
       "length": 4,
       "value": "0.50"
     },
     {
       "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/SavedCards\/SavedCardsView.swift",
       "kind": "FloatLiteral",
-      "offset": 2504,
+      "offset": 2862,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/SavedCards\/SavedCardsView.swift",
       "kind": "IntegerLiteral",
-      "offset": 3187,
+      "offset": 3545,
       "length": 1,
       "value": "5"
     },
     {
       "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/SavedCards\/SavedCardsView.swift",
       "kind": "IntegerLiteral",
-      "offset": 3227,
+      "offset": 3585,
       "length": 1,
       "value": "5"
     },
     {
       "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/SavedCards\/SavedCardsView.swift",
       "kind": "IntegerLiteral",
-      "offset": 3266,
+      "offset": 3624,
       "length": 1,
       "value": "5"
     },
     {
       "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/SavedCards\/SavedCardsView.swift",
       "kind": "IntegerLiteral",
-      "offset": 3307,
+      "offset": 3665,
       "length": 1,
       "value": "5"
     },
     {
       "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/SavedCards\/SavedCardsView.swift",
       "kind": "FloatLiteral",
-      "offset": 3600,
-      "length": 4,
-      "value": "0.25"
-    },
-    {
-      "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/SavedCards\/SavedCardsView.swift",
-      "kind": "BooleanLiteral",
-      "offset": 3761,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/SavedCards\/SavedCardsView.swift",
-      "kind": "FloatLiteral",
-      "offset": 4254,
+      "offset": 4181,
       "length": 3,
       "value": "0.4"
     },
     {
       "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/SavedCards\/SavedCardsView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4470,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/SavedCards\/SavedCardsView.swift",
       "kind": "StringLiteral",
-      "offset": 5526,
+      "offset": 6349,
       "length": 5,
       "value": "\"wwe\""
     },
     {
       "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/SavedCards\/SavedCardsView.swift",
       "kind": "BooleanLiteral",
-      "offset": 5559,
+      "offset": 6386,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/SavedCards\/SavedCardsView.swift",
       "kind": "StringLiteral",
-      "offset": 5731,
+      "offset": 6427,
+      "length": 7,
+      "value": "\"Honda\""
+    },
+    {
+      "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/SavedCards\/SavedCardsView.swift",
+      "kind": "StringLiteral",
+      "offset": 6509,
+      "length": 9,
+      "value": "\"Mahmoud\""
+    },
+    {
+      "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/SavedCards\/SavedCardsView.swift",
+      "kind": "StringLiteral",
+      "offset": 6532,
+      "length": 5,
+      "value": "\"123\""
+    },
+    {
+      "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/SavedCards\/SavedCardsView.swift",
+      "kind": "StringLiteral",
+      "offset": 6581,
+      "length": 3,
+      "value": "\"1\""
+    },
+    {
+      "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/SavedCards\/SavedCardsView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 6596,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/SavedCards\/SavedCardsView.swift",
+      "kind": "StringLiteral",
+      "offset": 6634,
+      "length": 9,
+      "value": "\"Mahmoud\""
+    },
+    {
+      "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/SavedCards\/SavedCardsView.swift",
+      "kind": "StringLiteral",
+      "offset": 6657,
+      "length": 5,
+      "value": "\"123\""
+    },
+    {
+      "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/SavedCards\/SavedCardsView.swift",
+      "kind": "StringLiteral",
+      "offset": 6678,
+      "length": 6,
+      "value": "\"Visa\""
+    },
+    {
+      "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/SavedCards\/SavedCardsView.swift",
+      "kind": "StringLiteral",
+      "offset": 6690,
+      "length": 3,
+      "value": "\"2\""
+    },
+    {
+      "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/SavedCards\/SavedCardsView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 6705,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/SavedCards\/SavedCardsView.swift",
+      "kind": "StringLiteral",
+      "offset": 6924,
       "length": 7,
       "value": "\"Light\""
     },
     {
       "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/SavedCards\/SavedCardsView.swift",
       "kind": "StringLiteral",
-      "offset": 5817,
+      "offset": 7010,
       "length": 6,
       "value": "\"Dark\""
     },
     {
       "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/SavedCards\/SavedCardsView.swift",
       "kind": "StringLiteral",
-      "offset": 5902,
+      "offset": 7095,
       "length": 7,
       "value": "\"Hello\""
     },
@@ -30636,98 +31091,70 @@
     {
       "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/Payment\/PaymentViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 2258,
+      "offset": 2418,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/Payment\/PaymentViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 2655,
+      "offset": 2815,
       "length": 3,
       "value": "\" \""
     },
     {
       "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/Payment\/PaymentViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 2666,
+      "offset": 2826,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/Payment\/PaymentViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 2835,
+      "offset": 2995,
       "length": 4,
       "value": "\"SA\""
     },
     {
       "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/Payment\/PaymentViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 3249,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/Payment\/PaymentViewModel.swift",
-      "kind": "BooleanLiteral",
-      "offset": 3385,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/Payment\/PaymentViewModel.swift",
-      "kind": "BooleanLiteral",
-      "offset": 3478,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/Payment\/PaymentViewModel.swift",
-      "kind": "BooleanLiteral",
-      "offset": 3690,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/Payment\/PaymentViewModel.swift",
-      "kind": "BooleanLiteral",
-      "offset": 3825,
+      "offset": 3409,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/Payment\/PaymentViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 4453,
+      "offset": 4037,
       "length": 3,
       "value": "\"\/\""
     },
     {
       "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/Payment\/PaymentViewModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 4492,
+      "offset": 4076,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/Payment\/PaymentViewModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 4573,
+      "offset": 4157,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/Payment\/PaymentViewModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 4596,
+      "offset": 4180,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/Payment\/PaymentViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 4751,
+      "offset": 4335,
       "length": 5,
       "value": "false"
     },
@@ -31007,168 +31434,175 @@
     {
       "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/OTPVerfication\/OTPVerfication.swift",
       "kind": "IntegerLiteral",
-      "offset": 356,
+      "offset": 320,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/OTPVerfication\/OTPVerfication.swift",
       "kind": "Array",
-      "offset": 402,
+      "offset": 365,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/OTPVerfication\/OTPVerfication.swift",
       "kind": "BooleanLiteral",
-      "offset": 438,
+      "offset": 401,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/OTPVerfication\/OTPVerfication.swift",
       "kind": "BooleanLiteral",
-      "offset": 474,
+      "offset": 437,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/OTPVerfication\/OTPVerfication.swift",
       "kind": "IntegerLiteral",
-      "offset": 811,
+      "offset": 774,
       "length": 2,
       "value": "60"
     },
     {
       "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/OTPVerfication\/OTPVerfication.swift",
       "kind": "IntegerLiteral",
-      "offset": 909,
+      "offset": 872,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/OTPVerfication\/OTPVerfication.swift",
       "kind": "StringLiteral",
-      "offset": 1184,
+      "offset": 1147,
       "length": 43,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/OTPVerfication\/OTPVerfication.swift",
       "kind": "StringLiteral",
-      "offset": 1226,
+      "offset": 1189,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/OTPVerfication\/OTPVerfication.swift",
       "kind": "StringLiteral",
-      "offset": 1351,
+      "offset": 1314,
       "length": 26,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/OTPVerfication\/OTPVerfication.swift",
       "kind": "StringLiteral",
-      "offset": 1376,
+      "offset": 1339,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/OTPVerfication\/OTPVerfication.swift",
-      "kind": "StringLiteral",
-      "offset": 1611,
-      "length": 6,
-      "value": "\"Skip\""
+      "kind": "IntegerLiteral",
+      "offset": 1920,
+      "length": 1,
+      "value": "2"
     },
     {
       "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/OTPVerfication\/OTPVerfication.swift",
       "kind": "IntegerLiteral",
-      "offset": 1926,
+      "offset": 3545,
+      "length": 1,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/OTPVerfication\/OTPVerfication.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3870,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/OTPVerfication\/OTPVerfication.swift",
       "kind": "StringLiteral",
-      "offset": 3333,
+      "offset": 4024,
       "length": 15,
       "value": "\"+201555929770\""
     },
     {
       "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/OTPVerfication\/OTPVerfication.swift",
       "kind": "BooleanLiteral",
-      "offset": 3404,
+      "offset": 4095,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/OTPVerfication\/OTPVerfication.swift",
       "kind": "StringLiteral",
-      "offset": 3434,
+      "offset": 4125,
       "length": 19,
       "value": "\"323234dedee-2332j\""
     },
     {
       "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/OTPVerfication\/OTPVerfication.swift",
       "kind": "IntegerLiteral",
-      "offset": 3843,
+      "offset": 4530,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/OTPVerfication\/OTPVerfication.swift",
       "kind": "StringLiteral",
-      "offset": 4259,
+      "offset": 4946,
       "length": 36,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/OTPVerfication\/OTPVerfication.swift",
       "kind": "StringLiteral",
-      "offset": 4294,
+      "offset": 4981,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/OTPVerfication\/OTPVerfication.swift",
       "kind": "IntegerLiteral",
-      "offset": 4607,
+      "offset": 5294,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/OTPVerfication\/OTPVerfication.swift",
       "kind": "IntegerLiteral",
-      "offset": 4653,
+      "offset": 5340,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/OTPVerfication\/OTPVerfication.swift",
       "kind": "IntegerLiteral",
-      "offset": 4793,
+      "offset": 5480,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/OTPVerfication\/OTPVerfication.swift",
       "kind": "IntegerLiteral",
-      "offset": 5092,
+      "offset": 5779,
       "length": 2,
       "value": "60"
     },
     {
       "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/OTPVerfication\/OTPVerfication.swift",
       "kind": "StringLiteral",
-      "offset": 5125,
+      "offset": 5812,
       "length": 9,
       "value": "\"00:%02i\""
     },
     {
       "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/OTPVerfication\/OTPVerfication.swift",
       "kind": "IntegerLiteral",
-      "offset": 5279,
+      "offset": 5966,
       "length": 1,
       "value": "8"
     },
@@ -31504,147 +31938,126 @@
     {
       "filePath": "\/Users\/Mahmoud\/Library\/Developer\/Xcode\/DerivedData\/AmwalPay-aomjmvbbcqmwkxdjawtmhltotfcg\/Build\/Intermediates.noindex\/ArchiveIntermediates\/AmwalPay\/IntermediateBuildFilesPath\/AmwalPay.build\/Release-iphoneos\/AmwalPay.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 2486,
-      "length": 6,
-      "value": "\"AMEX\""
-    },
-    {
-      "filePath": "\/Users\/Mahmoud\/Library\/Developer\/Xcode\/DerivedData\/AmwalPay-aomjmvbbcqmwkxdjawtmhltotfcg\/Build\/Intermediates.noindex\/ArchiveIntermediates\/AmwalPay\/IntermediateBuildFilesPath\/AmwalPay.build\/Release-iphoneos\/AmwalPay.build\/DerivedSources\/GeneratedAssetSymbols.swift",
-      "kind": "StringLiteral",
-      "offset": 2620,
+      "offset": 2496,
       "length": 11,
       "value": "\"AmwalIcon\""
     },
     {
       "filePath": "\/Users\/Mahmoud\/Library\/Developer\/Xcode\/DerivedData\/AmwalPay-aomjmvbbcqmwkxdjawtmhltotfcg\/Build\/Intermediates.noindex\/ArchiveIntermediates\/AmwalPay\/IntermediateBuildFilesPath\/AmwalPay.build\/Release-iphoneos\/AmwalPay.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 2755,
+      "offset": 2631,
       "length": 9,
       "value": "\"DINNERS\""
     },
     {
       "filePath": "\/Users\/Mahmoud\/Library\/Developer\/Xcode\/DerivedData\/AmwalPay-aomjmvbbcqmwkxdjawtmhltotfcg\/Build\/Intermediates.noindex\/ArchiveIntermediates\/AmwalPay\/IntermediateBuildFilesPath\/AmwalPay.build\/Release-iphoneos\/AmwalPay.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 2890,
-      "length": 10,
-      "value": "\"DISCOVER\""
-    },
-    {
-      "filePath": "\/Users\/Mahmoud\/Library\/Developer\/Xcode\/DerivedData\/AmwalPay-aomjmvbbcqmwkxdjawtmhltotfcg\/Build\/Intermediates.noindex\/ArchiveIntermediates\/AmwalPay\/IntermediateBuildFilesPath\/AmwalPay.build\/Release-iphoneos\/AmwalPay.build\/DerivedSources\/GeneratedAssetSymbols.swift",
-      "kind": "StringLiteral",
-      "offset": 3016,
+      "offset": 2756,
       "length": 5,
       "value": "\"JCB\""
     },
     {
       "filePath": "\/Users\/Mahmoud\/Library\/Developer\/Xcode\/DerivedData\/AmwalPay-aomjmvbbcqmwkxdjawtmhltotfcg\/Build\/Intermediates.noindex\/ArchiveIntermediates\/AmwalPay\/IntermediateBuildFilesPath\/AmwalPay.build\/Release-iphoneos\/AmwalPay.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 3139,
+      "offset": 2879,
       "length": 6,
       "value": "\"MADA\""
     },
     {
       "filePath": "\/Users\/Mahmoud\/Library\/Developer\/Xcode\/DerivedData\/AmwalPay-aomjmvbbcqmwkxdjawtmhltotfcg\/Build\/Intermediates.noindex\/ArchiveIntermediates\/AmwalPay\/IntermediateBuildFilesPath\/AmwalPay.build\/Release-iphoneos\/AmwalPay.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 3267,
+      "offset": 3007,
       "length": 8,
       "value": "\"MASTER\""
     },
     {
       "filePath": "\/Users\/Mahmoud\/Library\/Developer\/Xcode\/DerivedData\/AmwalPay-aomjmvbbcqmwkxdjawtmhltotfcg\/Build\/Intermediates.noindex\/ArchiveIntermediates\/AmwalPay\/IntermediateBuildFilesPath\/AmwalPay.build\/Release-iphoneos\/AmwalPay.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 3401,
+      "offset": 3141,
       "length": 10,
       "value": "\"UNIONPAY\""
     },
     {
       "filePath": "\/Users\/Mahmoud\/Library\/Developer\/Xcode\/DerivedData\/AmwalPay-aomjmvbbcqmwkxdjawtmhltotfcg\/Build\/Intermediates.noindex\/ArchiveIntermediates\/AmwalPay\/IntermediateBuildFilesPath\/AmwalPay.build\/Release-iphoneos\/AmwalPay.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 3529,
+      "offset": 3269,
       "length": 6,
       "value": "\"VISA\""
     },
     {
       "filePath": "\/Users\/Mahmoud\/Library\/Developer\/Xcode\/DerivedData\/AmwalPay-aomjmvbbcqmwkxdjawtmhltotfcg\/Build\/Intermediates.noindex\/ArchiveIntermediates\/AmwalPay\/IntermediateBuildFilesPath\/AmwalPay.build\/Release-iphoneos\/AmwalPay.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 3653,
+      "offset": 3393,
       "length": 6,
       "value": "\"amex\""
     },
     {
       "filePath": "\/Users\/Mahmoud\/Library\/Developer\/Xcode\/DerivedData\/AmwalPay-aomjmvbbcqmwkxdjawtmhltotfcg\/Build\/Intermediates.noindex\/ArchiveIntermediates\/AmwalPay\/IntermediateBuildFilesPath\/AmwalPay.build\/Release-iphoneos\/AmwalPay.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 3795,
+      "offset": 3535,
       "length": 15,
       "value": "\"checkmarkIcon\""
     },
     {
       "filePath": "\/Users\/Mahmoud\/Library\/Developer\/Xcode\/DerivedData\/AmwalPay-aomjmvbbcqmwkxdjawtmhltotfcg\/Build\/Intermediates.noindex\/ArchiveIntermediates\/AmwalPay\/IntermediateBuildFilesPath\/AmwalPay.build\/Release-iphoneos\/AmwalPay.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 3928,
+      "offset": 3668,
       "length": 6,
       "value": "\"chip\""
     },
     {
       "filePath": "\/Users\/Mahmoud\/Library\/Developer\/Xcode\/DerivedData\/AmwalPay-aomjmvbbcqmwkxdjawtmhltotfcg\/Build\/Intermediates.noindex\/ArchiveIntermediates\/AmwalPay\/IntermediateBuildFilesPath\/AmwalPay.build\/Release-iphoneos\/AmwalPay.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 4060,
+      "offset": 3800,
       "length": 10,
       "value": "\"discover\""
     },
     {
       "filePath": "\/Users\/Mahmoud\/Library\/Developer\/Xcode\/DerivedData\/AmwalPay-aomjmvbbcqmwkxdjawtmhltotfcg\/Build\/Intermediates.noindex\/ArchiveIntermediates\/AmwalPay\/IntermediateBuildFilesPath\/AmwalPay.build\/Release-iphoneos\/AmwalPay.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 4190,
+      "offset": 3930,
       "length": 7,
       "value": "\"error\""
     },
     {
       "filePath": "\/Users\/Mahmoud\/Library\/Developer\/Xcode\/DerivedData\/AmwalPay-aomjmvbbcqmwkxdjawtmhltotfcg\/Build\/Intermediates.noindex\/ArchiveIntermediates\/AmwalPay\/IntermediateBuildFilesPath\/AmwalPay.build\/Release-iphoneos\/AmwalPay.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 4315,
+      "offset": 4055,
       "length": 6,
       "value": "\"logo\""
     },
     {
       "filePath": "\/Users\/Mahmoud\/Library\/Developer\/Xcode\/DerivedData\/AmwalPay-aomjmvbbcqmwkxdjawtmhltotfcg\/Build\/Intermediates.noindex\/ArchiveIntermediates\/AmwalPay\/IntermediateBuildFilesPath\/AmwalPay.build\/Release-iphoneos\/AmwalPay.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 4443,
-      "length": 8,
-      "value": "\"master\""
-    },
-    {
-      "filePath": "\/Users\/Mahmoud\/Library\/Developer\/Xcode\/DerivedData\/AmwalPay-aomjmvbbcqmwkxdjawtmhltotfcg\/Build\/Intermediates.noindex\/ArchiveIntermediates\/AmwalPay\/IntermediateBuildFilesPath\/AmwalPay.build\/Release-iphoneos\/AmwalPay.build\/DerivedSources\/GeneratedAssetSymbols.swift",
-      "kind": "StringLiteral",
-      "offset": 4595,
+      "offset": 4205,
       "length": 20,
       "value": "\"mastercard-dark-bg\""
     },
     {
       "filePath": "\/Users\/Mahmoud\/Library\/Developer\/Xcode\/DerivedData\/AmwalPay-aomjmvbbcqmwkxdjawtmhltotfcg\/Build\/Intermediates.noindex\/ArchiveIntermediates\/AmwalPay\/IntermediateBuildFilesPath\/AmwalPay.build\/Release-iphoneos\/AmwalPay.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 4733,
+      "offset": 4343,
       "length": 6,
       "value": "\"scan\""
     },
     {
       "filePath": "\/Users\/Mahmoud\/Library\/Developer\/Xcode\/DerivedData\/AmwalPay-aomjmvbbcqmwkxdjawtmhltotfcg\/Build\/Intermediates.noindex\/ArchiveIntermediates\/AmwalPay\/IntermediateBuildFilesPath\/AmwalPay.build\/Release-iphoneos\/AmwalPay.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 4879,
+      "offset": 4489,
       "length": 17,
       "value": "\"shieldCheckFill\""
     },
     {
       "filePath": "\/Users\/Mahmoud\/Library\/Developer\/Xcode\/DerivedData\/AmwalPay-aomjmvbbcqmwkxdjawtmhltotfcg\/Build\/Intermediates.noindex\/ArchiveIntermediates\/AmwalPay\/IntermediateBuildFilesPath\/AmwalPay.build\/Release-iphoneos\/AmwalPay.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 5020,
+      "offset": 4630,
       "length": 9,
       "value": "\"success\""
     },
     {
       "filePath": "\/Users\/Mahmoud\/Library\/Developer\/Xcode\/DerivedData\/AmwalPay-aomjmvbbcqmwkxdjawtmhltotfcg\/Build\/Intermediates.noindex\/ArchiveIntermediates\/AmwalPay\/IntermediateBuildFilesPath\/AmwalPay.build\/Release-iphoneos\/AmwalPay.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 5167,
+      "offset": 4777,
       "length": 16,
       "value": "\"UNONIDENTIFIED\""
     }
