@@ -1218,7 +1218,7 @@
           {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(currency:amount:vat:merchantId:completion:)",
+            "printedName": "init(currency:amount:vat:merchantId:orderId:refrenceId:completion:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -1251,6 +1251,34 @@
                 "usr": "s:SS"
               },
               {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
                 "kind": "TypeFunc",
                 "name": "Function",
                 "printedName": "(AmwalPay.PaymentResult) -> ()",
@@ -1270,8 +1298,8 @@
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:8AmwalPay0aB6ButtonV8currency6amount3vat10merchantId10completionAcA8CurrencyO_S2dSSyAA13PaymentResultOctcfc",
-            "mangledName": "$s8AmwalPay0aB6ButtonV8currency6amount3vat10merchantId10completionAcA8CurrencyO_S2dSSyAA13PaymentResultOctcfc",
+            "usr": "s:8AmwalPay0aB6ButtonV8currency6amount3vat10merchantId05orderH008refrenceH010completionAcA8CurrencyO_S2dS2SSgAMyAA13PaymentResultOctcfc",
+            "mangledName": "$s8AmwalPay0aB6ButtonV8currency6amount3vat10merchantId05orderH008refrenceH010completionAcA8CurrencyO_S2dS2SSgAMyAA13PaymentResultOctcfc",
             "moduleName": "AmwalPay",
             "declAttributes": [
               "AccessControl"
@@ -3988,6 +4016,226 @@
           },
           {
             "kind": "Var",
+            "name": "orderId",
+            "printedName": "orderId",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8AmwalPay14PaymentRequestV7orderIdSSSgvp",
+            "mangledName": "$s8AmwalPay14PaymentRequestV7orderIdSSSgvp",
+            "moduleName": "AmwalPay",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8AmwalPay14PaymentRequestV7orderIdSSSgvg",
+                "mangledName": "$s8AmwalPay14PaymentRequestV7orderIdSSSgvg",
+                "moduleName": "AmwalPay",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8AmwalPay14PaymentRequestV7orderIdSSSgvs",
+                "mangledName": "$s8AmwalPay14PaymentRequestV7orderIdSSSgvs",
+                "moduleName": "AmwalPay",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8AmwalPay14PaymentRequestV7orderIdSSSgvM",
+                "mangledName": "$s8AmwalPay14PaymentRequestV7orderIdSSSgvM",
+                "moduleName": "AmwalPay",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "referenceId",
+            "printedName": "referenceId",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8AmwalPay14PaymentRequestV11referenceIdSSSgvp",
+            "mangledName": "$s8AmwalPay14PaymentRequestV11referenceIdSSSgvp",
+            "moduleName": "AmwalPay",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8AmwalPay14PaymentRequestV11referenceIdSSSgvg",
+                "mangledName": "$s8AmwalPay14PaymentRequestV11referenceIdSSSgvg",
+                "moduleName": "AmwalPay",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8AmwalPay14PaymentRequestV11referenceIdSSSgvs",
+                "mangledName": "$s8AmwalPay14PaymentRequestV11referenceIdSSSgvs",
+                "moduleName": "AmwalPay",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8AmwalPay14PaymentRequestV11referenceIdSSSgvM",
+                "mangledName": "$s8AmwalPay14PaymentRequestV11referenceIdSSSgvM",
+                "moduleName": "AmwalPay",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
             "name": "completion",
             "printedName": "completion",
             "children": [
@@ -4150,7 +4398,7 @@
           {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(merchantId:currencyCode:amount:vat:completion:)",
+            "printedName": "init(merchantId:currencyCode:amount:vat:orderId:referenceId:completion:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -4183,6 +4431,34 @@
                 "usr": "s:Sd"
               },
               {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
                 "kind": "TypeFunc",
                 "name": "Function",
                 "printedName": "(AmwalPay.PaymentResult) -> ()",
@@ -4202,8 +4478,8 @@
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:8AmwalPay14PaymentRequestV10merchantId12currencyCode6amount3vat10completionACSS_AA8CurrencyOS2dyAA0C6ResultOctcfc",
-            "mangledName": "$s8AmwalPay14PaymentRequestV10merchantId12currencyCode6amount3vat10completionACSS_AA8CurrencyOS2dyAA0C6ResultOctcfc",
+            "usr": "s:8AmwalPay14PaymentRequestV10merchantId12currencyCode6amount3vat05orderF009referenceF010completionACSS_AA8CurrencyOS2dSSSgAMyAA0C6ResultOctcfc",
+            "mangledName": "$s8AmwalPay14PaymentRequestV10merchantId12currencyCode6amount3vat05orderF009referenceF010completionACSS_AA8CurrencyOS2dSSSgAMyAA0C6ResultOctcfc",
             "moduleName": "AmwalPay",
             "declAttributes": [
               "AccessControl"
@@ -4325,6 +4601,76 @@
             "declKind": "Func",
             "usr": "s:8AmwalPay14PaymentBuilderP11setCurrencyyxAA0F0OF",
             "mangledName": "$s8AmwalPay14PaymentBuilderP11setCurrencyyxAA0F0OF",
+            "moduleName": "AmwalPay",
+            "genericSig": "<τ_0_0 where τ_0_0 : AmwalPay.PaymentBuilder>",
+            "sugared_genericSig": "<Self where Self : AmwalPay.PaymentBuilder>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setOrderId",
+            "printedName": "setOrderId(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_0_0"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8AmwalPay14PaymentBuilderP10setOrderIdyxSSSgF",
+            "mangledName": "$s8AmwalPay14PaymentBuilderP10setOrderIdyxSSSgF",
+            "moduleName": "AmwalPay",
+            "genericSig": "<τ_0_0 where τ_0_0 : AmwalPay.PaymentBuilder>",
+            "sugared_genericSig": "<Self where Self : AmwalPay.PaymentBuilder>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setReferenceId",
+            "printedName": "setReferenceId(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_0_0"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8AmwalPay14PaymentBuilderP14setReferenceIdyxSSSgF",
+            "mangledName": "$s8AmwalPay14PaymentBuilderP14setReferenceIdyxSSSgF",
             "moduleName": "AmwalPay",
             "genericSig": "<τ_0_0 where τ_0_0 : AmwalPay.PaymentBuilder>",
             "sugared_genericSig": "<Self where Self : AmwalPay.PaymentBuilder>",
@@ -4530,6 +4876,76 @@
             "declKind": "Func",
             "usr": "s:8AmwalPay21PaymentRequestBuilderV11setCurrencyyAcA0G0OF",
             "mangledName": "$s8AmwalPay21PaymentRequestBuilderV11setCurrencyyAcA0G0OF",
+            "moduleName": "AmwalPay",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setOrderId",
+            "printedName": "setOrderId(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "PaymentRequestBuilder",
+                "printedName": "AmwalPay.PaymentRequestBuilder",
+                "usr": "s:8AmwalPay21PaymentRequestBuilderV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8AmwalPay21PaymentRequestBuilderV10setOrderIdyACSSSgF",
+            "mangledName": "$s8AmwalPay21PaymentRequestBuilderV10setOrderIdyACSSSgF",
+            "moduleName": "AmwalPay",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setReferenceId",
+            "printedName": "setReferenceId(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "PaymentRequestBuilder",
+                "printedName": "AmwalPay.PaymentRequestBuilder",
+                "usr": "s:8AmwalPay21PaymentRequestBuilderV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8AmwalPay21PaymentRequestBuilderV14setReferenceIdyACSSSgF",
+            "mangledName": "$s8AmwalPay21PaymentRequestBuilderV14setReferenceIdyACSSSgF",
             "moduleName": "AmwalPay",
             "declAttributes": [
               "AccessControl"
@@ -7948,12 +8364,12 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "(AmwalPay.PaymentResult.Type) -> (Swift.String) -> AmwalPay.PaymentResult",
+                "printedName": "(AmwalPay.PaymentResult.Type) -> (Swift.String, Swift.String) -> AmwalPay.PaymentResult",
                 "children": [
                   {
                     "kind": "TypeFunc",
                     "name": "Function",
-                    "printedName": "(Swift.String) -> AmwalPay.PaymentResult",
+                    "printedName": "(Swift.String, Swift.String) -> AmwalPay.PaymentResult",
                     "children": [
                       {
                         "kind": "TypeNominal",
@@ -7964,8 +8380,14 @@
                       {
                         "kind": "TypeNominal",
                         "name": "Tuple",
-                        "printedName": "(error: Swift.String)",
+                        "printedName": "(error: Swift.String, transactionId: Swift.String)",
                         "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          },
                           {
                             "kind": "TypeNominal",
                             "name": "String",
@@ -7993,8 +8415,8 @@
               }
             ],
             "declKind": "EnumElement",
-            "usr": "s:8AmwalPay13PaymentResultO4failyACSS_tcACmF",
-            "mangledName": "$s8AmwalPay13PaymentResultO4failyACSS_tcACmF",
+            "usr": "s:8AmwalPay13PaymentResultO4failyACSS_SStcACmF",
+            "mangledName": "$s8AmwalPay13PaymentResultO4failyACSS_SStcACmF",
             "moduleName": "AmwalPay"
           },
           {
@@ -8055,7 +8477,7 @@
           {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(currency:amount:vat:merchantId:completion:)",
+            "printedName": "init(currency:amount:vat:merchantId:orderId:refrenceId:completion:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -8088,6 +8510,34 @@
                 "usr": "s:SS"
               },
               {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
                 "kind": "TypeFunc",
                 "name": "Function",
                 "printedName": "(AmwalPay.PaymentResult) -> ()",
@@ -8107,8 +8557,8 @@
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:8AmwalPay0A11PaymentViewV8currency6amount3vat10merchantId10completionAcA8CurrencyO_S2dSSyAA0C6ResultOctcfc",
-            "mangledName": "$s8AmwalPay0A11PaymentViewV8currency6amount3vat10merchantId10completionAcA8CurrencyO_S2dSSyAA0C6ResultOctcfc",
+            "usr": "s:8AmwalPay0A11PaymentViewV8currency6amount3vat10merchantId05orderI008refrenceI010completionAcA8CurrencyO_S2dS2SSgAMyAA0C6ResultOctcfc",
+            "mangledName": "$s8AmwalPay0A11PaymentViewV8currency6amount3vat10merchantId05orderI008refrenceI010completionAcA8CurrencyO_S2dS2SSgAMyAA0C6ResultOctcfc",
             "moduleName": "AmwalPay",
             "declAttributes": [
               "AccessControl"
@@ -13065,6 +13515,13 @@
         "moduleName": "AmwalPay"
       },
       {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "AmwalPay"
+      },
+      {
         "kind": "TypeDecl",
         "name": "EntryPoint",
         "printedName": "EntryPoint",
@@ -13121,6 +13578,112 @@
         "declKind": "Struct",
         "usr": "s:8AmwalPay10EntryPointV",
         "mangledName": "$s8AmwalPay10EntryPointV",
+        "moduleName": "AmwalPay",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "AmwalPaymentViewController",
+        "printedName": "AmwalPaymentViewController",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "viewController",
+            "printedName": "viewController(currency:amount:vat:merchantId:orderId:referenceId:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewController",
+                "printedName": "UIKit.UIViewController",
+                "usr": "c:objc(cs)UIViewController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Currency",
+                "printedName": "AmwalPay.Currency",
+                "usr": "s:8AmwalPay8CurrencyO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AmwalPay.PaymentResult) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PaymentResult",
+                    "printedName": "AmwalPay.PaymentResult",
+                    "usr": "s:8AmwalPay13PaymentResultO"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8AmwalPay0A21PaymentViewControllerV04viewE08currency6amount3vat10merchantId05orderK009referenceK010completionSo06UIViewE0CAA8CurrencyO_S2dS2SSgAPyAA0C6ResultOctFZ",
+            "mangledName": "$s8AmwalPay0A21PaymentViewControllerV04viewE08currency6amount3vat10merchantId05orderK009referenceK010completionSo06UIViewE0CAA8CurrencyO_S2dS2SSgAPyAA0C6ResultOctFZ",
+            "moduleName": "AmwalPay",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:8AmwalPay0A21PaymentViewControllerV",
+        "mangledName": "$s8AmwalPay0A21PaymentViewControllerV",
         "moduleName": "AmwalPay",
         "declAttributes": [
           "AccessControl"
@@ -22978,84 +23541,84 @@
     {
       "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/CustomViews\/AmwalPayButton\/AmwalPayButton.swift",
       "kind": "BooleanLiteral",
-      "offset": 953,
+      "offset": 1129,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/CustomViews\/AmwalPayButton\/AmwalPayButton.swift",
       "kind": "IntegerLiteral",
-      "offset": 1367,
+      "offset": 1543,
       "length": 2,
       "value": "32"
     },
     {
       "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/CustomViews\/AmwalPayButton\/AmwalPayButton.swift",
       "kind": "StringLiteral",
-      "offset": 1465,
+      "offset": 1641,
       "length": 5,
       "value": "\"Pay\""
     },
     {
       "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/CustomViews\/AmwalPayButton\/AmwalPayButton.swift",
       "kind": "IntegerLiteral",
-      "offset": 1745,
+      "offset": 1921,
       "length": 1,
       "value": "5"
     },
     {
       "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/CustomViews\/AmwalPayButton\/AmwalPayButton.swift",
       "kind": "IntegerLiteral",
-      "offset": 1872,
+      "offset": 2048,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/CustomViews\/AmwalPayButton\/AmwalPayButton.swift",
       "kind": "BooleanLiteral",
-      "offset": 2286,
+      "offset": 2544,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/CustomViews\/AmwalPayButton\/AmwalPayButton.swift",
       "kind": "IntegerLiteral",
-      "offset": 2527,
+      "offset": 2785,
       "length": 3,
       "value": "110"
     },
     {
       "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/CustomViews\/AmwalPayButton\/AmwalPayButton.swift",
       "kind": "IntegerLiteral",
-      "offset": 2549,
+      "offset": 2807,
       "length": 2,
       "value": "20"
     },
     {
       "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/CustomViews\/AmwalPayButton\/AmwalPayButton.swift",
       "kind": "StringLiteral",
-      "offset": 2577,
+      "offset": 2835,
       "length": 52,
       "value": "\"sandbox-amwal-c5fb8bf7-e622-41f7-a6f8-46b558b53f69\""
     },
     {
       "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/CustomViews\/AmwalPayButton\/AmwalPayButton.swift",
       "kind": "IntegerLiteral",
-      "offset": 2760,
+      "offset": 3101,
       "length": 3,
       "value": "110"
     },
     {
       "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/CustomViews\/AmwalPayButton\/AmwalPayButton.swift",
       "kind": "IntegerLiteral",
-      "offset": 2782,
+      "offset": 3123,
       "length": 2,
       "value": "20"
     },
     {
       "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/CustomViews\/AmwalPayButton\/AmwalPayButton.swift",
       "kind": "StringLiteral",
-      "offset": 2810,
+      "offset": 3151,
       "length": 52,
       "value": "\"sandbox-amwal-c5fb8bf7-e622-41f7-a6f8-46b558b53f69\""
     },
@@ -24049,7 +24612,7 @@
     {
       "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/Modeles\/PaymentRequest.swift",
       "kind": "StringLiteral",
-      "offset": 2465,
+      "offset": 3123,
       "length": 40,
       "value": "\"PaymentRequest not properly configured\""
     },
@@ -24868,182 +25431,196 @@
     {
       "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/CustomViews\/Alert\/SuccessScreen\/successCleint\/SuccessClient.swift",
       "kind": "StringLiteral",
-      "offset": 560,
+      "offset": 762,
       "length": 31,
       "value": "\"transactions\/\""
     },
     {
       "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/CustomViews\/Alert\/SuccessScreen\/successCleint\/SuccessClient.swift",
       "kind": "StringLiteral",
-      "offset": 590,
+      "offset": 792,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/CustomViews\/Alert\/SuccessScreen\/successCleint\/SuccessClient.swift",
       "kind": "StringLiteral",
-      "offset": 824,
+      "offset": 1087,
+      "length": 49,
+      "value": "\"transactions\/\""
+    },
+    {
+      "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/CustomViews\/Alert\/SuccessScreen\/successCleint\/SuccessClient.swift",
+      "kind": "StringLiteral",
+      "offset": 1117,
+      "length": 1,
+      "value": "\"\/set_order_details\""
+    },
+    {
+      "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/CustomViews\/Alert\/SuccessScreen\/successCleint\/SuccessClient.swift",
+      "kind": "StringLiteral",
+      "offset": 1412,
       "length": 15,
       "value": "\"Mahmoud fares\""
     },
     {
       "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/CustomViews\/Alert\/SuccessScreen\/successCleint\/SuccessClient.swift",
       "kind": "StringLiteral",
-      "offset": 870,
+      "offset": 1458,
       "length": 6,
       "value": "\"3455\""
     },
     {
       "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/CustomViews\/Alert\/SuccessScreen\/successCleint\/SuccessClient.swift",
       "kind": "StringLiteral",
-      "offset": 1087,
+      "offset": 1675,
       "length": 6,
       "value": "\"3455\""
     },
     {
       "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/CustomViews\/Alert\/SuccessScreen\/successCleint\/SuccessClient.swift",
       "kind": "StringLiteral",
-      "offset": 1133,
+      "offset": 1721,
       "length": 5,
       "value": "\"334\""
     },
     {
       "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/CustomViews\/Alert\/SuccessScreen\/successCleint\/SuccessClient.swift",
       "kind": "StringLiteral",
-      "offset": 1215,
+      "offset": 1803,
       "length": 9,
       "value": "\"Mahmoud\""
     },
     {
       "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/CustomViews\/Alert\/SuccessScreen\/successCleint\/SuccessClient.swift",
       "kind": "StringLiteral",
-      "offset": 1262,
+      "offset": 1850,
       "length": 7,
       "value": "\"Fares\""
     },
     {
       "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/CustomViews\/Alert\/SuccessScreen\/successCleint\/SuccessClient.swift",
       "kind": "StringLiteral",
-      "offset": 1310,
+      "offset": 1898,
       "length": 13,
       "value": "\"01555929770\""
     },
     {
       "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/CustomViews\/Alert\/SuccessScreen\/successCleint\/SuccessClient.swift",
       "kind": "StringLiteral",
-      "offset": 1455,
+      "offset": 2043,
       "length": 3,
       "value": "\"0\""
     },
     {
       "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/CustomViews\/Alert\/SuccessScreen\/successCleint\/SuccessClient.swift",
       "kind": "StringLiteral",
-      "offset": 1466,
+      "offset": 2054,
       "length": 6,
       "value": "\"ssws\""
     },
     {
       "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/CustomViews\/Alert\/SuccessScreen\/successCleint\/SuccessClient.swift",
       "kind": "BooleanLiteral",
-      "offset": 1514,
+      "offset": 2102,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/CustomViews\/Alert\/SuccessScreen\/successCleint\/SuccessClient.swift",
       "kind": "StringLiteral",
-      "offset": 1571,
+      "offset": 2159,
       "length": 11,
       "value": "\"32289hhhd\""
     },
     {
       "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/CustomViews\/Alert\/SuccessScreen\/successCleint\/SuccessClient.swift",
       "kind": "BooleanLiteral",
-      "offset": 1649,
+      "offset": 2237,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/CustomViews\/Alert\/SuccessScreen\/successCleint\/SuccessClient.swift",
       "kind": "StringLiteral",
-      "offset": 1698,
+      "offset": 2286,
       "length": 8,
       "value": "\"322323\""
     },
     {
       "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/CustomViews\/Alert\/SuccessScreen\/successCleint\/SuccessClient.swift",
       "kind": "StringLiteral",
-      "offset": 1749,
+      "offset": 2337,
       "length": 4,
       "value": "\"SA\""
     },
     {
       "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/CustomViews\/Alert\/SuccessScreen\/successCleint\/SuccessClient.swift",
       "kind": "StringLiteral",
-      "offset": 1789,
+      "offset": 2377,
       "length": 6,
       "value": "\"swsw\""
     },
     {
       "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/CustomViews\/Alert\/SuccessScreen\/successCleint\/SuccessClient.swift",
       "kind": "StringLiteral",
-      "offset": 1869,
+      "offset": 2457,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/CustomViews\/Alert\/SuccessScreen\/successCleint\/SuccessClient.swift",
       "kind": "StringLiteral",
-      "offset": 1938,
+      "offset": 2526,
       "length": 4,
       "value": "\"10\""
     },
     {
       "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/CustomViews\/Alert\/SuccessScreen\/successCleint\/SuccessClient.swift",
       "kind": "StringLiteral",
-      "offset": 1977,
+      "offset": 2565,
       "length": 5,
       "value": "\"110\""
     },
     {
       "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/CustomViews\/Alert\/SuccessScreen\/successCleint\/SuccessClient.swift",
       "kind": "StringLiteral",
-      "offset": 2050,
+      "offset": 2638,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/CustomViews\/Alert\/SuccessScreen\/successCleint\/SuccessClient.swift",
       "kind": "IntegerLiteral",
-      "offset": 2083,
+      "offset": 2671,
       "length": 2,
       "value": "12"
     },
     {
       "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/CustomViews\/Alert\/SuccessScreen\/successCleint\/SuccessClient.swift",
       "kind": "IntegerLiteral",
-      "offset": 2120,
+      "offset": 2708,
       "length": 2,
       "value": "13"
     },
     {
       "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/CustomViews\/Alert\/SuccessScreen\/successCleint\/SuccessClient.swift",
       "kind": "StringLiteral",
-      "offset": 2297,
+      "offset": 2941,
       "length": 58,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/CustomViews\/Alert\/SuccessScreen\/successCleint\/SuccessClient.swift",
       "kind": "StringLiteral",
-      "offset": 2326,
+      "offset": 2970,
       "length": 1,
       "value": "\" \""
     },
     {
       "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/CustomViews\/Alert\/SuccessScreen\/successCleint\/SuccessClient.swift",
       "kind": "StringLiteral",
-      "offset": 2354,
+      "offset": 2998,
       "length": 1,
       "value": "\"\""
     },
@@ -26086,21 +26663,21 @@
     {
       "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPaymentView.swift",
       "kind": "IntegerLiteral",
-      "offset": 1390,
+      "offset": 1663,
       "length": 3,
       "value": "110"
     },
     {
       "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPaymentView.swift",
       "kind": "IntegerLiteral",
-      "offset": 1412,
+      "offset": 1685,
       "length": 2,
       "value": "20"
     },
     {
       "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPaymentView.swift",
       "kind": "StringLiteral",
-      "offset": 1440,
+      "offset": 1713,
       "length": 52,
       "value": "\"sandbox-amwal-c5fb8bf7-e622-41f7-a6f8-46b558b53f69\""
     },
@@ -28165,35 +28742,35 @@
     {
       "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/PhoneNumber\/PhoneNumberValidationView.swift",
       "kind": "StringLiteral",
-      "offset": 3169,
+      "offset": 3254,
       "length": 6,
       "value": "\"2234\""
     },
     {
       "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/PhoneNumber\/PhoneNumberValidationView.swift",
       "kind": "StringLiteral",
-      "offset": 3272,
+      "offset": 3357,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/PhoneNumber\/PhoneNumberValidationView.swift",
       "kind": "StringLiteral",
-      "offset": 3282,
+      "offset": 3367,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/PhoneNumber\/PhoneNumberValidationView.swift",
       "kind": "StringLiteral",
-      "offset": 3463,
+      "offset": 3548,
       "length": 7,
       "value": "\"Light\""
     },
     {
       "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/PhoneNumber\/PhoneNumberValidationView.swift",
       "kind": "StringLiteral",
-      "offset": 3560,
+      "offset": 3645,
       "length": 6,
       "value": "\"Dark\""
     },
@@ -28228,189 +28805,189 @@
     {
       "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/CustomViews\/Alert\/SuccessScreen\/SuccessScreenView.swift",
       "kind": "StringLiteral",
-      "offset": 408,
+      "offset": 409,
       "length": 12,
       "value": "\"apple.logo\""
     },
     {
       "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/CustomViews\/Alert\/SuccessScreen\/SuccessScreenView.swift",
       "kind": "StringLiteral",
-      "offset": 423,
+      "offset": 424,
       "length": 17,
       "value": "\"creditcard.fill\""
     },
     {
       "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/CustomViews\/Alert\/SuccessScreen\/SuccessScreenView.swift",
       "kind": "StringLiteral",
-      "offset": 499,
+      "offset": 501,
       "length": 10,
       "value": "\"ApplePay\""
     },
     {
       "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/CustomViews\/Alert\/SuccessScreen\/SuccessScreenView.swift",
       "kind": "StringLiteral",
-      "offset": 512,
+      "offset": 514,
       "length": 6,
       "value": "\"Card\""
     },
     {
       "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/CustomViews\/Alert\/SuccessScreen\/SuccessScreenView.swift",
       "kind": "BooleanLiteral",
-      "offset": 997,
+      "offset": 1000,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/CustomViews\/Alert\/SuccessScreen\/SuccessScreenView.swift",
       "kind": "BooleanLiteral",
-      "offset": 1411,
+      "offset": 1414,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/CustomViews\/Alert\/SuccessScreen\/SuccessScreenView.swift",
       "kind": "StringLiteral",
-      "offset": 1872,
+      "offset": 1875,
       "length": 8,
       "value": "\"Errror\""
     },
     {
       "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/CustomViews\/Alert\/SuccessScreen\/SuccessScreenView.swift",
       "kind": "IntegerLiteral",
-      "offset": 2369,
+      "offset": 2412,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/CustomViews\/Alert\/SuccessScreen\/SuccessScreenView.swift",
       "kind": "IntegerLiteral",
-      "offset": 3137,
+      "offset": 3256,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/CustomViews\/Alert\/SuccessScreen\/SuccessScreenView.swift",
       "kind": "IntegerLiteral",
-      "offset": 4415,
+      "offset": 4534,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/CustomViews\/Alert\/SuccessScreen\/SuccessScreenView.swift",
       "kind": "IntegerLiteral",
-      "offset": 4727,
+      "offset": 4846,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/CustomViews\/Alert\/SuccessScreen\/SuccessScreenView.swift",
       "kind": "StringLiteral",
-      "offset": 5798,
+      "offset": 5917,
       "length": 21,
       "value": "\"4835 2934 0210 4057\""
     },
     {
       "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/CustomViews\/Alert\/SuccessScreen\/SuccessScreenView.swift",
       "kind": "StringLiteral",
-      "offset": 5846,
+      "offset": 5965,
       "length": 15,
       "value": "\"Mahmoud Fares\""
     },
     {
       "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/CustomViews\/Alert\/SuccessScreen\/SuccessScreenView.swift",
       "kind": "IntegerLiteral",
-      "offset": 5883,
+      "offset": 6002,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/CustomViews\/Alert\/SuccessScreen\/SuccessScreenView.swift",
       "kind": "IntegerLiteral",
-      "offset": 5900,
+      "offset": 6019,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/CustomViews\/Alert\/SuccessScreen\/SuccessScreenView.swift",
       "kind": "IntegerLiteral",
-      "offset": 5927,
+      "offset": 6046,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/CustomViews\/Alert\/SuccessScreen\/SuccessScreenView.swift",
       "kind": "IntegerLiteral",
-      "offset": 5946,
+      "offset": 6065,
       "length": 2,
       "value": "20"
     },
     {
       "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/CustomViews\/Alert\/SuccessScreen\/SuccessScreenView.swift",
       "kind": "StringLiteral",
-      "offset": 5968,
+      "offset": 6087,
       "length": 5,
       "value": "\"SAR\""
     },
     {
       "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/CustomViews\/Alert\/SuccessScreen\/SuccessScreenView.swift",
       "kind": "StringLiteral",
-      "offset": 6304,
+      "offset": 6522,
       "length": 5,
       "value": "\"SAR\""
     },
     {
       "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/CustomViews\/Alert\/SuccessScreen\/SuccessScreenView.swift",
       "kind": "StringLiteral",
-      "offset": 6323,
+      "offset": 6553,
       "length": 9,
       "value": "\"Mahmoud\""
     },
     {
       "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/CustomViews\/Alert\/SuccessScreen\/SuccessScreenView.swift",
       "kind": "StringLiteral",
-      "offset": 6349,
+      "offset": 6591,
       "length": 6,
       "value": "\"2345\""
     },
     {
       "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/CustomViews\/Alert\/SuccessScreen\/SuccessScreenView.swift",
       "kind": "StringLiteral",
-      "offset": 6581,
+      "offset": 6844,
       "length": 7,
       "value": "\"Light\""
     },
     {
       "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/CustomViews\/Alert\/SuccessScreen\/SuccessScreenView.swift",
       "kind": "StringLiteral",
-      "offset": 6733,
+      "offset": 6996,
       "length": 6,
       "value": "\"Dark\""
     },
     {
       "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/CustomViews\/Alert\/SuccessScreen\/SuccessScreenView.swift",
       "kind": "IntegerLiteral",
-      "offset": 7043,
+      "offset": 7306,
       "length": 2,
       "value": "40"
     },
     {
       "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/CustomViews\/Alert\/SuccessScreen\/SuccessScreenView.swift",
       "kind": "IntegerLiteral",
-      "offset": 7055,
+      "offset": 7318,
       "length": 2,
       "value": "40"
     },
     {
       "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/CustomViews\/Alert\/SuccessScreen\/SuccessScreenView.swift",
       "kind": "StringLiteral",
-      "offset": 7132,
+      "offset": 7395,
       "length": 15,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/CustomViews\/Alert\/SuccessScreen\/SuccessScreenView.swift",
       "kind": "StringLiteral",
-      "offset": 7146,
+      "offset": 7409,
       "length": 2,
       "value": "\"\""
     },
@@ -28949,7 +29526,7 @@
     {
       "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/PaymentRequest\/PaymentRequestViewModelFake.swift",
       "kind": "StringLiteral",
-      "offset": 5920,
+      "offset": 6005,
       "length": 19,
       "value": "\"Name Not provider\""
     },
@@ -29061,7 +29638,7 @@
     {
       "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/PaymentRequest\/PaymentRequestViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 4150,
+      "offset": 4209,
       "length": 5,
       "value": "false"
     },
@@ -29327,7 +29904,7 @@
     {
       "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/SharedModels\/Requests\/TransactionsRequest.swift",
       "kind": "BooleanLiteral",
-      "offset": 258,
+      "offset": 281,
       "length": 4,
       "value": "true"
     },
@@ -30559,49 +31136,77 @@
     {
       "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/CustomViews\/Alert\/SuccessScreen\/SuccessScreenViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 706,
+      "offset": 792,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/CustomViews\/Alert\/SuccessScreen\/SuccessScreenViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 969,
+      "offset": 1090,
+      "length": 50,
+      "value": "\" can't set orderId \""
+    },
+    {
+      "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/CustomViews\/Alert\/SuccessScreen\/SuccessScreenViewModel.swift",
+      "kind": "StringLiteral",
+      "offset": 1139,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/CustomViews\/Alert\/SuccessScreen\/SuccessScreenViewModel.swift",
+      "kind": "StringLiteral",
+      "offset": 1546,
       "length": 3,
       "value": "\"0\""
     },
     {
       "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/CustomViews\/Alert\/SuccessScreen\/SuccessScreenViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 1040,
+      "offset": 1620,
+      "length": 3,
+      "value": "\"0\""
+    },
+    {
+      "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/CustomViews\/Alert\/SuccessScreen\/SuccessScreenViewModel.swift",
+      "kind": "StringLiteral",
+      "offset": 1738,
+      "length": 3,
+      "value": "\"0\""
+    },
+    {
+      "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/CustomViews\/Alert\/SuccessScreen\/SuccessScreenViewModel.swift",
+      "kind": "StringLiteral",
+      "offset": 1809,
       "length": 9,
       "value": "\"*******\""
     },
     {
       "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/CustomViews\/Alert\/SuccessScreen\/SuccessScreenViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 1156,
+      "offset": 1925,
       "length": 3,
       "value": "\"0\""
     },
     {
       "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/CustomViews\/Alert\/SuccessScreen\/SuccessScreenViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 1217,
+      "offset": 1986,
       "length": 3,
       "value": "\"0\""
     },
     {
       "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/CustomViews\/Alert\/SuccessScreen\/SuccessScreenViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 1741,
+      "offset": 2541,
       "length": 7,
       "value": "\"Error\""
     },
     {
       "filePath": "\/Users\/Mahmoud\/Developer\/work\/amwal-android-sdk\/iOS\/AmwalPay\/AmwalPay\/AmwalPayment\/CustomViews\/Alert\/SuccessScreen\/SuccessScreenViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 1941,
+      "offset": 2816,
       "length": 5,
       "value": "false"
     },

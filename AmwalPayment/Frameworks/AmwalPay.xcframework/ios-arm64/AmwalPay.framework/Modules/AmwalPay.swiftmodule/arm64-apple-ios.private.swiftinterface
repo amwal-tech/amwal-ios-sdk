@@ -86,7 +86,7 @@ extension Swift.Encodable {
   }
 }
 public struct AmwalPayButton : SwiftUI.View {
-  public init(currency: AmwalPay.Currency, amount: Swift.Double, vat: Swift.Double, merchantId: Swift.String, completion: @escaping (_ status: AmwalPay.PaymentResult) -> Swift.Void)
+  public init(currency: AmwalPay.Currency, amount: Swift.Double, vat: Swift.Double, merchantId: Swift.String, orderId: Swift.String?, refrenceId: Swift.String?, completion: @escaping (_ status: AmwalPay.PaymentResult) -> Swift.Void)
   @_Concurrency.MainActor(unsafe) public var body: some SwiftUI.View {
     get
   }
@@ -141,17 +141,21 @@ public struct PaymentRequest {
   }
   public var amount: Swift.Double
   public var vat: Swift.Double
+  public var orderId: Swift.String?
+  public var referenceId: Swift.String?
   public var completion: (_ transactionId: AmwalPay.PaymentResult) -> Swift.Void
   public var total: Swift.Double {
     get
   }
-  public init(merchantId: Swift.String, currencyCode: AmwalPay.Currency, amount: Swift.Double, vat: Swift.Double, completion: @escaping (_ transactionId: AmwalPay.PaymentResult) -> Swift.Void)
+  public init(merchantId: Swift.String, currencyCode: AmwalPay.Currency, amount: Swift.Double, vat: Swift.Double, orderId: Swift.String?, referenceId: Swift.String?, completion: @escaping (_ transactionId: AmwalPay.PaymentResult) -> Swift.Void)
 }
 public protocol PaymentBuilder {
   func setMerchantId(_ merchantId: Swift.String) -> Self
   func setAmount(_ amount: Swift.Double) -> Self
   func setVat(_ vat: Swift.Double) -> Self
   func setCurrency(_ currency: AmwalPay.Currency) -> Self
+  func setOrderId(_ orderId: Swift.String?) -> Self
+  func setReferenceId(_ referenceId: Swift.String?) -> Self
   func setCompletion(_ completion: @escaping (_ transactionId: AmwalPay.PaymentResult) -> Swift.Void) -> Self
   func build() -> AmwalPay.PaymentRequest
 }
@@ -161,6 +165,8 @@ public struct PaymentRequestBuilder : AmwalPay.PaymentBuilder {
   public func setAmount(_ amount: Swift.Double) -> AmwalPay.PaymentRequestBuilder
   public func setVat(_ vat: Swift.Double) -> AmwalPay.PaymentRequestBuilder
   public func setCurrency(_ currency: AmwalPay.Currency) -> AmwalPay.PaymentRequestBuilder
+  public func setOrderId(_ orderId: Swift.String?) -> AmwalPay.PaymentRequestBuilder
+  public func setReferenceId(_ referenceId: Swift.String?) -> AmwalPay.PaymentRequestBuilder
   public func setCompletion(_ completion: @escaping (_ transactionId: AmwalPay.PaymentResult) -> Swift.Void) -> AmwalPay.PaymentRequestBuilder
   public func build() -> AmwalPay.PaymentRequest
 }
@@ -282,11 +288,11 @@ public protocol DependencyKey : AmwalPay.TestDependencyKey {
 }
 public enum PaymentResult : Swift.Equatable {
   case success(transactionId: Swift.String)
-  case fail(error: Swift.String)
+  case fail(error: Swift.String, transactionId: Swift.String)
   public static func == (a: AmwalPay.PaymentResult, b: AmwalPay.PaymentResult) -> Swift.Bool
 }
 public struct AmwalPaymentView : SwiftUI.View {
-  public init(currency: AmwalPay.Currency, amount: Swift.Double, vat: Swift.Double, merchantId: Swift.String, completion: @escaping (_ status: AmwalPay.PaymentResult) -> Swift.Void)
+  public init(currency: AmwalPay.Currency, amount: Swift.Double, vat: Swift.Double, merchantId: Swift.String, orderId: Swift.String?, refrenceId: Swift.String?, completion: @escaping (_ status: AmwalPay.PaymentResult) -> Swift.Void)
   @_Concurrency.MainActor(unsafe) public var body: some SwiftUI.View {
     get
   }
@@ -412,6 +418,9 @@ public struct CardFormField : SwiftUI.View {
 public struct EntryPoint {
   public init()
   public func start(paymentRequestBuilder: any AmwalPay.PaymentBuilder) -> AmwalPay.PaymentRequestView
+}
+public struct AmwalPaymentViewController {
+  public static func viewController(currency: AmwalPay.Currency, amount: Swift.Double, vat: Swift.Double, merchantId: Swift.String, orderId: Swift.String?, referenceId: Swift.String?, completion: @escaping (_ status: AmwalPay.PaymentResult) -> Swift.Void) -> UIKit.UIViewController
 }
 public protocol Localizable {
   static func tr(_ bundle: Foundation.Bundle, _ key: Swift.String, _ args: any Swift.CVarArg...) -> Swift.String

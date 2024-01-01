@@ -15,13 +15,17 @@ class ViewController: UIViewController {
             currency: .SAR,
             amount:  110,
             vat:  20,
-            merchantId: "sandbox-amwal-3db24246-8d09-4f78-a3eb-0d4b8b03bd4b"
+            merchantId: "sandbox-amwal-3db24246-8d09-4f78-a3eb-0d4b8b03bd4b",
+            orderId: UUID().uuidString,
+            refrenceId: UUID().uuidString
         ) { status in
             switch status {
             case let .success(transactionId):
                 debugPrint(transactionId)
-            case let .fail(error):
+            case let .fail(error, transactionId):
                 debugPrint(error)
+            @unknown default:
+                break
             }
         }
         let ButtonView = UIHostingController(rootView: button)
@@ -60,6 +64,8 @@ class ViewController: UIViewController {
             amount: 110,
             vat: 20,
             merchantId: "sandbox-amwal-3db24246-8d09-4f78-a3eb-0d4b8b03bd4b",
+            orderId: UUID().uuidString,
+            refrenceId: UUID().uuidString,
             completion: { [weak self] _ in
                 self?.dismiss(animated: true)
 

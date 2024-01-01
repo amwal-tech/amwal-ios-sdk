@@ -66,15 +66,20 @@ struct ContentView: View {
                 currency: .SAR,
                 amount: Double(amount) ?? 110,
                 vat: Double(vat) ?? 20,
-                merchantId: merchantId
+                merchantId: merchantId,
+                orderId: nil,
+                refrenceId: nil
             ) { status in
                 switch status {
                 case let .success(transactionId):
                     self.transactionID = transactionId
                     result = .success
-                case let .fail(error):
+                case let .fail(error, transactionId):
+                    self.transactionID = transactionId
                     result = .failure
                     print(error)
+                @unknown default:
+                    break
                 }
             }
         }
