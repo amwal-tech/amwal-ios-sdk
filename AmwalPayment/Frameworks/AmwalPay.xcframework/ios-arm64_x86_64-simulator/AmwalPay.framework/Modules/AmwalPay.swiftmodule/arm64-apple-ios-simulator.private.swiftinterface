@@ -86,11 +86,20 @@ extension Swift.Encodable {
   }
 }
 public struct AmwalPayButton : SwiftUI.View {
-  public init(currency: AmwalPay.Currency, amount: Swift.Double, vat: Swift.Double, merchantId: Swift.String, orderId: Swift.String?, refrenceId: Swift.String?, completion: @escaping (_ status: AmwalPay.PaymentResult) -> Swift.Void)
+  public init(currency: AmwalPay.Currency, amount: Swift.Double, vat: Swift.Double, merchantId: Swift.String, orderId: Swift.String?, referenceId: Swift.String?, language: AmwalPay.Language? = nil, completion: @escaping (_ status: AmwalPay.PaymentResult) -> Swift.Void)
   @_Concurrency.MainActor(unsafe) public var body: some SwiftUI.View {
     get
   }
   public typealias Body = @_opaqueReturnTypeOf("$s8AmwalPay0aB6ButtonV4bodyQrvp", 0) __
+}
+public enum Language : Swift.String {
+  case english
+  case arabic
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
 }
 public struct CardFormView : SwiftUI.View {
   public var completion: ((AmwalPay.CardDetails) -> Swift.Void)
@@ -144,10 +153,11 @@ public struct PaymentRequest {
   public var orderId: Swift.String?
   public var referenceId: Swift.String?
   public var completion: (_ transactionId: AmwalPay.PaymentResult) -> Swift.Void
+  public static var language: AmwalPay.Language?
   public var total: Swift.Double {
     get
   }
-  public init(merchantId: Swift.String, currencyCode: AmwalPay.Currency, amount: Swift.Double, vat: Swift.Double, orderId: Swift.String?, referenceId: Swift.String?, completion: @escaping (_ transactionId: AmwalPay.PaymentResult) -> Swift.Void)
+  public init(merchantId: Swift.String, currencyCode: AmwalPay.Currency, amount: Swift.Double, vat: Swift.Double, orderId: Swift.String?, referenceId: Swift.String?, language: AmwalPay.Language? = .english, completion: @escaping (_ transactionId: AmwalPay.PaymentResult) -> Swift.Void)
 }
 public protocol PaymentBuilder {
   func setMerchantId(_ merchantId: Swift.String) -> Self
@@ -167,6 +177,7 @@ public struct PaymentRequestBuilder : AmwalPay.PaymentBuilder {
   public func setCurrency(_ currency: AmwalPay.Currency) -> AmwalPay.PaymentRequestBuilder
   public func setOrderId(_ orderId: Swift.String?) -> AmwalPay.PaymentRequestBuilder
   public func setReferenceId(_ referenceId: Swift.String?) -> AmwalPay.PaymentRequestBuilder
+  public func setLanguage(_ language: AmwalPay.Language?) -> AmwalPay.PaymentRequestBuilder
   public func setCompletion(_ completion: @escaping (_ transactionId: AmwalPay.PaymentResult) -> Swift.Void) -> AmwalPay.PaymentRequestBuilder
   public func build() -> AmwalPay.PaymentRequest
 }
@@ -292,7 +303,7 @@ public enum PaymentResult : Swift.Equatable {
   public static func == (a: AmwalPay.PaymentResult, b: AmwalPay.PaymentResult) -> Swift.Bool
 }
 public struct AmwalPaymentView : SwiftUI.View {
-  public init(currency: AmwalPay.Currency, amount: Swift.Double, vat: Swift.Double, merchantId: Swift.String, orderId: Swift.String?, refrenceId: Swift.String?, completion: @escaping (_ status: AmwalPay.PaymentResult) -> Swift.Void)
+  public init(currency: AmwalPay.Currency, amount: Swift.Double, vat: Swift.Double, merchantId: Swift.String, orderId: Swift.String?, referenceId: Swift.String?, language: AmwalPay.Language? = nil, completion: @escaping (_ status: AmwalPay.PaymentResult) -> Swift.Void)
   @_Concurrency.MainActor(unsafe) public var body: some SwiftUI.View {
     get
   }
@@ -591,6 +602,9 @@ extension AmwalPay.HTTPMethod : Swift.RawRepresentable {}
 extension AmwalPay.HorizonColor : Swift.Equatable {}
 extension AmwalPay.HorizonColor : Swift.Hashable {}
 extension AmwalPay.HorizonColor : Swift.RawRepresentable {}
+extension AmwalPay.Language : Swift.Equatable {}
+extension AmwalPay.Language : Swift.Hashable {}
+extension AmwalPay.Language : Swift.RawRepresentable {}
 extension AmwalPay.CardType : Swift.Equatable {}
 extension AmwalPay.CardType : Swift.Hashable {}
 extension AmwalPay.CardType : Swift.RawRepresentable {}
