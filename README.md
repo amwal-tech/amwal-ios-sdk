@@ -67,7 +67,11 @@ pod 'AmwalPayment', '~> 1.1.0'
 <a name="initialize-payment-sheet"></a>
 ## 2. Initialize the PaymentSheet
 you can use in SwiftUI with `.sheet` and UIKit with  `modalPresentationStyle`.
+
+
 Choose the language preference for your application. If you don't explicitly set the language, the application will default to the device's current locale.
+
+
 1- 
 `import AmwalPayment`
 
