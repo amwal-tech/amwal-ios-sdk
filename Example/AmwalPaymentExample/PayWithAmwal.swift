@@ -17,7 +17,7 @@ class ViewController: UIViewController {
             vat:  20,
             merchantId: "sandbox-amwal-3db24246-8d09-4f78-a3eb-0d4b8b03bd4b",
             orderId: UUID().uuidString,
-            refrenceId: UUID().uuidString
+            referenceId: UUID().uuidString
         ) { status in
             switch status {
             case let .success(transactionId):
@@ -65,7 +65,8 @@ class ViewController: UIViewController {
             vat: 20,
             merchantId: "sandbox-amwal-3db24246-8d09-4f78-a3eb-0d4b8b03bd4b",
             orderId: UUID().uuidString,
-            refrenceId: UUID().uuidString,
+            referenceId: UUID().uuidString,
+            language: .english,
             completion: { [weak self] _ in
                 self?.dismiss(animated: true)
 

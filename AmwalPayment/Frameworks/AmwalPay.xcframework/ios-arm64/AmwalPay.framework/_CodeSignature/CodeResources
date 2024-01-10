@@ -46,7 +46,7 @@
 		</data>
 		<key>Frameworks/libswift_Concurrency.dylib</key>
 		<data>
-		yqwrVpjK/0569NdQirueuA3JDmw=
+		CLWXm1egdVi4rHWkvLzO2zKZO54=
 		</data>
 		<key>Headers/AmwalPay-Swift.h</key>
 		<data>
@@ -62,11 +62,11 @@
 		</data>
 		<key>Modules/AmwalPay.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		OIThxIECV4wKCVRF6rYl4sPcJzo=
+		PJUOAAKNoEr4LtWuYqK1FLsfovk=
 		</data>
 		<key>Modules/AmwalPay.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		owRKMEZmrXAufbQN9EfVSCNwYE0=
+		0+HGcX8suv/7Tn+qc3DBYOQcA2E=
 		</data>
 		<key>Modules/AmwalPay.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
@@ -74,11 +74,11 @@
 		</data>
 		<key>Modules/AmwalPay.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		owRKMEZmrXAufbQN9EfVSCNwYE0=
+		0+HGcX8suv/7Tn+qc3DBYOQcA2E=
 		</data>
 		<key>Modules/AmwalPay.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		pAKWCZdggYLMNhMRMyJyHBmsX4s=
+		vWJTUAiiPKXHtQcELsNr+Fr+mKI=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -183,7 +183,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			c5boweffOZ2yVZISjAhnq7U17Atba9qZVYgvFtElKRk=
+			70zEkdPA4gJA/3zYY/nuSAg4W6DQd27J5M2dtjRVv20=
 			</data>
 		</dict>
 		<key>Headers/AmwalPay-Swift.h</key>
@@ -204,14 +204,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			z83rQwPFM00f5ey/0xlDr24wv/6sLShQlotVrItKnLo=
+			Sqmxy69K8JjpXU3ebMxcExj876GAaaajzEZTnG8E6jQ=
 			</data>
 		</dict>
 		<key>Modules/AmwalPay.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			jaPZtYoOjSiYmQ+kn3ENY1QeOzM1VduUjC1RhjdVHcE=
+			hm4TxZlJn+Bo/PUIrcg7TWT0LFbQdQ6NRInzIQyIjPI=
 			</data>
 		</dict>
 		<key>Modules/AmwalPay.swiftmodule/arm64-apple-ios.swiftdoc</key>
@@ -225,14 +225,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			jaPZtYoOjSiYmQ+kn3ENY1QeOzM1VduUjC1RhjdVHcE=
+			hm4TxZlJn+Bo/PUIrcg7TWT0LFbQdQ6NRInzIQyIjPI=
 			</data>
 		</dict>
 		<key>Modules/AmwalPay.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			y0B9hEyOlN+EcqgmcjTvTUHGZsxaKeh+eugxF9PRNPs=
+			v+Z4xZpbxBYz0rPabRz7AqAJhaGWVer0skOD3wDv9hI=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

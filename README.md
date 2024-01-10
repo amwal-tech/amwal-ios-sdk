@@ -41,12 +41,12 @@ AmwalPayment SDK offers the flexibility to use pass keys for enhanced security d
 Add the following line to your `Package.swift` file's dependencies:
 ```swift
 dependencies: [
-    .package(url: "https://github.com/amwal/payment-sdk-ios.git", from: "1.0.12")
+    .package(url: "https://github.com/amwal/payment-sdk-ios.git", from: "1.1.0")
 ]
 ```
 ### CocoaPods
 ```swift
-pod 'AmwalPayment', '~> 1.0.12'
+pod 'AmwalPayment', '~> 1.1.0'
 ```
 ## ⚠️ Important : Add AmwalPay in your associated domains
 - In Xcode > Choose your **target**
@@ -67,7 +67,7 @@ pod 'AmwalPayment', '~> 1.0.12'
 <a name="initialize-payment-sheet"></a>
 ## 2. Initialize the PaymentSheet
 you can use in SwiftUI with `.sheet` and UIKit with  `modalPresentationStyle`.
-
+Choose the language preference for your application. If you don't explicitly set the language, the application will default to the device's current locale.
 1- 
 `import AmwalPayment`
 
@@ -79,7 +79,8 @@ you can use in SwiftUI with `.sheet` and UIKit with  `modalPresentationStyle`.
             vat: 20,
             merchantId: "merchantId",
             orderId: UUID().uuidString,
-            refrenceId: UUID().uuidString,
+            referenceId: UUID().uuidString,
+            language: .english,
             completion: { status in
                 switch status {
                 case let .success(transactionId):
@@ -126,7 +127,8 @@ struct ContentView: View {
                 vat: 20,
                 merchantId: "merchantId",
                 orderId: UUID().uuidString,
-                refrenceId: UUID().uuidString,
+                referenceId: UUID().uuidString,
+                language: .arabic,
                 completion: { status in
                 switch status {
                 case let .success(transactionId):
@@ -206,7 +208,7 @@ struct ContentView: View {
                 vat: Double(vat) ?? 20,
                 merchantId: merchantId,
                 orderId: UUID().uuidString,
-                refrenceId: UUID().uuidString
+                referenceId: UUID().uuidString
             ) { status in
                 switch status {
                 case let .success(transactionId):
@@ -247,7 +249,7 @@ class ViewController: UIViewController {
             vat: 20,
             merchantId: "merchantId",
             orderId: UUID().uuidString,
-            refrenceId: UUID().uuidString,
+            referenceId: UUID().uuidString,
             completion: { [weak self] status in
                 switch status {
                 case let .success(transactionId):
@@ -278,7 +280,7 @@ class ViewController: UIViewController {
             vat:  20,
             merchantId: "sandbox-amwal-3db24246-8d09-4f78-a3eb-0d4b8b03bd4b",
             orderId: UUID().uuidString,
-            refrenceId: UUID().uuidString
+            referenceId: UUID().uuidString
         ) { status in
             switch status {
             case let .success(transactionId):
