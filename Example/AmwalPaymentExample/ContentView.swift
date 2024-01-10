@@ -68,7 +68,7 @@ struct ContentView: View {
                 vat: Double(vat) ?? 20,
                 merchantId: merchantId,
                 orderId: nil,
-                refrenceId: nil
+                referenceId: nil
             ) { status in
                 switch status {
                 case let .success(transactionId):
