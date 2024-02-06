@@ -70,6 +70,7 @@ you can use in SwiftUI with `.sheet` and UIKit with  `modalPresentationStyle`.
 
 
 Choose the language preference for your application. If you don't explicitly set the language, the application will default to the device's current locale.
+Set user info for registred user in your application
 
 
 1- 
