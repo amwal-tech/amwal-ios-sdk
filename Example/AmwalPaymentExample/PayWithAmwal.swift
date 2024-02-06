@@ -10,24 +10,33 @@ import SwiftUI
 import UIKit
 
 class ViewController: UIViewController {
-    lazy var payButton: UIView = {
-        let button =  AmwalPayButton(
-            currency: .SAR,
-            amount:  110,
-            vat:  20,
-            merchantId: "sandbox-amwal-3db24246-8d09-4f78-a3eb-0d4b8b03bd4b",
-            orderId: UUID().uuidString,
-            referenceId: UUID().uuidString
-        ) { status in
-            switch status {
-            case let .success(transactionId):
-                debugPrint(transactionId)
-            case let .fail(error, transactionId):
-                debugPrint(error)
-            @unknown default:
-                break
+    var builder: PaymentRequestBuilder {
+        let builder: PaymentRequestBuilder = .init()
+            .setCurrency(.SAR)
+            .setAmount(1.0)
+            .setVat(0.0)
+            .setMerchantId("")
+            .setOrderId("23455")
+            .setReferenceId("ww")
+            .setLanguage(.english)
+            .setUserInfo(
+                .init(
+                    phoneNumber: "+201555929770",
+                    email: "test@test.com"
+                )
+            )
+            .setCompletion { status in
+                switch status {
+                case let .success(transactionId):
+                    debugPrint(transactionId)
+                case let .fail(error, transactionId):
+                    debugPrint(error, transactionId)
+                }
             }
-        }
+        return builder
+    }
+    lazy var payButton: UIView = {
+        let button =  AmwalPayButton(paymentRequestBuilder: builder)
         let ButtonView = UIHostingController(rootView: button)
         return ButtonView.view
     }()
@@ -59,18 +68,7 @@ class ViewController: UIViewController {
 
      func buttonTapped() {
         // Handle button tap
-        let paymentView = AmwalPaymentView(
-            currency: .SAR,
-            amount: 110,
-            vat: 20,
-            merchantId: "sandbox-amwal-3db24246-8d09-4f78-a3eb-0d4b8b03bd4b",
-            orderId: UUID().uuidString,
-            referenceId: UUID().uuidString,
-            language: .english,
-            completion: { [weak self] _ in
-                self?.dismiss(animated: true)
-
-            })
+        let paymentView = AmwalPaymentView(paymentRequestBuilder: builder)
         let viewController = UIHostingController(rootView: paymentView)
         present(viewController, animated: true)
     }

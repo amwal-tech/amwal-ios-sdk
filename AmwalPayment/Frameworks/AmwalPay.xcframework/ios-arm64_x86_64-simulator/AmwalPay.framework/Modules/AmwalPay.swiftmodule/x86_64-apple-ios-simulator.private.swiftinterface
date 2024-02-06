@@ -86,7 +86,7 @@ extension Swift.Encodable {
   }
 }
 public struct AmwalPayButton : SwiftUI.View {
-  public init(currency: AmwalPay.Currency, amount: Swift.Double, vat: Swift.Double, merchantId: Swift.String, orderId: Swift.String?, referenceId: Swift.String?, language: AmwalPay.Language? = nil, completion: @escaping (_ status: AmwalPay.PaymentResult) -> Swift.Void)
+  public init(paymentRequestBuilder: AmwalPay.PaymentRequestBuilder, isOpenSheet: SwiftUI.Binding<Swift.Bool> = .constant(false))
   @_Concurrency.MainActor(unsafe) public var body: some SwiftUI.View {
     get
   }
@@ -142,6 +142,9 @@ public struct Unwrap<Value, Content, FallbackContent> : SwiftUI.View where Conte
 extension AmwalPay.Unwrap where FallbackContent == Swift.Never {
   public init(_ value: Value?, @SwiftUI.ViewBuilder content: @escaping (Value) -> Content)
 }
+public struct RegisterUser {
+  public init(phoneNumber: Swift.String?, email: Swift.String?)
+}
 public struct PaymentRequest {
   public var merchantId: Swift.String
   public var currencyCode: AmwalPay.Currency
@@ -152,12 +155,13 @@ public struct PaymentRequest {
   public var vat: Swift.Double
   public var orderId: Swift.String?
   public var referenceId: Swift.String?
+  public var registerUser: AmwalPay.RegisterUser?
   public var completion: (_ transactionId: AmwalPay.PaymentResult) -> Swift.Void
   public static var language: AmwalPay.Language?
   public var total: Swift.Double {
     get
   }
-  public init(merchantId: Swift.String, currencyCode: AmwalPay.Currency, amount: Swift.Double, vat: Swift.Double, orderId: Swift.String?, referenceId: Swift.String?, language: AmwalPay.Language? = .english, completion: @escaping (_ transactionId: AmwalPay.PaymentResult) -> Swift.Void)
+  public init(merchantId: Swift.String, currencyCode: AmwalPay.Currency, amount: Swift.Double, vat: Swift.Double, orderId: Swift.String?, referenceId: Swift.String?, registerUser: AmwalPay.RegisterUser? = nil, language: AmwalPay.Language? = .english, completion: @escaping (_ transactionId: AmwalPay.PaymentResult) -> Swift.Void)
 }
 public protocol PaymentBuilder {
   func setMerchantId(_ merchantId: Swift.String) -> Self
@@ -167,6 +171,7 @@ public protocol PaymentBuilder {
   func setOrderId(_ orderId: Swift.String?) -> Self
   func setReferenceId(_ referenceId: Swift.String?) -> Self
   func setCompletion(_ completion: @escaping (_ transactionId: AmwalPay.PaymentResult) -> Swift.Void) -> Self
+  func setUserInfo(_ user: AmwalPay.RegisterUser) -> Self
   func build() -> AmwalPay.PaymentRequest
 }
 public struct PaymentRequestBuilder : AmwalPay.PaymentBuilder {
@@ -178,6 +183,7 @@ public struct PaymentRequestBuilder : AmwalPay.PaymentBuilder {
   public func setOrderId(_ orderId: Swift.String?) -> AmwalPay.PaymentRequestBuilder
   public func setReferenceId(_ referenceId: Swift.String?) -> AmwalPay.PaymentRequestBuilder
   public func setLanguage(_ language: AmwalPay.Language?) -> AmwalPay.PaymentRequestBuilder
+  public func setUserInfo(_ user: AmwalPay.RegisterUser) -> AmwalPay.PaymentRequestBuilder
   public func setCompletion(_ completion: @escaping (_ transactionId: AmwalPay.PaymentResult) -> Swift.Void) -> AmwalPay.PaymentRequestBuilder
   public func build() -> AmwalPay.PaymentRequest
 }
@@ -303,7 +309,7 @@ public enum PaymentResult : Swift.Equatable {
   public static func == (a: AmwalPay.PaymentResult, b: AmwalPay.PaymentResult) -> Swift.Bool
 }
 public struct AmwalPaymentView : SwiftUI.View {
-  public init(currency: AmwalPay.Currency, amount: Swift.Double, vat: Swift.Double, merchantId: Swift.String, orderId: Swift.String?, referenceId: Swift.String?, language: AmwalPay.Language? = nil, completion: @escaping (_ status: AmwalPay.PaymentResult) -> Swift.Void)
+  public init(paymentRequestBuilder: AmwalPay.PaymentRequestBuilder)
   @_Concurrency.MainActor(unsafe) public var body: some SwiftUI.View {
     get
   }
@@ -431,7 +437,7 @@ public struct EntryPoint {
   public func start(paymentRequestBuilder: any AmwalPay.PaymentBuilder) -> AmwalPay.PaymentRequestView
 }
 public struct AmwalPaymentViewController {
-  public static func viewController(currency: AmwalPay.Currency, amount: Swift.Double, vat: Swift.Double, merchantId: Swift.String, orderId: Swift.String?, referenceId: Swift.String?, completion: @escaping (_ status: AmwalPay.PaymentResult) -> Swift.Void) -> UIKit.UIViewController
+  public static func viewController(_ builder: AmwalPay.PaymentRequestBuilder) -> UIKit.UIViewController
 }
 public protocol Localizable {
   static func tr(_ bundle: Foundation.Bundle, _ key: Swift.String, _ args: any Swift.CVarArg...) -> Swift.String

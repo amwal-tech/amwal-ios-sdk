@@ -10,7 +10,7 @@
 		</data>
 		<key>Assets.car</key>
 		<data>
-		W7nYI+ltK9sbGxlIjcfJWiNt8OU=
+		M2LDjltosYj4T0BCeBFjwmJSprc=
 		</data>
 		<key>Cairo-Black.ttf</key>
 		<data>
@@ -46,7 +46,7 @@
 		</data>
 		<key>Frameworks/libswift_Concurrency.dylib</key>
 		<data>
-		CLWXm1egdVi4rHWkvLzO2zKZO54=
+		T2/GOwNeTwbduwfzYWoq7LeJlso=
 		</data>
 		<key>Headers/AmwalPay-Swift.h</key>
 		<data>
@@ -58,15 +58,15 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		2naddH+I7io/9iYs7Agg+3L60rA=
+		1oNGbehcY4UNlEZ+R6IXP579ef8=
 		</data>
 		<key>Modules/AmwalPay.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		PJUOAAKNoEr4LtWuYqK1FLsfovk=
+		/Fvmd5Ygxt+ZOYaAKnnjVUiQYsU=
 		</data>
 		<key>Modules/AmwalPay.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		0+HGcX8suv/7Tn+qc3DBYOQcA2E=
+		bQocY0QuHY9B+bsF+HC6Iyydvrk=
 		</data>
 		<key>Modules/AmwalPay.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
@@ -74,11 +74,11 @@
 		</data>
 		<key>Modules/AmwalPay.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		0+HGcX8suv/7Tn+qc3DBYOQcA2E=
+		bQocY0QuHY9B+bsF+HC6Iyydvrk=
 		</data>
 		<key>Modules/AmwalPay.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		vWJTUAiiPKXHtQcELsNr+Fr+mKI=
+		Yy/c52PGxAYn9XTHa7jpOaXP2yA=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -88,7 +88,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			v6RmWhXdibl50iaTuf3+AMFYizE=
+			RbBkoiPDR7/tVhFx8X9HFgZGpIA=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -101,7 +101,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			KTuZrG1o0/NkOp2qckFElaxpCgo=
+			L7cugyaKMYNae8/gGZDPZrsN8ks=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -120,7 +120,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			EosQPvHZ1j1kaiUDpSh8f9TPwkMa40fspOTiwc57/wA=
+			SXyQQblaKDplX2IU9aulxVlb5YbUuwTJjScTBNgbr1E=
 			</data>
 		</dict>
 		<key>Cairo-Black.ttf</key>
@@ -183,7 +183,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			70zEkdPA4gJA/3zYY/nuSAg4W6DQd27J5M2dtjRVv20=
+			t6jAyoIAITEtwg6ABEpE/TZLoheTDO/Mwf5XtrHgLDs=
 			</data>
 		</dict>
 		<key>Headers/AmwalPay-Swift.h</key>
@@ -204,14 +204,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Sqmxy69K8JjpXU3ebMxcExj876GAaaajzEZTnG8E6jQ=
+			VE+Ttx6qkp5zrRb8k8uckIUjpmRoNz0cKfnTf+y93rU=
 			</data>
 		</dict>
 		<key>Modules/AmwalPay.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			hm4TxZlJn+Bo/PUIrcg7TWT0LFbQdQ6NRInzIQyIjPI=
+			DvkP5A38cYkDxw6RQ7slJhTrKqjI2tvEcHf1uth1ITk=
 			</data>
 		</dict>
 		<key>Modules/AmwalPay.swiftmodule/arm64-apple-ios.swiftdoc</key>
@@ -225,14 +225,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			hm4TxZlJn+Bo/PUIrcg7TWT0LFbQdQ6NRInzIQyIjPI=
+			DvkP5A38cYkDxw6RQ7slJhTrKqjI2tvEcHf1uth1ITk=
 			</data>
 		</dict>
 		<key>Modules/AmwalPay.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			v+Z4xZpbxBYz0rPabRz7AqAJhaGWVer0skOD3wDv9hI=
+			ax4FAlIltTTspWNn85J1JqjlCYVELFwyObK84o7UmqA=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -246,7 +246,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			CdBqrNp0BRqb/RWH1ffHVShfXGWvW7XtgCEvX/zQ094=
+			id3V55FwUTqIuCjgSDvBp2U894BjnlqMDbbOTEkDfm0=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -262,7 +262,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			12DqNcooKInPCNu67+T2pdFZ5yzqlvNThaz/j7wddYY=
+			qSk1QqsqNqvvh6jw7Ee4srgiwoDxP4r/+b32qRf8M5g=
 			</data>
 			<key>optional</key>
 			<true/>

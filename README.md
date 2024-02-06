@@ -41,12 +41,12 @@ AmwalPayment SDK offers the flexibility to use pass keys for enhanced security d
 Add the following line to your `Package.swift` file's dependencies:
 ```swift
 dependencies: [
-    .package(url: "https://github.com/amwal/payment-sdk-ios.git", from: "1.1.0")
+    .package(url: "https://github.com/amwal/payment-sdk-ios.git", from: "1.1.1")
 ]
 ```
 ### CocoaPods
 ```swift
-pod 'AmwalPayment', '~> 1.1.0'
+pod 'AmwalPayment', '~> 1.1.1'
 ```
 ## ⚠️ Important : Add AmwalPay in your associated domains
 - In Xcode > Choose your **target**
@@ -77,25 +77,31 @@ Choose the language preference for your application. If you don't explicitly set
 
 2-  `initialize View`
 ```swift
-        AmwalPaymentView(
-            currency: .SAR,
-            amount: 110,
-            vat: 20,
-            merchantId: "merchantId",
-            orderId: UUID().uuidString,
-            referenceId: UUID().uuidString,
-            language: .english,
-            completion: { status in
+        let builder: PaymentRequestBuilder = .init()
+            .setCurrency(.SAR)
+            .setAmount(1.0)
+            .setVat(0.0)
+            .setMerchantId(merchantId)
+            .setOrderId("")
+            .setReferenceId("")
+            .setLanguage(selectedLangauge)
+            // SetUserInfo
+            .setUserInfo(
+                .init(
+                    phoneNumber: phoneNumber,
+                    email: email
+                )
+            )
+            .setCompletion { status in
+                isOpenSheet = false
                 switch status {
                 case let .success(transactionId):
-                    self.transactionID = transactionId
-                    result = .success
+                    print(transactionId)
                 case let .fail(error, transactionId):
-                    result = .failure
-                    print(error)
+                    print(error, transactionId)
                 }
             }
-        )
+        AmwalPaymentView(paymentRequestBuilder: builder)
 ```
 <a name="showing-payment-sheet"></a>
 
@@ -109,6 +115,31 @@ import AmwalPay
 
 struct ContentView: View {
     @SwiftUI.State var isPresented: Bool = false
+            let builder: PaymentRequestBuilder = .init()
+            .setCurrency(.SAR)
+            .setAmount(1.0)
+            .setVat(0.0)
+            .setMerchantId(merchantId)
+            .setOrderId("")
+            .setReferenceId("")
+            .setLanguage(selectedLangauge)
+            // SetUserInfo
+            .setUserInfo(
+                .init(
+                    phoneNumber: phoneNumber,
+                    email: email
+                )
+            )
+            .setCompletion { status in
+                isOpenSheet = false
+                switch status {
+                case let .success(transactionId):
+                    print(transactionId)
+                case let .fail(error, transactionId):
+                    print(error, transactionId)
+                }
+            }
+
     var body: some View {
         VStack {
             Button {
@@ -124,25 +155,7 @@ struct ContentView: View {
         .frame(maxWidth: .infinity)
         .padding()
         .sheet(isPresented: $isPresented) {
-            
-            AmwalPaymentView(
-                currency: .SAR,
-                amount: 110,
-                vat: 20,
-                merchantId: "merchantId",
-                orderId: UUID().uuidString,
-                referenceId: UUID().uuidString,
-                language: .arabic,
-                completion: { status in
-                switch status {
-                case let .success(transactionId):
-                    self.transactionID = transactionId
-                    result = .success
-                case let .fail(error, transactionId):
-                    result = .failure
-                    print(error)
-                }
-            })
+            AmwalPaymentView(paymentRequestBuilder: builder)
         }
     }
 }
@@ -163,6 +176,32 @@ struct ContentView: View {
     @State var merchantId: String = "sandbox-amwal-3db24246-8d09-4f78-a3eb-0d4b8b03bd4b"
     @State var transactionID: String = ""
     @State var result: PayResult?
+        var builder: PaymentRequestBuilder {
+        let builder: PaymentRequestBuilder = .init()
+            .setCurrency(.SAR)
+            .setAmount(Double(amount) ?? 0.0)
+            .setVat(Double(vat) ?? 0.0)
+            .setMerchantId(merchantId)
+            .setOrderId("23455")
+            .setReferenceId("ww")
+            .setLanguage(selectedLangauge)
+            .setUserInfo(
+                .init(
+                    phoneNumber: phoneNumber,
+                    email: email
+                )
+            )
+            .setCompletion { status in
+                isOpenSheet = false
+                switch status {
+                case let .success(transactionId):
+                    print(transactionId)
+                case let .fail(error, transactionId):
+                    print(error, transactionId)
+                }
+            }
+        return builder
+    }
     var body: some View {
         VStack {
             Text("Enter your values to test")
@@ -206,23 +245,7 @@ struct ContentView: View {
             .padding()
             .frame(maxWidth: .infinity, alignment: .leading)
             Spacer()
-            AmwalPayButton(
-                currency: .SAR,
-                amount: Double(amount) ?? 110,
-                vat: Double(vat) ?? 20,
-                merchantId: merchantId,
-                orderId: UUID().uuidString,
-                referenceId: UUID().uuidString
-            ) { status in
-                switch status {
-                case let .success(transactionId):
-                    self.transactionID = transactionId
-                    result = .success
-                case let .fail(error, transactionId):
-                    result = .failure
-                    print(error)
-                }
-            }
+            AmwalPayButton(paymentRequestBuilder: builder, isOpenSheet: $isOpenSheet)
         }
         .padding(.bottom)
     }
@@ -247,24 +270,30 @@ class ViewController: UIViewController {
     }
     
     func presentPaymentView() {
-        let paymentView = AmwalPaymentView(
-            currency: .SAR,
-            amount: 110,
-            vat: 20,
-            merchantId: "merchantId",
-            orderId: UUID().uuidString,
-            referenceId: UUID().uuidString,
-            completion: { [weak self] status in
+        let builder: PaymentRequestBuilder = .init()
+            .setCurrency(.SAR)
+            .setAmount(Double(amount) ?? 0.0)
+            .setVat(Double(vat) ?? 0.0)
+            .setMerchantId(merchantId)
+            .setOrderId("23455")
+            .setReferenceId("ww")
+            .setLanguage(selectedLangauge)
+            .setUserInfo(
+                .init(
+                    phoneNumber: phoneNumber,
+                    email: email
+                )
+            )
+            .setCompletion { status in
+                isOpenSheet = false
                 switch status {
                 case let .success(transactionId):
-                    self?.transactionID = transactionId
-                    self?.result = .success
+                    print(transactionId)
                 case let .fail(error, transactionId):
-                    self?.result = .failure
-                    print(error)
+                    print(error, transactionId)
                 }
             }
-            )
+        let paymentView = AmwalPaymentView(paymentRequestBuilder: builder)
         let viewController = UIHostingController(rootView: paymentView)
         self.present(viewController, animated: true)
     }
@@ -277,22 +306,33 @@ import SwiftUI
 import UIKit
 
 class ViewController: UIViewController {
-    lazy var payButton: UIView = {
-        let button =  AmwalPayButton(
-            currency: .SAR,
-            amount:  110,
-            vat:  20,
-            merchantId: "sandbox-amwal-3db24246-8d09-4f78-a3eb-0d4b8b03bd4b",
-            orderId: UUID().uuidString,
-            referenceId: UUID().uuidString
-        ) { status in
-            switch status {
-            case let .success(transactionId):
-                debugPrint(transactionId)
-            case let .fail(error, transactionId):
-                debugPrint(error)
+    var builder: PaymentRequestBuilder {
+        let builder: PaymentRequestBuilder = .init()
+            .setCurrency(.SAR)
+            .setAmount(1.0)
+            .setVat(0.0)
+            .setMerchantId("")
+            .setOrderId("23455")
+            .setReferenceId("ww")
+            .setLanguage(.english)
+            .setUserInfo(
+                .init(
+                    phoneNumber: "+201555929770",
+                    email: "test@test.com"
+                )
+            )
+            .setCompletion { status in
+                switch status {
+                case let .success(transactionId):
+                    debugPrint(transactionId)
+                case let .fail(error, transactionId):
+                    debugPrint(error, transactionId)
+                }
             }
-        }
+        return builder
+    }
+    lazy var payButton: UIView = {
+        let button =  AmwalPayButton(paymentRequestBuilder: builder)
         let ButtonView = UIHostingController(rootView: button)
         return ButtonView.view
     }()
@@ -321,7 +361,14 @@ class ViewController: UIViewController {
         ])
 
     }
-}
+
+     func buttonTapped() {
+        // Handle button tap
+        let paymentView = AmwalPaymentView(paymentRequestBuilder: builder)
+        let viewController = UIHostingController(rootView: paymentView)
+        present(viewController, animated: true)
+    }
+ }
 ```
 <a name="listen-payment-results"></a>
 
